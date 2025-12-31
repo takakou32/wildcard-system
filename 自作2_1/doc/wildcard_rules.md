@@ -186,21 +186,19 @@ AIは自動的に5つの質問プロセスを開始します。
 
 「開始時間を選んでください」
 
-1. `time_early_morning` (早朝)
-2. `time_morning` (朝)
-3. `time_late_morning` (午前中)
-4. `time_noon` (正午)
-5. `time_afternoon` (午後)
-6. `time_late_afternoon` (夕方)
-7. `time_evening` (夕暮れ)
-8. `time_night` (夜)
-9. `time_late_night` (深夜)
+1. `time_morning` (朝：早朝〜午前)
+2. `time_day` (昼：正午〜午後)
+3. `time_evening` (夕方：夕暮れ)
+4. `time_night` (夜)
+5. `time_late_night` (深夜)
 
-**数字で答えてください（1〜9）**
+**数字で答えてください（1〜5）**
 
 「終了時間を選んでください」（同じ選択肢）
 
-**数字で答えてください（1〜9）**
+**数字で答えてください（1〜5）**
+
+**注意：旧パラメータ（9段階）も互換性のため残っていますが、新規テーマでは上記5段階を使用してください。**
 
 ---
 

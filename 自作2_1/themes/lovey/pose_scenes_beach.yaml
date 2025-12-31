@@ -11,75 +11,75 @@
 # ========== シーン1: ビーチ到着・散策 ==========
 
 scene_beach_arrival:
-  - 10_ba_001,1girl,beach,looking at ocean,hand shielding eyes,cowboy shot,scenic view
-  - 10_ba_002,1girl,beach,holding sandals,walking in shallow water,dutch angle,dynamic angle,casual pose
-  - 10_ba_003,1girl,beach,standing,feeling sea breeze,low angle,from below,looking up,dramatic view
-  - 10_ba_004,1girl,beach,stretching arms,wide shot,refreshing moment
-  - 10_ba_005,1girl,beach entrance,carrying beach bag,pov,first person view,arrival scene
-  - 10_ba_006,1girl,1boy,beach,arm in arm,walking at shoreline,cowboy shot,couple walk
-  - 10_ba_007,1girl,1boy,beach,looking at ocean together,standing close,wide shot,scenic moment
-  - 10_ba_008,1girl,1boy,beach,girl pointing at distance,from behind,couple interaction
+  - 01_ba_001,1girl,beach,looking at ocean,hand shielding eyes,cowboy shot,scenic view
+  - 01_ba_002,1girl,beach,walking in shallow water,barefoot,dutch angle,dynamic angle,casual pose
+  - 01_ba_003,1girl,beach,standing,feeling sea breeze,low angle,from below,looking up,dramatic view
+  - 01_ba_004,1girl,beach,stretching arms,wide shot,refreshing moment
+  - 01_ba_005,1girl,beach entrance,carrying beach bag,pov,first person view,arrival scene
+  - 01_ba_006,1girl,1boy,beach,arm in arm,walking at shoreline,cowboy shot,couple walk
+  - 01_ba_007,1girl,1boy,beach,looking at ocean together,standing close,wide shot,scenic moment
+  - 01_ba_008,1girl,1boy,beach,girl pointing at distance,from behind,couple interaction
 
 # ========== シーン2: ビーチでの活動 ==========
 
 scene_beach_activity:
-  - 10_bc_001,1girl,beach,sitting on sand,knees up,cowboy shot,relaxing pose
-  - 10_bc_002,1girl,beach,standing in water,playing,pov,first person view,playful pose
-  - 10_bc_003,1girl,beach,splashing water,dutch angle,dynamic pose,active scene
-  - 10_bc_004,1girl,beach,lying on beach towel,sunbathing,high angle,from above,lying pose
-  - 10_bc_005,1girl,beach,sitting under umbrella,close-up,face focus,peaceful expression
-  - 10_bc_006,1girl,beach,adjusting swimsuit,low angle,from below,casual gesture
-  - 10_bc_007,1girl,beach,playing beach ball,jumping,dynamic angle,energetic
-  - 10_bc_008,1girl,1boy,beach,sitting on towel together,wide shot,relaxing together
-  - 10_bc_009,1girl,1boy,beach,girl sitting between boy's legs,from behind,intimate pose
-  - 10_bc_010,1girl,1boy,beach,applying sunscreen,cowboy shot,caring moment
-  - 10_bc_011,1girl,1boy,beach,piggyback ride,full body,playful couple
-  - 10_bc_012,1girl,1boy,beach,building sandcastle together,from above,cooperative activity
+  - 02_bc_001,1girl,beach,sitting on sand,knees up,cowboy shot,relaxing pose
+  - 02_bc_002,1girl,beach,standing in water,playing,pov,first person view,playful pose
+  - 02_bc_003,1girl,beach,splashing water,dutch angle,dynamic pose,active scene
+  - 02_bc_004,1girl,beach,lying on beach towel,sunbathing,high angle,from above,lying pose
+  - 02_bc_005,1girl,beach,sitting under umbrella,close-up,face focus,peaceful expression
+  - 02_bc_006,1girl,beach,adjusting swimsuit,low angle,from below,casual gesture
+  - 02_bc_007,1girl,beach,playing beach ball,jumping,dynamic angle,energetic
+  - 02_bc_008,1girl,1boy,beach,sitting on towel together,wide shot,relaxing together
+  - 02_bc_009,1girl,1boy,beach,girl sitting between boy's legs,from behind,intimate pose
+  - 02_bc_010,1girl,1boy,beach,applying sunscreen,cowboy shot,caring moment
+  - 02_bc_011,1girl,1boy,beach,piggyback ride,full body,playful couple
+  - 02_bc_012,1girl,1boy,beach,building sandcastle together,from above,cooperative activity
 
 # ========== シーン3: ビーチハウス・カフェ ==========
 
 scene_beach_cafe:
-  - 10_cf_001,1girl,beach cafe terrace,sitting,ocean view,wide shot,scenic seat
-  - 10_cf_002,1girl,beach cafe,eating,looking at food,close-up,dining scene
-  - 10_cf_003,1girl,beach house,relaxing with drink,pov across table,break time
-  - 10_cf_004,1girl,beach cafe,looking at menu,sitting,high angle,choosing
-  - 10_cf_005,1girl,beach house,drinking through straw,close-up,face focus,cute moment
-  - 10_cf_006,1girl,1boy,cafe terrace,sitting side by side,ocean view,from behind,romantic cafe
-  - 10_cf_007,1girl,1boy,beach cafe,sharing food,upper body,intimate moment
-  - 10_cf_008,1girl,1boy,beach cafe,holding hands on table,close-up,from above,tender moment
+  - 03_cf_001,1girl,beach cafe terrace,sitting,ocean view,wide shot,scenic seat
+  - 03_cf_002,1girl,beach cafe,eating,looking at food,close-up,dining scene
+  - 03_cf_003,1girl,beach house,relaxing with drink,pov across table,break time
+  - 03_cf_004,1girl,beach cafe,looking at menu,sitting,high angle,choosing
+  - 03_cf_005,1girl,beach house,drinking through straw,close-up,face focus,cute moment
+  - 03_cf_006,1girl,1boy,cafe terrace,sitting side by side,ocean view,from behind,romantic cafe
+  - 03_cf_007,1girl,1boy,beach cafe,sharing food,upper body,intimate moment
+  - 03_cf_008,1girl,1boy,beach cafe,holding hands on table,close-up,from above,tender moment
 
 # ========== シーン4: 海水浴場シャワー（屋外・水着着用） ==========
 
 scene_beach_outdoor_shower:
-  - 10_os_001,1girl,outdoor beach shower,swimsuit,shower running,water streaming down body,wet body,water droplets,cowboy shot,refreshing shower
-  - 10_os_002,1girl,beach shower stall,swimsuit,under shower stream,water flowing,soaking wet,standing,from side,shower scene
-  - 10_os_003,1girl,outdoor shower,swimsuit,water splashing on face,eyes closed,wet hair,water droplets,close-up,cleansing moment
-  - 10_os_004,1girl,beach shower area,swimsuit,wringing wet hair,water dripping,standing,from behind,after shower
-  - 10_os_005,1girl,outdoor beach shower,swimsuit,arms raised,shower water falling,wet skin glistening,low angle,from below,dynamic shower
-  - 10_os_006,1girl,outdoor shower,swimsuit,hand on wall,shower stream,water running down,pov angle,intimate shower scene
-  - 10_os_007,1girl,beach shower,swimsuit,washing shoulders,water flowing over body,dutch angle,wet scene
-  - 10_os_008,1girl,1boy,beach shower area,swimsuit,both wet,water dripping,standing close,from side,couple after shower
-  - 10_os_009,1girl,1boy,outdoor shower,both in swimsuit,sharing shower,water streaming,cowboy shot,couple shower scene
+  - 04_os_001,1girl,outdoor beach shower,swimsuit,shower running,water streaming down body,wet body,water droplets,cowboy shot,refreshing shower
+  - 04_os_002,1girl,beach shower stall,swimsuit,under shower stream,water flowing,soaking wet,standing,from side,shower scene
+  - 04_os_003,1girl,outdoor shower,swimsuit,water splashing on face,eyes closed,wet hair,water droplets,close-up,cleansing moment
+  - 04_os_004,1girl,beach shower area,swimsuit,wringing wet hair,water dripping,standing,from behind,after shower
+  - 04_os_005,1girl,outdoor beach shower,swimsuit,arms raised,shower water falling,wet skin glistening,low angle,from below,dynamic shower
+  - 04_os_006,1girl,outdoor shower,swimsuit,hand on wall,shower stream,water running down,pov angle,intimate shower scene
+  - 04_os_007,1girl,beach shower,swimsuit,washing shoulders,water flowing over body,dutch angle,wet scene
+  - 04_os_008,1girl,1boy,beach shower area,swimsuit,both wet,water dripping,standing close,from side,couple after shower
+  - 04_os_009,1girl,1boy,outdoor shower,both in swimsuit,sharing shower,water streaming,cowboy shot,couple shower scene
 
 # ========== シーン5: 夕暮れビーチ ==========
 
 scene_beach_sunset:
-  - 10_ss_001,1girl,beach,twirling,arms spread,dutch angle,dynamic sunset
-  - 10_ss_002,1girl,beach,looking back at camera,sunset,over shoulder,golden hour
-  - 10_ss_003,1girl,beach at sunset,sitting,knees up,close-up,contemplative mood
-  - 10_ss_004,1girl,beach,standing in water,sunset reflection,wide shot,cinematic
-  - 10_ss_005,1girl,1boy,beach,embracing,sunset background,cowboy shot,romantic moment
-  - 10_ss_006,1girl,1boy,beach at dusk,sitting together,watching sunset,from behind,peaceful scene
-  - 10_ss_007,1girl,1boy,beach,forehead touch,sunset,close-up,intimate moment
-  - 10_ss_008,1girl,1boy,beach at golden hour,spinning together,dutch angle,dynamic romance
+  - 05_ss_001,1girl,beach,twirling,arms spread,dutch angle,dynamic sunset
+  - 05_ss_002,1girl,beach,looking back at camera,sunset,over shoulder,golden hour
+  - 05_ss_003,1girl,beach at sunset,sitting,knees up,close-up,contemplative mood
+  - 05_ss_004,1girl,beach,standing in water,sunset reflection,wide shot,cinematic
+  - 05_ss_005,1girl,1boy,beach,embracing,sunset background,cowboy shot,romantic moment
+  - 05_ss_006,1girl,1boy,beach at dusk,sitting together,watching sunset,from behind,peaceful scene
+  - 05_ss_007,1girl,1boy,beach,forehead touch,sunset,close-up,intimate moment
+  - 05_ss_008,1girl,1boy,beach at golden hour,spinning together,dutch angle,dynamic romance
 
 # ========== シーン6: ホテル・リゾート客室 ==========
 
 scene_resort_room:
-  - 10_rr_001,1girl,resort room,lying on bed,looking at phone,high angle,from above,casual
-  - 10_rr_002,1girl,hotel room,standing,looking back,over shoulder,inviting
-  - 10_rr_003,1girl,resort room,sitting on bed edge,pov,first person view,intimate distance
-  - 10_rr_004,1girl,hotel room,by window,curtain,low angle,from below,dreamy atmosphere
-  - 10_rr_005,1girl,1boy,resort room,sitting on bed together,cowboy shot,intimate scene
-  - 10_rr_006,1girl,1boy,resort room,lying together,high angle,from above,tender scene
-  - 10_rr_007,1girl,1boy,hotel balcony,back hug,from side,romantic night
+  - 06_rr_001,1girl,resort room,lying on bed,looking at phone,high angle,from above,casual
+  - 06_rr_002,1girl,hotel room,standing,looking back,over shoulder,inviting
+  - 06_rr_003,1girl,resort room,sitting on bed edge,pov,first person view,intimate distance
+  - 06_rr_004,1girl,hotel room,by window,curtain,low angle,from below,dreamy atmosphere
+  - 06_rr_005,1girl,1boy,resort room,sitting on bed together,cowboy shot,intimate scene
+  - 06_rr_006,1girl,1boy,resort room,lying together,high angle,from above,tender scene
+  - 06_rr_007,1girl,1boy,hotel balcony,back hug,from side,romantic night

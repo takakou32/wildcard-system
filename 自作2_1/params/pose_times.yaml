@@ -1,52 +1,68 @@
 # 時系列バリエーション（全テーマ共通）
 # pose_times.yaml
+# 
+# 推奨：新しい5段階パラメータ（time_morning/day/evening/night/late_night）
+# 互換性：古い9段階パラメータも残してあります
 
-# ========== 時間帯 ==========
+# ========== 新しい時間帯（5段階）- 推奨 ==========
+
+# 朝（早朝〜午前）
+time_morning:
+  - morning,bright morning light,daylight
+  - morning,clear morning,fresh daylight
+  - early morning,morning hours,bright
+
+# 昼（正午〜午後）
+time_day:
+  - daytime,bright daylight,sunny,well-lit
+  - day,bright lighting,daylight,clear
+  - daytime,bright,sunny day
+
+# 夕方（夕暮れ）
+time_evening:
+  - evening,dusk,golden hour,sunset
+  - evening,twilight,warm light
+  - late afternoon,golden afternoon,sunset glow
+
+# 夜
+time_night:
+  - night,nighttime,dark,night lighting
+  - night,dim lighting,indoor lighting
+  - night,moonlight,nighttime scene
+
+# 深夜
+time_late_night:
+  - late night,deep night,midnight,very dark
+  - late night,midnight hours,dark
+  - late night,after midnight,deep night
+
+# ========== 旧パラメータ（互換性のため残存）==========
+# 以下は既存テーマ用。新規テーマでは上記5段階を使用推奨
 
 time_early_morning:
-  - early morning,dawn,sunrise,first light
-  - early morning,pre-sunrise,breaking dawn
-  - early morning,daybreak
-
-time_morning:
-  - morning,bright morning light,morning sun
-  - morning,clear morning,fresh morning
-  - morning,morning hours
+  - early morning,morning,daylight,dawn
+  - morning,bright morning light,daylight
+  - early morning,morning hours,bright
 
 time_late_morning:
-  - late morning,mid-morning,bright daylight
-  - late morning,approaching noon
-  - late morning,morning sunshine
+  - morning,daytime,bright daylight
+  - morning,bright lighting,daylight
+  - late morning,bright,well-lit
 
 time_noon:
-  - noon,midday,bright daylight,high sun
-  - noon,midday sun,peak daylight
-  - noon,noontime
+  - daytime,bright daylight,sunny,well-lit
+  - day,bright lighting,daylight,clear
+  - daytime,bright,sunny day
 
 time_afternoon:
-  - afternoon,daytime,warm afternoon light
-  - afternoon,bright afternoon,afternoon sun
-  - afternoon,mid-afternoon
+  - daytime,bright daylight,sunny,well-lit
+  - day,afternoon,bright lighting,clear
+  - daytime,afternoon,bright
 
 time_late_afternoon:
   - late afternoon,golden afternoon,warm light
-  - late afternoon,approaching evening
-  - late afternoon,afternoon glow
-
-time_evening:
-  - evening,dusk,golden hour,sunset
-  - evening,twilight,dim lighting
-  - evening,early evening
-
-time_night:
-  - night,dark,night lighting,nighttime
-  - night,moonlight,late evening
-  - night,dim indoor lighting
-
-time_late_night:
-  - late night,deep night,midnight
-  - late night,very dark,midnight hours
-  - late night,after midnight
+  - evening,golden hour,warm daylight
+  - late afternoon,afternoon glow,sunset approach
 
 # ========== 天候・季節（オプション） ==========
 
