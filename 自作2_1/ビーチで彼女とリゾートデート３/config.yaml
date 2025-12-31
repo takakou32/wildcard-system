@@ -1,0 +1,17 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: ビーチで彼女とリゾートデート３
+# ベース: lovey (ラブラブ)
+# テーマタイプ: beach (ビーチ・リゾート系)
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: late_morning → evening
+# Sex場所: hotel_room (ホテル客室)
+# シーンフロー: 
+#   Scene 01: late_morning - ビーチ到着・散策 (scene_beach_arrival)
+#   Scene 02: noon - ビーチでの活動 (scene_beach_activity)
+#   Scene 03: afternoon - ビーチカフェ (scene_beach_cafe)
+#   Scene 04: late_afternoon - 夕暮れビーチ (scene_beach_sunset)
+#   Scene 05: evening - 更衣室・シャワー (scene_beach_changing)
+
+
