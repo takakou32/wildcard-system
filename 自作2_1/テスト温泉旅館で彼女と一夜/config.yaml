@@ -1,0 +1,23 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: テスト温泉旅館で彼女と一夜
+# ベース: lovey（ラブラブ）
+# テーマタイプ: onsen（温泉・旅館系）
+# 男性タイプ: male_type_default（デフォルト）
+# 時系列: time_morning（朝）→ time_night（夜）
+# Sex場所: ryokan_room（旅館客室）
+# NSFW統合: 全て混ぜる
+#   - Scene 02 (客室): Light（キス、抱擁、タッチ）
+#   - Scene 06 (温泉): Heavy（前戯全般）
+#   - Scene 07 (露天風呂): Heavy（前戯全般）
+# 
+# シーンフロー:
+#   Scene 01: time_morning - 旅館到着
+#   Scene 02: time_day - 客室でくつろぐ + NSFW Light
+#   Scene 03: time_day - 温泉街散策
+#   Scene 04: time_evening - 食事処
+#   Scene 05: time_evening - 脱衣所
+#   Scene 06: time_evening - 温泉 + NSFW Heavy
+#   Scene 07: time_night - 露天風呂 + NSFW Heavy
+

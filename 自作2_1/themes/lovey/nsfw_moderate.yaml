@@ -27,4 +27,40 @@ nsfw_fellatio_intense:
   - 80_nm004_1,1girl,1boy,vacuum fellatio,oral,tongue out,penis,hetero,erection,blush,big penis,saliva,motion lines,sound effects,spoken,looking up,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
   - 80_nm004_2,1girl,1boy,vacuum fellatio,oral,penis,big veiny penis,saliva,steam,sound effects,spoken,motion lines,looking up,half-closed eyes,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
 
+# 指マン
+nsfw_fingering:
+  - 80_nm005_0,1girl,1boy,couple,fingering,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
+  - 80_nm005_1,1girl,1boy,couple,fingering,pussy,pussy juice,motion lines,sweat,blush,heart,sound effects,__MALE_TYPE__
+  - 80_nm005_2,1girl,1boy,couple,fingering,pussy,pussy juice,female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,steam,__MALE_TYPE__
+
+# クンニ
+nsfw_cunnilingus:
+  - 80_nm006_0,1girl,1boy,couple,cunnilingus,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
+  - 80_nm006_1,1girl,1boy,couple,cunnilingus,pussy,(pussy juice:1.5),blush,heart,sound effects,__MALE_TYPE__
+  - 80_nm006_2,1girl,1boy,couple,cunnilingus,pussy,(pussy juice:2),female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,spoken,steam,__MALE_TYPE__
+
+# パイズリ（導入・軽め）
+nsfw_paizuri_light:
+  - 80_nm007_0,1girl,1boy,couple,huge breasts,cleavage,breasts squeeze,penis between breasts,big penis,precum,blush,light smile,__MALE_TYPE__
+  - 80_nm007_1,1girl,1boy,couple,huge breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,blush,__MALE_TYPE__
+  - 80_nm007_2,1girl,1boy,paizuri,couple,huge breasts,breasts squeeze,penis between breasts,big penis,precum,motion lines,blush,nose blush,sound effects,__MALE_TYPE__
+
+# パイズリ（本格的）
+nsfw_paizuri_intense:
+  - 80_nm008_0,1girl,1boy,paizuri,couple,huge breasts,bouncing breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,sweat,sound effects,one eye closed,blush,heart,__MALE_TYPE__
+  - 80_nm008_1,1girl,1boy,paizuri,couple,huge breasts,breasts squeeze,bouncing breasts,penis between breasts,big penis,precum,motion lines,sweat,sound effects,half-closed eyes,blush,heart,__MALE_TYPE__
+  - 80_nm008_2,1girl,1boy,paizuri,fellatio,couple,tongue out,licking penis,penis between breasts,huge breasts,hands on own breasts,big veiny penis,saliva,sound effects,spoken,motion lines,looking up,nose blush,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+
+# ========== 統合用ランダムセレクター ==========
+# SFWシーンに統合する際はこれを参照
+nsfw_moderate_all:
+  - __自作2_1/themes/lovey/nsfw_handjob_light__
+  - __自作2_1/themes/lovey/nsfw_handjob_intense__
+  - __自作2_1/themes/lovey/nsfw_fellatio_light__
+  - __自作2_1/themes/lovey/nsfw_fellatio_intense__
+  - __自作2_1/themes/lovey/nsfw_fingering__
+  - __自作2_1/themes/lovey/nsfw_cunnilingus__
+  - __自作2_1/themes/lovey/nsfw_paizuri_light__
+  - __自作2_1/themes/lovey/nsfw_paizuri_intense__
+
 

@@ -27,4 +27,12 @@ nsfw_breast_touch:
   - 70_nl004_1,1girl,1boy,couple,hug from behind,grabbing breasts,breast press,blush,nose blush,__MALE_TYPE__
   - 70_nl004_2,1girl,grabbing breasts,groping,breast squeeze,hands on breasts,blush
 
+# ========== 統合用ランダムセレクター ==========
+# SFWシーンに統合する際はこれを参照
+nsfw_light_all:
+  - __自作2_1/themes/lovey/nsfw_kiss__
+  - __自作2_1/themes/lovey/nsfw_embrace__
+  - __自作2_1/themes/lovey/nsfw_touch__
+  - __自作2_1/themes/lovey/nsfw_breast_touch__
+
 

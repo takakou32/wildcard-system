@@ -10,11 +10,11 @@ pose_scene2_park:
   # SFWシーン
   - __自作2_1/themes/lovey/scene_park_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   # NSFW Light: キス（連番: 01_pk_006）
-  - 01_pk_006,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 01_pk_006,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__自作2_1/params/place_park__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Light: 抱擁・密着（連番: 01_pk_007）
-  - 01_pk_007,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 01_pk_007,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__自作2_1/params/place_park__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Light: 愛撫・タッチ（連番: 01_pk_008）
-  - 01_pk_008,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 01_pk_008,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__自作2_1/params/place_park__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
 
 # ========== Scene 03: time_evening - 帰宅中・街を歩く（SFW） ==========
 pose_scene3_street:
@@ -41,32 +41,32 @@ pose_scene8_intimate:
   # SFWシーン
   - __自作2_1/themes/lovey/scene_intimate_moment__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Light: キス（連番: 06_in_011）
-  - 06_in_011,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 06_in_011,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Light: 抱擁（連番: 06_in_012）
-  - 06_in_012,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_underwear__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 06_in_012,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Light: 愛撫・タッチ（連番: 06_in_013）
-  - 06_in_013,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_underwear__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 06_in_013,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Moderate: 手コキ（連番: 06_in_014）
-  - 06_in_014,__自作2_1/themes/lovey/nsfw_handjob_light__,__自作2_1/params/angle_pov_above__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 06_in_014,__自作2_1/themes/lovey/nsfw_handjob_light__,__自作2_1/params/angle_pov_above__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   # NSFW Moderate: フェラ（軽め）（連番: 06_in_015）
-  - 06_in_015,__自作2_1/themes/lovey/nsfw_fellatio_light__,__自作2_1/params/angle_pov_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 06_in_015,__自作2_1/themes/lovey/nsfw_fellatio_light__,__自作2_1/params/angle_pov_closeup_face__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
 
 # ========== Scene 09: time_night - 入浴 + NSFW Light+Moderate（SFW→NSFW） ==========
 pose_scene9_bathing:
   # SFWシーン
   - __自作2_1/themes/lovey/scene_bathroom_bathing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
   # NSFW Light: キス（連番: 07_bt_010）
-  - 07_bt_010,__自作2_1/themes/lovey/nsfw_kiss__,wet skin,steam,__自作2_1/params/angle_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_010,__自作2_1/themes/lovey/nsfw_kiss__,wet skin,steam,__自作2_1/params/angle_closeup_face__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
   # NSFW Light: 抱擁（連番: 07_bt_011）
-  - 07_bt_011,__自作2_1/themes/lovey/nsfw_embrace__,wet skin,steam,__自作2_1/params/angle_from_side__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_011,__自作2_1/themes/lovey/nsfw_embrace__,wet skin,steam,__自作2_1/params/angle_from_side__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
   # NSFW Light: 愛撫・タッチ（連番: 07_bt_012）
-  - 07_bt_012,__自作2_1/themes/lovey/nsfw_touch__,wet skin,steam,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_012,__自作2_1/themes/lovey/nsfw_touch__,wet skin,steam,__自作2_1/params/angle_upper_body__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
   # NSFW Light: 胸タッチ（連番: 07_bt_013）
-  - 07_bt_013,__自作2_1/themes/lovey/nsfw_breast_touch__,wet skin,steam,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_013,__自作2_1/themes/lovey/nsfw_breast_touch__,wet skin,steam,__自作2_1/params/angle_upper_body__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
   # NSFW Moderate: 手コキ（連番: 07_bt_014）
-  - 07_bt_014,__自作2_1/themes/lovey/nsfw_handjob_light__,wet skin,steam,__自作2_1/params/angle_pov_above__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_014,__自作2_1/themes/lovey/nsfw_handjob_light__,wet skin,steam,__自作2_1/params/angle_pov_above__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
   # NSFW Moderate: フェラ（軽め）（連番: 07_bt_015）
-  - 07_bt_015,__自作2_1/themes/lovey/nsfw_fellatio_light__,wet skin,steam,__自作2_1/params/angle_pov_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  - 07_bt_015,__自作2_1/themes/lovey/nsfw_fellatio_light__,wet skin,steam,__自作2_1/params/angle_pov_closeup_face__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
 
 # ========== Poseプレイリスト統合 ==========
 pose_play:
