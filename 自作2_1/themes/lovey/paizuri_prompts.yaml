@@ -1,0 +1,44 @@
+# ラブラブテーマ：Paizuri用プロンプトテンプレート
+# themes/lovey/paizuri_prompts.yaml
+
+# 段階1: 導入（胸を合わせる）
+paizuri_intro_tease:
+  - 50_pz001_0,1girl,1boy,couple,pov,huge breasts,cleavage,breasts squeeze,upper body,cowboy shot,looking at viewer,light smile,blush,penis between breasts,big penis,precum,from above,__MALE_TYPE__
+  - 50_pz001_1,1girl,1boy,couple,pov,huge breasts,closeup breasts,hands on own breasts,breast press,big penis,penis between breasts,precum,from above,__MALE_TYPE__
+  - 50_pz001_2,1girl,1boy,couple,huge breasts,breasts squeeze,hands on own breasts,penis between breasts,big veiny penis,from side,upper body,light smile,blush,__MALE_TYPE__
+
+# 段階2: パイズリ開始
+paizuri_start_gentle:
+  - 50_pz002_0,1girl,1boy,paizuri,couple,pov,huge breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,from above,upper body,nose blush,__MALE_TYPE__
+  - 50_pz002_1,1girl,1boy,paizuri,couple,pov,closeup breasts,hands on own breasts,breasts squeeze,penis between breasts,big penis,precum,from above,__MALE_TYPE__
+  - 50_pz002_2,1girl,1boy,paizuri,couple,huge breasts,breast press,penis between breasts,big veiny penis,from side,dutch angle,motion lines,light smile,blush,__MALE_TYPE__
+  - 50_pz002_3,1girl,1boy,paizuri,couple,pov,huge breasts,hands on own breasts,penis between breasts,big veiny penis,from below,closeup breasts,upper body,__MALE_TYPE__
+
+# 段階3: 激しいパイズリ
+paizuri_intense:
+  - 50_pz003_0,1girl,1boy,paizuri,couple,pov,huge breasts,bouncing breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,sweat,sound effects,from above,upper body,one eye closed,blush,heart,__MALE_TYPE__
+  - 50_pz003_1,1girl,1boy,paizuri,couple,pov,closeup breasts,breasts squeeze,bouncing breasts,penis between breasts,big penis,precum,motion lines,sweat,sound effects,from above,__MALE_TYPE__
+  - 50_pz003_2,1girl,1boy,paizuri,couple,huge breasts,breast press,bouncing breasts,penis between breasts,big veiny penis,motion lines,sweat,sound effects,from side,dutch angle,half-closed eyes,blush,heart,__MALE_TYPE__
+  - 50_pz003_3,1girl,1boy,paizuri,couple,pov,huge breasts,breasts squeeze,hands on own breasts,penis between breasts,big veiny penis,motion lines,steam,sound effects,from below,closeup breasts,__MALE_TYPE__
+
+# 段階4: パイズリフェラ
+paizuri_fellatio:
+  - 50_pz004_0,1girl,1boy,paizuri,fellatio,couple,pov,closeup face,tongue out,licking penis,penis between breasts,huge breasts,hands on own breasts,big veiny penis,saliva,sound effects,from above,looking up,nose blush,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  - 50_pz004_1,1girl,1boy,paizuri,vacuum fellatio,couple,pov,closeup face,oral,tongue,kissing penis,penis between breasts,huge breasts,big penis,precum,saliva trail,sound effects,spoken,from above,looking up,blush,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  - 50_pz004_2,1girl,1boy,paizuri,vacuum fellatio,couple,pov,tongue out,licking penis,penis between breasts,closeup breasts,huge breasts,hands on own breasts,big veiny penis,saliva,motion lines,sound effects,from above,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  - 50_pz004_3,1girl,1boy,paizuri,vacuum fellatio,couple,pov,closeup face,oral,penis between breasts,huge breasts,big penis,saliva,steam,sound effects,spoken,motion lines,from above,looking up,half-closed eyes,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+
+# 段階5: 射精
+paizuri_finish_ejaculation:
+  - 50_pz005_0,1girl,1boy,paizuri,couple,pov,huge breasts,breasts squeeze,hands on own breasts,penis between breasts,big veiny penis,(cum:2.5),(cum on breasts:2),(projectile cum:2),motion lines,dynamic motion,sound effects,spoken,from above,upper body,open mouth,ahegao,blush,heart,steam,__MALE_TYPE__
+  - 50_pz005_1,1girl,1boy,paizuri,couple,pov,closeup breasts,closeup face,breasts squeeze,penis between breasts,big penis,(cum:2.5),(cum on breasts:2),(cum on face:2),bukkake,motion lines,sound effects,from above,tongue out,ahegao,heart,__MALE_TYPE__
+  - 50_pz005_2,1girl,1boy,paizuri,couple,huge breasts,breast press,penis between breasts,big veiny penis,(cum:2.5),(cum on breasts:2),(projectile cum:2),motion lines,dynamic motion,sound effects,from side,open mouth,blush,cum string,steam,heart,__MALE_TYPE__
+  - 50_pz005_3,1girl,1boy,paizuri,oral,couple,pov,closeup face,tongue out,mouth open,penis between breasts,huge breasts,big penis,(cum:3),(cum in mouth:2),(cum on tongue:2),facial,bukkake,saliva,motion lines,sound effects,spoken,from above,looking up,ahegao,heart,steam,__MALE_TYPE__
+
+# 段階6: 後戯
+paizuri_after:
+  - 50_pz006_0,1girl,1boy,couple,pov,huge breasts,cum on breasts,afterglow,penis between breasts,big penis,from above,upper body,light smile,blush,satisfied,__MALE_TYPE__
+  - 50_pz006_1,1girl,1boy,couple,closeup face,cum on face,cum on breasts,tongue out,licking cum,afterglow,happy,looking at viewer,blush,__MALE_TYPE__
+  - 50_pz006_2,1girl,1boy,couple,huge breasts,cum on breasts,breast press,hands on own breasts,penis,afterglow,from side,satisfied smile,__MALE_TYPE__
+
+

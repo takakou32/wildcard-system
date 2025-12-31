@@ -1,0 +1,44 @@
+# ラブラブテーマ：Foreplay用プロンプトテンプレート
+# themes/lovey/foreplay_prompts.yaml
+
+# 段階1: キス・ハグ（軽度NSFW）
+foreplay_kiss_hug:
+  - 60_fp001_0,1girl,1boy,couple,hug,face to face,upper body,from side,blush,collarbone,light smile,romantic,__MALE_TYPE__
+  - 60_fp001_1,1girl,1boy,couple,kiss,kissing,face to face,upper body,from side,blush,eyes closed,romantic,heart,__MALE_TYPE__
+  - 60_fp001_2,1girl,1boy,couple,french kiss,deep kiss,face to face,upper body,from side,saliva,blush,eyes closed,heart,steam,__MALE_TYPE__
+  - 60_fp001_3,1girl,1boy,couple,hug,grabbing breasts,breast grab,from behind,upper body,blush,kiss on neck,__MALE_TYPE__
+  - 60_fp001_4,1girl,closeup face,about to kiss,incoming kiss,puckered lips,open mouth,eyes closed,blush,pov,romantic
+  - 60_fp001_5,1girl,closeup face,french kiss,tongue out,saliva,eyes closed,blush,steam,torogao,motion lines,heart,pov
+
+# 段階2: 愛撫・タッチ
+foreplay_touch_caress:
+  - 60_fp002_0,1girl,1boy,couple,touching,caressing,gentle touch,breast grab,upper body,from side,blush,light smile,intimate,__MALE_TYPE__
+  - 60_fp002_1,1girl,1boy,couple,hug from behind,grabbing breasts,breast press,groping,cowboy shot,from behind,blush,nose blush,__MALE_TYPE__
+  - 60_fp002_2,1girl,closeup breasts,grabbing breasts,groping,breast squeeze,hands on breasts,bouncing breasts,from above,pov,blush
+  - 60_fp002_3,1girl,closeup breasts,breast grab,nipple tweak,touching nipples,from side,blush,nose blush,light smile
+  - 60_fp002_4,1girl,1boy,couple,lying,on back,from above,overhead shot,face to face,touching,caressing face,kiss,holding hands,intimate,__MALE_TYPE__
+
+# 段階3: 手コキ
+foreplay_handjob:
+  - 60_fp003_0,1girl,1boy,couple,handjob,penis,big penis,erection,hand on penis,cowboy shot,pov,blush,light smile,__MALE_TYPE__
+  - 60_fp003_1,1girl,1boy,couple,handjob,penis,big veiny penis,erection,precum,hand on penis,from side,upper body,blush,nose blush,__MALE_TYPE__
+  - 60_fp003_2,1girl,1boy,couple,handjob,penis,big penis,precum drip,precum string,motion lines,closeup,pov,half-closed eyes,blush,__MALE_TYPE__
+  - 60_fp003_3,1girl,1boy,couple,lying,on back,from above,handjob,penis,big veiny penis,erection,face to face,kiss,saliva,intimate,__MALE_TYPE__
+  - 60_fp003_4,1girl,closeup face,handjob,penis on face,big penis,erection,precum,looking at penis,tongue out,seductive smile,pov,from above
+
+# 段階4: 指マン
+foreplay_fingering:
+  - 60_fp004_0,1girl,1boy,couple,fingering,spread legs,on back,lying,pussy,pussy juice,from above,pov,blush,open mouth,__MALE_TYPE__
+  - 60_fp004_1,1girl,1boy,couple,fingering,spread legs,on back,lying,pussy,pussy juice,closeup pussy,from front,blush,torogao,steam,__MALE_TYPE__
+  - 60_fp004_2,1girl,1boy,couple,fingering from behind,hug from behind,spread legs,on back,lying,pussy,pussy juice,closeup pussy,from front,blush,open mouth,motion lines,__MALE_TYPE__
+  - 60_fp004_3,1girl,1boy,couple,fingering from behind,grabbing breasts,spread legs,on back,lying,pussy,pussy juice,motion lines,steam,spoken,heart,torogao,__MALE_TYPE__
+  - 60_fp004_4,1girl,1boy,couple,fingering from behind,spread legs,on back,lying,pussy,pussy juice,female orgasm,motion lines,dynamic motion,head back,open mouth,ahegao,__MALE_TYPE__
+
+# 段階5: クンニ
+foreplay_cunnilingus:
+  - 60_fp005_0,1girl,1boy,couple,cunnilingus,oral,spread legs,on back,lying,pussy,from above,pov,blush,light smile,__MALE_TYPE__
+  - 60_fp005_1,1girl,1boy,couple,cunnilingus,oral,licking pussy,spread legs,on back,lying,pussy,pussy juice,closeup pussy,from front,blush,half-closed eyes,__MALE_TYPE__
+  - 60_fp005_2,1girl,1boy,couple,cunnilingus,oral,licking pussy,spread legs,on back,lying,pussy,pussy juice,motion lines,steam,torogao,heart,__MALE_TYPE__
+  - 60_fp005_3,1girl,1boy,couple,cunnilingus,oral,spread legs,on back,lying,pussy,pussy juice,female orgasm,motion lines,head back,open mouth,ahegao,spoken,__MALE_TYPE__
+
+
