@@ -1,0 +1,31 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - pose (sfwシーン)
+# ラブホテルでのロマンティックな雰囲気、人妻との甘く情熱的な時間
+
+# フェーズ別サブリスト - ラブホテル特有の雰囲気とラブラブ展開
+pose_play_intro:
+  # scene_01-05: ラブホテル到着～部屋へ（evening）
+  - 10_pss001,1girl,mature woman,love hotel entrance,evening,elegant dress,high heels,excited expression,arriving together,discreet entrance,romantic atmosphere,from side,couple walking
+  - 10_pss002,1girl,mature woman,love hotel lobby,evening,stylish outfit,colorful mood lighting,checking in,anticipatory smile,luxurious ambiance,from front,standing pose
+  - 10_pss003,1girl,mature woman,love hotel elevator,evening,fashionable dress,holding partner's hand,passionate gaze,elevator ride up,mirror reflection,intimate mood,from behind,couple pose
+  - 10_pss004,1girl,mature woman,love hotel corridor,evening,walking together,arm in arm,giggling softly,fancy carpeting,mood lighting,romantic tension,from side,couple walking
+  - 10_pss005,1girl,mature woman,love hotel room entrance,evening,opening door,amazed expression,seeing luxurious room,excited anticipation,from front,turning pose
+
+pose_play_mid:
+  # scene_06-08: 部屋でのくつろぎ、ラブラブ開始（evening）
+  - 10_pss006,1girl,mature woman,love hotel room,evening,sitting on large bed,exploring room features,colorful lighting,luxurious furnishings,relaxed atmosphere,from side,sitting pose
+  - 10_pss007,1girl,mature woman,love hotel room,evening,standing by mirror wall,adjusting hair,partner hugging from behind,romantic reflection,mood lighting,from behind,couple embrace
+  - 10_pss008,1girl,mature woman,love hotel room,evening,lying on bed together,chatting intimately,silk sheets,round bed,lovey-dovey atmosphere,from above,cuddling pose
+
+pose_play_after:
+  # scene_09-12: エロい雰囲気へ移行（evening/night）
+  - 10_pss009,1girl,mature woman,love hotel room,evening,changing into lingerie,seductive smile,colorful mood lighting,getting comfortable,romantic ambiance,from side,undressing pose
+  - 10_pss010,1girl,mature woman,love hotel room,evening,sitting on edge of bed,deep eye contact,holding hands,passionate atmosphere,soft lighting,from front,close-up couple
+  - 10_pss011,1girl,mature woman,love hotel room,night,leaning in for kiss,intense passion,luxurious bed,romantic lighting,from side,leaning pose
+  - 10_pss012,1girl,mature woman,love hotel room,night,passionate embrace,slow kisses,mirror reflecting couple,building intensity,from behind,couple embrace
+
+# 統合リスト
+pose_play:
+  - __自作2_1/love_hotel_milf/pose_play_intro__
+  - __自作2_1/love_hotel_milf/pose_play_mid__
+  - __自作2_1/love_hotel_milf/pose_play_after__
+

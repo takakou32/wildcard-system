@@ -1,0 +1,40 @@
+# ラブラブテーマ：Sex用表情テンプレート
+# themes/lovey/sex_faces.yaml
+
+# 段階1用: 優しい導入の表情
+sex_face_intro:
+  - smile,blush,loving eyes,eye contact
+  - light smile,blush,closed eyes,peaceful
+  - blush,embarrassed,shy smile,looking at viewer
+
+# 段階2用: 徐々に激しくの表情
+sex_face_moderate:
+  - open mouth,blush,heavy breathing,looking at viewer
+  - light torogao,half-closed eyes,blush,saliva
+  - open mouth,embarrassed,blush,sweat,pleasure face
+
+# 段階3用: 激しくの表情
+sex_face_intense:
+  - torogao,open mouth wide,heavy breathing,saliva
+  - head back,open mouth,wide eyes,heavy breathing
+  - torogao,half-closed eyes,drooling,sweat,pleasure face
+
+# 段階4用: のけ反り絶頂の表情
+sex_face_extreme:
+  - tongue out long,wide eyes,intense pleasure,trembling
+  - tongue out long,((head back:1.5)),half-closed eyes,extreme pleasure
+  - tongue out long,eyes closed tight,drooling,extreme pleasure
+
+# 段階5用: 中だし絶頂の表情
+sex_face_creampie:
+  - tongue out long,((head back:1.5)),wide eyes,orgasm face
+  - tongue out long,ahegao,intense orgasm
+  - tongue out long,((head back:1.5)),half-closed eyes,climax face
+
+# 段階6用: 事後の表情
+sex_face_after:
+  - head back,tongue out,exhausted,half-closed eyes,drooling
+  - head back,tongue out,dazed,empty eyes,exhausted
+  - head back,tongue out,satisfied smile,exhausted,afterglow
+
+

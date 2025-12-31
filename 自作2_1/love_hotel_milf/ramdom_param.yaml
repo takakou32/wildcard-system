@@ -1,0 +1,54 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - flow controller (1-3)
+# オリジナル作成：ラブラブなラブホテルでの逢瀬
+
+ramdom_play:
+  # scene_01-05: ラブホテル到着～部屋へ（evening）
+  - 50_fl001,__自作2_1/love_hotel_milf/pose_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_entrance__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl002,__自作2_1/love_hotel_milf/pose_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_lobby__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl003,__自作2_1/love_hotel_milf/pose_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_corridor__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl004,__自作2_1/love_hotel_milf/pose_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_corridor__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl005,__自作2_1/love_hotel_milf/pose_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+
+  # scene_06-08: 部屋でのくつろぎ、ラブラブ開始（evening）
+  - 50_fl006,__自作2_1/love_hotel_milf/pose_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl007,__自作2_1/love_hotel_milf/pose_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl008,__自作2_1/love_hotel_milf/pose_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+
+  # scene_09-12: エロい雰囲気へ移行（evening/night）
+  - 50_fl009,__自作2_1/love_hotel_milf/pose_play_after__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl010,__自作2_1/love_hotel_milf/pose_play_after__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_evening__
+  - 50_fl011,__自作2_1/love_hotel_milf/pose_play_after__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl012,__自作2_1/love_hotel_milf/pose_play_after__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_13-16: フェラ開始（night）
+  - 50_fl013,__自作2_1/love_hotel_milf/fella_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl014,__自作2_1/love_hotel_milf/fella_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl015,__自作2_1/love_hotel_milf/fella_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl016,__自作2_1/love_hotel_milf/fella_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_17-18: フェラ中盤（night）
+  - 50_fl017,__自作2_1/love_hotel_milf/fella_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl018,__自作2_1/love_hotel_milf/fella_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_19-20: フェラクライマックス（night）- vacuum LoRA使用
+  - 50_fl019,__自作2_1/love_hotel_milf/fella_play_climax__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl020,__自作2_1/love_hotel_milf/fella_play_climax__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_21-22: 前戯開始（night）
+  - 50_fl021,__自作2_1/love_hotel_milf/bef_sex_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl022,__自作2_1/love_hotel_milf/bef_sex_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_23: 前戯中盤（night）
+  - 50_fl023,__自作2_1/love_hotel_milf/bef_sex_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_24: 前戯クライマックス（night）
+  - 50_fl024,__自作2_1/love_hotel_milf/bef_sex_play_climax__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+
+  # scene_25-30: 本番＆事後（night）
+  - 50_fl025,__自作2_1/love_hotel_milf/sex_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl026,__自作2_1/love_hotel_milf/sex_play_intro__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl027,__自作2_1/love_hotel_milf/sex_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl028,__自作2_1/love_hotel_milf/sex_play_mid__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl029,__自作2_1/love_hotel_milf/sex_play_climax__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+  - 50_fl030,__自作2_1/love_hotel_milf/sex_play_after__,__自作2_1/love_hotel_milf/place_love_hotel_room__,__自作2_1/love_hotel_milf/place_lighting_night__
+

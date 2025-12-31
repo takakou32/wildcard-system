@@ -1,0 +1,223 @@
+# Theme: 近所の人妻とスーパーから寝室まで - pose (sfwシーン)
+# pose_param.yaml - 完全分離方式
+
+# ========== 時系列サブカテゴリ（完全独立） ==========
+
+time_morning:
+  - morning,sunrise,early morning light
+  - morning,bright daylight,fresh morning
+  - morning,clear morning
+
+time_afternoon:
+  - afternoon,daytime,bright light
+  - afternoon,warm sunlight,midday
+  - afternoon,bright afternoon
+
+time_evening:
+  - evening,dusk,golden hour
+  - evening,dim lighting,twilight
+  - evening,darkening sky
+
+time_night:
+  - night,dark,night lighting
+  - night,moonlight,nighttime
+  - night,dim room lighting
+
+# ========== 場所サブカテゴリ（完全独立） ==========
+
+place_supermarket:
+  - supermarket,grocery store,shopping area
+  - supermarket interior,store aisles
+  - supermarket,retail environment
+
+place_street:
+  - residential street,neighborhood,outdoors
+  - street,walking path,suburban area
+  - residential area,quiet street
+
+place_entrance:
+  - entrance,front door,doorway
+  - entryway,home entrance,foyer
+  - entrance area,doorstep
+
+place_kitchen:
+  - kitchen,cooking area,domestic kitchen
+  - kitchen interior,home kitchen
+  - kitchen,dining preparation area
+
+place_dining_room:
+  - dining room,dining area,eating space
+  - dining room interior,dinner table
+  - dining area,meal setting
+
+place_living_room:
+  - living room,sitting area,lounge
+  - living room interior,sofa area
+  - living room,comfortable space
+
+place_bathroom:
+  - bathroom,washroom,bathing area
+  - bathroom interior,private bathroom
+  - bathroom,wash area
+
+place_shower:
+  - shower stall,shower area,bathing space
+  - shower,running water,shower interior
+  - shower stall,wet area
+
+# ========== 表情サブカテゴリ（段階別） ==========
+
+pose_face_intro:
+  - polite smile,friendly expression,looking at viewer
+  - casual smile,relaxed,glancing
+  - curious look,interested expression,slight smile
+  - gentle smile,warm expression,eye contact
+
+pose_face_mid:
+  - warm smile,relaxed expression,comfortable
+  - laughing,happy expression,enjoying conversation
+  - soft smile,content,at ease
+  - friendly laugh,cheerful,natural smile
+
+pose_face_close:
+  - subtle blush,shy smile,looking at viewer
+  - slight blush,nervous smile,intimate atmosphere
+  - blushing,warm gaze,closer expression
+  - bashful smile,light blush,cozy feeling
+
+pose_face_shower_prep:
+  - blushing,shy,averting gaze,nervous
+  - embarrassed,light blush,anticipation
+  - nervous smile,flushed,expectant look
+  - bashful,red face,hesitant expression
+
+pose_face_shower:
+  - relaxed,eyes closed,peaceful
+  - serene expression,calm,water on face
+  - sensual,half-closed eyes,relaxed
+  - peaceful smile,content,enjoying
+
+# ========== 雰囲気（段階別） ==========
+
+pose_atmosphere_casual:
+  -   # 雰囲気なし
+  - casual atmosphere,everyday setting
+  - normal day,relaxed mood
+  - comfortable ambiance
+
+pose_atmosphere_cozy:
+  -   # 雰囲気なし
+  - cozy atmosphere,warm lighting
+  - comfortable domestic setting,homey ambiance
+  - warm mood,relaxed environment
+
+pose_atmosphere_intimate:
+  -   # 雰囲気なし
+  - intimate atmosphere,warm lighting
+  - cozy mood,close distance,romantic ambiance
+  - dim lighting,intimate setting
+
+pose_atmosphere_steamy:
+  -   # 雰囲気なし
+  - steam rising,water sounds
+  - steamy atmosphere,wet environment
+  - shower ambiance,water flowing
+
+## ========== ポーズベース（時系列・場所なし） ==========
+
+# 段階1: スーパーでの行動
+pose_base_shopping:
+  - 10_ps001_0,1girl,mature woman,standing at vegetable aisle,looking at produce,blouse,skirt,comfortable shoes,from side,upper body
+  - 10_ps001_1,1girl,mature woman,pushing shopping cart,holding shopping list,blouse,skirt,from behind,full body
+  - 10_ps001_2,1girl,mature woman,at checkout counter,placing items on counter,holding wallet,blouse,skirt,from front,upper body
+  - 10_ps001_3,1girl,mature woman,reaching for item on shelf,blouse,skirt,from side,standing pose
+  - 10_ps001_4,1girl,mature woman,examining product label,holding item,blouse,skirt,from front,closeup
+
+# 段階2: 帰宅・歩く
+pose_base_walking:
+  - 10_ps002_0,1girl,mature woman,walking,carrying shopping bags,blouse,skirt,from side,full body
+  - 10_ps002_1,1girl,mature woman,standing and talking,holding bags,blouse,skirt,from front,upper body
+  - 10_ps002_2,1girl,mature woman,unlocking door,holding keys,blouse,skirt,from side,standing pose
+  - 10_ps002_3,1girl,mature woman,removing shoes,bending slightly,blouse,skirt,from front
+  - 10_ps002_4,1girl,mature woman,gesturing welcome,blouse,skirt,from front,standing pose
+
+# 段階3: 料理準備
+pose_base_cooking:
+  - 10_ps003_0,1girl,mature woman,preparing food at counter,chopping vegetables,house clothes,apron,from side,cooking pose
+  - 10_ps003_1,1girl,mature woman,stirring pot,wearing apron,house clothes,from behind,cooking pose
+  - 10_ps003_2,1girl,mature woman,tasting food with spoon,house clothes,apron,from front,upper body
+  - 10_ps003_3,1girl,mature woman,setting table,placing dishes,house clothes,from side,bending pose
+  - 10_ps003_4,1girl,mature woman,bringing food to table,house clothes,from front,carrying pose
+
+# 段階4: 食事中
+pose_base_dining:
+  - 10_ps004_0,1girl,mature woman,sitting at table,eating with chopsticks,house clothes,from side,sitting pose
+  - 10_ps004_1,1girl,mature woman,sitting at table,drinking from cup,house clothes,from front,sitting pose
+  - 10_ps004_2,1girl,mature woman,sitting,talking while eating,house clothes,from side,animated expression
+  - 10_ps004_3,1girl,mature woman,reaching for dish,house clothes,from front,reaching pose
+  - 10_ps004_4,1girl,mature woman,finished eating,resting chin on hand,house clothes,from front,relaxed pose
+
+# 段階5: リビング
+pose_base_living:
+  - 10_ps005_0,1girl,mature woman,sitting on sofa,house clothes,from side,sitting close
+  - 10_ps005_1,1girl,mature woman,sitting on sofa,leaning closer,house clothes,from front,intimate distance
+  - 10_ps005_2,1girl,mature woman,sitting on sofa,looking at companion,house clothes,from side,close up
+  - 10_ps005_3,1girl,mature woman,standing up from sofa,house clothes,from front,standing pose
+  - 10_ps005_4,1girl,mature woman,touching hair nervously,house clothes,from front,shy gesture
+
+# 段階6: シャワー準備
+pose_base_shower_prep:
+  - 10_ps006_0,1girl,mature woman,standing by door,house clothes,from front,nervous pose
+  - 10_ps006_1,1girl,mature woman,removing top,undressing,from side,undressing pose
+  - 10_ps006_2,1girl,mature woman,clothes falling to floor,nude,from behind,undressing pose
+  - 10_ps006_3,1girl,mature woman,standing nude,covering chest with arm,from front,shy pose
+  - 10_ps006_4,1girl,mature woman,reaching for shower door,nude,from side,entering pose
+
+# 段階7: シャワー中
+pose_base_shower:
+  - 10_ps007_0,1girl,mature woman,under running water,nude,wet skin,water streaming,from front,showering pose
+  - 10_ps007_1,1girl,mature woman,washing hair,shampoo,nude,wet hair,from side,washing pose
+  - 10_ps007_2,1girl,mature woman,rinsing hair,water cascading,nude,from behind,shower flow
+  - 10_ps007_3,1girl,mature woman,washing body,soap suds,nude,wet skin glistening,from side,bathing pose
+  - 10_ps007_4,1girl,mature woman,leaning against wall,nude,water running down,steam,from front,relaxed pose
+
+## ========== 統合プレイリスト（ベース＋時系列＋場所） ==========
+
+# 段階1: スーパーでの出会い
+pose_shopping:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_shopping__,__自作2_1/ラブラブ絶頂中だし用/time_afternoon__,__自作2_1/ラブラブ絶頂中だし用/place_supermarket__,__自作2_1/ラブラブ絶頂中だし用/pose_face_intro__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_casual__
+
+# 段階2: 帰宅
+pose_walking_home:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_walking__,__自作2_1/ラブラブ絶頂中だし用/time_afternoon__,__自作2_1/ラブラブ絶頂中だし用/place_street__,__自作2_1/ラブラブ絶頂中だし用/pose_face_mid__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_casual__
+
+# 段階3: 料理準備
+pose_cooking_together:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_cooking__,__自作2_1/ラブラブ絶頂中だし用/time_afternoon__,__自作2_1/ラブラブ絶頂中だし用/place_kitchen__,__自作2_1/ラブラブ絶頂中だし用/pose_face_mid__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_cozy__
+
+# 段階4: 食事
+pose_dining_together:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_dining__,__自作2_1/ラブラブ絶頂中だし用/time_afternoon__,__自作2_1/ラブラブ絶頂中だし用/place_dining_room__,__自作2_1/ラブラブ絶頂中だし用/pose_face_mid__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_cozy__
+
+# 段階5: リビング（親密）
+pose_living_intimate:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_living__,__自作2_1/ラブラブ絶頂中だし用/time_evening__,__自作2_1/ラブラブ絶頂中だし用/place_living_room__,__自作2_1/ラブラブ絶頂中だし用/pose_face_close__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_intimate__
+
+# 段階6: シャワー準備
+pose_shower_preparation:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_shower_prep__,__自作2_1/ラブラブ絶頂中だし用/time_evening__,__自作2_1/ラブラブ絶頂中だし用/place_bathroom__,__自作2_1/ラブラブ絶頂中だし用/pose_face_shower_prep__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_intimate__
+
+# 段階7: シャワー中
+pose_showering:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_base_shower__,__自作2_1/ラブラブ絶頂中だし用/time_evening__,__自作2_1/ラブラブ絶頂中だし用/place_shower__,__自作2_1/ラブラブ絶頂中だし用/pose_face_shower__,__自作2_1/ラブラブ絶頂中だし用/pose_atmosphere_steamy__
+
+# ========== メインプレイリスト ==========
+pose_play:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_shopping__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_walking_home__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_cooking_together__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_dining_together__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_living_intimate__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_shower_preparation__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_showering__
+

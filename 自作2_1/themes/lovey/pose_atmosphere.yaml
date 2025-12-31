@@ -1,0 +1,28 @@
+# ラブラブテーマ：Pose用雰囲気テンプレート
+# themes/lovey/pose_atmosphere.yaml
+
+lovey_atmosphere_casual:
+  -   # 雰囲気なし
+  - warm atmosphere,comfortable mood
+  - friendly ambiance,relaxed setting
+  - pleasant atmosphere,casual mood
+
+lovey_atmosphere_cozy:
+  -   # 雰囲気なし
+  - cozy atmosphere,warm lighting,homey
+  - comfortable domestic setting,warm ambiance
+  - cozy mood,intimate lighting
+
+lovey_atmosphere_romantic:
+  -   # 雰囲気なし
+  - romantic atmosphere,warm lighting,intimate
+  - loving mood,affectionate ambiance
+  - romantic setting,dim cozy lighting
+
+lovey_atmosphere_steamy:
+  -   # 雰囲気なし
+  - steamy atmosphere,water sounds,steam rising
+  - wet environment,shower ambiance
+  - steamy setting,water flowing
+
+

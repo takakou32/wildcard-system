@@ -1,0 +1,141 @@
+# 服装バリエーション（全テーマ共通）
+# character_outfits.yaml
+
+# ========== カジュアル（外出着） ==========
+
+outfit_casual_day:
+  - white blouse,blue denim skirt,brown sandals,casual style
+  # - pink t-shirt,light blue jeans,white sneakers,relaxed outfit
+  # - beige cardigan,white dress,comfortable flats,casual elegant
+
+outfit_casual_shopping:
+  - white blouse,black skirt,shopping bag,casual outing
+  # - grey sweater,blue jeans,brown handbag,comfortable shopping
+  # - cream dress,beige cardigan,shopping bag,casual style
+
+# ========== 室内着・部屋着 ==========
+
+outfit_house_clothes:
+  - grey sweater,blue jeans,comfortable indoor wear
+  # - white t-shirt,black leggings,relaxed home clothes
+  # - beige cardigan,grey sweatpants,cozy home outfit
+
+outfit_house_with_apron:
+  - white apron,beige sweater,blue jeans,cooking at home
+  # - pink apron,grey t-shirt,black pants,kitchen scene
+  # - white apron,cream cardigan,denim pants,home cooking
+
+# ========== 和装・浴衣 ==========
+
+outfit_yukata:
+  - blue yukata,white obi,traditional japanese style,floral pattern
+  # - pink yukata,red obi,summer kimono,light fabric
+  # - white yukata,blue obi,casual japanese wear,simple pattern
+
+outfit_kimono:
+  - red kimono,gold obi,traditional japanese clothing,formal elegant
+  # - blue kimono,white obi,formal japanese wear,traditional pattern
+  # - black kimono,red obi,formal traditional,elegant style
+
+# ========== 下着・裸 ==========
+
+outfit_underwear:
+  - white bra,white panties,simple underwear,cotton
+  # - black lingerie,lace bra,lace panties,sexy
+  # - pink bra,pink panties,cute underwear,soft fabric
+
+outfit_towel:
+  - white bath towel,towel wrap,wrapped in towel,after bath
+  # - white towel,covering body,bath towel wrap,modest
+  # - fluffy white towel,towel around body,post-bath
+
+outfit_nude:
+  - nude,naked,completely nude,bare skin
+  # - nude,naked body,natural,no clothing
+  # - nude,bare,completely naked,exposed
+
+# ========== ビジネス・オフィス ==========
+
+outfit_business:
+  - white blouse,black pencil skirt,black blazer,office lady,formal business
+  # - blue blouse,grey suit,formal skirt,business attire,professional
+  # - cream blouse,black blazer,formal pencil skirt,office wear,elegant
+
+outfit_office_lady:
+  - white blouse,black pencil skirt,black blazer,office lady,formal
+  # - blue blouse,grey suit,formal skirt,business attire,professional
+  # - cream blouse,black blazer,formal pencil skirt,office wear,elegant
+
+outfit_business_casual:
+  - white blouse,grey slacks,business casual,smart professional
+  # - light blue shirt,beige pants,business casual,office appropriate
+  # - pink blouse,black slacks,smart casual,professional relaxed
+
+# ========== ナイトウェア ==========
+
+outfit_pajamas:
+  - pink pajamas,button-up top,pajama pants,comfortable sleepwear
+  # - blue pajama set,soft fabric,relaxed nightwear,cotton
+  # - white pajamas,long sleeves,long pants,cozy bedtime
+
+outfit_nightgown:
+  - white nightgown,silk fabric,elegant sleepwear,knee-length
+  # - pink nightgown,lace trim,feminine nightwear,soft
+  # - cream negligee,silk nightwear,elegant,flowing
+
+outfit_bathrobe:
+  - white bathrobe,fluffy robe,after bath,soft terry cloth
+  # - pink bathrobe,comfortable robe,cozy,thick fabric
+  # - beige bathrobe,soft robe,relaxed,post-shower
+
+# ========== 特殊・職業 ==========
+
+outfit_nurse:
+  - white nurse uniform,nurse cap,white stockings,medical professional
+  # - pink nurse outfit,white coat,hospital uniform,medical attire
+  # - white nurse dress,red cross symbol,nurse cap,professional medical
+
+outfit_maid:
+  - black maid dress,white apron,white headpiece,french maid
+  # - classic maid uniform,black dress,white frills,maid apron
+  # - black and white maid outfit,lace apron,maid headband,elegant
+
+outfit_school:
+  - white sailor uniform,blue collar,blue skirt,school attire
+  # - school blazer,white shirt,plaid skirt,student uniform
+  # - sailor uniform,white and blue,pleated skirt,school outfit
+
+# ========== スポーツ・アクティブ ==========
+
+outfit_sportswear:
+  - white sports bra,black leggings,athletic wear,gym clothes
+  # - pink tank top,grey yoga pants,sportswear,workout outfit
+  # - blue sports top,black shorts,active wear,exercise clothes
+
+outfit_swimsuit:
+  - white bikini,two-piece swimsuit,beachwear,simple style
+  # - black one-piece swimsuit,athletic swimwear,sporty
+  # - pink bikini,floral pattern,beach swimsuit,cute style
+
+outfit_beach_swimsuit:
+  - bikini,blue bikini
+  - bikini,red bikini
+  - bikini,black bikini
+  - bikini,white bikini
+  - bikini,pink bikini
+  - bikini,yellow bikini
+  - bikini,green bikini
+  - bikini,purple bikini
+  - one-piece swimsuit,blue one-piece swimsuit
+  - one-piece swimsuit,red one-piece swimsuit
+  - one-piece swimsuit,black one-piece swimsuit
+  - one-piece swimsuit,white one-piece swimsuit
+  - micro bikini,micro bikini
+  - string bikini,string bikini
+  - thong bikini,thong bikini
+  - sport bikini,sport bikini
+  - highleg swimsuit,highleg swimsuit
+  - tankini,tankini
+  - burkini,burkini
+
+

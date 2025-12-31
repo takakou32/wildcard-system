@@ -1,0 +1,32 @@
+# NTRテーマ：Pose用表情テンプレート
+# themes/ntr/pose_faces.yaml
+
+# 抵抗・葛藤の表情（序盤）
+ntr_face_reluctant:
+  - reluctant,conflicted expression,guilty look
+  - hesitant,nervous,uncomfortable,forced smile
+  - glaring,defiant eyes,anger,resisting
+  - despair,hopeless expression,defeated look
+
+# 葛藤しながら感じ始める
+ntr_face_conflicted:
+  - conflicted,guilty pleasure,looking away
+  - reluctant pleasure,torn expression,blush despite self
+  - arm over eyes,covering face,moaning despite shame
+  - glaring while feeling,anger mixed with pleasure
+
+# 堕ち始める表情
+ntr_face_giving_in:
+  - losing control,giving in,conflicted pleasure
+  - corrupting expression,weakening resistance
+  - surrendering look,pleasure overwhelming guilt
+  - conflicted,drooling,losing to pleasure
+
+# 完全に堕ちた表情
+ntr_face_corrupted:
+  - corrupted,mind break,fallen expression
+  - betrayal pleasure,lost to lust,completely fallen
+  - ahegao,corrupted satisfaction,no resistance
+  - surrendered,corrupted pleasure,defeated
+
+

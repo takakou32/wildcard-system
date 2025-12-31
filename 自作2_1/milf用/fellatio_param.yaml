@@ -1,0 +1,157 @@
+# sex_param.yaml
+fella_angle:
+  - ((pov crotch))
+  - ((pov crotch,from above))
+  #- ((pov))
+  - ((from side))
+  - ((from above,from side))
+  - ((from side,from below))
+fella_hyottoko:
+  #- ((:>=,  fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face, )) 
+  - (<lora:Vacuum felaltio-000009:1>,, fellatio,:>=,:1.5) 
+fella_look:
+  - ((looking at viewer))
+  - ((looking at penis))
+  - ((looking at another))
+fella_pose:
+  - ((lying,on back,))
+  - ((sitting,))
+  - ((standing,))
+  - ((lying,on back,closeup face))
+fella_expless:
+  #- ((closed eyes, nose blush))
+  - ((half open eyes,, nose blush))
+  - ((open eyes,, nose blush))
+  - ((smile,, nose blush))
+  - ((one eye closed ,nose blush))
+fella_volume:
+  #- (motion lines)
+  - (motion lines:2),tongue out,
+  #- (motion lines:2),(tongue out:1),(cum:3)
+fella_play:
+  ##着衣勃起
+  - 20_fe1((,precum, erection,precum drip))((1girl,couple,penis under clothes, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,)) ,__自作2/fella_expless__
+  - 20_fe2((penis on face,tongue out,licking penis,  , pubic hair,,precum drip , penis over face,))((1girl,couple,penis under clothes, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,)),__自作2/ella_expless__
+  - 20_fe2_1((licking penis,  tongue out,precum drip,big veiny penis,precum, erection))((1girl,couple, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,))
+  ##玉舐め手コキ
+  #- 20_fe3_2_1((licking penis, <lora:Testicle_Sucking_for_Illustrious:1> testisucc, testicle sucking, testicle sucking,saliva, ,precum drip,big veiny penis,precum, ))((1girl,couple,, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,)),(hand job,:>=:1.5),male pubic hair,<lora:Vacuum felaltio-000009:1> (tongue out,saliva:2)
+  #- 20_fe3_2((licking penis, <lora:Testicle_Sucking_for_Illustrious:1> testisucc, testicle sucking, testicle sucking, tongue out,precum drip,big veiny penis,precum, erection))((1girl,couple,penis under lothes, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,))
+  #- 20_fe3_2_2((licking penis, <lora:Testicle_Sucking_for_Illustrious:1> testisucc, testicle sucking, testicle sucking,saliva, ,precum drip,big veiny penis,precum, ))((1girl,couple,, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,)),(hand job,:>=:1.5),male pubic hair,<lora:Vacuum felaltio-000009:1.3> (,saliva:2)(motion lines,spoken,heart:2.5),,,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,
+  #- 20_fe3_2_3((licking penis, <lora:Testicle_Sucking_for_Illustrious:1> testisucc, testicle sucking, testicle sucking,saliva, ,precum drip,big veiny penis,precum, ))((1girl,couple,, pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,)),(hand job,:>=:1.5),male pubic hair,<lora:Vacuum felaltio-000009:1.3> (,saliva:2)(motion lines,spoken,heart:2.5),,,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,(projectile cum, cum:2)
+
+  #- 20_fe3_3((licking penis, fellatio, ,closeup face,tongue out,motion lines, twitching penis,, tongue out,precum drip,big veiny penis,precum, erection))((1girl,couple,penis under clothes, pov,(girl lying n boy:1.5)((closeup face:1.5)),on side,))
+  #- 20_fe3_4((fellatio, ,closeup face:1.8)), tongue out,,big veiny penis,))((1girl,couple,penis under clothes, pov,(pov,girl lying on boy:1.5)((closeup face:1.5)),on side))
+  ###ちん嗅ぎ
+  #- 20_fe3_5,girl, 1boy, penis,, hetero, , , , , male pubic hair, testicles, blush, pubic hair, ,,erection, ,big veiny penis,, , , , , , (,erection,smelling penis,steam,testicles:2) , , sound effect,,(girl is sitting,boy is standing:1.5),, solo focus, sweat, explicit, nsfw,precum string,, heavy breathing, snort,(penis on face,penis awe,closeup face:1.5),__自作2/fella_expless__
+  - 20_fe3_0,girl, 1boy, penis,, hetero, , , , , male pubic hair, testicles, blush, pubic hair, oral,,erection, ,big veiny penis,, , fellatio, , veins, steam, sound edffects,(,erection,smelling testicles:2) , looking up, ,(girl is sitting,boy is standing:1.5),pov,, solo focus, sweat, explicit, nsfw,precum string, heavy breathing, snort,(closeup face:2),{(licking penis,tongue out,saliva:1.5)|,},,((completely nude, ))__自作2/fella_expless__
+  ###ペニスキス
+  - 20_fe3_1(1girl, 1boy, breasts, testicles, penis,  hetero, , erection, , male pubic hair, pubic hair, , blush, large penis, caressing testicles,, saliva, veins, veiny penis, penis on face, sidelocks, oral, steam,  , precum, solo focus, fellatio, collarbone, upper body, penis awe, sweat, saliva trail, (kissing penis,puckered lips:1), fingernails, explicit, nsfw,{(pov,from above:1.5))|,},__自作2/fella_expless__
+  - 20_fe3_2(1girl, 1boy, penis,  hetero, ,{from below|from side|from above} ,erection, pubic hair, , blush, large penis, {french kiss,|},, saliva, veins, veiny penis, penis on face, sidelocks, oral, steam,  , precum, solo focus, fellatio, upper body, penis awe, sweat, (closeup mouth:1.5) (lips touch penis,,kissing penis,puckered lips:1),,__自作2/fella_expless__
+  ##亀頭舐め マルチ出力されるため没
+  #- 20_fe3_2_1,(closeup face,licking top of penis,from center,profile:2),(sitting,from above:2),((big veiny penis,penis head,licking penis ,open mouth))(wide open mouth ,oral,tongue out:2),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,(looking at viewer,from center:1.5),
+  ##亀頭舐め
+  - 20_fe3_2_1_1,,1boy,pov, (precum drip,bending tongue,tongue ou,steam from mouth,t:1.5),torogao,(saliva,,glans,big penis,penis licking,glans licking,closeup mouth:2),from above,(oral invitation,wide open mouth ,oral,:1.8),saliva trai,sound effects, holding penis
+  ###ペニスに顔うずめ　不良率高いので没
+  #- 20_fe3_2_2,girl, 1boy, penis,, hetero, , , erection, , male pubic hair, testicles, blush, pubic hair, oral,,erection, ,big veiny penis,, , fellatio, , veins, large penis, steam, (covered mouth,erection,penis on boy's stomach,smelling testicles:2) (penis on boy's stomach:1.5), looking at viewer, pov, ass, solo focus, sweat, explicit, nsfw,precum string, heavy breathing, snort,(closeup face:3),{licking penis,saliva|,},,((completely nude, ))__自作2/fella_expless__
+  #- 20_fe3_2_3,girl, 1boy, penis,, hetero, , , erection, , male pubic hair, testicles, blush, pubic hair, oral,,erection, ,big veiny penis,, , fellatio, , veins, large penis, steam,(hand job,face on thighs,kissing thighs:1.5) ,(erection,penis on boy's stomach,smelling testicles:2) (penis on boy's stomach:1.5), looking at viewer, pov, ass, solo focus, sweat, explicit, nsfw,precum string, heavy breathing, snort,(closeup face:3),, ,,((completely nude, ))__自作2/fella_expless__
+  ###ひょっとこフェラ　寝ながら
+  ##とりあえず不採用。座りながらにピークをもってくため
+  ####- 20_fe3_3((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face, )),,{big veiny penis|,},))((1girl,couple,(pov,girl lying on boy:1.5)(closeup face:1.5)
+  ##ペニスキス 座りながら 重複しているので没
+  #- 20_fe3_4(1girl, 1boy, breasts, testicles, penis,  hetero, , erection, , male pubic hair, pubic hair, , blush, large penis, caressing testicles,{(covered mouth:1.6)|,} saliva, veins, veiny penis, penis on face, sidelocks, oral, steam,  , precum, solo focus, fellatio, collarbone, upper body, penis awe, sweat, saliva trail,(sitting:1.5), (kissing penis,puckered lips:1.5), fingernails, explicit, nsfw,(looking at viewer,from center:1.5),(pov,from above:1.5))|,}__自作2/fella_expless__
+  ###ひょっとこフェラ　座りながら
+  ###予備動作
+  - 20_fe3_6_1,,(sitting,from above:2),((penis on face,big veiny penis,penis head,))__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  #- 20_fe3_6_1_0,,(sitting,from above:2),((penis on mouth,big veiny penis,penis head,)),torogao,heart,spoken,(cloceup mouth:2)(,,oral invitation,,open mouth,tongue out,:2),((1girl,couple,, pov, (girl is sitting,boy is standing:1.5),(looking up:1.5) ,,(looking at viewer,from center:1.5),
+  ##ここからフェラ 
+  #- 20_fe3_6_1_1,,(sitting,from above:2),penis on tongue,saliva,(tongue out,open mouth:2)((penis on face,big veiny penis,penis head,)),((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  - 20_{fe3_6_3,(__自作2/fella_hyottoko__),sound effects,motion lines|fe3_6_2,__自作2/fella_hyottoko__,|fe3_6_1,(vacuum fellatio,fellatio,:1.4)},(sitting,from above:2),{tongue out|,}(({big veiny penis,penis head|,},))__自作2/fella_expless__,1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  #####動きあり
+  - 20_fe3_6_3_2_0,__自作2/fella_hyottoko__,__自作2/fella_expless__,spoken,heart,,(motion lines:1.2),(sound effects,:1.3),tongue ,(pubic),{( {dutch angle|   },looking at viewer,from above,closeup face:1.5)  |   },,lip
+  - 20_fe3_6_3_2_1,__自作2/fella_hyottoko__,spoken,heart,(sound effects,:1.3),__自作2/fella_volume__,(sitting,from above:2),(({big veiny penis,penis head|,},))__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  - 20_fe3_6_3_3,((__自作2/fella_hyottoko__),(spoken,heart),(sound effects,:1.3),__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,(1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands},(looking at viewer,from center:1.5),
+  - 20_fe3_6_3_4,((__自作2/fella_hyottoko__),(spoken,heart),(sound effects,:1.3),,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands},(looking at viewer,from center:1.5),
+  - 20_fe3_6_3_5,((__自作2/fella_hyottoko__),,(dynamic motion,speed lines,spoken,heart),(sound effects,:1.3),,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands},(looking at viewer,from center:1.5),
+  ##フィニッシュ
+  - 20_fe3_6_3_6,((__自作2/fella_hyottoko__),__自作2/fella_volume__,({heart,sound effects|},sitting,from above:2),(({big veiny penis,penis head|,},))__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,(cum:3),{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  ###ピースフェラ
+  #- 20_fe3_6_3_5, ,((__自作2/fella_hyottoko__),,(dynamic motion,speed lines,spoken,heart:2.5),,,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) (looking at viewer,from center:1.5),
+  #- 20_fe3_6_3_3_1,,((__自作2/fella_hyottoko__),(spoken,heart:2),{|},__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,(looking at viewer,from center:1.5),
+
+  ##喉奥
+  - 20_fe3_6_3_7,(irrumatio,,:2), (__自作2/fella_hyottoko__),(spoken,heart:2.),,,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,1girl,couple,, pov,(closeup face:1.5), pubic hair,(girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands},(looking at viewer,from center:1.5),
+  ##フィニッシュ
+  - 20_fe3_6_3_8,(irrumatio,,:2), (__自作2/fella_hyottoko__),,,,__自作2/fella_volume__,(sitting,from above:2),__自作2/fella_expless__,1girl,couple,, pov,(closeup face:1.5), pubic hair,(girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands|holding head},(looking at viewer,from center:1.5),(cum:3),sound effects
+  ####横顔
+  ###ひょっとこフェラ　座りながら
+  - 20_{fe3_7_3,((__自作2/fella_hyottoko__)|fe3_7_2,__自作2/fella_hyottoko__,|fe3_7_1,(vacuum fellatio,fellatio,:1.4)},spoken,heart,(closeup face,from center,profile:2),(sitting,from above:2),{(tongue out:1.8)|,}(({big veiny penis,penis head|,},))__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  #####動きあり
+  - 20_{fe3_7_3_2,((__自作2/fella_hyottoko__)|fe3_7_2_2,__自作2/fella_hyottoko__,|fe3_7_1_2,(vacuum fellatio,fellatio,:1.4)},spoken,heart,,__自作2/fella_volume__,(closeup face,from center,profile:2),(sitting,from above:2),{tongue out|,}(({big veiny penis,penis head|,},)),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+ 
+#####引きのアングル 横
+  #####立ち
+  - 20_fe3_7_4,((__自作2/fella_hyottoko__),(motion lines:2),spoken,heart,(from side:2),{from below | from above |},(sitting,:2),(tongue out:1.8),__自作2/fella_expless__,((1girl,couple,)), (girl is sitting,boy is standing:1.5) ,{,|holding hands,|hands on  thighs, },(looking up ,looking at another:1.5),
+  #####座り
+  - 20_fe3_7_5,((__自作2/fella_hyottoko__),(motion lines:2),spoken,heart,(from side:2),{from below | from above |},(sitting,:2),(tongue out:1.8),__自作2/fella_expless__,((1girl,couple,)), (girl on boy,girl is sitting,boy is lying:1.5) ,{,|holding hands,|hands on  thighs, },(looking up ,looking at another:1.5),
+
+  ###ひょっとこフェラ　座りながら
+  #- 20_{fe3_7_3,((__自作2/fella_hyottoko__)|fe3_7_2,__自作2/fella_hyottoko__,|fe3_7_1,(vacuum fellatio,fellatio,:1.4)},spoken,heart,(closeup face,from center,profile:2),(sitting,from above:2),{(tongue out:1.8)|,}(({big veiny penis,penis head|,},))__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  #####動きあり
+  #- 20_{fe3_7_3_2,((__自作2/fella_hyottoko__)|fe3_7_2_2,__自作2/fella_hyottoko__,|fe3_7_1_2,(vacuum fellatio,fellatio,:1.4)},spoken,heart,,__自作2/fella_volume__,(closeup face,from center,profile:2),(sitting,from above:2),{tongue out|,}(({big veiny penis,penis head|,},)),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+  #####横
+
+  ####フェラ　フィニッシュ
+  ##横
+  - 20_fe3_8_3_3,((__自作2/fella_hyottoko__),(cum:3),spoken,heart,,__自作2/fella_volume__,(closeup face,from center,profile:2),(sitting,from above:2),{tongue out|,}(({big veiny penis,penis head|,},)),__自作2/fella_expless__,((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|holding hands,|hands on  thighs, },(looking at viewer,from center:1.5),
+
+  ###イラマチオ
+  #- 20_fe3_8_3_4,(irrumatio,, deepthroat:1.5), solo focus, tearing up, trembling, crying with eyes open:1.2),spoken,heart,,(motion lines:2),tongue out,,(sitting,from above:2),((one eye closed ,nose blush)),((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,,(looking at viewer,from center:1.5)  
+  #- 20_fe3_8_3_5,(irrumatio,, deepthroat:1.5), solo focus, hand on another's head, head grab, tearing up, trembling, crying with eyes open:1.2),spoken,heart,,(motion lines:2),tongue out,,(sitting,from above:2),((one eye closed ,nose blush)),((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,,(looking at viewer,from center:1.5),
+  #- 20_fe3_8_3_6,(irrumatio,, deepthroat:1.5), solo focus, hand on another's head, head grab, tearing up, trembling, crying with eyes open:1.2),spoken,heart,,(motion lines:2),tongue out,,(sitting,from above:2),((open eyes,, nose blush)),((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,,(looking at viewer,from center:1.5),(cum:3)
+
+ ####口開け　精子
+  ##口閉じ
+  - 20_fe3_8_4_1,cum on mouth,cum on face,(,closeup mouth:2),from above,(closed mouth),__自作2/fella_expless__,((1girl,,)),(looking at viewer,from center:1.5),
+  ##ぱかっ！精子開け
+  - 20_fe3_8_4_2,cum on face,,(cum in mouth:3),(,closeup mouth:2),from above,(oral invitation,wide open mouth ,oral,tongue out:2),__自作2/fella_expless__,((1girl,,)),(looking at viewer,from center:1.5),
+  ##ごっくん
+  - 20_fe3_8_4_3,(,closeup mouth:2),from above,(closed mouth),(closed eyes:1.5),,((1girl,,)),(looking at viewer,from center:1.5),(swallowing:1.5),, cum on face, 
+  ##ぱかっ！飲んだ後の口開け
+  - 20_fe3_8_4_4(tongue out:1.5),(closeup mouth:2),from above,(oral invitation,wide open mouth ,oral,:1.8),steam from mouth,saliva trail
+  ##アナル舐め
+  #- 20_fe3_8_5_1,(saliva:3),(wet:1.5),1girl,1boy,couple,(spoken,heart:2.5) ,__自作2/fella_expless__,(anilingus:1.5),(motion lines:1.5) hetero, 1boy, penis, , closed eyes, blush, male pubic hair,  tongue, pubic hair, tears, testicles, tongue out, nue, handjob, licking,  sweat,  open mouth, saliva,(closeup face:1.5)
+  #- 20_fe3_8_5_2,(cum shot:3),(saliva:3),(wet:1.5),1girl,1boy,couple,(spoken,heart:2.5) ,__自作2/fella_expless__,(anilingus:1.5),(motion lines:1.5) hetero, 1boy, penis, , closed eyes, blush,, male pubic hair,  tongue, pubic hair, tears, testicles, tongue out, , handjob, licking,  sweat,  open mouth, saliva,(closeup face:1.5)
+  - 20_fe3_8_5_1,1girl, , penis, , hetero, , ,  tongue,  testicles, ,  open mouth, nude, tongue out, , , , solo focus, , , , ,,spread legs,(assertive female,femdom,girl on boy,on back,anilingus,anus,tongue in anus,licking,tongue,erection,pov,looking at viewer,:1.5),__自作2/fella_expless__
+  - 20_fe3_8_5_2,1girl, , penis, , hetero, , ,  tongue,  testicles, ,  open mouth, nude, tongue out, , , , solo focus, , , , ,,spread legs,(saliva:1.5),(assertive female,femdom,girl on boy,on back,anilingus,anus,tongue in anus,licking,tongue,erection,pov,looking at viewer,hand job,sound effect,motion lines:1.5),__自作2/fella_expless__
+  - 20_fe3_8_5_3,1girl, , penis, , hetero, , ,  tongue,  testicles, ,  open mouth, nude, tongue out, , , , solo focus, , , , ,,spread legs,(assertive female,femdom,girl on boy,on back,anilingus,anus,tongue in anus,licking,tongue,erection,pov,looking at viewer,hand job,sound effect,motion lines:1.5),__自作2/fella_expless__,(projectile cum,,cum:2)
+
+  ###パンツ脱ぎ f
+  - 20_fe3_8_5_4,from behind ,from above,,(closeup hip:1.5),,1girl,, underwear,,huge ass, ass, ,(steam from hip, big panties,,, :1.5) , , , , , (ass focus:1.8), looking back,, 1girl, , underwear, panties, ass, ,, , , from behind, sweat,hand on pantie,
+  - 20_fe3_8_5_5,from behind ,from above,,(closeup hip:1.5),,1girl,, underwear,,huge ass, ass, ,(steam , big panties,,, :1.5) , , , , , (ass focus:1.8), looking back,, 1girl, , underwear, panties, ass, ,, , , from behind, sweat,hand on pantie,anus ,pulling up own pantie
+  - 20_fe3_8_5_6,from behind ,from below,(closeup hip:1.5),pussy,1girl,, underwear, ,,huge ass, ass, , panties,(pussy juice trail:2),, panty pull, , , , , , , (pubic hair,,undressing,ass focus:1.8), looking back,steam from pussy,sound effects,
+  
+  ##シックスナイン主観
+  - 20_fe3_8_5_7,1girl,pubic hair,(licking penis,opened pussy,pussy juice:1.5),,(male nipple,,pov,hanging breasts,anus,ass focus:1.8),from below(pussy juice trail,69:2), 1boy, hetero, ass,  , blush,  , sweat,big veiny penis , pussy,  ,  lying,  , girl on top, anus, , , 
+  ##ぶっかけ
+  - 20_fe3_8_6_1,cum on face,,(cum in mouth:3),(,closeup mouth:2),from above,(oral invitation,wide open mouth ,oral,tongue out:2),__自作2/fella_expless__,((1girl,,)),(looking at viewer,from center:1.5),(projectile cum,bukkake,cum:2)own hands together, oral invitation,cupping
+  #
+#
+  #- 10_ps014_((1girl､couple,erection, pov,(pov,covered mouth,girl lying on boy:1.5)((closeup face:1.5)),on side,)),penis head on boy's stomach,precum string,smelling testicles
+  #- 20_fe3_6((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face, )),(sitting,from above:2),{big veiny penis|,},))((1girl,couple,, pov,(closeup face:1.5), (girl is sitting,boy is standing:1.5),(looking up:1.5) ,{,|hands on waists,|hands on  thighs, }__自作2/fella_volume__.{spread legs,|,},
+  #  - 20_fe3_5_3((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face,tongue out,motion lines, )),,big veiny penis))((1girl,couple,, pov,(pov,girl lying on boy:1.5)(closeup face:1.5)
+ ##
+  ##- 20_fe3_6((:>=,cumshot,one eye closing,surprising, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face,tongue out,motion lines,)), tongue out,big veiny penis,,)((1girl,couple, pov,(girl lying on boy:1.5)((closeup face:1.5))
+  #####
+  #- 20_fe3_7((licking penis, ({,|from above},cum,projectile cum,cum shot,oral invitation:1.8) , , cum on tongue, facial, penis, cum in mouth,big veiny penis, hands on mouth,, open mouth,  tongue out, own hands together,  ,nose blush,, cupping, ,closeup face,tongue out, tongue out,big veiny penis,, erection))((1girl,couple,penis under clothes, pov,(girl lying on boy:1.5)(closeup face:1.5)
+###
+  ###- 20_fe4_((penis on face,closed mouth,puckered lips,licking penis,  , pubic hair,precum drip, , penis over face,))((1girl,couple,pov,(girl lying on boy:1.5)((closeup face:1.5)),on side,))
+  ###- 20_fe3_8((closeup tongue,glans,penis:1.5))))
+  ###
+  ###- 20_fe6_2_((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face))
+  ###- 20_fe7_2((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,(closeup face:1.5),tongue out,(from above,looking up viewer,upward glance:1.3))) ,
+  ###- 20_fe8_2((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face,tongue out,cumshot))((((cumshot)))))(((surprising)))
+  ###- 20_fe8_2((:>=, vacuum fellatio,<lora:Vacuum felaltio-000009:1> ,closeup face,tongue out,cumshot))((((cumshot)))))(((,preasure)))
+  #- 20_fe9_2_((penis on face,closed mouth,projectile cum,puckered lips,cum,projectile   , pubic hair,precum drip, , penis over face,))(((((cumshot,cum facial,cum in mouth)))))(cum:2)
+  #- 20_fe010_precum drip,  ,penis,big veiny penis,penis on hands, oral invitation,  hands on mouth,, open mouth,  tongue out, own hands together,  smile,,nose blush,, cupping ,(projectile cum,bukkake,cum:3)
+  #- 20_fe011_((((cum,projectile cum,cum shot!!)))) , , cum on tongue, facial, penis, cum in mouth,big veiny penis,penis on hands,oral oral invitation,  hands on mouth,, open mouth, cum on hair, tongue out, cum on breasts, cum on hands, own hands together, smile, bukkake,blush, cum on body, cupping hands,
+  #- 20_fe012_, , (cum on face:2)(cum:2), licking lip,penis,, cum on hair, cum on breasts, bukkake,blush, cum on body,(closeup face:2.5)

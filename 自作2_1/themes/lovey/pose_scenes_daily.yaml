@@ -1,0 +1,101 @@
+# ラブラブテーマ用ポーズプロンプト - 日常系シーン
+# pose_scenes_daily.yaml
+# 使用対象：日常デート、自宅デート、近所での散策など日常系テーマ全般
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 外出先でのショッピング・散策 ==========
+
+scene_outdoor_shopping:
+  - 10_od_001,1girl,shopping,store interior,looking at items on display,cowboy shot,upper body
+  - 10_od_002,1girl,supermarket,holding shopping basket,walking between aisles,dutch angle,full body
+  - 10_od_003,1girl,store,reaching for item on shelf,low angle,from below,standing pose
+  - 10_od_004,1girl,shopping area,examining product in hand,close-up,face focus
+  - 10_od_005,couple,1girl,1boy,shopping together,holding hands,walking in store,pov,full body
+  - 10_od_006,couple,1girl,1boy,shopping street,arm in arm,walking,wide shot,full body
+  - 10_od_007,couple,1girl,1boy,shopping area,girl leaning on boy's shoulder,close-up,intimate
+
+scene_park_walking:
+  - 10_pk_001,1girl,park,sitting on bench,relaxed pose,cowboy shot,full body
+  - 10_pk_002,1girl,outdoor park,standing by tree,looking around,dutch angle,upper body
+  - 10_pk_003,1girl,park path,walking,natural lighting,over shoulder,looking back
+  - 10_pk_004,couple,1girl,1boy,park,holding hands,walking together,from behind,full body
+  - 10_pk_005,couple,1girl,1boy,park bench,sitting close together,wide shot,romantic scene
+
+# ========== シーン2: 帰宅中（街を歩く、玄関到着） ==========
+
+scene_street_walking:
+  - 10_st_001,1girl,city street,walking,carrying shopping bags,wide shot,full body
+  - 10_st_002,1girl,residential street,standing,holding bags,cowboy shot,upper body
+  - 10_st_003,couple,1girl,1boy,city street,holding hands,walking together,from behind,full body
+  - 10_st_004,couple,1girl,1boy,street,arm in arm,carrying bags,dutch angle,full body
+
+scene_home_entrance:
+  - 10_en_001,1girl,home entrance,unlocking door,holding keys,over shoulder,standing pose
+  - 10_en_002,1girl,entryway,entering home,removing shoes,pov,bending slightly
+  - 10_en_003,couple,1girl,1boy,entrance,standing at door,close together,close-up,upper body
+  - 10_en_004,couple,1girl,1boy,entryway,removing shoes together,cowboy shot,domestic scene
+
+# ========== シーン3: 料理中（食事準備） ==========
+
+scene_kitchen_cooking:
+  - 10_kt_001,1girl,kitchen,preparing food at counter,chopping vegetables,cowboy shot,cooking pose
+  - 10_kt_002,1girl,kitchen,stirring pot on stove,cooking,from behind,over shoulder,cooking pose
+  - 10_kt_003,1girl,kitchen,tasting food with spoon,close-up,face focus,upper body
+  - 10_kt_004,couple,1girl,1boy,kitchen,back hug,girl cooking,boy hugging from behind,dutch angle,upper body
+  - 10_kt_005,couple,1girl,1boy,kitchen,cooking together,standing side by side,pov,cooking pose
+  - 10_kt_006,couple,1girl,1boy,kitchen,girl feeding boy with spoon,close-up,intimate
+
+# ========== シーン4: 食事中 ==========
+
+scene_dining:
+  - 10_dn_001,1girl,dining room,sitting at table,eating with chopsticks,cowboy shot,sitting pose
+  - 10_dn_002,1girl,dining table,sitting,drinking from cup,close-up,face focus,sitting pose
+  - 10_dn_003,1girl,dining area,sitting,talking while eating,dutch angle,animated expression
+  - 10_dn_004,1girl,dining room,sitting,finished eating,resting chin on hand,pov across table,relaxed pose
+  - 10_dn_005,couple,1girl,1boy,dining table,sitting across from each other,eating together,wide shot,dining scene
+  - 10_dn_006,couple,1girl,1boy,dining area,sitting side by side,close together,cowboy shot,intimate dining
+  - 10_dn_007,couple,1girl,1boy,table,girl feeding boy,close-up,intimate
+  - 10_dn_008,couple,1girl,1boy,dining room,holding hands on table,looking at each other,high angle,romantic scene
+
+# ========== シーン5: 自宅でのひと時（リラックス） ==========
+
+scene_living_room_relaxing:
+  - 10_lr_001,1girl,living room,sitting on sofa,cowboy shot,sitting pose
+  - 10_lr_002,1girl,sofa,sitting,resting,close-up,face focus,comfortable pose
+  - 10_lr_003,1girl,living room,standing up from sofa,low angle,from below,standing pose
+  - 10_lr_004,couple,1girl,1boy,living room sofa,sitting together,cuddling,dutch angle,cozy scene
+  - 10_lr_005,couple,1girl,1boy,couch,girl leaning on boy's shoulder,sitting close,wide shot,intimate
+  - 10_lr_006,couple,1girl,1boy,living room,lying on sofa,girl on boy's lap,high angle,from above,relaxed
+  - 10_lr_007,couple,1girl,1boy,living room,watching together,sitting side by side,from behind,comfortable
+
+# ========== シーン6: 親密な時間（距離が近い） ==========
+
+scene_intimate_moment:
+  - 10_in_001,1girl,living room,sitting on sofa,leaning forward,pov,sitting close
+  - 10_in_002,1girl,couch,sitting,leaning closer,close-up,face focus,intimate distance
+  - 10_in_003,1girl,room interior,standing,touching hair nervously,cowboy shot,shy gesture
+  - 10_in_004,couple,1girl,1boy,living room,embracing,standing close,face to face,dutch angle,romantic
+  - 10_in_005,couple,1girl,1boy,room interior,forehead touch,intimate moment,close-up,tender
+  - 10_in_006,couple,1girl,1boy,living area,about to kiss,faces close,low angle,romantic tension
+  - 10_in_007,couple,1girl,1boy,sofa,girl in boy's arms,sitting on lap,pov angle,intimate
+  - 10_in_008,couple,1girl,1boy,living room,holding each other's face,looking at each other,wide shot,tender moment
+  - 10_in_009,couple,1girl,1boy,room interior,back hug,standing,cowboy shot,affectionate
+  - 10_in_010,couple,1girl,1boy,bed,lying down together,cuddling,high angle,from above,intimate
+
+# ========== シーン7: 入浴（脱衣からシャワーまで） ==========
+
+scene_bathroom_bathing:
+  - 10_bt_001,1girl,bathroom,standing by door,cowboy shot,nervous pose
+  - 10_bt_002,1girl,bathroom,removing top,undressing,over shoulder,looking back,undressing pose
+  - 10_bt_003,1girl,bathroom,standing,covering chest with arm,low angle,shy pose
+  - 10_bt_004,1girl,shower,under running water,wet skin,water streaming,dutch angle,showering pose
+  - 10_bt_005,1girl,shower,washing hair,shampoo,wet hair,close-up,face focus,washing pose
+  - 10_bt_006,1girl,shower,rinsing hair,water cascading,from behind,shower flow
+  - 10_bt_007,1girl,shower,leaning against wall,water running down,pov,relaxed pose
+  - 10_bt_008,couple,1girl,1boy,shower,back hug,wet skin,steam,cowboy shot,intimate bathing
+  - 10_bt_009,couple,1girl,1boy,shower,washing each other's back,wide shot,caring moment

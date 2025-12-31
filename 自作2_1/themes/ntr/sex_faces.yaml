@@ -1,0 +1,48 @@
+# NTRテーマ：Sex用表情テンプレート
+# themes/ntr/sex_faces.yaml
+
+# 段階1用: 抵抗と罪悪感
+sex_face_intro_ntr:
+  - reluctant,blush,guilt,looking away,conflicted
+  - arm over eyes,covering face with arm,ashamed,blush,hiding shame
+  - glaring,defiant eyes,anger,resisting,hateful stare
+  - despair,hopeless expression,tears,scared,defeated look
+  - nervous smile,blush,scared,guilty expression,looking away
+
+# 段階2用: 葛藤
+sex_face_moderate_ntr:
+  - conflicted,open mouth,blush,guilty pleasure,looking away
+  - arm over eyes,covering face,moaning despite shame,blush,conflicted
+  - glaring while moaning,defiant but feeling,anger mixed with pleasure
+  - despair pleasure,hopeless,tears,feeling despite self
+  - reluctant pleasure,half-closed eyes,blush,sweat,torn expression
+
+# 段階3用: 快楽に負け始める
+sex_face_intense_ntr:
+  - losing control,open mouth wide,guilty pleasure,drooling
+  - ahegao,o-shaped mouth,wide eyes,pleasure overwhelming guilt
+  - giving in,head back,mouth open in o,corrupted expression
+  - conflicted pleasure,half-closed eyes,drooling,sweat,surrender
+
+# 段階4用: 完全に堕ちる絶頂
+sex_face_extreme_ntr:
+  - tongue out long,corrupted,wide eyes,completely fallen,trembling
+  - tongue out long,((head back:1.5)),ahegao,o-shaped mouth,mind break,corrupted
+  - tongue out long,ahegao,mouth wide open in o,betrayal pleasure,lost to lust
+  - tongue out long,o-shaped mouth,eyes rolled back,corrupted expression
+
+# 段階5用: 背徳の絶頂中だし
+sex_face_creampie_ntr:
+  - tongue out long,((head back:1.5)),ahegao,o-shaped mouth,corrupted orgasm,mind break
+  - tongue out long,ahegao,mouth wide open in o,cheating climax,lost control
+  - tongue out long,((head back:1.5)),o-shaped mouth,ultimate betrayal,corrupted pleasure
+  - tongue out long,ahegao,eyes rolled back,mouth in o,betrayal climax
+
+# 段階6用: 罪悪感と満足の事後
+sex_face_after_ntr:
+  - head back,tongue out,exhausted,guilty afterglow,ashamed
+  - head back,tongue out,ahegao afterglow,o-shaped mouth,corrupted satisfaction
+  - head back,tongue out,dazed,mouth open in o,regret mixed with satisfaction
+  - head back,tongue out,satisfied but guilty,exhausted,conflicted
+
+

@@ -1,0 +1,47 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - sex (本番＆事後)
+# ラブホテルでの情熱的で愛情溢れるセックス
+
+# サブカテゴリ定義 - ラブラブな本番
+sex_love:
+  - gentle insertion,loving union,tender beginning,slow penetration,affectionate start,romantic connection,emotional intimacy
+  - deep kissing during sex,loving embrace,tender rhythm,passionate connection,romantic synchronization
+
+sex_passion:
+  - increasing intensity,passionate thrusts,loving abandon,rhythmic movements,emotional engagement,romantic fervor,deep connection
+  - multiple positions,passionate exploration,loving experimentation,intense pleasure,romantic intensity
+
+sex_connection:
+  - deep eye contact during sex,loving communication,tender moans,passionate feedback,emotional bond,romantic unity,complete connection
+  - synchronous pleasure,loving reactions,passionate responses,emotional intimacy,ultimate connection
+
+sex_satisfaction:
+  - approaching climax,loving peak,passionate culmination,intense orgasm together,romantic ecstasy,emotional release,ultimate satisfaction
+  - loving afterglow,tender embraces,satisfied expressions,romantic rest,peaceful contentment,sweet aftermath
+
+# フェーズ別サブリスト
+sex_play_intro:
+  # scene_25-26: 本番開始（night）
+  - 40_sss001,1girl,mature woman,love hotel bed,night,gentle union,1boy,hetero,__自作2_1/love_hotel_milf/sex_love__,__自作2_1/love_hotel_milf/sex_connection__,loving start,slow and tender
+  - 40_sss002,1girl,mature woman,love hotel room,night,passionate embrace,1boy,hetero,__自作2_1/love_hotel_milf/sex_love__,__自作2_1/love_hotel_milf/sex_connection__,building connection,romantic rhythm
+
+sex_play_mid:
+  # scene_27-28: 本番中盤（night）
+  - 40_sss003,1girl,mature woman,love hotel bed,night,increasing passion,1boy,hetero,__自作2_1/love_hotel_milf/sex_passion__,__自作2_1/love_hotel_milf/sex_connection__,heightened pleasure,loving intensity
+  - 40_sss004,1girl,mature woman,love hotel room,night,deep connection,1boy,hetero,__自作2_1/love_hotel_milf/sex_passion__,__自作2_1/love_hotel_milf/sex_connection__,passionate flow,emotional bond
+
+sex_play_climax:
+  # scene_29: 本番クライマックス（night）
+  - 40_sss005,1girl,mature woman,love hotel bed,night,ultimate pleasure,1boy,hetero,__自作2_1/love_hotel_milf/sex_passion__,__自作2_1/love_hotel_milf/sex_satisfaction__,romantic peak,complete satisfaction
+
+sex_play_after:
+  # scene_30: 事後（night）
+  - 40_sss006,1girl,mature woman,love hotel room,night,loving afterglow,1boy,hetero,__自作2_1/love_hotel_milf/sex_satisfaction__,tender embrace,peaceful contentment
+
+# 統合リスト
+sex_play:
+  - __自作2_1/love_hotel_milf/sex_play_intro__
+  - __自作2_1/love_hotel_milf/sex_play_mid__
+  - __自作2_1/love_hotel_milf/sex_play_climax__
+  - __自作2_1/love_hotel_milf/sex_play_after__
+
+

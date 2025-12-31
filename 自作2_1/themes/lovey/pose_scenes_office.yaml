@@ -1,0 +1,74 @@
+# ラブラブテーマ用ポーズプロンプト - オフィス・職場系シーン
+# pose_scenes_office.yaml
+# 使用対象：オフィスラブ、職場恋愛、秘密の関係系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: オフィス・勤務中 ==========
+
+scene_office_work:
+  - 10_of_001,1girl,office,sitting at desk,working on computer,low angle,from below,professional
+  - 10_of_002,1girl,office,standing,holding documents,cowboy shot,office attire
+  - 10_of_003,1girl,office,talking on phone,close-up,face focus,work scene
+  - 10_of_004,1girl,office,standing by window,taking break,from behind,contemplative
+  - 10_of_005,couple,1girl,1boy,office,talking at desk,over shoulder,pov,work interaction
+  - 10_of_006,couple,1girl,1boy,office,passing documents,close proximity,dutch angle,subtle tension
+
+# ========== シーン2: 会議室・応接室 ==========
+
+scene_meeting_room:
+  - 10_mt_001,1girl,conference room,sitting at table,high angle,from above,meeting scene
+  - 10_mt_002,1girl,meeting room,standing by whiteboard,cowboy shot,presentation scene
+  - 10_mt_003,couple,1girl,1boy,conference room,sitting across table,wide shot,formal scene
+  - 10_mt_004,couple,1girl,1boy,meeting room,standing close,discussing quietly,close-up,secret interaction
+
+# ========== シーン3: 休憩室・給湯室 ==========
+
+scene_break_room:
+  - 10_br_001,1girl,office break room,standing at coffee machine,cowboy shot,break time
+  - 10_br_002,1girl,break room,sitting,holding cup,close-up,face focus,relaxing
+  - 10_br_003,1girl,pantry,leaning against counter,low angle,informal pose
+  - 10_br_004,couple,1girl,1boy,break room,talking at coffee machine,pov angle,casual intimacy
+  - 10_br_005,couple,1girl,1boy,pantry,whispering,very close,dutch angle,secret conversation
+
+# ========== シーン4: 残業・夜のオフィス ==========
+
+scene_office_overtime:
+  - 10_ot_001,1girl,office at night,sitting at desk,tired expression,dim lighting,close-up,late work
+  - 10_ot_002,1girl,office at night,standing by window,looking outside,night view,silhouette,quiet moment
+  - 10_ot_003,1girl,office,sitting,rubbing eyes,exhausted,pov angle,tired scene
+  - 10_ot_004,couple,1girl,1boy,office at night,working late together,alone,wide shot,private atmosphere
+  - 10_ot_005,couple,1girl,1boy,office,standing close,talking quietly,low angle,intimate moment
+  - 10_ot_006,couple,1girl,1boy,office,boy bringing coffee to girl,cowboy shot,caring gesture
+
+# ========== シーン5: エレベーター・階段 ==========
+
+scene_elevator_stairs:
+  - 10_el_001,1girl,elevator,standing inside,dutch angle,confined space
+  - 10_el_002,1girl,stairwell,walking up stairs,low angle,from below,climbing pose
+  - 10_el_003,couple,1girl,1boy,elevator,alone together,close-up,tension,intimate space
+  - 10_el_004,couple,1girl,1boy,stairwell,very close,pov,secret meeting
+  - 10_el_005,couple,1girl,1boy,elevator,doors closing,embracing quickly,wide shot,stolen moment
+
+# ========== シーン6: 個室・社長室・ロッカー室 ==========
+
+scene_private_office:
+  - 10_pr_001,1girl,executive office,sitting on desk edge,cowboy shot,informal pose
+  - 10_pr_002,1girl,private room,standing by bookshelf,over shoulder,looking back,office interior
+  - 10_pr_003,1girl,locker room,changing,pov angle,private space
+  - 10_pr_004,couple,1girl,1boy,private office,standing very close,dutch angle,secret meeting
+  - 10_pr_005,couple,1girl,1boy,private room,door locked,embracing,close-up,hidden romance
+  - 10_pr_006,couple,1girl,1boy,executive office,girl sitting on desk,boy standing close,low angle,intimate scene
+
+# ========== シーン7: 帰宅・駐車場 ==========
+
+scene_leaving_office:
+  - 10_lv_001,1girl,office exit,walking toward exit,wide shot,silhouette,leaving work
+  - 10_lv_002,1girl,parking area,at car,opening door,cowboy shot,departure scene
+  - 10_lv_003,couple,1girl,1boy,parking lot,walking together,from behind,full body,leaving together
+  - 10_lv_004,couple,1girl,1boy,parking area,standing by car,talking,dutch angle,private conversation
+  - 10_lv_005,couple,1girl,1boy,parking lot,embracing,looking around,close-up,secret romance

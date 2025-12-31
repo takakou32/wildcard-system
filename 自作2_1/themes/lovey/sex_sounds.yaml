@@ -1,0 +1,46 @@
+# ラブラブテーマ：Sex用効果音テンプレート
+# themes/lovey/sex_sounds.yaml
+
+# 段階1用: 優しい導入の音
+sex_sound_intro:
+  -   # 効果音なし
+  - soft moan,breathing
+  - light sigh,heavy breathing
+  - quiet moan,breath
+
+# 段階2用: 徐々に激しくの音
+sex_sound_moderate:
+  -   # 効果音なし
+  - moaning,panting
+  - breathing heavily,moan
+  - sfx,sound effects,moaning
+
+# 段階3用: 激しくの音
+sex_sound_intense:
+  -   # 効果音なし
+  - loud moan,panting heavily
+  - moaning loudly,screaming
+  - sfx,sound effects,intense moaning,speech bubble
+
+# 段階4用: のけ反り絶頂の音
+sex_sound_extreme:
+  -   # 効果音なし
+  - screaming,intense moaning,sfx
+  - loud screaming,moaning loudly,speech bubble
+  - orgasmic screaming,sfx,sound effects
+
+# 段階5用: 中だし絶頂の音
+sex_sound_creampie:
+  -   # 効果音なし
+  - intense screaming,climax moan,sfx
+  - screaming loudly,orgasmic sounds,speech bubble
+  - loud orgasmic moan,sfx,sound effects
+
+# 段階6用: 事後の音
+sex_sound_after:
+  -   # 効果音なし
+  - exhausted breathing,gasping
+  - heavy breathing,exhausted sigh
+  - gasping for air,tired breathing
+
+

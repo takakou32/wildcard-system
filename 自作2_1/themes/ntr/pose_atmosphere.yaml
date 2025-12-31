@@ -1,0 +1,28 @@
+# NTRテーマ：Pose用雰囲気テンプレート
+# themes/ntr/pose_atmosphere.yaml
+
+ntr_atmosphere_tense:
+  -   # 雰囲気なし
+  - tense atmosphere,uncomfortable mood
+  - conflicted ambiance,guilty setting
+  - nervous tension,uneasy atmosphere
+
+ntr_atmosphere_guilty:
+  -   # 雰囲気なし
+  - guilty atmosphere,betrayal mood
+  - conflicted setting,cheating ambiance
+  - guilt-ridden atmosphere,unfaithful mood
+
+ntr_atmosphere_corrupting:
+  -   # 雰囲気なし
+  - corrupting atmosphere,losing control
+  - betrayal in progress,falling atmosphere
+  - surrendering mood,corruption setting
+
+ntr_atmosphere_fallen:
+  -   # 雰囲気なし
+  - corrupted atmosphere,mind break setting
+  - completely fallen mood,betrayal complete
+  - corrupted ambiance,lost atmosphere
+
+

@@ -1,0 +1,41 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - bef_sex (前戯)
+# ラブホテルでの愛情溢れる前戯、ロマンティックなビルドアップ
+
+# サブカテゴリ定義 - ラブラブな前戯
+bef_sex_touch:
+  - gentle caressing,loving touches,tender exploration,soft kisses everywhere,affectionate stroking,romantic foreplay,caring attention
+  - passionate kissing,deep embraces,loving massage,tender nipple play,gentle fingering,romantic stimulation
+
+bef_sex_connection:
+  - deep eye contact,loving whispers,tender communication,passionate moans,affectionate responses,romantic connection,emotional intimacy
+  - loving synchronization,tender reactions,passionate feedback,emotional bond strengthening
+
+bef_sex_buildup:
+  - increasing intensity,loving progression,building arousal,passionate stimulation,tender penetration preparation,romantic anticipation
+  - heightened pleasure,loving escalation,intense foreplay,passionate readiness,ultimate buildup
+
+bef_sex_atmosphere:
+  - romantic lighting,love hotel ambiance,colorful mood lighting,luxurious setting,passionate atmosphere,intimate environment
+  - mirror reflections,silk sheets,romantic decor,loving space,intimate sanctuary
+
+# フェーズ別サブリスト
+bef_sex_play_intro:
+  # scene_21-22: 前戯開始（night）
+  - 35_bss001,1girl,mature woman,love hotel bed,night,gently embracing,1boy,hetero,__自作2_1/love_hotel_milf/bef_sex_touch__,__自作2_1/love_hotel_milf/bef_sex_connection__,__自作2_1/love_hotel_milf/bef_sex_atmosphere__,tender kisses,slow exploration
+  - 35_bss002,1girl,mature woman,love hotel room,night,lying together,1boy,hetero,__自作2_1/love_hotel_milf/bef_sex_touch__,__自作2_1/love_hotel_milf/bef_sex_connection__,__自作2_1/love_hotel_milf/bef_sex_atmosphere__,whispered affection,gentle touches
+
+bef_sex_play_mid:
+  # scene_23: 前戯中盤（night）
+  - 35_bss003,1girl,mature woman,love hotel bed,night,passionate embrace,1boy,hetero,__自作2_1/love_hotel_milf/bef_sex_touch__,__自作2_1/love_hotel_milf/bef_sex_connection__,__自作2_1/love_hotel_milf/bef_sex_buildup__,rising passion,loving exploration
+
+bef_sex_play_climax:
+  # scene_24: 前戯クライマックス（night）
+  - 35_bss004,1girl,mature woman,love hotel room,night,ultimate intimacy,1boy,hetero,__自作2_1/love_hotel_milf/bef_sex_touch__,__自作2_1/love_hotel_milf/bef_sex_connection__,__自作2_1/love_hotel_milf/bef_sex_buildup__,passionate peak,loving readiness
+
+# 統合リスト
+bef_sex_play:
+  - __自作2_1/love_hotel_milf/bef_sex_play_intro__
+  - __自作2_1/love_hotel_milf/bef_sex_play_mid__
+  - __自作2_1/love_hotel_milf/bef_sex_play_climax__
+
+

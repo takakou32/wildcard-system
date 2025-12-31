@@ -1,0 +1,165 @@
+# 場所バリエーション（全テーマ共通）
+# pose_places.yaml
+
+# ========== 屋外の場所 ==========
+
+place_outdoor_supermarket:
+  - supermarket,grocery store,shopping area
+  - supermarket interior,store aisles,retail space
+  - supermarket,shopping environment
+
+place_outdoor_park:
+  - park,outdoor,public space,greenery
+  - park area,green space,outdoors
+  - park,natural setting
+
+place_outdoor_department_store:
+  - department store,shopping mall,indoor mall
+  - department store interior,shopping area
+  - shopping mall,retail space
+
+place_outdoor_street:
+  - residential street,neighborhood,outdoors
+  - street,walking path,suburban area
+  - residential area,quiet street
+
+place_outdoor_station:
+  - train station,station platform,public space
+  - station area,transit hub
+  - train station,railway station
+
+place_outdoor_night_street:
+  - night street,city night,urban night,illuminated buildings,neon lights
+  - night cityscape,urban nightlife,downtown area,evening atmosphere
+  - city street at night,metropolitan area,night scene,bright lights
+
+place_outdoor_taxi_interior:
+  - taxi interior,car interior,vehicle cabin,passenger seat
+  - taxi cab interior,automotive interior,car backseat,transportation
+  - taxi interior space,vehicle passenger area,moving car,car cabin
+
+# ビーチ関連（屋外）
+place_beach:
+  - sandy beach,beach shore,seaside,sand and water
+  - beach area,coastal shore,sandy coast,beach environment
+  - beach,seaside location,sandy beach,ocean view
+
+place_beach_house:
+  - beach house,seaside hut,beach shack,coastal cabin
+  - beach house interior,seaside dwelling,coastal retreat
+  - beach hut,seaside house,coastal accommodation
+
+place_shower_room:
+  - beach shower,open shower,outdoor shower facility
+  - beach shower area,outdoor shower stall,coastal shower
+  - outdoor shower,beach shower room,shower facility
+
+place_beach_changing_room:
+  - beach changing room,wooden changing room
+  - beach changing room,concrete changing room
+  - beach locker room,beach locker room
+  - beach facilities,beach facilities
+  - beach restroom area,beach restroom area
+  - beach changing area,beach changing area
+  - beach shower stall,beach shower stall
+  - beach changing booth,beach changing booth
+
+# ========== 玄関・入口 ==========
+
+place_entrance_home:
+  - entrance,front door,doorway,home entrance
+  - entryway,home entrance,foyer
+  - entrance area,doorstep,home entry
+
+place_entrance_hallway:
+  - hallway,corridor,entrance hall
+  - hallway interior,home corridor
+  - entrance hallway,passage
+
+# ========== 室内（自宅） ==========
+
+place_home_kitchen:
+  - kitchen,cooking area,domestic kitchen
+  - kitchen interior,home kitchen,cooking space
+  - kitchen,food preparation area
+
+place_home_dining_room:
+  - dining room,dining area,eating space
+  - dining room interior,dinner table,dining space
+  - dining area,meal setting
+
+place_home_living_room:
+  - living room,sitting area,lounge
+  - living room interior,sofa area,comfortable space
+  - living room,family room
+
+place_home_bedroom:
+  - bedroom,sleeping area,private room
+  - bedroom interior,bed area
+  - bedroom,personal space
+
+place_home_bathroom:
+  - bathroom,washroom,bathing area
+  - bathroom interior,private bathroom,wash area
+  - bathroom,bathing space
+
+place_home_shower:
+  - shower stall,shower area,bathing space
+  - shower,running water,shower interior,wet area
+  - shower stall,shower space
+
+# ========== ホテル ==========
+
+place_hotel_lobby:
+  - hotel lobby,entrance hall,reception area
+  - hotel interior,lobby space
+  - hotel lobby,welcoming area
+
+place_hotel_room:
+  - hotel room,guest room,private room
+  - hotel room interior,accommodation space
+  - hotel room,bedroom area
+
+place_hotel_corridor:
+  - hotel corridor,hallway,hotel hallway,elegant passage
+  - hotel corridor interior,luxury hallway,carpeted corridor
+  - hotel hallway,private corridor,hotel passage,luxurious space
+
+place_hotel_bathroom:
+  - hotel bathroom,private bathroom,luxury bath
+  - hotel bathroom interior,bathing area
+  - hotel bathroom,wash area
+
+# ========== 温泉旅館 ==========
+
+place_onsen_street:
+  - onsen town,hot spring town,japanese hot spring village,traditional town
+  - onsen street,hot spring district,cobbled street,japanese architecture
+  - onsen area,hot spring town,traditional japanese town,rustic atmosphere
+
+place_ryokan_dining:
+  - japanese dining room,ryokan dining hall,traditional tatami room,low table
+  - ryokan dining area,kaiseki meal setting,traditional japanese interior
+  - traditional dining room,tatami floor,japanese atmosphere,elegant setting
+
+place_ryokan_room:
+  - ryokan room,traditional japanese room,tatami mat room,fusuma sliding doors
+  - ryokan guest room,japanese style room,traditional accommodation,tatami flooring
+  - ryokan room,traditional japanese bedroom,elegant tatami room,shoji screens
+
+place_onsen:
+  - onsen,hot spring,indoor bath,steamy atmosphere
+  - onsen interior,hot spring bath,warm water
+  - onsen,traditional japanese bath,steam rising
+
+place_outdoor_bath:
+  - outdoor bath,rotenburo,open-air hot spring,nature view
+  - outdoor onsen,open-air bath,scenic view,night sky
+  - rotenburo,outdoor hot spring,starry sky,romantic atmosphere
+
+place_onsen_changing_room:
+  - changing room,dressing room,onsen entrance
+  - changing area,private space,onsen preparation
+  - dressing room,bathing preparation area
+
+

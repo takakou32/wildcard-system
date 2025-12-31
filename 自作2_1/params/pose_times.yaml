@@ -1,0 +1,88 @@
+# 時系列バリエーション（全テーマ共通）
+# pose_times.yaml
+
+# ========== 時間帯 ==========
+
+time_early_morning:
+  - early morning,dawn,sunrise,first light
+  - early morning,pre-sunrise,breaking dawn
+  - early morning,daybreak
+
+time_morning:
+  - morning,bright morning light,morning sun
+  - morning,clear morning,fresh morning
+  - morning,morning hours
+
+time_late_morning:
+  - late morning,mid-morning,bright daylight
+  - late morning,approaching noon
+  - late morning,morning sunshine
+
+time_noon:
+  - noon,midday,bright daylight,high sun
+  - noon,midday sun,peak daylight
+  - noon,noontime
+
+time_afternoon:
+  - afternoon,daytime,warm afternoon light
+  - afternoon,bright afternoon,afternoon sun
+  - afternoon,mid-afternoon
+
+time_late_afternoon:
+  - late afternoon,golden afternoon,warm light
+  - late afternoon,approaching evening
+  - late afternoon,afternoon glow
+
+time_evening:
+  - evening,dusk,golden hour,sunset
+  - evening,twilight,dim lighting
+  - evening,early evening
+
+time_night:
+  - night,dark,night lighting,nighttime
+  - night,moonlight,late evening
+  - night,dim indoor lighting
+
+time_late_night:
+  - late night,deep night,midnight
+  - late night,very dark,midnight hours
+  - late night,after midnight
+
+# ========== 天候・季節（オプション） ==========
+
+weather_clear:
+  - clear weather,sunny,bright
+  - clear sky,pleasant weather
+  - clear,good weather
+
+weather_cloudy:
+  - cloudy,overcast,soft light
+  - cloudy sky,diffused light
+  - cloudy,grey sky
+
+weather_rainy:
+  - rainy,rain,wet,water droplets
+  - rainy weather,rainfall
+  - rain,rainy day
+
+season_spring:
+  - spring,springtime,cherry blossoms
+  - spring season,fresh green
+  - spring,mild weather
+
+season_summer:
+  - summer,hot,bright sun
+  - summer season,warm weather
+  - summer,summertime
+
+season_autumn:
+  - autumn,fall,fallen leaves,warm colors
+  - autumn season,fall colors
+  - autumn,fall foliage
+
+season_winter:
+  - winter,cold,winter season
+  - winter,chilly,winter weather
+  - winter,wintertime
+
+

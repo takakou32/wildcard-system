@@ -1,0 +1,48 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - fellatio
+# ラブラブで甘い雰囲気のフェラチオ
+
+# サブカテゴリ定義 - ラブホテルでの愛情溢れるフェラチオ
+fella_approach:
+  - gentle lip kiss on tip,loving approach,tender beginning,affectionate touch,soft kisses leading down,playful teasing,eye contact maintained
+  - sweet licking,loving gaze upward,tender exploration,gentle tongue movements,affectionate attention,romantic foreplay
+
+fella_technique:
+  - slow sensual sucking,loving rhythm,tender technique,gentle mouth movements,passionate engagement,caring attention,eye contact
+  - affectionate licking and sucking,loving devotion,gentle deep throat attempt,tender service,romantic intensity
+
+fella_intensity:
+  - increasing passion,loving fervor,building intensity,rhythmic sucking,passionate technique,devoted service,intense eye contact
+  - deep passionate sucking,loving abandon,powerful technique,devoted attention,romantic climax approaching
+
+fella_emotion:
+  - loving expression,passionate gaze,tender devotion,affectionate smile,romantic atmosphere,caring attention,sweet surrender
+  - passionate dedication,loving focus,tender emotion,devoted expression,romantic intensity,affectionate service
+
+fella_vacuum:
+  - <lora:Vacuum felaltio-000009:1>
+
+# フェーズ別サブリスト
+fella_play_intro:
+  # scene_13-16: フェラ開始（night）
+  - 20_fss001,1girl,mature woman,love hotel bed,night,gentle approach,1boy,hetero,loving atmosphere,__自作2_1/love_hotel_milf/fella_approach__,__自作2_1/love_hotel_milf/fella_technique__,__自作2_1/love_hotel_milf/fella_emotion__,soft kisses first,silk sheets
+  - 20_fss002,1girl,mature woman,love hotel room,night,kneeling position,1boy,hetero,passionate gaze,__自作2_1/love_hotel_milf/fella_approach__,__自作2_1/love_hotel_milf/fella_technique__,__自作2_1/love_hotel_milf/fella_emotion__,light licking,mood lighting
+  - 20_fss003,1girl,mature woman,love hotel bed,night,sitting comfortably,1boy,hetero,loving eye contact,__自作2_1/love_hotel_milf/fella_approach__,__自作2_1/love_hotel_milf/fella_technique__,__自作2_1/love_hotel_milf/fella_emotion__,gentle sucking,romantic atmosphere
+  - 20_fss004,1girl,mature woman,love hotel room,night,bedside position,1boy,hetero,tender gaze,__自作2_1/love_hotel_milf/fella_approach__,__自作2_1/love_hotel_milf/fella_technique__,__自作2_1/love_hotel_milf/fella_emotion__,building passion,colorful lighting
+
+fella_play_mid:
+  # scene_17-18: フェラ中盤（night）
+  - 20_fss005,1girl,mature woman,love hotel bed,night,more passionate,1boy,hetero,deep engagement,__自作2_1/love_hotel_milf/fella_intensity__,__自作2_1/love_hotel_milf/fella_emotion__,rhythmic sucking,loving energy
+  - 20_fss006,1girl,mature woman,love hotel room,night,intimate moment,1boy,hetero,eye contact maintained,__自作2_1/love_hotel_milf/fella_intensity__,__自作2_1/love_hotel_milf/fella_emotion__,creative stimulation,romantic passion
+
+fella_play_climax:
+  # scene_19-20: フェラクライマックス（night）- vacuum LoRA使用
+  - 20_fss007,__自作2_1/love_hotel_milf/fella_vacuum__,1girl,mature woman,love hotel bed,night,ultimate pleasure,1boy,hetero,loving climax,__自作2_1/love_hotel_milf/fella_intensity__,__自作2_1/love_hotel_milf/fella_emotion__,intense vacuum,loving devotion
+  - 20_fss008,__自作2_1/love_hotel_milf/fella_vacuum__,1girl,mature woman,love hotel room,night,passionate peak,1boy,hetero,complete surrender,__自作2_1/love_hotel_milf/fella_intensity__,__自作2_1/love_hotel_milf/fella_emotion__,ultimate affection,vacuum technique perfection
+
+# 統合リスト
+fella_play:
+  - __自作2_1/love_hotel_milf/fella_play_intro__
+  - __自作2_1/love_hotel_milf/fella_play_mid__
+  - __自作2_1/love_hotel_milf/fella_play_climax__
+
+

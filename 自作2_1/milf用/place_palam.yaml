@@ -1,0 +1,56 @@
+# pose_param.yaml
+place_room:
+  #- ((on sofa))tv,,window,(Modern  Furniture:1.2),picture,bookshelf,
+  #- ((on chair))class room,desk,,window,
+  #- space,space ship,window,in door
+  #- flat room, wall,bed,,space ship
+  #- ((on bed)),room,,window,furniture,bookshlf
+  #- hospital,on bed,medical equipment
+  - ((on bed)),old room,(old,traditional,1600's europe room:1.5),traditional europe room,
+  #- ((on bed)),furniture,china,chinese room
+  #- on bed,hotel room,cinematic lighting, 
+  #- ((on bed)), hotel room,,
+  #- on bed,red bed,pink hotel room,,natural light,cinematic lighting, bloom,Tyndall effect
+  #- on bed,hotel room,natural light,cinematic lighting, bloom,Tyndall effect
+  #- outdoor,beach,on blanket
+  #- onsen,steam
+  #- beach,sea
+  #- tatami,futon, 
+  #- ((japanese room,,shogatsu)),window(japanese  Furniture:1.2),futon,,(bathrobe:1.8)
+  #- ((japanese room,,shogatsu)),(japanese  Furniture:1.2),
+  #- ((on sofa)),europe room,picture,bookshelf,
+  #- ((on futon)),bed room,futon,japanese ,shogatsu,window(japanese  Furniture:1.2)
+  #- japanese room,japanese ,shogatsu,window(japanese  Furniture:1.2),tatami,laxuary ,futon
+  #- china room, ,,(china Furniture:1.2),,laxuary ,futon
+  #- tatami,futon,laundry,Folded clothes,messy room
+  
+  #- beach,sea,
+  #- (shower room,bath,steam,shower \(place\), bath, :1)
+  #- (onsen,:1.1)
+  #- ((((1girl)))on chair,))tv,window(Modern  Furniture:1.2)
+  #- ((((1girl)))on sofa,))tv,,window(Modern  Furniture:1.2)
+  #- ((((1girl)))on floor,))tv,,window(Modern  Furniture:1.2)
+  #- kitchen,table, 
+ 
+  #- sofa,living room,window,apartment, room,
+  #- tatami,futon,laundry,{Folded clothes|},messy room
+  #- ,living room,sofa,window,plant,tv,plate,coffee,
+  
+place_outdoor:
+  #- ((outdoor ,street,,park,pond))
+  #- ((outdoor ,american modern style house,door,))
+  #- ((outdoor ,american modern style shop,street,door,))
+  - ()
+place_beach:
+  - beach,sea
+  
+place_lighting:
+  #- evening,((Tyndall effect,cinematic lighting, bloom,,natural light)),dappled sunlight
+  #- ((dark room,,cinematic lighting,natural light))
+  #- ((dark room,,cinematic lighting))
+  #- cinematic lighting  
+  - dark room,((Tyndall effect,cinematic lighting, bloom,night,natural light,)),
+  #- ((Tyndall effect,cinematic lighting,day ,bloom,,natural light)),dappled sunlight
+  #- ((Tyndall effect,cinematic lighting, bloom,night,natural light)),dappled sunlight
+  #- ((cinematic lighting,day,tyndall effect,natulal light,sunshine,sun))
+  #- ((cinematic lighting,,tyndall effect,natulal light))

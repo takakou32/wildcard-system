@@ -1,0 +1,38 @@
+# キャラクター定義：男性タイプ（全テーマ共通）
+# character_male_type.yaml
+
+# ========== 基本男性タイプ ==========
+
+male_type_default:
+  - faceless male
+
+male_type_dark_skin:
+  - faceless male,dark-skinned male,tanned male
+
+male_type_shota:
+  - faceless male,shota,young boy
+
+male_type_muscular:
+  - faceless male,muscular male,male abs,veiny arms
+
+male_type_old:
+  - faceless male,old man,middle-aged male
+
+# ========== NTR用（より強調版） ==========
+
+male_type_ntr_default:
+  - faceless male
+
+male_type_ntr_dark_muscular:
+  - faceless male,dark-skinned male,tanned male,muscular
+
+male_type_ntr_shota:
+  - faceless male,shota,young boy
+
+male_type_ntr_muscular:
+  - faceless male,muscular male,male abs,veiny arms,intimidating
+
+male_type_ntr_old:
+  - faceless male,old man,middle-aged male,ugly man
+
+

@@ -1,0 +1,36 @@
+# Theme: ラブホテルでの人妻とのラブラブ逢瀬 - place & lighting (time_phase別)
+# ラブホテルの豪華でロマンティックな雰囲気
+
+# time_phase: evening (scene_01-12)
+place_love_hotel_entrance:
+  - 60_p001,love hotel entrance,evening,discreet building facade,neon signs,romantic atmosphere,urban setting,colorful mood lighting,couples entering
+  - 60_p002,love hotel entry area,evening,automatic doors,private entrance,modern design,romantic ambiance,welcoming atmosphere
+
+place_love_hotel_lobby:
+  - 60_p003,love hotel lobby,evening,luxurious reception desk,colorful mood lighting,modern decor,discreet service,romantic atmosphere,plush seating
+  - 60_p004,love hotel reception area,evening,automated check-in system,privacy screens,stylish furnishings,mood lighting,comfortable ambiance
+
+place_love_hotel_corridor:
+  - 60_p005,love hotel corridor,evening,carpeted hallway,room number displays,colorful lighting,modern fixtures,romantic atmosphere,private passage
+  - 60_p006,love hotel hallway,evening,themed corridor,mood lighting,decorative walls,numbered doors,luxurious ambiance
+
+# time_phase: evening/night (scene_06-30)
+place_love_hotel_room:
+  - 60_p007,love hotel room,evening,large round bed,mirror walls,colorful mood lighting,luxurious furnishings,romantic atmosphere,silk sheets
+  - 60_p008,love hotel suite,evening,king size bed,mirror ceiling,mood lighting controls,modern amenities,romantic decor,comfortable space
+  - 60_p009,love hotel room,night,themed interior,large bed,mirror reflections,adjustable lighting,luxurious ambiance,intimate sanctuary
+  - 60_p010,love hotel suite,night,romantic setting,plush bed,mirrored walls,soft illumination,passionate atmosphere,private paradise
+
+place_love_hotel_view:
+  - 60_p011,city view from love hotel,evening,urban skyline,night lights,large windows,romantic outlook,modern architecture,intimate view
+  - 60_p012,love hotel window view,night,city lights below,distant traffic,illuminated streets,romantic vista,private perspective
+
+# lighting別 - ラブホテルの照明
+place_lighting_evening:
+  - 60_p013,evening love hotel lighting,colorful mood lights,adjustable controls,romantic ambiance,modern fixtures,warm illumination
+  - 60_p014,love hotel evening ambiance,soft colored lighting,mood settings,romantic atmosphere,comfortable glow
+
+place_lighting_night:
+  - 60_p015,night love hotel lighting,intimate mood lights,adjustable colors,romantic glow,soft shadows,passionate atmosphere
+  - 60_p016,love hotel night ambiance,colorful illumination,dimmed lighting,romantic intensity,intimate glow,warm tones
+

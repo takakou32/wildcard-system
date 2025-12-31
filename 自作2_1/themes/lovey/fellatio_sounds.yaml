@@ -1,0 +1,60 @@
+# ラブラブテーマ：Fellatio用効果音テンプレート
+# themes/lovey/fellatio_sounds.yaml
+
+# 段階1用: 愛撫と導入の音
+fellatio_sound_intro:
+  -   # 効果音なし
+  - soft breath,breathing
+  - light sigh,heavy breathing
+  - quiet breath,kissing sound
+
+# 段階2用: ペニスキスと舐めの音
+fellatio_sound_start:
+  -   # 効果音なし
+  - licking sound,wet sounds
+  - saliva sounds,breathing
+  - sfx,kissing sounds,wet
+
+# 段階3用: 優しいフェラチオの音
+fellatio_sound_moderate:
+  -   # 効果音なし
+  - slurping,wet sounds
+  - sucking sounds,breathing heavily
+  - sfx,sound effects,wet sounds
+
+# 段階4用: 激しいフェラチオの音
+fellatio_sound_intense:
+  -   # 効果音なし
+  - loud slurping,wet sounds
+  - intense sucking sounds,saliva
+  - sfx,sound effects,intense wet sounds,speech bubble
+
+# 段階5用: 喉奥・絶頂の音
+fellatio_sound_climax:
+  -   # 効果音なし
+  - gagging sounds,intense slurping,sfx
+  - throat sounds,wet sounds,speech bubble
+  - choking sounds,sfx,sound effects
+
+# 段階6用: フィニッシュ（射精）の音
+fellatio_sound_finish:
+  -   # 効果音なし
+  - gulping sounds,wet sounds,sfx
+  - swallowing sounds,speech bubble
+  - cum sounds,sfx,sound effects
+
+# 段階7用: 事後の音
+fellatio_sound_after:
+  -   # 効果音なし
+  - exhausted breathing,gasping
+  - heavy breathing,satisfied sigh
+  - gasping for air,content breathing
+
+# 段階8用: 余韻（特殊プレイ）の音
+fellatio_sound_extra:
+  -   # 効果音なし
+  - licking sounds,wet sounds
+  - slurping,breathing heavily
+  - sfx,sound effects,intense sounds
+
+

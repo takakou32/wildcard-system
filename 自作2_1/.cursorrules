@@ -1,0 +1,296 @@
+# =============================================================================
+# 🚨 ABSOLUTE PRIORITY RULE - READ THIS FIRST 🚨
+# =============================================================================
+
+## When user mentions: "新しいテーマ", "テーマ作成", "テーマを作る", or provides a theme name
+
+### 🎯 FIRST RESPONSE (MANDATORY):
+Respond with EXACTLY this:
+```
+了解しました。新しいテーマを作成します。
+
+ルールに従って、5つの質問を一つずつ行います。
+それでは質問1から始めます。
+```
+
+Then immediately proceed to QUESTION 1.
+
+### ⛔ FORBIDDEN ACTIONS (DO NOT DO THESE):
+1. ❌ Creating folders or files immediately
+2. ❌ Asking about existing folders (e.g., "new_theme")
+3. ❌ Skipping the 5-question interview
+4. ❌ Asking multiple questions at once
+5. ❌ Asking unrelated questions
+
+### ✅ MANDATORY ACTION:
+**Ignore all existing files and folders.**
+**Start the 5-question interview immediately.**
+**Ask ONE question at a time.**
+**Wait for answer before next question.**
+
+---
+
+## THE 5-QUESTION INTERVIEW (MANDATORY - DO NOT SKIP)
+
+### QUESTION 1 OF 5: Theme Base
+```
+どのテーマベースを使いますか？
+
+1. ラブラブ (lovey)
+2. 寝取られ (ntr)
+
+数字で答えてください（1または2）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+---
+
+### QUESTION 2 OF 5: Theme Type (Scene Library Selection)
+```
+テーマのタイプを選んでください（使用するシーンライブラリを決定します）
+
+1. 日常系（自宅、街、ショッピング、公園など）
+2. 温泉・旅館系（温泉、露天風呂、旅館など）
+3. ビーチ・リゾート系（海、ビーチ、プールなど）
+4. オフィス・職場系（会社、事務所など）
+
+数字で答えてください（1〜4）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+**Note:** This selection determines which scene library to use:
+- 1 (日常系) → `themes/lovey/pose_scenes_daily.yaml`
+  - 9種類のシーン：ショッピング、公園、街歩き、帰宅、料理、食事、リビング、親密、入浴
+- 2 (温泉・旅館) → `themes/lovey/pose_scenes_onsen.yaml`
+  - 7種類のシーン：旅館到着、客室、温泉街、食事処、脱衣所、温泉、露天風呂
+- 3 (ビーチ・リゾート) → `themes/lovey/pose_scenes_beach.yaml`
+  - 6種類のシーン：ビーチ到着、活動、カフェ、更衣室、夕暮れ、リゾート客室
+- 4 (オフィス・職場) → `themes/lovey/pose_scenes_office.yaml`
+  - 7種類のシーン：オフィス勤務、会議室、休憩室、残業、エレベーター、個室、帰宅
+
+---
+
+### QUESTION 3 OF 5: Theme Name  
+```
+テーマの名前を教えてください
+
+例：「温泉旅館で彼女と一夜」
+
+テーマ名を入力してください
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+---
+
+### QUESTION 4 OF 5: Time Flow
+```
+時系列の変化はありますか？
+
+1. あり
+2. なし
+
+数字で答えてください（1または2）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+**If answer is "1", ask these sub-questions:**
+
+```
+開始時間を選んでください
+
+1. time_early_morning (早朝)
+2. time_morning (朝)
+3. time_late_morning (午前中)
+4. time_noon (正午)
+5. time_afternoon (午後)
+6. time_late_afternoon (夕方)
+7. time_evening (夕暮れ)
+8. time_night (夜)
+9. time_late_night (深夜)
+
+数字で答えてください（1〜9）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+```
+終了時間を選んでください（同じ選択肢）
+
+数字で答えてください（1〜9）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+---
+
+### QUESTION 5 OF 5: Male Character Type & Sex Location
+```
+男性キャラクターのタイプを選んでください
+
+1. デフォルト (faceless male)
+2. 黒肌チャラ男 (dark-skinned male, tanned male)
+3. ショタ (shota, young boy)
+4. 筋肉質 (muscular male, abs)
+5. おっさん (old man, middle-aged male)
+
+数字で答えてください（1〜5）
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+**After male type, ask for sex location:**
+```
+Sex用の場所を教えてください
+
+利用可能な共通場所：
+- home_bedroom (自宅寝室)
+- home_living_room (自宅リビング)
+- bathroom (浴室)
+- hotel_room (ホテル客室)
+- ryokan_room (旅館客室)
+- car (車内)
+- beach (ビーチ)
+- office (オフィス)
+
+カスタム場所も可能
+
+場所を入力してください
+```
+**STOP HERE. WAIT FOR ANSWER.**
+
+---
+
+## AFTER ALL 5 QUESTIONS: Show Confirmation
+
+```
+📋 入力内容の確認
+
+- テーマ名: [name]
+- ベース: [lovey/ntr]
+- テーマタイプ: [daily/onsen/beach/office]
+- 時系列: [details]
+- 男性タイプ: [type]
+- Sex場所: [location]
+
+この内容で作成してよろしいですか？
+
+1. OK - シーンフロー提案に進む
+2. 修正
+
+数字で答えてください（1または2）
+```
+
+**ONLY AFTER USER ANSWERS "1"**: Proceed to Scene Flow Proposal.
+
+---
+
+## Scene Flow Proposal (After Confirmation)
+
+Based on user input, propose a scene flow using the selected scene library:
+
+```
+【シーンフロー】
+
+Scene 01: [time] - [scene from library]
+Scene 02: [time] - [scene from library]
+Scene 03: [time] - [scene from library]
+...
+
+この流れでOKですか？
+
+1. OK - ファイル作成開始
+2. 修正
+
+数字で答えてください（1または2）
+```
+
+**Important:**
+- Include 7-10 scenes for pose_play
+- Select appropriate scenes from the chosen library
+- Follow time progression if specified
+- Each scene will get sequential number (01, 02, 03...)
+
+**ONLY AFTER USER APPROVES SCENE FLOW**: Proceed to File Creation.
+
+---
+
+## File Creation (After Scene Flow Approval)
+
+Create these files in `自作2_1/[テーマ名]/`:
+- theme.txt
+- config.yaml (comment only, include scene flow)
+- pose_play.yaml (with sequential scene numbers: 01_, 02_, 03_...)
+- sex_play.yaml
+- main.yaml
+- README.md
+
+**重要：pose_play.yaml の構造**
+
+```yaml
+# Pose用シーン定義（[テーマ名]）
+
+# シーン1: [説明]
+pose_scene1_[name]:
+  - 01_[cc]_001,__自作2_1/params/outfit_[xxx]__,__自作2_1/themes/[base]/[scene_name]__,__自作2_1/params/time_[xxx]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+
+pose_play:
+  - __自作2_1/[テーマ名]/pose_scene1_[name]__
+  - __自作2_1/[テーマ名]/pose_scene2_[name]__
+  ...
+```
+
+**構成要素：**
+- 連番：`01_[cc]_001`（SS_CC_NNN形式）
+- 服装：`__自作2_1/params/outfit_[xxx]__`（自動選択）
+- シーン：`__自作2_1/themes/[base]/pose_scenes_[type]/scene_[name]__`
+- 時間：`__自作2_1/params/time_[xxx]__`
+- 表情：`__自作2_1/themes/[base]/[face]__`
+- 雰囲気：`__自作2_1/themes/[base]/[atmosphere]__`
+
+**服装の自動選択ルール（scene_outfit_mapping.md参照）：**
+- ショッピング、外出 → `outfit_casual_day`
+- 料理 → `outfit_house_with_apron`
+- 自宅 → `outfit_house_clothes`
+- 入浴 → `outfit_nude`
+- 旅館到着 → `outfit_casual_day`
+- 旅館客室、温泉街 → `outfit_yukata`
+- 温泉、露天風呂 → `outfit_nude`
+- ビーチ活動 → `outfit_swimsuit`
+- ビーチカフェ → `outfit_casual_day`
+- リゾート客室 → `outfit_house_clothes`
+- オフィス → `outfit_business`
+
+**重要：sex_play.yaml の構造**
+
+```yaml
+# Sex用プレイリスト（[テーマ名]）
+
+sex_play:
+  - __自作2_1/themes/[base]/sex_intro_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_moderate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_intense__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_extreme__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_creampie__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_after__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+```
+
+**重要：themes参照時の注意**
+- ❌ 間違い: `__自作2_1/themes/lovey/pose_faces_casual__`
+- ✅ 正しい: `__自作2_1/themes/lovey/lovey_face_casual__`
+- ファイル名ではなく、ファイル内のキー名を参照すること！
+
+**loveyテーマのキー名一覧:**
+- 表情: `lovey_face_casual`, `lovey_face_intimate`, `lovey_face_bathing_prep`, `lovey_face_bathing`
+- 雰囲気: `lovey_atmosphere_casual`, `lovey_atmosphere_cozy`, `lovey_atmosphere_romantic`, `lovey_atmosphere_steamy`
+
+**ntrテーマのキー名一覧:**
+- 表情: `ntr_face_reluctant`, `ntr_face_conflicted`, `ntr_face_giving_in`, `ntr_face_corrupted`
+- 雰囲気: `ntr_atmosphere_tense`, `ntr_atmosphere_guilty`, `ntr_atmosphere_corrupting`, `ntr_atmosphere_fallen`
+
+Follow structure defined in `./doc/wildcard_rules.md` section 4.
+
+---
+
+## General Rules
+
+- Never create YAML syntax errors
+- Add `# Theme: [name]` to all files
+- Sequential numbering: SS_CC_NNN format
+- Reference `./doc/wildcard_rules.md` for details

@@ -1,0 +1,31 @@
+# テーマ選択用統合ファイル
+# pose_theme_select.yaml
+
+# ========== メインプレイリスト選択 ==========
+
+# 使い方：このファイルを呼び出すだけで、ランダムにテーマが選ばれる
+# または、下記の個別サブカテゴリを直接指定する
+
+# すべてのテーマからランダム選択
+pose_play_all:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_play_lovey__
+  - __自作2_1/ラブラブ絶頂中だし用/pose_play_ntr__
+
+# ========== 場面別の直接指定（オプション） ==========
+# より細かく制御したい場合
+
+# ラブラブ - 特定シーン
+pose_lovey_outdoor_only:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_lovey_outdoor__
+
+pose_lovey_intimate_only:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_lovey_intimate__
+
+# NTR - 特定シーン
+pose_ntr_outdoor_only:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_ntr_outdoor__
+
+pose_ntr_intimate_only:
+  - __自作2_1/ラブラブ絶頂中だし用/pose_ntr_intimate__
+
+

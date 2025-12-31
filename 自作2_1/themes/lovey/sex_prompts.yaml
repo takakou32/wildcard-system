@@ -1,0 +1,52 @@
+# ラブラブテーマ：Sex用プロンプトテンプレート
+# themes/lovey/sex_prompts.yaml
+
+# 段階1: 優しい導入
+sex_intro_gentle:
+  - 40_se001_0,((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,gentle,kiss,holding hands,heart,love,sagging breasts,__自作2_1/themes/lovey/sex_face_intro__,__自作2_1/themes/lovey/sex_sound_intro__
+  - 40_se001_1,((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,gentle,(french kiss:1.5),caressing face,love,intimate,sagging breasts,__自作2_1/themes/lovey/sex_face_intro__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_intro__
+  - 40_se001_2,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,gentle,kiss,heart,steam,sagging breasts,__自作2_1/themes/lovey/sex_face_intro__,__自作2_1/themes/lovey/sex_sound_intro__
+  - 40_se001_3,((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,love,intimate,hands on chest,__自作2_1/themes/lovey/sex_face_intro__,__自作2_1/themes/lovey/sex_sound_intro__
+  - 40_se001_4,((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,hug from behind,kiss,neck kiss,love,intimate,__自作2_1/themes/lovey/sex_face_intro__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_intro__
+
+# 段階2: 徐々に激しく
+sex_moderate:
+  - 40_se002_0,((1girl,1boy,missionary,on back,couple,pov)),vaginal,motion lines,bouncing breasts,holding waist,sweat,__自作2_1/themes/lovey/sex_face_moderate__,__自作2_1/themes/lovey/sex_sound_moderate__
+  - 40_se002_1,((1girl,1boy,missionary,on back,couple,from side)),vaginal,motion lines,kiss,steam,__自作2_1/themes/lovey/sex_face_moderate__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_moderate__
+  - 40_se002_2,((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,motion lines,bouncing breasts,breast grab,sweat,__自作2_1/themes/lovey/sex_face_moderate__,__自作2_1/themes/lovey/sex_sound_moderate__
+  - 40_se002_3,((1girl,1boy,cowgirl,girl on top,straddling,couple,straight-on)),vaginal,motion lines,sweat,hands on hips,__自作2_1/themes/lovey/sex_face_moderate__,__自作2_1/themes/lovey/sex_sound_moderate__
+  - 40_se002_4,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,motion lines,ass focus,grabbing hips,steam,__自作2_1/themes/lovey/sex_sound_moderate__
+
+# 段階3: 激しく
+sex_intense:
+  - 40_se003_0,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,motion blur,ass focus,grabbing hips,steam,__自作2_1/themes/lovey/sex_sound_intense__
+  - 40_se003_1,((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,intense,motion lines,sweat,steam,__自作2_1/themes/lovey/sex_face_intense__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_intense__
+  - 40_se003_2,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,motion blur,bouncing breasts,sweat,__自作2_1/themes/lovey/sex_face_intense__,__自作2_1/themes/lovey/sex_sound_intense__
+  - 40_se003_3,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,intense,motion lines,spread legs,bouncing breasts,sagging breasts,grabbing sheets,steam,__自作2_1/themes/lovey/sex_face_intense__,__自作2_1/themes/lovey/sex_sound_intense__
+  - 40_se003_4,((1girl,1boy,standing sex,suspended congress,couple)),vaginal,intense,leg lock,deep penetration,motion lines,sweat,steam,__自作2_1/themes/lovey/sex_face_intense__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_intense__
+
+# 段階4: のけ反り絶頂
+sex_extreme:
+  - 40_se004_0,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,extreme orgasm,arched back,x-ray,womb,cervix penetration,motion lines,bouncing breasts,sagging breasts,steam,__自作2_1/themes/lovey/sex_face_extreme__,__自作2_1/themes/lovey/sex_sound_extreme__
+  - 40_se004_1,((1girl,1boy,missionary,on back,lying,couple,straight-on)),vaginal,extreme orgasm,arched back,x-ray,womb,steam,sagging breasts,__自作2_1/themes/lovey/sex_face_extreme__,__自作2_1/themes/lovey/sex_sound_extreme__
+  - 40_se004_2,((1girl,1boy,mating press,couple)),vaginal,intense orgasm,extreme arched back,steam,spread legs,__自作2_1/themes/lovey/sex_face_extreme__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_extreme__
+  - 40_se004_3,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,extreme orgasm,arched back,x-ray,womb,motion lines,steam,big penis,__自作2_1/themes/lovey/sex_sound_extreme__
+  - 40_se004_4,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,extreme orgasm,x-ray,womb,bouncing breasts,steam,big penis,__自作2_1/themes/lovey/sex_face_extreme__,__自作2_1/themes/lovey/sex_sound_extreme__
+
+# 段階5: 中だし
+sex_creampie:
+  - 40_se005_0,((1girl,1boy,mating press,couple)),vaginal,creampie,ejaculation,excessive cum,extreme arched back,orgasm,heart,motion lines,spoken heart,__自作2_1/themes/lovey/sex_face_creampie__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_creampie__
+  - 40_se005_1,((1girl,1boy,mating press,couple,from side)),vaginal,creampie,ejaculation,excessive cum,orgasm,heart,spoken heart,__自作2_1/themes/lovey/sex_face_creampie__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_creampie__
+  - 40_se005_2,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,arched back,orgasm,heart,spread legs,spoken heart,sagging breasts,__自作2_1/themes/lovey/sex_face_creampie__,__自作2_1/themes/lovey/sex_sound_creampie__
+  - 40_se005_3,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,orgasm,heart,ass focus,spoken heart,big penis,__自作2_1/themes/lovey/sex_sound_creampie__
+  - 40_se005_4,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,extreme arched back,orgasm,heart,spoken heart,big penis,__自作2_1/themes/lovey/sex_face_creampie__,__自作2_1/themes/lovey/sex_sound_creampie__
+
+# 段階6: 事後
+sex_after:
+  - 40_se006_0,((1girl,1boy,sex,spread legs,after sex,on back,lying,from below)),((orgasm,steam,humid,trembling)),spoken heart,(((cum pool,cum overflow:1.5))),x-ray,womb full of cum,(closeup pussy:1.5),cumdrip,big penis,sagging breasts,__自作2_1/themes/lovey/sex_face_after__,__自作2_1/themes/lovey/sex_sound_after__
+  - 40_se006_1,((1girl,1boy,sex,after sex,on back,lying,from side)),((steam,humid,trembling)),spoken heart,((cum pool,cum overflow)),x-ray,womb full of cum,cumdrip,sagging breasts,__自作2_1/themes/lovey/sex_face_after__,__MALE_TYPE__,__自作2_1/themes/lovey/sex_sound_after__
+  - 40_se006_2,((1girl,1boy,sex,spread legs,after sex,on back,lying,from above)),((steam,humid,trembling)),cum overflow,cum pool,x-ray,womb full of cum,spread legs,sagging breasts,__自作2_1/themes/lovey/sex_face_after__,__自作2_1/themes/lovey/sex_sound_after__
+  - 40_se006_3,((1girl,1boy,after sex,doggy style,sex from behind,from behind)),((steam,humid,trembling)),cumdrip from pussy,cum overflow,ass focus,(closeup pussy:1.5),head down,__自作2_1/themes/lovey/sex_sound_after__
+  - 40_se006_4,((1girl,1boy,after sex,cowgirl,girl on top,from below)),((steam,humid,trembling)),cum overflow,cumdrip,(closeup pussy:1.5),x-ray,womb full of cum,big penis,__自作2_1/themes/lovey/sex_face_after__,__自作2_1/themes/lovey/sex_sound_after__
+
+

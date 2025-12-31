@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Old/Archive folders
+old/
+archive/
+backup/
+
+# Test/Development files
+test_*.yaml
+*_test.yaml
+*_backup.yaml
+
+# User-specific theme folders (optional - comment out if you want to track them)
+# ビーチで*/
+# 温泉*/
+# 近所の*/
+# オフィス*/
+

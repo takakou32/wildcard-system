@@ -1,0 +1,65 @@
+# massage_param.yaml
+massage_expres:
+  - ((smile))
+  - ((big smile))
+  - ((happy look))
+  - ((light smile))
+  - ((seductive smile,))
+  - ((half close eyes,))
+  - ((one eye closed,))
+  
+  #- ((closed eyes,puckered lips))
+  #- ((half close eyes,smile))  
+  #- ((close eyes,smile)) 
+  #- ((teeth,smile))   
+  #- ((close eyes,smile,teeth)) 
+massage_body:
+  - ((thick lips,large breasts))
+massage_play:
+  - 10_msg001_1((1girl,spread legs,on back,lying (from below:1.8),from center,closeup crotch))
+  - 10_msg001_2((1girl,spread legs,(on back,lying:1.5) (from below:1.8),from center,closeup crotch))(pov ,:1.5)
+  
+  - 10_msg004_((1girl, upper body,from behind,big hip,sexy pose,from below))
+  - 10_msg005_((1girl, upper body,from behind,big hip,sexy pose,from below,closeup hip))
+  - 10_msg006_1,,face to face,(1girl, 1boy,couple) , hetero,, blush, looking at another,couple,face to face,looking at another,{pov|},( faceless male:1.5), , faceless, , sitting, ,{(hug, hug each other:1.2)|,},{(kiss,puckered lips,lip to lip:1.5)|,},{grabbing another's breast,, grabbing|,},{heart|},{}
+  - 10_msg006_2,,face to face,(1girl, 1boy,couple) , hetero,, blush, looking at another,couple,looking at another,{pov|},( faceless male:1.5), , faceless, , sitting, ,(holding hands,on side:1.2),{(kiss,puckered lips,lip to lip:1.5)|,},heart
+  
+  - 10_msg006_((1girl, couple,pov,closeup face,(pov,girl lying on boy,,:1.5) ,on side,))
+  - 10_msg007_((1girl, couple,upper body,sitting,,(pov)({holding hands|,}:1.5) ,)),
+  - 10_msg008_((1girl, couple,pov,closeup face,(pov,girl lying on boy,,:1.5)on center,,))({holding hands|,}:1.5)
+  - 10_msg009_((1girl,couple, pov,(pov,girl lying on boy:1.5),((closeup face:1.5)),from center,))({holding hands|,}:1.5)
+  - 10_msg010_((1girl,couple, pov,(pov,girl lying on boy:1.5)((closeup face:1.5)),from center,open mouth))({holding hands|,}:1.5)
+  - 10_msg011_((1girl,couple, pov,(pov,girl lying on boy:1.5)((closeup face:1.5)),on side,))({holding hands|,}:1.5)
+  - 10_msg012_((1girl,couple,erection under clothes, pov,(pov,girl lying on boy:1.5),((closeup face:1.5)),from center,))({holding hands|,}:1.5)
+  - 10_msg013_((1girl,couple,erection under clothes, pov,(pov,girl lying on boy:1.5)((closeup face:1.5)),from center,open mouth))({holding hands|,}:1.5)
+  - 10_msg014_((1girl,couple,erection under clothes, pov,(pov,girl lying on boy:1.5)((closeup face:1.5)),on side,))({holding hands|,}:1.5)
+
+massage_play_outdoor:
+   - 10_msgout001_((1girl,,walking,standing))
+   - 10_msgout001_2((1girl,,,from behind,standing))
+   - 10_msgout001_3((1girl,,from side,standing))
+   - 10_msgout002_((1girl,,standing))
+   - 10_msgout003_((1girl,,,waving hand,standing))
+   - 10_msgout004_((1girl,closeup breast,from below))
+   - 10_msgout005_((1girl,closeup face))
+
+massage_play_beach:
+   - 10_msgbc001_((1girl,{upper body|,|closeup face},sexypose,{from behind|from side|from center|from behind,from side}))
+   - 10_msgbc001_((1girl,{upper body|,|closeup face},armpit,{from behind|from side|from center|from behind,from side}))
+   - 10_msgbc002_((1girl,{upper body|,|closeup face},lying,{on side|face down|from side|from center|from behind. from side}))
+
+massage_cloth:
+  - ()
+
+massage_holdhand:
+  - #(holding hands:1.3) 
+  - #(grope tits:1.3)
+  - #(holding hip:1.3)
+  - ()
+  - ()
+massage_lighting:
+  - ((Tyndall effect,cinematic lighting, bloom,((morning)),natural light))
+massage_doing:
+  - ((reading book))
+  - ((playing smart phone,iphone))
+  - ((coffee,teatime))

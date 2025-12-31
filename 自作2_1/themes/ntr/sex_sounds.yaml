@@ -1,0 +1,46 @@
+# NTRテーマ：Sex用効果音テンプレート
+# themes/ntr/sex_sounds.yaml
+
+# 段階1用: 抵抗の声
+sex_sound_intro_ntr:
+  -   # 効果音なし
+  - reluctant moan,protesting
+  - quiet whimper,resisting sounds
+  - guilty sigh,conflicted breathing
+
+# 段階2用: 葛藤の喘ぎ
+sex_sound_moderate_ntr:
+  -   # 効果音なし
+  - conflicted moaning,panting
+  - guilty pleasure sounds,moaning despite self
+  - sfx,reluctant pleasure,moaning
+
+# 段階3用: 堕ち始める声
+sex_sound_intense_ntr:
+  -   # 効果音なし
+  - losing moaning,loud pleasure despite guilt
+  - corrupting moans,screaming,giving in
+  - sfx,sound effects,mind breaking moans,speech bubble
+
+# 段階4用: 完全に堕ちた絶叫
+sex_sound_extreme_ntr:
+  -   # 効果音なし
+  - corrupted screaming,mind break moaning,sfx
+  - loud betrayal screams,fallen moaning,speech bubble
+  - cheating screams,completely corrupted,sfx,sound effects
+
+# 段階5用: 背徳絶頂の叫び
+sex_sound_creampie_ntr:
+  -   # 効果音なし
+  - betrayal climax screams,corrupted orgasm,sfx
+  - cheating orgasm screaming,mind break sounds,speech bubble
+  - ultimate betrayal moans,fallen screams,sfx,sound effects
+
+# 段階6用: 事後の罪悪感
+sex_sound_after_ntr:
+  -   # 効果音なし
+  - guilty breathing,exhausted whimpering
+  - regretful gasping,ashamed sighs
+  - corrupted aftermath breathing,satisfied but guilty sounds
+
+

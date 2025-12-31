@@ -1,0 +1,39 @@
+# Pose用シーン定義（ビーチで彼女とリゾートデート1）
+# テーマ: lovey (ラブラブ)
+# タイプ: beach (ビーチ・リゾート系)
+# 時系列: 午後 → 夜
+# 男性タイプ: male_type_default
+
+# ========== Scene 01: 午後 - ビーチ到着・散策 ==========
+pose_scene1_beach_arrival:
+  - __自作2_1/themes/lovey/scene_beach_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_afternoon__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# ========== Scene 02: 午後 - ビーチでの活動 ==========
+pose_scene2_beach_activity:
+  - __自作2_1/themes/lovey/scene_beach_activity__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_afternoon__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# ========== Scene 03: 午後 - ビーチカフェ ==========
+pose_scene3_beach_cafe:
+  - __自作2_1/themes/lovey/scene_beach_cafe__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_afternoon__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
+# ========== Scene 04: 夕方 - 夕暮れビーチ ==========
+pose_scene4_beach_sunset:
+  - __自作2_1/themes/lovey/scene_beach_sunset__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+
+# ========== Scene 05: 夕方～夜 - 更衣室・シャワー ==========
+pose_scene5_beach_changing:
+  - __自作2_1/themes/lovey/scene_beach_changing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_towel__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# ========== Scene 06: 夜 - リゾート客室 ==========
+pose_scene6_resort_room:
+  - __自作2_1/themes/lovey/scene_resort_room__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
+# ========== Poseプレイリスト統合 ==========
+pose_play:
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene1_beach_arrival__
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene2_beach_activity__
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene3_beach_cafe__
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene4_beach_sunset__
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene5_beach_changing__
+  - __自作2_1/ビーチで彼女とリゾートデート1/pose_scene6_resort_room__
+
