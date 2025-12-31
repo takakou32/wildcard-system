@@ -51,13 +51,15 @@ scene_beach_cafe:
 # ========== シーン4: 海水浴場シャワー（屋外・水着着用） ==========
 
 scene_beach_outdoor_shower:
-  - 10_os_001,1girl,outdoor beach shower area,swimsuit,rinsing off,water running,cowboy shot,casual washing
-  - 10_os_002,1girl,beach shower stall,swimsuit,washing arms,standing,from side,refreshing
-  - 10_os_003,1girl,outdoor shower,swimsuit,water on face,eyes closed,close-up,cleansing moment
-  - 10_os_004,1girl,beach shower area,swimsuit,wringing hair,standing,from behind,after rinse
-  - 10_os_005,1girl,outdoor beach shower,swimsuit,adjusting straps,low angle,casual gesture
-  - 10_os_006,1girl,1boy,beach shower area,swimsuit,waiting turn,standing close,from side,couple waiting
-  - 10_os_007,1girl,1boy,outdoor shower,both in swimsuit,taking turns,cowboy shot,couple scene
+  - 10_os_001,1girl,outdoor beach shower,swimsuit,shower running,water streaming down body,wet body,water droplets,cowboy shot,refreshing shower
+  - 10_os_002,1girl,beach shower stall,swimsuit,under shower stream,water flowing,soaking wet,standing,from side,shower scene
+  - 10_os_003,1girl,outdoor shower,swimsuit,water splashing on face,eyes closed,wet hair,water droplets,close-up,cleansing moment
+  - 10_os_004,1girl,beach shower area,swimsuit,wringing wet hair,water dripping,standing,from behind,after shower
+  - 10_os_005,1girl,outdoor beach shower,swimsuit,arms raised,shower water falling,wet skin glistening,low angle,from below,dynamic shower
+  - 10_os_006,1girl,outdoor shower,swimsuit,hand on wall,shower stream,water running down,pov angle,intimate shower scene
+  - 10_os_007,1girl,beach shower,swimsuit,washing shoulders,water flowing over body,dutch angle,wet scene
+  - 10_os_008,1girl,1boy,beach shower area,swimsuit,both wet,water dripping,standing close,from side,couple after shower
+  - 10_os_009,1girl,1boy,outdoor shower,both in swimsuit,sharing shower,water streaming,cowboy shot,couple shower scene
 
 # ========== シーン5: 夕暮れビーチ ==========
 

@@ -1,0 +1,51 @@
+# Pose用シーン定義（近所の人妻とスーパーから寝室まで）
+# 男性タイプ: male_type_default
+
+# シーン1: noon (正午) - スーパーでの出会い・ショッピング
+pose_scene1_shopping:
+  - __wildcard-system/自作2_1/themes/lovey/scene_outdoor_shopping__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_casual_day__,__wildcard-system/自作2_1/params/time_noon__,__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# シーン2: afternoon (午後) - 公園を散歩
+pose_scene2_park:
+  - __wildcard-system/自作2_1/themes/lovey/scene_park_walking__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_casual_day__,__wildcard-system/自作2_1/params/time_afternoon__,__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# シーン3: late_afternoon (夕方) - 街を歩く
+pose_scene3_street:
+  - __wildcard-system/自作2_1/themes/lovey/scene_street_walking__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_casual_day__,__wildcard-system/自作2_1/params/time_late_afternoon__,__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_casual__
+
+# シーン4: evening (夕暮れ) - 帰宅
+pose_scene4_entrance:
+  - __wildcard-system/自作2_1/themes/lovey/scene_home_entrance__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_casual_day__,__wildcard-system/自作2_1/params/time_evening__,__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
+# シーン5: evening (夕暮れ) - 料理
+pose_scene5_cooking:
+  - __wildcard-system/自作2_1/themes/lovey/scene_kitchen_cooking__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_house_with_apron__,__wildcard-system/自作2_1/params/time_evening__,__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
+# シーン6: evening (夕暮れ) - 食事
+pose_scene6_dining:
+  - __wildcard-system/自作2_1/themes/lovey/scene_dining__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_house_clothes__,__wildcard-system/自作2_1/params/time_evening__,__wildcard-system/自作2_1/themes/lovey/lovey_face_intimate__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
+# シーン7: night (夜) - リビングでリラックス
+pose_scene7_living:
+  - __wildcard-system/自作2_1/themes/lovey/scene_living_room_relaxing__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_house_clothes__,__wildcard-system/自作2_1/params/time_night__,__wildcard-system/自作2_1/themes/lovey/lovey_face_intimate__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_romantic__
+
+# シーン8: night (夜) - 親密な時間
+pose_scene8_intimate:
+  - __wildcard-system/自作2_1/themes/lovey/scene_intimate_moment__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_underwear__,__wildcard-system/自作2_1/params/time_night__,__wildcard-system/自作2_1/themes/lovey/lovey_face_intimate__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_romantic__
+
+# シーン9: night (夜) - 入浴
+pose_scene9_bathing:
+  - __wildcard-system/自作2_1/themes/lovey/scene_bathroom_bathing__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_nude__,__wildcard-system/自作2_1/params/time_night__,__wildcard-system/自作2_1/themes/lovey/lovey_face_bathing__,__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_steamy__
+
+# Poseプレイリスト
+pose_play:
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene1_shopping__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene2_park__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene3_street__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene4_entrance__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene5_cooking__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene6_dining__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene7_living__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene8_intimate__
+  - __wildcard-system/自作2_1/近所の人妻とスーパーから寝室まで/pose_scene9_bathing__
+

@@ -17,9 +17,9 @@ pose_scene3_cafe:
 pose_scene4_sunset:
   - __自作2_1/themes/lovey/scene_beach_sunset__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
 
-# ========== Scene 05: evening - 更衣室・シャワー ==========
+# ========== Scene 05: evening - 海水浴場シャワー ==========
 pose_scene5_changing:
-  - __自作2_1/themes/lovey/scene_beach_changing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_towel__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  - __自作2_1/themes/lovey/scene_beach_outdoor_shower__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
 
 # ========== Scene 06: night - リゾート客室 ==========
 pose_scene6_room:
