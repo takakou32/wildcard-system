@@ -67,13 +67,13 @@ Stable Diffusion WebUIのDynamic Promptsで以下のように参照：
 
 ```
 # Poseシーンのみ（SFW）
-__自作2_1/[テーマ名]/pose_play__
+__wildcard-system/自作2_1/[テーマ名]/pose_play__
 
 # Sexシーンのみ（NSFW）
-__自作2_1/[テーマ名]/sex_play__
+__wildcard-system/自作2_1/[テーマ名]/sex_play__
 
 # 全シーン（Pose + Sex）
-__自作2_1/[テーマ名]/main__
+__wildcard-system/自作2_1/[テーマ名]/main__
 ```
 
 ## 📚 ドキュメント

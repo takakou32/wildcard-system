@@ -321,13 +321,13 @@ Scene 03: [time] - [scene from library]
 
 # シーン1: [時間帯] - [シーン説明]
 pose_scene1_[name]:
-  - __自作2_1/themes/[base]/scene_[name]__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_[xxx]__,__自作2_1/params/time_[xxx]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+  - __wildcard-system/自作2_1/themes/[base]/scene_[name]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere]__
 
 # ... 複数シーン定義
 
 pose_play:
-  - __自作2_1/[テーマ名]/pose_scene1_[name]__
-  - __自作2_1/[テーマ名]/pose_scene2_[name]__
+  - __wildcard-system/自作2_1/[テーマ名]/pose_scene1_[name]__
+  - __wildcard-system/自作2_1/[テーマ名]/pose_scene2_[name]__
   # ...
 ```
 
@@ -337,10 +337,10 @@ pose_play:
 
 ```yaml
 # ✅ 正しい順序（シーンが最初、次に男性タイプ）
-- __自作2_1/themes/lovey/scene_beach_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,...
+- __wildcard-system/自作2_1/themes/lovey/scene_beach_arrival__,__wildcard-system/自作2_1/params/male_type_default__,__wildcard-system/自作2_1/params/outfit_swimsuit__,...
 
 # ❌ 間違った順序（連番が先頭に来ない）
-- __自作2_1/params/outfit_swimsuit__,__自作2_1/themes/lovey/scene_beach_arrival__,...
+- __wildcard-system/自作2_1/params/outfit_swimsuit__,__wildcard-system/自作2_1/themes/lovey/scene_beach_arrival__,...
 ```
 
 **構成要素：**
@@ -361,12 +361,12 @@ pose_play:
 # Sex用プレイリスト（[テーマ名]）
 
 sex_play:
-  - __自作2_1/themes/[base]/sex_intro_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_moderate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_intense__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_extreme__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_creampie__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_after__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_intro_gentle__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_moderate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_intense__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_extreme__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_creampie__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/sex_after__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
 ```
 
 **5. `fellatio_play.yaml`** （オプション）
@@ -374,14 +374,14 @@ sex_play:
 # Fellatio用プレイリスト（[テーマ名]）
 
 fellatio_play:
-  - __自作2_1/themes/[base]/fellatio_intro_tease__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_start_licking__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_moderate_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_intense_passionate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_climax_deep__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_finish_ejaculation__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_after_swallow__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_extra_intimate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_intro_tease__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_start_licking__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_moderate_gentle__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_intense_passionate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_climax_deep__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_finish_ejaculation__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_after_swallow__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __wildcard-system/自作2_1/themes/[base]/fellatio_extra_intimate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
 ```
 
 **6. `main.yaml`**
@@ -389,9 +389,9 @@ fellatio_play:
 # メインエントリーポイント
 
 main:
-  - __自作2_1/[テーマ名]/pose_play__
-  - __自作2_1/[テーマ名]/sex_play__
-  - __自作2_1/[テーマ名]/fellatio_play__  # オプション
+  - __wildcard-system/自作2_1/[テーマ名]/pose_play__
+  - __wildcard-system/自作2_1/[テーマ名]/sex_play__
+  - __wildcard-system/自作2_1/[テーマ名]/fellatio_play__  # オプション
 ```
 
 **7. `README.md`**（使い方ガイド）
@@ -402,27 +402,27 @@ main:
 
 #### Poseシーンのみ（SFW）
 ```
-__自作2_1/[テーマ名]/pose_play__
+__wildcard-system/自作2_1/[テーマ名]/pose_play__
 ```
 
 #### Sexシーンのみ（NSFW）
 ```
-__自作2_1/[テーマ名]/sex_play__
+__wildcard-system/自作2_1/[テーマ名]/sex_play__
 ```
 
 #### Fellatioシーンのみ（NSFW - オプション）
 ```
-__自作2_1/[テーマ名]/fellatio_play__
+__wildcard-system/自作2_1/[テーマ名]/fellatio_play__
 ```
 
 #### 全シーン（Pose + Sex）
 ```
-__自作2_1/[テーマ名]/main__
+__wildcard-system/自作2_1/[テーマ名]/main__
 ```
 
 #### 全シーン（Pose + Sex + Fellatio）
 ```
-__自作2_1/[テーマ名]/main__
+__wildcard-system/自作2_1/[テーマ名]/main__
 ```
 ※fellatio_playをmainに含める場合
 
@@ -454,15 +454,15 @@ __自作2_1/[テーマ名]/main__
 **よくあるミス（コーディングエラー）：**
 ```yaml
 # ❌ 間違い（ファイル名から推測したキー名）
-__自作2_1/themes/lovey/pose_faces_casual__
-__自作2_1/themes/lovey/pose_atmosphere_casual__
+__wildcard-system/自作2_1/themes/lovey/pose_faces_casual__
+__wildcard-system/自作2_1/themes/lovey/pose_atmosphere_casual__
 ```
 
 **正しい参照：**
 ```yaml
 # ✅ 正しい（実際のファイル内のキー名）
-__自作2_1/themes/lovey/lovey_face_casual__
-__自作2_1/themes/lovey/lovey_atmosphere_casual__
+__wildcard-system/自作2_1/themes/lovey/lovey_face_casual__
+__wildcard-system/自作2_1/themes/lovey/lovey_atmosphere_casual__
 ```
 
 **キー名一覧：**
