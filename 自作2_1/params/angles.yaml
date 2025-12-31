@@ -1,0 +1,131 @@
+# カメラアングル共通パラメータ（全テーマ共通）
+# params/angles.yaml
+
+# ========== 基本アングル ==========
+
+# POV（主観視点）- 上から
+angle_pov_above:
+  - pov,from above
+  - pov,first person view,from above
+  - pov,looking down
+
+# POV（主観視点）- 下から
+angle_pov_below:
+  - pov,from below
+  - pov,first person view,from below
+  - pov,looking up at viewer
+
+# POV（主観視点）- 正面
+angle_pov_front:
+  - pov,first person view
+  - pov,facing viewer
+  - pov,from center
+
+# 横から
+angle_from_side:
+  - from side
+  - from side,dutch angle
+  - side view
+
+# 後ろから
+angle_from_behind:
+  - from behind
+  - from behind,over shoulder
+  - back view
+
+# 正面から
+angle_from_front:
+  - from front
+  - facing viewer
+  - straight-on
+
+# 上から（俯瞰）
+angle_from_above:
+  - from above
+  - high angle
+  - overhead shot
+
+# 下から（煽り）
+angle_from_below:
+  - from below
+  - low angle
+  - worm's eye view
+
+# ========== クローズアップ系 ==========
+
+# 顔アップ
+angle_closeup_face:
+  - closeup face,close-up,face focus
+  - closeup face,upper body
+  - close-up,face focus
+
+# 上半身
+angle_upper_body:
+  - upper body,cowboy shot
+  - upper body
+  - cowboy shot
+
+# 胸アップ
+angle_closeup_breasts:
+  - closeup breasts,close-up
+  - closeup breasts
+  - breast focus,close-up
+
+# 口アップ
+angle_closeup_mouth:
+  - closeup mouth,close-up
+  - mouth focus,close-up
+  - closeup mouth
+
+# 局部アップ
+angle_closeup_pussy:
+  - closeup pussy,close-up
+  - pussy focus
+  - closeup
+
+# ========== ワイド系 ==========
+
+# 広角
+angle_wide_shot:
+  - wide shot
+  - wide shot,full body
+  - panoramic view
+
+# 全身
+angle_full_body:
+  - full body
+  - full body shot
+  - whole body
+
+# ========== 特殊アングル ==========
+
+# ダッチアングル（傾き）
+angle_dutch:
+  - dutch angle
+  - dutch angle,dynamic angle
+  - tilted angle
+
+# プロファイル（横顔）
+angle_profile:
+  - profile
+  - profile view
+  - side profile
+
+# 真上から
+angle_overhead:
+  - overhead shot,from above
+  - bird's eye view
+  - directly from above
+
+# 複合アングル（POV + クローズアップ）
+angle_pov_closeup_face:
+  - pov,closeup face,from above
+  - pov,close-up,face focus,from above
+  - pov,first person view,closeup face
+
+angle_pov_closeup_body:
+  - pov,upper body,from above
+  - pov,cowboy shot,from above
+  - pov,closeup,from above
+
+

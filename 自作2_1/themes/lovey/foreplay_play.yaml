@@ -1,11 +1,11 @@
 # 前戯用プレイリスト（テスト用）
 # themes/lovey/foreplay_play.yaml
+# アングルパラメータを追加しました
 
 foreplay_play:
-  - __自作2_1/themes/lovey/foreplay_kiss_hug__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/foreplay_touch_caress__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/foreplay_handjob__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/foreplay_fingering__,__自作2_1/params/place_home_bedroom__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/foreplay_cunnilingus__,__自作2_1/params/place_home_bedroom__,__自作2_1/params/male_type_default__
-
+  - __自作2_1/themes/lovey/foreplay_kiss_hug__,__自作2_1/params/angle_from_side__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/foreplay_touch_caress__,__自作2_1/params/angle_upper_body__,__自作2_1/params/place_home_living__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/foreplay_handjob__,__自作2_1/params/angle_pov_above__,__自作2_1/params/place_bathroom__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/foreplay_fingering__,__自作2_1/params/angle_closeup_pussy__,__自作2_1/params/place_home_bedroom__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/foreplay_cunnilingus__,__自作2_1/params/angle_from_above__,__自作2_1/params/place_home_bedroom__,__自作2_1/params/male_type_default__
 
