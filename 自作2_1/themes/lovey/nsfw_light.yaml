@@ -1,0 +1,30 @@
+# ラブラブテーマ：軽度NSFW用プロンプト
+# themes/lovey/nsfw_light.yaml
+# SFWシーンに混ぜやすい軽度のNSFW表現
+# 注意：アングル情報は外部パラメータ化されました（params/angles.yaml）
+
+# キス（軽め）
+nsfw_kiss:
+  - 70_nl001_0,1girl,1boy,couple,kiss,kissing,face to face,blush,eyes closed,romantic,heart,__MALE_TYPE__
+  - 70_nl001_1,1girl,1boy,couple,french kiss,deep kiss,face to face,saliva,blush,eyes closed,heart,steam,__MALE_TYPE__
+  - 70_nl001_2,1girl,about to kiss,incoming kiss,puckered lips,open mouth,eyes closed,blush,romantic
+
+# 抱擁・密着
+nsfw_embrace:
+  - 70_nl002_0,1girl,1boy,couple,hug,embrace,face to face,blush,collarbone,light smile,romantic,__MALE_TYPE__
+  - 70_nl002_1,1girl,1boy,couple,hug from behind,back hug,blush,intimate,__MALE_TYPE__
+  - 70_nl002_2,1girl,1boy,couple,close together,intimate distance,face to face,blush,heart,__MALE_TYPE__
+
+# 愛撫・タッチ（ソフト）
+nsfw_touch:
+  - 70_nl003_0,1girl,1boy,couple,touching,caressing,gentle touch,blush,light smile,intimate,__MALE_TYPE__
+  - 70_nl003_1,1girl,1boy,couple,hug,kiss on neck,neck kiss,blush,intimate,__MALE_TYPE__
+  - 70_nl003_2,1girl,1boy,couple,face to face,touching face,caressing face,blush,romantic,__MALE_TYPE__
+
+# 愛撫・胸タッチ（やや進んだ）
+nsfw_breast_touch:
+  - 70_nl004_0,1girl,1boy,couple,touching,breast grab,gentle,blush,light smile,intimate,__MALE_TYPE__
+  - 70_nl004_1,1girl,1boy,couple,hug from behind,grabbing breasts,breast press,blush,nose blush,__MALE_TYPE__
+  - 70_nl004_2,1girl,grabbing breasts,groping,breast squeeze,hands on breasts,blush
+
+

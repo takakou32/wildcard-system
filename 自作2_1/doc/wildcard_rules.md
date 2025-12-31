@@ -38,7 +38,7 @@ NNN: プロンプト番号（001, 002, 003...）- 同一シーン内の連番
 
 ## ⚠️ 【最重要】新規テーマ作成時の必須プロセス
 
-**新規テーマ作成の際は、必ず以下の5つの質問を一つずつ順番に行うこと。省略・統合は一切禁止。**
+**新規テーマ作成の際は、必ず以下の6つの質問を一つずつ順番に行うこと。省略・統合は一切禁止。**
 
 ### ユーザー向け：テーマ作成の開始方法
 
@@ -48,7 +48,7 @@ NNN: プロンプト番号（001, 002, 003...）- 同一シーン内の連番
 新しいテーマを作りたいです
 ```
 
-AIは自動的に5つの質問プロセスを開始します。
+AIは自動的に6つの質問プロセスを開始します。
 
 ### AIの応答（自動）
 ユーザーが「新しいテーマ」「テーマ作成」などと言った場合、AIは以下のように応答します：
@@ -56,7 +56,7 @@ AIは自動的に5つの質問プロセスを開始します。
 ```
 了解しました。新しいテーマを作成します。
 
-ルールに従って、5つの質問を一つずつ行います。
+ルールに従って、6つの質問を一つずつ行います。
 それでは質問1から始めます。
 
 [質問1の内容]
@@ -68,6 +68,7 @@ AIは自動的に5つの質問プロセスを開始します。
 3. **テーマ名** - テーマの名前（自由入力）
 4. **時系列変化** - ありかなしか、ありの場合は開始・終了時間（数字で選択）
 5. **男性キャラクタータイプ & Sex場所** - デフォルト/黒肌/ショタ/筋肉質/おっさん + Sex用の場所（数字で選択 + 自由入力）
+6. **NSFWシーンの統合** - SFWシーンにNSFWを混ぜるか、どのシーンに混ぜるか（数字で選択 + 複数選択）
 
 ### 質問後の必須ステップ
 6. **入力内容の確認** - 全質問の回答内容を確認し、承認を得る
@@ -236,11 +237,207 @@ AIは自動的に5つの質問プロセスを開始します。
 
 ---
 
+#### 質問6 (of 6): NSFWシーンの統合
+
+「SFWシーン（pose_play）にNSFWシーンを混ぜ込みますか？」
+
+1. **なし** - 従来通り、SFWとNSFWを完全分離（pose_play / sex_play / fellatio_playが独立）
+2. **軽度のみ** - SFWシーンの合間に軽度NSFW（キス、抱擁、タッチ）を追加
+3. **中度まで** - SFWシーンの合間に軽度〜中度NSFW（キス、抱擁、手コキ、フェラ軽め）を追加
+4. **全て混ぜる** - SFWシーンの合間に段階的にNSFWを挟み、シームレスな流れを実現
+
+**数字で答えてください（1〜4）**
+
+**「2〜4」を選んだ場合、追加質問：**
+
+「どのシーンにNSFWを混ぜますか？」
+
+**利用可能なシーンリストを表示し、複数選択可能にする**
+
+例：
+```
+Scene 01: ビーチ到着 → NSFW混ぜる？ (Y/N)
+Scene 02: ビーチ活動 → NSFW混ぜる？ (Y/N)
+Scene 03: カフェ → NSFW混ぜる？ (Y/N)
+...
+```
+
+**各シーンに対して、混ぜるNSFWのレベルを指定：**
+
+- **Light** - キス、抱擁、タッチ
+- **Moderate** - 手コキ、フェラ軽め
+- **Heavy** - 前戯全般、本格NSFW
+
+**使用する共通NSFWライブラリ：**
+
+- `themes/lovey/nsfw_light.yaml`
+  - nsfw_kiss - キス
+  - nsfw_embrace - 抱擁・密着
+  - nsfw_touch - 愛撫・タッチ
+  - nsfw_breast_touch - 胸タッチ
+
+- `themes/lovey/nsfw_moderate.yaml`
+  - nsfw_handjob_light - 手コキ（軽め）
+  - nsfw_handjob_intense - 手コキ（激しめ）
+  - nsfw_fellatio_light - フェラ（軽め）
+  - nsfw_fellatio_intense - フェラ（本格的）
+
+- `themes/lovey/foreplay_prompts.yaml` - 前戯全般（Heavy）
+- `themes/lovey/paizuri_prompts.yaml` - パイズリ（Heavy）
+- `themes/lovey/fellatio_prompts.yaml` - フェラチオ（Heavy）
+
+**統合例：**
+
+「ビーチで彼女とリゾートデート3」のように、SFWシーンの後に対応するNSFWプロンプトを追加します。アングルパラメータは`params/angles.yaml`から選択し、SFWシーンと統一します。
+
+---
+
+### 🔢 NSFW統合時の連番付与ルール（重要）
+
+**質問6で「NSFW統合あり」を選択した場合、以下の手順でNSFWプロンプトに連番を付与すること：**
+
+#### ステップ1: 各シーンのSFW最終連番を確認
+
+各SFWシーンの最終連番を確認します。
+
+**例：**
+- `scene_beach_activity` → 最終連番: `02_bc_012`
+- `scene_beach_cafe` → 最終連番: `03_cf_008`
+- `scene_beach_sunset` → 最終連番: `05_ss_008`
+
+#### ステップ2: NSFWプロンプトの開始連番を決定
+
+NSFWプロンプトは、**SFW最終連番+1**から開始します。
+
+**例：**
+- `scene_beach_activity`のNSFW → `02_bc_013`から開始
+- `scene_beach_cafe`のNSFW → `03_cf_009`から開始
+- `scene_beach_sunset`のNSFW → `05_ss_009`から開始
+
+#### ステップ3: 共通ライブラリを参照する形式で連番を付与
+
+**✅ 推奨方式（共通ライブラリ参照）：**
+
+NSFWプロンプトの内容を展開せず、連番を付けて共通ライブラリを参照します。
+
+```yaml
+# NSFW Light: キス（連番: 02_bc_013）
+- 02_bc_013,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__params__,...
+
+# NSFW Light: 抱擁（連番: 02_bc_014）
+- 02_bc_014,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__params__,...
+
+# NSFW Light: 愛撫（連番: 02_bc_015）
+- 02_bc_015,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__params__,...
+```
+
+**メリット：**
+- コードが簡潔で保守性が高い
+- 共通ライブラリを修正すれば全テーマに反映される
+- 各ライブラリ内の複数バリエーションからランダムに選ばれる
+
+**注意：**
+- 連番が2つ並ぶ（例：`02_bc_013,70_nl001_0,...`）が、これは問題ない
+- 最初の連番（`02_bc_013`）により時系列順が保証される
+
+---
+
+**❌ 非推奨（プロンプト展開方式）：**
+
+プロンプト内容を直接展開する方法も可能だが、コードが冗長になるため推奨しない。
+
+```yaml
+# NSFW Light: キス（連番: 02_bc_013〜015）
+- 02_bc_013,1girl,1boy,couple,kiss,kissing,face to face,blush,eyes closed,romantic,heart,__params__,...
+- 02_bc_014,1girl,1boy,couple,french kiss,deep kiss,face to face,saliva,blush,eyes closed,heart,steam,__params__,...
+- 02_bc_015,1girl,about to kiss,incoming kiss,puckered lips,open mouth,eyes closed,blush,romantic,__params__,...
+```
+
+---
+
+**❌ NG例（連番なしで共通ライブラリ参照）：**
+
+連番を付けずに共通ライブラリを参照すると、時系列順が崩れる。
+
+```yaml
+# NSFW Light: 抱擁・密着
+- __自作2_1/themes/lovey/nsfw_embrace__,...
+# → 共通ライブラリの連番（70_nl002_0）がそのまま使われる
+# → ファイル名ソート時に時系列順が崩れる
+```
+
+#### ステップ4: 利用可能なNSFW共通ライブラリ
+
+**軽度NSFW（`themes/lovey/nsfw_light.yaml`）：**
+- `nsfw_kiss` - キス（3バリエーション）
+- `nsfw_embrace` - 抱擁・密着（3バリエーション）
+- `nsfw_touch` - 愛撫・タッチ（3バリエーション）
+- `nsfw_breast_touch` - 胸タッチ（3バリエーション）
+
+**中度NSFW（`themes/lovey/nsfw_moderate.yaml`）：**
+- `nsfw_handjob_light` - 手コキ軽め（3バリエーション）
+- `nsfw_handjob_intense` - 手コキ激しめ（3バリエーション）
+- `nsfw_fellatio_light` - フェラ軽め（3バリエーション）
+- `nsfw_fellatio_intense` - フェラ本格的（3バリエーション）
+
+#### 実装例
+
+**例1: 公園シーン（基本パターン）**
+
+```yaml
+# ========== Scene 02: time_day - 公園散策 + NSFW Light ==========
+pose_scene2_park:
+  # SFWシーン（連番: 01_pk_001〜005）
+  - __自作2_1/themes/lovey/scene_park_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # NSFW Light: キス（連番: 01_pk_006）
+  - 01_pk_006,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # NSFW Light: 抱擁（連番: 01_pk_007）
+  - 01_pk_007,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # NSFW Light: 愛撫・タッチ（連番: 01_pk_008）
+  - 01_pk_008,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+```
+
+**例2: 入浴シーン（シーン固有プロンプトを追加）**
+
+```yaml
+# ========== Scene 09: time_night - 入浴 + NSFW Light+Moderate ==========
+pose_scene9_bathing:
+  # SFWシーン（連番: 07_bt_001〜009）
+  - __自作2_1/themes/lovey/scene_bathroom_bathing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # NSFW Light: キス（連番: 07_bt_010）
+  - 07_bt_010,__自作2_1/themes/lovey/nsfw_kiss__,wet skin,steam,__自作2_1/params/angle_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # NSFW Light: 抱擁（連番: 07_bt_011）
+  - 07_bt_011,__自作2_1/themes/lovey/nsfw_embrace__,wet skin,steam,__自作2_1/params/angle_from_side__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # NSFW Light: 胸タッチ（連番: 07_bt_012）
+  - 07_bt_012,__自作2_1/themes/lovey/nsfw_breast_touch__,wet skin,steam,__自作2_1/params/angle_upper_body__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # NSFW Moderate: 手コキ（連番: 07_bt_013）
+  - 07_bt_013,__自作2_1/themes/lovey/nsfw_handjob_light__,wet skin,steam,__自作2_1/params/angle_pov_above__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # NSFW Moderate: フェラ（連番: 07_bt_014）
+  - 07_bt_014,__自作2_1/themes/lovey/nsfw_fellatio_light__,wet skin,steam,__自作2_1/params/angle_pov_closeup_face__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_naked__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+```
+
+**ポイント：**
+- シーン固有のプロンプト（`wet skin`, `steam`など）は、共通ライブラリ参照の直後に追加する
+- 1つの連番に1つのライブラリ参照（同じライブラリを複数回参照しない）
+- コメントで各NSFWセクションを明確に区別する
+
+**この方法により、出力画像がファイル名順に時系列で正しく並び、かつコードが簡潔で保守性が高くなります。**
+
+---
+
 ### 2-2 確認とシーンフロー提案
 
 #### ステップ1: 入力内容の確認
 
-5つの質問が完了したら、入力内容を確認：
+6つの質問が完了したら、入力内容を確認：
 
 ```
 📋 入力内容の確認
@@ -251,6 +448,8 @@ AIは自動的に5つの質問プロセスを開始します。
 - 時系列: [details]
 - 男性タイプ: [type]
 - Sex場所: [location]
+- NSFW統合: [none/light/moderate/full]
+  - 統合シーン: [シーンリスト]
 
 この内容で作成してよろしいですか？
 

@@ -1,0 +1,30 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: テスト近所の人妻とスーパーから
+# ベース: lovey (ラブラブ)
+# テーマタイプ: daily (日常系)
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: time_day (昼) → time_night (夜)
+# Sex場所: home_living_room (自宅リビング)
+# NSFW統合: 全て混ぜる
+#   - シーン1（ショッピング）: なし
+#   - シーン2（公園）: Light（キス、抱擁、タッチ）
+#   - シーン3（帰宅・街）: なし
+#   - シーン4（帰宅・玄関）: なし
+#   - シーン5（料理）: なし
+#   - シーン6（食事）: なし
+#   - シーン7（リビング）: なし
+#   - シーン8（親密）: Light+Moderate（キス、抱擁、手コキ、フェラ軽め）
+#   - シーン9（入浴）: Light+Moderate（キス、抱擁、手コキ、フェラ軽め）
+# シーンフロー: 
+#   Scene 01: time_day - スーパーでショッピング (scene_outdoor_shopping)
+#   Scene 02: time_day - 公園散策 (scene_park_walking)
+#   Scene 03: time_evening - 帰宅中・街を歩く (scene_street_walking)
+#   Scene 04: time_evening - 自宅玄関到着 (scene_home_entrance)
+#   Scene 05: time_evening - 料理準備 (scene_kitchen_cooking)
+#   Scene 06: time_evening - 食事 (scene_dining)
+#   Scene 07: time_night - リビングでリラックス (scene_living_room_relaxing)
+#   Scene 08: time_night - 親密な時間 (scene_intimate_moment)
+#   Scene 09: time_night - 入浴 (scene_bathroom_bathing)
+

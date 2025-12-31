@@ -1,0 +1,30 @@
+# ラブラブテーマ：中度NSFW用プロンプト
+# themes/lovey/nsfw_moderate.yaml
+# SFWシーンに混ぜる中度NSFW表現（手コキ、フェラ簡易版）
+# 注意：アングル情報は外部パラメータ化されました（params/angles.yaml）
+
+# 手コキ（軽め）
+nsfw_handjob_light:
+  - 80_nm001_0,1girl,1boy,couple,handjob,penis,big penis,erection,hand on penis,blush,light smile,sound effects,__MALE_TYPE__
+  - 80_nm001_1,1girl,1boy,couple,handjob,penis,big veiny penis,erection,precum,hand on penis,motion lines,blush,nose blush,sound effects,heart,__MALE_TYPE__
+  - 80_nm001_2,1girl,handjob,penis on face,big penis,erection,precum,looking at penis,tongue out,seductive smile,sound effects
+
+# 手コキ（激しめ）
+nsfw_handjob_intense:
+  - 80_nm002_0,1girl,1boy,couple,handjob,penis,big penis,precum drip,precum string,motion lines,sound effects,half-closed eyes,blush,heart,__MALE_TYPE__
+  - 80_nm002_1,1girl,1boy,couple,lying,on back,handjob,penis,big veiny penis,erection,motion lines,face to face,kiss,saliva,sound effects,intimate,heart,__MALE_TYPE__
+  - 80_nm002_2,1girl,handjob,penis,big veiny penis,precum drip,motion lines,sound effects,spoken,half-closed eyes,blush,heart
+
+# フェラ（導入・軽め）
+nsfw_fellatio_light:
+  - 80_nm003_0,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,oral,precum,solo focus,penis awe,sweat,tongue out,licking penis,sound effects,__MALE_TYPE__
+  - 80_nm003_1,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,veiny penis,saliva,precum,solo focus,fellatio,penis awe,sweat,kissing penis,puckered lips,sound effects,__MALE_TYPE__
+  - 80_nm003_2,1girl,penis,hetero,male pubic hair,blush,oral,erection,big veiny penis,fellatio,veins,large penis,sound effects,looking up,precum string,saliva
+
+# フェラ（本格的）
+nsfw_fellatio_intense:
+  - 80_nm004_0,1girl,1boy,fellatio,oral,hetero,erection,blush,large penis,saliva,veiny penis,penis on face,oral,steam,precum,solo focus,fellatio,penis awe,sweat,sound effects,spoken,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  - 80_nm004_1,1girl,1boy,vacuum fellatio,oral,tongue out,penis,hetero,erection,blush,big penis,saliva,motion lines,sound effects,spoken,looking up,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  - 80_nm004_2,1girl,1boy,vacuum fellatio,oral,penis,big veiny penis,saliva,steam,sound effects,spoken,motion lines,looking up,half-closed eyes,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+
+
