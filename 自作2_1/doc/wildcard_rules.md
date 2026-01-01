@@ -38,7 +38,10 @@ NNN: プロンプト番号（001, 002, 003...）- 同一シーン内の連番
 
 ## ⚠️ 【最重要】新規テーマ作成時の必須プロセス
 
-**新規テーマ作成の際は、必ず以下の6つの質問を一つずつ順番に行うこと。省略・統合は一切禁止。**
+**新規テーマ作成の際は、必ず以下の質問を一つずつ順番に行うこと。省略・統合は一切禁止。**
+
+- **基本質問（6問）：** 全テーマで必須
+- **NSFW統合ありの場合の追加質問（2問）：** 質問6で「あり」を選択した場合のみ
 
 ### ユーザー向け：テーマ作成の開始方法
 
@@ -48,7 +51,7 @@ NNN: プロンプト番号（001, 002, 003...）- 同一シーン内の連番
 新しいテーマを作りたいです
 ```
 
-AIは自動的に6つの質問プロセスを開始します。
+AIは自動的に質問プロセスを開始します（基本6問、NSFW統合ありの場合は+2問）。
 
 ### AIの応答（自動）
 ユーザーが「新しいテーマ」「テーマ作成」などと言った場合、AIは以下のように応答します：
@@ -56,24 +59,36 @@ AIは自動的に6つの質問プロセスを開始します。
 ```
 了解しました。新しいテーマを作成します。
 
-ルールに従って、6つの質問を一つずつ行います。
+ルールに従って、質問を一つずつ行います（基本6問、NSFW統合ありの場合は追加で2問）。
 それでは質問1から始めます。
 
 [質問1の内容]
 ```
 
 ### 必須の質問（省略厳禁）
+
+**基本質問（全テーマ共通）：**
 1. **テーマベース** - loveyかntrか（数字で選択）
 2. **テーマタイプ** - daily/onsen/beach/office（シーンライブラリを自動選択）
 3. **テーマ名** - テーマの名前（自由入力）
 4. **時系列変化** - ありかなしか、ありの場合は開始・終了時間（数字で選択）
 5. **男性キャラクタータイプ & Sex場所** - デフォルト/黒肌/ショタ/筋肉質/おっさん + Sex用の場所（数字で選択 + 自由入力）
-6. **NSFWシーンの統合** - SFWシーンにNSFWを混ぜるか、どのシーンに混ぜるか（数字で選択 + 複数選択）
+6. **NSFWシーンの統合** - SFWシーンにNSFWを混ぜるか（Yes/No）
+
+**NSFW統合ありの場合の追加質問：**
+7. **どのシーンにNSFWを混ぜるか** - シーンごとにY/Nで選択
+8. **各シーンのNSFWレベル** - Light/Moderate/Heavyで選択
+
+**⚠️ 重要な設計原則：**
+- **NSFW統合「あり」の場合、必ず`pose_play_sfw.yaml`と`pose_play_nsfw.yaml`に分離**
+- **`pose_play_nsfw.yaml`には純粋なNSFWプロンプトのみを記述**（SFWシーン定義は含めない）
+- **`main.yaml`で各ファイルへの参照行数を調整することでSFW/NSFW比率を制御**
 
 ### 質問後の必須ステップ
-**ステップ7: 入力内容の確認** - 全質問の回答内容を確認し、承認を得る
 
-**ステップ8: シーンフロー提案** - 選択したライブラリから適切なシーンを組み合わせて提案し、承認を得る
+**ステップ9（NSFW統合なしの場合はステップ7）: 入力内容の確認** - 全質問の回答内容を確認し、承認を得る
+
+**ステップ10（NSFW統合なしの場合はステップ8）: シーンフロー提案** - 選択したライブラリから適切なシーンを組み合わせて提案し、承認を得る
    - ユーザーの入力内容に基づいて、具体的なシーン構成を提案
    - 各シーンに順序番号（01, 02, 03...）を付与
    - ユーザーの承認後、ファイル作成開始
@@ -120,18 +135,25 @@ AIは自動的に6つの質問プロセスを開始します。
 └── [テーマ名]/                      # 第3層：具体的なテーマ実装
     ├── theme.txt                   # テーマ名
     ├── config.yaml                 # 設定（参考用、ワイルドカードとして使用しない）
-    ├── main.yaml                   # 統合エントリーポイント
-    ├── pose_play.yaml              # Poseシーン定義
+    ├── main.yaml                   # 統合エントリーポイント（**常にSFW/NSFWバランス調整に使用**）
+    ├── pose_play_sfw.yaml          # **SFWシーン定義（常に作成）**
+    ├── pose_play_nsfw.yaml         # **NSFWシーン定義（NSFW統合ありの場合のみ作成、NSFWプロンプトのみ）**
     ├── sex_play.yaml               # Sexシーン定義
     ├── fellatio_play.yaml          # Fellatioシーン定義（オプション）
     └── README.md                   # 使い方ガイド
 ```
 
+**重要な設計原則：**
+- **ファイル名は常に`pose_play_sfw.yaml`を使用**（NSFW統合の有無に関わらず）
+- **NSFW統合「あり」の場合のみ、`pose_play_nsfw.yaml`を追加作成**
+- **`pose_play_nsfw.yaml`には純粋なNSFWプロンプトのみを記述**（SFWシーン定義は含めない）
+- **`main.yaml`で各ファイルへの参照行数を調整することでSFW/NSFW比率を制御**
+
 ---
 
 ## 2. テーマ作成プロセス
 
-### 2-1 6つの必須質問
+### 2-1 必須質問（6〜8問）
 
 #### 質問1 (of 6): テーマベース
 
@@ -148,22 +170,81 @@ AIは自動的に6つの質問プロセスを開始します。
 
 「テーマのタイプを選んでください（使用するシーンライブラリを決定します）」
 
+**質問1で選択したテーマベース（lovey/ntr）に応じて、利用可能なシーンライブラリを表示します。**
+
+---
+
+**loveyテーマの場合（15種類）：**
+
 1. **日常系** - 自宅、街、ショッピング、公園など
 2. **温泉・旅館系** - 温泉、露天風呂、旅館など
-3. **ビーチ・リゾート系** - 海、ビーチ、プールなど
+3. **ビーチ・リゾート系** - 海、ビーチなど
 4. **オフィス・職場系** - 会社、事務所など
+5. **プール系** - プール、プールサイドなど
+6. **学校系** - 教室、廊下、屋上など
+7. **電車・交通系** - 駅、電車内など
+8. **公園系** - 公園散策、ピクニックなど
+9. **遊園地系** - 遊園地、アトラクションなど
+10. **レストラン系** - レストラン、ディナーなど
+11. **ジム系** - トレーニング、スポーツ施設など
+12. **図書館系** - 図書館、静かな場所など
+13. **病院系** - 病院、お見舞いなど
+14. **映画館系** - 映画デート、シアターなど
+15. **神社系** - 神社、お参り、境内散策など
 
-**数字で答えてください（1〜4）**
+**数字で答えてください（1〜15）**
+
+---
+
+**ntrテーマの場合：**
+
+**⚠️ 注意**: 現時点ではNTR専用のシーンライブラリは未作成です（課題3で対応予定）。
+暫定的にloveyテーマのシーンライブラリを使用し、表情・雰囲気パラメータでNTR要素を表現します。
+
+上記loveyテーマの1〜15から選択してください。
+
+**数字で答えてください（1〜15）**
+
+---
 
 **このselectionにより使用するシーンライブラリが決まります：**
+
+**loveyテーマの場合：**
 - 1 (日常系) → `themes/lovey/pose_scenes_daily.yaml`
-  - ショッピング、公園、街歩き、帰宅、料理、食事、リビング、親密、入浴（9種類）
+  - ショッピング、公園、街歩き、帰宅、料理、食事、リビング、親密、入浴（7シーン）
 - 2 (温泉・旅館) → `themes/lovey/pose_scenes_onsen.yaml`
-  - 旅館到着、客室、温泉街、食事処、脱衣所、温泉、露天風呂（7種類）
+  - 旅館到着、客室、温泉街、食事処、脱衣所、温泉、露天風呂（7シーン）
 - 3 (ビーチ・リゾート) → `themes/lovey/pose_scenes_beach.yaml`
-  - ビーチ到着、活動、カフェ、更衣室、夕暮れ、リゾート客室（6種類）
+  - ビーチ到着、活動、カフェ、シャワー、夕暮れ、リゾート客室（6シーン）
 - 4 (オフィス・職場) → `themes/lovey/pose_scenes_office.yaml`
-  - オフィス勤務、会議室、休憩室、残業、エレベーター、個室、帰宅（7種類）
+  - オフィス勤務、会議室、休憩室、残業、エレベーター、個室、帰宅（7シーン）
+- 5 (プール) → `themes/lovey/pose_scenes_pool.yaml`
+  - プール到着、プールサイド、泳ぐ、カフェ、サンセット、カバナ（6シーン）
+- 6 (学校) → `themes/lovey/pose_scenes_school.yaml`
+  - 校門、教室、廊下、図書室、屋上、放課後（6シーン）
+- 7 (電車・交通) → `themes/lovey/pose_scenes_train.yaml`
+  - 駅到着、プラットホーム、混雑電車、空き電車、コンコース、終電（6シーン）
+- 8 (公園) → `themes/lovey/pose_scenes_park.yaml`
+  - 公園入口、散策、ベンチ、ピクニック、噴水、夕暮れ（6シーン）
+- 9 (遊園地) → `themes/lovey/pose_scenes_amusement.yaml`
+  - 入口、待機列、アトラクション、飲食、パレード、夜の遊園地（6シーン）
+- 10 (レストラン) → `themes/lovey/pose_scenes_restaurant.yaml`
+  - 到着、着席、食事中、デザート、店内散策、退店（6シーン）
+- 11 (ジム) → `themes/lovey/pose_scenes_gym.yaml`
+  - 到着、ストレッチ、有酸素運動、ウェイト、ヨガ、クールダウン（6シーン）
+- 12 (図書館) → `themes/lovey/pose_scenes_library.yaml`
+  - 入口、書架、閲覧席、休憩エリア、特別コレクション、閉館前（6シーン）
+- 13 (病院) → `themes/lovey/pose_scenes_hospital.yaml`
+  - 到着、待合室、廊下、病室、カフェテリア、退出（6シーン）
+- 14 (映画館) → `themes/lovey/pose_scenes_cinema.yaml`
+  - 到着、ロビー、売店、着席、鑑賞中、退出（6シーン）
+- 15 (神社) → `themes/lovey/pose_scenes_shrine.yaml`
+  - 境内歩く、お参り、回廊、手水舎、お守り、庭園（6シーン）
+
+**ntrテーマの場合：**
+- 現時点では `themes/lovey/` のシーンライブラリを使用
+- 表情は `ntr_face_*`、雰囲気は `ntr_atmosphere_*` を使用してNTR要素を表現
+- 将来的に `themes/ntr/pose_scenes_*.yaml` が作成されれば、そちらを使用
 
 ---
 
@@ -245,38 +326,59 @@ AIは自動的に6つの質問プロセスを開始します。
 
 #### 質問6 (of 6): NSFWシーンの統合
 
-「SFWシーン（pose_play）にNSFWシーンを混ぜ込みますか？」
+「Poseシーン（デート・前戯）にNSFWを混ぜ込みますか？」
 
-1. **なし** - 従来通り、SFWとNSFWを完全分離（pose_play / sex_play / fellatio_playが独立）
-2. **軽度のみ** - SFWシーンの合間に軽度NSFW（キス、抱擁、タッチ）を追加
-3. **中度まで** - SFWシーンの合間に軽度〜中度NSFW（キス、抱擁、手コキ、フェラ軽め）を追加
-4. **全て混ぜる** - SFWシーンの合間に段階的にNSFWを挟み、シームレスな流れを実現
+1. **なし** - 完全SFWのみ（`pose_play_sfw.yaml`のみ作成）
+2. **あり** - 選択したシーンにNSFWを混ぜる（`pose_play_sfw.yaml` + `pose_play_nsfw.yaml`作成）
 
-**数字で答えてください（1〜4）**
+**数字で答えてください（1または2）**
 
-**「2〜4」を選んだ場合、追加質問：**
+**注意：ファイル名は常に`pose_play_sfw.yaml`を使用します。NSFW統合「あり」の場合のみ、`pose_play_nsfw.yaml`を追加作成します。**
 
-「どのシーンにNSFWを混ぜますか？」
+---
 
-**利用可能なシーンリストを表示し、複数選択可能にする**
+**「2. あり」を選んだ場合、以下の追加質問を行います：**
 
-例：
+#### 質問7: どのシーンにNSFWを混ぜるか
+
+**利用可能なシーンリスト（質問2で選択したテーマタイプに応じて表示）を提示し、各シーンに対して：**
+
+例（温泉・旅館系の場合）：
 ```
-Scene 01: ビーチ到着 → NSFW混ぜる？ (Y/N)
-Scene 02: ビーチ活動 → NSFW混ぜる？ (Y/N)
-Scene 03: カフェ → NSFW混ぜる？ (Y/N)
-...
+Scene 01: 旅館到着 → NSFW混ぜる？ (Y/N)
+Scene 02: 客室でくつろぐ → NSFW混ぜる？ (Y/N)
+Scene 03: 温泉街散策 → NSFW混ぜる？ (Y/N)
+Scene 04: 食事処 → NSFW混ぜる？ (Y/N)
+Scene 05: 脱衣所 → NSFW混ぜる？ (Y/N)
+Scene 06: 温泉 → NSFW混ぜる？ (Y/N)
+Scene 07: 露天風呂 → NSFW混ぜる？ (Y/N)
 ```
 
-**各シーンに対して、混ぜるNSFWのレベルを指定：**
+**各シーンに対してY/Nで答えてください**
 
-- **Light** - キス、抱擁、タッチ
-- **Moderate** - 手コキ、フェラ軽め
-- **Heavy** - 前戯全般、本格NSFW
+---
+
+#### 質問8: 各シーンのNSFWレベル
+
+**「Y」と答えたシーンに対して、NSFWのレベルを選択：**
+
+1. **Light** - キス、抱擁、愛撫、胸タッチ（`nsfw_light_all`使用）
+2. **Moderate** - Light + 手コキ、パイズリ、指マン、クンニ、フェラ軽め（`nsfw_moderate_all`使用）
+3. **Heavy** - Moderate + 本格的な前戯全般（foreplay/paizuri系プロンプト使用）
+
+**各シーンのレベルを数字で答えてください（1〜3）**
+
+---
+
+**最終的なファイル構成：**
+
+- `pose_play_sfw.yaml` - 全SFWシーン（NSFW混ぜないシーン含む）
+- `pose_play_nsfw.yaml` - **選択したシーンのNSFW部分のみ**を抽出
+- `main.yaml` - SFW/NSFWのバランスを行数で調整
 
 **使用する共通NSFWライブラリ：**
 
-**✨ 統合用ランダムセレクター（推奨）：**
+**✨ 統合用ランダムセレクター（標準使用）：**
 - `nsfw_light_all` - Light全種類からランダム選択（キス/抱擁/タッチ/胸タッチ）
 - `nsfw_moderate_all` - Moderate全種類からランダム選択（手コキ/フェラ/指マン/クンニ/パイズリ）
 
@@ -291,9 +393,42 @@ Scene 03: カフェ → NSFW混ぜる？ (Y/N)
 - `themes/lovey/paizuri_prompts.yaml` - パイズリ（段階的）
 - `themes/lovey/fellatio_prompts.yaml` - フェラチオ（段階的）
 
-**統合例：**
+**実装方式：ファイル分離による柔軟なバランス調整**
 
-「温泉旅館で彼女と一夜」のように、SFWシーン1行に対してNSFWシーン1行（`_all`セレクター使用）を追加します。これにより、SFW:NSFW = 50:50のバランスが保たれます。
+NSFW統合時は、以下の3ファイル構成を採用します：
+
+```yaml
+# pose_play_sfw.yaml - 純SFWシーンのみ
+pose_play_sfw:
+  - 純SFWシーン1
+  - 純SFWシーン2
+  ...
+
+# pose_play_nsfw.yaml - 純NSFWシーンのみ
+pose_play_nsfw:
+  - NSFWシーン（Light/Moderate）
+  - NSFWシーン
+  ...
+
+# main.yaml - ここでバランス調整
+main:
+  - __自作2_1/[テーマ名]/pose_play_sfw__    # 3行 = 50%
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_nsfw__   # 1行 = 17%
+  - __自作2_1/[テーマ名]/sex_play__         # 1行 = 17%
+  - __自作2_1/[テーマ名]/fellatio_play__    # 1行 = 17%
+```
+
+**メリット：**
+- ✅ `main.yaml`の行数を変えるだけでSFW/NSFW比率を調整可能
+- ✅ 各ファイルが単純明快（SFWかNSFWかのどちらか）
+- ✅ バランス調整が直感的
+
+**バランス例：**
+- SFW 50% / NSFW 50%: sfw 3行 / nsfw 1行 / sex 1行 / fella 1行
+- SFW 30% / NSFW 70%: sfw 2行 / nsfw 2行 / sex 2行 / fella 2行
+- SFW 20% / NSFW 80%: sfw 1行 / nsfw 2行 / sex 2行 / fella 2行
 
 ---
 
@@ -303,77 +438,113 @@ Scene 03: カフェ → NSFW混ぜる？ (Y/N)
 
 #### ステップ1: 各シーンのSFW最終連番を確認
 
-各SFWシーンの最終連番を確認します。
+**⚠️ 重要：pose_play_nsfwの作成前に、各SFWシーンの最終連番を必ず確認すること**
 
-**例：**
-- `scene_beach_activity` → 最終連番: `02_bc_012`
-- `scene_beach_cafe` → 最終連番: `03_cf_008`
-- `scene_beach_sunset` → 最終連番: `05_ss_008`
+各SFWシーンは共通ライブラリから参照されるため、ライブラリファイルを確認して最終連番を把握します。
+
+**確認方法：**
+1. 使用するシーンライブラリファイル（例：`themes/lovey/pose_scenes_onsen.yaml`）を開く
+2. 各シーンの最終プロンプト行を確認し、連番をメモする
+
+**例（温泉・旅館系の場合）：**
+
+```yaml
+# themes/lovey/pose_scenes_onsen.yaml を確認
+
+# scene_ryokan_arrival の最終連番
+scene_ryokan_arrival:
+  - 01_ar_001,1girl,ryokan,...
+  - 01_ar_002,1girl,ryokan,...
+  ...
+  - 01_ar_006,couple,ryokan,...  ← 最終連番: 01_ar_006
+
+# scene_ryokan_room の最終連番
+scene_ryokan_room:
+  - 02_rm_001,1girl,japanese room,...
+  - 02_rm_002,1girl,tatami room,...
+  ...
+  - 02_rm_007,couple,ryokan room,...  ← 最終連番: 02_rm_007
+
+# scene_onsen_bathing の最終連番
+scene_onsen_bathing:
+  - 06_on_001,1girl,onsen,...
+  ...
+  - 06_on_009,couple,onsen,...  ← 最終連番: 06_on_009
+
+# scene_outdoor_bath の最終連番
+scene_outdoor_bath:
+  - 07_ob_001,1girl,outdoor bath,...
+  ...
+  - 07_ob_007,couple,outdoor bath,...  ← 最終連番: 07_ob_007
+```
+
+**連番確認表を作成：**
+
+| シーン | カテゴリ | SFW最終連番 | NSFW開始連番 |
+|--------|----------|-------------|--------------|
+| Scene 01: 旅館到着 | ar | 01_ar_006 | 01_ar_007 |
+| Scene 02: 客室 | rm | 02_rm_007 | 02_rm_008 |
+| Scene 03: 温泉街 | ot | 03_ot_005 | 03_ot_006 |
+| Scene 04: 食事処 | dn | 04_dn_006 | 04_dn_007 |
+| Scene 05: 脱衣所 | ch | 05_ch_004 | 05_ch_005 |
+| Scene 06: 温泉 | on | 06_on_009 | 06_on_010 |
+| Scene 07: 露天風呂 | ob | 07_ob_007 | 07_ob_008 |
 
 #### ステップ2: NSFWプロンプトの開始連番を決定
 
 NSFWプロンプトは、**SFW最終連番+1**から開始します。
 
 **例：**
-- `scene_beach_activity`のNSFW → `02_bc_013`から開始
-- `scene_beach_cafe`のNSFW → `03_cf_009`から開始
-- `scene_beach_sunset`のNSFW → `05_ss_009`から開始
+- Scene 02（客室）: SFW最終`02_rm_007` → NSFW開始`02_rm_008`
+- Scene 06（温泉）: SFW最終`06_on_009` → NSFW開始`06_on_010`
+- Scene 07（露天風呂）: SFW最終`07_ob_007` → NSFW開始`07_ob_008`
 
-#### ステップ3: 共通ライブラリを参照する形式で連番を付与
+#### ステップ3: pose_play_nsfwに連番付きで記載
 
-**✅ 推奨方式（共通ライブラリ参照）：**
-
-NSFWプロンプトの内容を展開せず、連番を付けて共通ライブラリを参照します。
+**⚠️ 重要：質問6-Aで「Y」と答えたシーンのみ、ステップ1で確認した連番を使用して記載**
 
 ```yaml
-# NSFW Light: キス（連番: 02_bc_013）
-- 02_bc_013,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,__params__,...
+# pose_play_nsfw.yaml
 
-# NSFW Light: 抱擁（連番: 02_bc_014）
-- 02_bc_014,__自作2_1/themes/lovey/nsfw_embrace__,__自作2_1/params/angle_from_side__,__params__,...
-
-# NSFW Light: 愛撫（連番: 02_bc_015）
-- 02_bc_015,__自作2_1/themes/lovey/nsfw_touch__,__自作2_1/params/angle_upper_body__,__params__,...
+pose_play_nsfw:
+  # Scene 02: 客室 NSFW Light
+  # SFW最終: 02_rm_007 → NSFW開始: 02_rm_008
+  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_ryokan_room__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_yukata__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
+  ... (同じ連番で20-40行程度)
+  
+  # Scene 06: 温泉 NSFW Moderate
+  # SFW最終: 06_on_009 → NSFW開始: 06_on_010
+  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_lewd__,__自作2_1/themes/lovey/lovey_atmosphere_sexy__
+  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
+  ... (同じ連番で50-100行程度)
+  
+  # Scene 07: 露天風呂 NSFW Moderate
+  # SFW最終: 07_ob_007 → NSFW開始: 07_ob_008
+  - 07_ob_008,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},__自作2_1/params/place_outdoor_bath__,...
+  - 07_ob_008,__自作2_1/themes/lovey/nsfw_moderate_all__,...
+  ... (同じ連番で50-100行程度)
 ```
 
-**メリット：**
-- コードが簡潔で保守性が高い
-- 共通ライブラリを修正すれば全テーマに反映される
-- 各ライブラリ内の複数バリエーションからランダムに選ばれる
+**連番の連続性の確認：**
 
-**注意：**
-- 連番が2つ並ぶ（例：`02_bc_013,70_nl001_0,...`）が、これは問題ない
-- 最初の連番（`02_bc_013`）により時系列順が保証される
-
----
-
-**❌ 非推奨（プロンプト展開方式）：**
-
-プロンプト内容を直接展開する方法も可能だが、コードが冗長になるため推奨しない。
-
-```yaml
-# NSFW Light: キス（連番: 02_bc_013〜015）
-- 02_bc_013,1girl,1boy,couple,kiss,kissing,face to face,blush,eyes closed,romantic,heart,__params__,...
-- 02_bc_014,1girl,1boy,couple,french kiss,deep kiss,face to face,saliva,blush,eyes closed,heart,steam,__params__,...
-- 02_bc_015,1girl,about to kiss,incoming kiss,puckered lips,open mouth,eyes closed,blush,romantic,__params__,...
+出力画像のファイル名順で確認すると：
+```
+02_rm_001_xxx.png  ← SFW (scene_ryokan_room)
+02_rm_002_xxx.png  ← SFW
+...
+02_rm_007_xxx.png  ← SFW (最終)
+02_rm_008_xxx.png  ← NSFW (pose_play_nsfw)
+02_rm_008_xxx.png  ← NSFW
+...
 ```
 
----
+このように、SFWからNSFWへ連番が途切れずにつながります。
 
-**❌ NG例（連番なしで共通ライブラリ参照）：**
-
-連番を付けずに共通ライブラリを参照すると、時系列順が崩れる。
-
-```yaml
-# NSFW Light: 抱擁・密着
-- __自作2_1/themes/lovey/nsfw_embrace__,...
-# → 共通ライブラリの連番（70_nl002_0）がそのまま使われる
-# → ファイル名ソート時に時系列順が崩れる
-```
 
 #### ステップ4: 利用可能なNSFW共通ライブラリ
 
-**✨ 統合用ランダムセレクター（推奨）：**
+**✨ 統合用ランダムセレクター（標準使用）：**
 
 **軽度NSFW統合用：**
 - `nsfw_light_all` - Light全種類からランダム選択（キス/抱擁/タッチ/胸タッチ、計4カテゴリ×3バリエーション）
@@ -399,248 +570,32 @@ NSFWプロンプトの内容を展開せず、連番を付けて共通ライブ�
 - `nsfw_paizuri_light` - パイズリ軽め（3バリエーション）
 - `nsfw_paizuri_intense` - パイズリ本格的（3バリエーション）
 
-#### 実装例
+#### ステップ5: 実装時の注意事項
 
 **⚠️ 重要なルール：服装と場所の継続性**
 
 同じシーン内で、SFWからNSFWに移行する際は：
 1. **服装は同じものを継続**（急に変わらない）
-2. **場所は同じものを継続**（場所パラメータを追加）
+2. **場所パラメータを追加**（NSFW行に必須）
 3. **時間帯も同じものを継続**
-
----
-
-### ✅ 推奨方法：統合用ランダムセレクター（`_all`）を使用
-
-**最もシンプルで保守性が高い方法です。**
-
-#### 方法A: SFW:NSFW = 50:50（バランス重視）
-
-**例1: 公園シーン（Light統合）**
- 
- ```yaml
- # ========== Scene 02: time_day - 公園散策 + NSFW Light ==========
- pose_scene2_park:
-   # SFWシーン（連番: 02_pk_001〜005）
-   - __自作2_1/themes/lovey/scene_park_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
-   
-   # NSFW Light統合（連番: 02_pk_006）- SFW:NSFW = 50:50
-   # 注意：SFWと同じ outfit_casual_day, time_day を使用！
-   - 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_park__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
- ```
-
-**メリット：**
-- ✅ SFWとNSFWが等確率で選ばれる
-- ✅ ストーリー性とエロのバランスが良い
-
----
-
-#### 方法B: SFW:NSFW = 20:80（NSFW重視・推奨）
-
-**より高いNSFW比率が必要な場合は、同じ`_all`セレクターを複数行記述します。**
-
-**例2: 温泉シーン（Moderate統合、NSFW重視）**
- 
- ```yaml
- # ========== Scene 06: time_evening - 温泉 + NSFW Moderate ==========
- pose_scene6_onsen:
-   # SFWシーン（連番: 06_on_001〜009）
-   - __自作2_1/themes/lovey/scene_onsen_bathing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
-   
-   # NSFW Moderate統合（連番: 06_on_010）- SFW:NSFW = 20:80
-   # 注意：SFWと同じ outfit_nude, time_evening を使用！
-   # 注意：同じ連番を4行記述することでNSFW確率を80%に設定！
-   - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_pov_closeup_face__|__自作2_1/params/angle_pov_closeup_body__|__自作2_1/params/angle_from_above__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
-   - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_pov_closeup_face__|__自作2_1/params/angle_pov_closeup_body__|__自作2_1/params/angle_from_above__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
-   - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_pov_closeup_face__|__自作2_1/params/angle_pov_closeup_body__|__自作2_1/params/angle_from_above__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
-   - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_pov_closeup_face__|__自作2_1/params/angle_pov_closeup_body__|__自作2_1/params/angle_from_above__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
- ```
-
-**メリット：**
-- ✅ **NSFW比率が高い**（80%）
-- ✅ **連番を統一**することで出力ファイル名が揃う
-- ✅ **行を増やすだけ**で比率を調整可能（1:1=50%, 1:2=67%, 1:3=75%, 1:4=80%）
-- ✅ **エロ重視のテーマに最適**
-
-**ポイント：**
- - シーン固有のプロンプト（`wet skin`, `steam`など）は、`_all`セレクター直後に追加
- - アングルは`{A|B|C}`構文で複数選択肢を用意（バリエーション向上）
- - **NSFW行は全て同じ連番**（例：`06_on_010`を4回）→ ファイル名が統一される
- - **比率の計算**: SFW n行 + NSFW m行 → NSFW確率 = m/(n+m)
-
-**比率の設定例：**
-| SFW行数 | NSFW行数 | 比率 | NSFW確率 | 用途 |
-|---------|---------|------|---------|------|
-| 1 | 1 | 50:50 | 50% | バランス重視 |
-| 1 | 2 | 33:67 | 67% | NSFW多め |
-| 1 | 3 | 25:75 | 75% | NSFW重視 |
-| 1 | 4 | 20:80 | 80% | **エロ重視（推奨）** |
-| 1 | 9 | 10:90 | 90% | ほぼNSFW |
-
----
-
-### 📦 補足：個別ライブラリを使用する方法
-
-**細かい制御が必要な場合（非推奨）：**
-
-```yaml
-# 特定のNSFWのみを使いたい場合
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_kiss__,__自作2_1/params/angle_closeup_face__,...
-
-# 複数選択する場合は{A|B|C}構文を使用
-- 02_pk_006,{__自作2_1/themes/lovey/nsfw_kiss__|__自作2_1/themes/lovey/nsfw_embrace__},{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__},...
-```
-
-**注意：**
-- この方法は冗長になりやすく、保守性が低い
-- 特別な理由がない限り`_all`セレクターを推奨
-
----
+4. **アングルパラメータを追加**（複数ある場合は`{A|B|C}`構文）
 
 **必須チェックリスト（NSFW統合時）：**
- - [ ] NSFWプロンプトは、SFWシーンと**同じ服装**（`outfit_xxx`）を使用
- - [ ] NSFWプロンプトは、SFWシーンと**同じ時間帯**（`time_xxx`）を使用
- - [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加
- - [ ] NSFWプロンプトに**アングルパラメータ**（`angle_xxx`）を追加、複数ある場合は`{A|B|C}`構文
- - [ ] NSFWプロンプトに**適切な連番**（SFW最終+1から）を付与
- - [ ] **`nsfw_light_all` または `nsfw_moderate_all` を使用**
- - [ ] **比率を決定**（50:50バランス型 or 20:80エロ重視型）
- - [ ] **NSFW複数行は同じ連番に統一**（ファイル名を揃える）
-
-**✅ 推奨パターン（20:80エロ重視型）：**
-```yaml
-pose_scene_xxx:
-  - SFWシーン（1行）
-  - XX_yy_NNN,__nsfw_xxx_all__,...  # NSFW（4行、全て同じ連番）
-  - XX_yy_NNN,__nsfw_xxx_all__,...
-  - XX_yy_NNN,__nsfw_xxx_all__,...
-  - XX_yy_NNN,__nsfw_xxx_all__,...
-```
-
-**❌ 避けるべきパターン：**
-```yaml
-# 個別ライブラリを複数行に分ける（古い方式、非推奨）
-- 02_pk_001,__自作2_1/themes/lovey/scene_park_walking__,...  # SFW 1行
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_kiss__,...           # NSFW 3行
-- 02_pk_007,__自作2_1/themes/lovey/nsfw_embrace__,...        # → 連番が分散
-- 02_pk_008,__自作2_1/themes/lovey/nsfw_touch__,...          # → 保守性が低い
-```
-
-**✅ 正しいパターン（推奨）：**
-```yaml
-# 方法A: 50:50バランス型
-- __自作2_1/themes/lovey/scene_park_walking__,...         # SFW 1行
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,...   # NSFW 1行
-
-# 方法B: 20:80エロ重視型（推奨）
-- __自作2_1/themes/lovey/scene_park_walking__,...         # SFW 1行
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,...   # NSFW 4行（全て同じ連番）
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,...
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,...
-- 02_pk_006,__自作2_1/themes/lovey/nsfw_light_all__,...
-```
-
-**この方法により、出力画像がファイル名順に時系列で正しく並び、かつ望む比率でSFW/NSFWが生成されます。**
-
----
-
-### ⚠️ 重要：pose_playの実装方式
-
-NSFW統合時の`pose_play`実装には**2つの方式**があり、実効NSFW確率が大きく異なります。
-
-#### ❌ 方式A: シーン経由（2段階選択・非推奨）
-
-```yaml
-# pose_scene定義
-pose_scene2_room:
-  - SFWシーン（1行）
-  - NSFW（4行、全て同じ連番）
-  ...
-
-# pose_play
-pose_play:
-  - __pose_scene1_arrival__
-  - __pose_scene2_room__
-  - __pose_scene3_onsen_town__
-  ...
-```
-
-**問題点：**
-- Dynamic Promptsが**2段階選択**を行う
-  1. まず`pose_play`から1シーンを選択
-  2. 選ばれたシーン内から1行を選択
-- 各シーン内は20:80でも、**テーマ全体では約30-40%**しかNSFWにならない
-- NSFWシーンが少ない場合、実効確率が大幅に低下
-
-**実効NSFW確率の計算例：**
-```
-7シーン中3シーンがNSFW統合（各20:80）の場合：
-P(NSFW) = (3/7) × (4/5) = 12/35 ≈ 34.3%
-```
-
----
-
-#### ✅ 方式B: 全行直接列挙（1段階選択・推奨）
-
-**NSFW統合時は、pose_playに全ての行を直接列挙すること。**
-
-```yaml
-# pose_scene定義（参考用のみ、使用しない）
-pose_scene2_room:
-  - SFWシーン（1行）
-  - NSFW（4行）
-  ...
-
-# pose_play（全行を直接列挙）
-pose_play:
-  # Scene 01: 旅館到着（SFW）
-  - __自作2_1/themes/lovey/scene_ryokan_arrival__,...
-  
-  # Scene 02: 客室（SFW 1行 + NSFW 4行）
-  - __自作2_1/themes/lovey/scene_ryokan_room__,...
-  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
-  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
-  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
-  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
-  
-  # Scene 03: 温泉街（SFW）
-  - __自作2_1/themes/lovey/scene_onsen_town__,...
-  
-  # Scene 06: 温泉（SFW 1行 + NSFW 4行）
-  - __自作2_1/themes/lovey/scene_onsen_bathing__,...
-  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
-  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
-  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
-  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
-  ...
-```
-
-**メリット：**
-- ✅ **1段階選択**：`pose_play`から直接1行をランダム選択
-- ✅ **比率が直感的**：全行数に対するNSFW行数がそのまま確率になる
-- ✅ **実効NSFW確率が向上**：各シーン内の20:80が**ほぼそのまま全体にも反映**される
-- ✅ **管理がシンプル**：テーマごとに完結、修正は想定しない運用に最適
-
-**実効NSFW確率の計算例：**
-```
-合計19行（SFW 7行 + NSFW 12行）の場合：
-P(NSFW) = 12/19 ≈ 63.2%
-```
-
-**注意点：**
-- `pose_scene`定義は残しても構わないが、`pose_play`では使用しない
-- 各シーンの行を全て`pose_play`に直接コピーする
-- シーンごとにコメントを入れると可読性が向上
-
-**この方式により、各シーン内の比率設定が実際の生成結果に正しく反映されます。**
+- [ ] NSFWプロンプトは、SFWシーンと**同じ服装**（`outfit_xxx`）を使用
+- [ ] NSFWプロンプトは、SFWシーンと**同じ時間帯**（`time_xxx`）を使用
+- [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加
+- [ ] NSFWプロンプトに**アングルパラメータ**（`angle_xxx`）を追加、複数ある場合は`{A|B|C}`構文
+- [ ] NSFWプロンプトに**適切な連番**（SFW最終+1から）を付与
+- [ ] **`nsfw_light_all` または `nsfw_moderate_all` を使用**
+- [ ] **同じシーンのNSFW行は同じ連番に統一**（ファイル名を揃える）
 
 ---
 
 ### 2-2 確認とシーンフロー提案
 
-#### ステップ7: 入力内容の確認
+#### 確認ステップ（NSFW統合なしの場合はステップ7、統合ありの場合はステップ9）: 入力内容の確認
 
-6つの質問が完了したら、入力内容を確認：
+全ての質問が完了したら、入力内容を確認：
 
 ```
 📋 入力内容の確認
@@ -651,8 +606,9 @@ P(NSFW) = 12/19 ≈ 63.2%
 - 時系列: [details]
 - 男性タイプ: [type]
 - Sex場所: [location]
-- NSFW統合: [none/light/moderate/full]
-  - 統合シーン: [シーンリスト]
+- NSFW統合: [あり/なし]
+  - NSFW統合シーン: [シーンリスト]（統合ありの場合）
+  - 各シーンのNSFWレベル: [Light/Moderate/Heavy]（統合ありの場合）
 
 この内容で作成してよろしいですか？
 
@@ -662,7 +618,7 @@ P(NSFW) = 12/19 ≈ 63.2%
 数字で答えてください（1または2）
 ```
 
-#### ステップ8: シーンフロー提案
+#### シーンフロー提案ステップ（NSFW統合なしの場合はステップ8、統合ありの場合はステップ10）: シーンフロー提案
 
 ユーザーの承認後、選択したライブラリから適切なシーンを選んで提案：
 
@@ -675,6 +631,37 @@ Scene 03: [time] - [scene from library]
 ...
 
 この流れでOKですか？
+
+1. OK - NSFW統合詳細確認に進む（NSFW統合ありの場合）/ ファイル作成開始（NSFW統合なしの場合）
+2. 修正
+
+数字で答えてください（1または2）
+```
+
+---
+
+#### ステップ11（NSFW統合ありの場合のみ）: NSFW統合の最終確認
+
+**各シーンに対するNSFW統合設定を確認：**
+
+```
+【NSFW統合設定の最終確認】
+
+Scene 01: 旅館到着 → NSFW: なし
+Scene 02: 客室でくつろぐ → NSFW: Light (キス、ハグ、愛撫)
+Scene 03: 温泉街散策 → NSFW: なし
+Scene 04: 食事処 → NSFW: なし
+Scene 05: 脱衣所 → NSFW: なし
+Scene 06: 温泉 → NSFW: Moderate (手コキ、パイズリ、指マン等)
+Scene 07: 露天風呂 → NSFW: Moderate (手コキ、パイズリ、指マン等)
+
+【作成されるファイル構成】
+- pose_play_sfw.yaml: 全シーンのSFW部分（7シーン）
+- pose_play_nsfw.yaml: Scene 02, 06, 07のNSFW部分のみ（純NSFWプロンプトのみ）
+- main.yaml: バランス調整用エントリーポイント
+  例: sfw 3行 / nsfw 1行 / sex 1行 / fella 1行 = SFW 50% / NSFW 50%
+
+この設定で作成してよろしいですか？
 
 1. OK - ファイル作成開始
 2. 修正
@@ -714,35 +701,53 @@ Scene 03: [time] - [scene from library]
 #   Scene 02: ...
 ```
 
-**3. `pose_play.yaml`**
+**3. `pose_play_sfw.yaml`**（常に作成）
 ```yaml
-# Pose用シーン定義（[テーマ名]）
-# 男性タイプ: male_type_[xxx]
-# NSFW統合: あり（推奨：全行直接列挙方式）
+# Pose用シーン定義 - SFWのみ（[テーマ名]）
+# 全てのSFWシーンを含む
 
-# ========== 各シーンの定義（参考用） ==========
-# 注意：NSFW統合時は、以下の定義を参考に全行をpose_playに直接列挙すること
-
-# シーン1: [時間帯] - [シーン説明]
-pose_scene1_[name]:
-  - __wildcard-system/自作2_1/themes/[base]/scene_[name]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere]__
-
-# ... 複数シーン定義
-
-# ========== ポーズプレイ統合（全行直接列挙） ==========
-pose_play:
-  # Scene 01: [説明]（SFW）
-  - __wildcard-system/自作2_1/themes/[base]/scene_[name1]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere]__
+pose_play_sfw:
+  # Scene 01: [時間帯] - [シーン説明]
+  - __自作2_1/themes/[base]/scene_[name]__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_[xxx]__,__自作2_1/params/time_[xxx]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
   
-  # Scene 02: [説明]（SFW 1行 + NSFW 4行）
-  - __wildcard-system/自作2_1/themes/[base]/scene_[name2]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere]__
-  - 02_xx_NNN,__wildcard-system/自作2_1/themes/[base]/nsfw_[level]_all__,[scene_specific],{__wildcard-system/自作2_1/params/angle_xxx__|...},__wildcard-system/自作2_1/params/place_[xxx]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face_intimate]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere_romantic]__
-  - 02_xx_NNN,__wildcard-system/自作2_1/themes/[base]/nsfw_[level]_all__,[scene_specific],{__wildcard-system/自作2_1/params/angle_xxx__|...},__wildcard-system/自作2_1/params/place_[xxx]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face_intimate]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere_romantic]__
-  - 02_xx_NNN,__wildcard-system/自作2_1/themes/[base]/nsfw_[level]_all__,[scene_specific],{__wildcard-system/自作2_1/params/angle_xxx__|...},__wildcard-system/自作2_1/params/place_[xxx]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face_intimate]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere_romantic]__
-  - 02_xx_NNN,__wildcard-system/自作2_1/themes/[base]/nsfw_[level]_all__,[scene_specific],{__wildcard-system/自作2_1/params/angle_xxx__|...},__wildcard-system/自作2_1/params/place_[xxx]__,__wildcard-system/自作2_1/params/male_type_[xxx]__,__wildcard-system/自作2_1/params/outfit_[xxx]__,__wildcard-system/自作2_1/params/time_[xxx]__,__wildcard-system/自作2_1/themes/[base]/[face_intimate]__,__wildcard-system/自作2_1/themes/[base]/[atmosphere_romantic]__
+  # Scene 02: [時間帯] - [シーン説明]
+  - __自作2_1/themes/[base]/scene_[name]__,...
   
-  # ... 他のシーンも同様に全行列挙
+  # Scene 03: [時間帯] - [シーン説明]
+  - __自作2_1/themes/[base]/scene_[name]__,...
+  
+  # ... (全シーン、NSFW混ぜる/混ぜない関係なく全て記載)
 ```
+
+**4. `pose_play_nsfw.yaml`**（NSFW統合ありの場合のみ作成）
+
+**⚠️ 重要：質問7で「NSFW混ぜる（Y）」と選択したシーンのNSFW部分のみを抽出**
+
+```yaml
+# Pose用シーン定義 - NSFWのみ（[テーマ名]）
+# 質問7でYと選択したシーンのNSFW部分のみ
+
+pose_play_nsfw:
+  # Scene 02: 客室 NSFW Light（質問7でYと答えた場合のみ記載）
+  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_ryokan_room__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_yukata__,__自作2_1/params/time_day__,__自作2_1/themes/[base]/lovey_face_intimate__,__自作2_1/themes/[base]/lovey_atmosphere_romantic__
+  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{...},...
+  ... (同じ連番で複数行、20-40行程度)
+  
+  # Scene 06: 温泉 NSFW Moderate（質問7でYと答えた場合のみ記載）
+  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/[base]/lovey_face_lewd__,__自作2_1/themes/[base]/lovey_atmosphere_sexy__
+  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,{...},...
+  ... (同じ連番で複数行、50-100行程度)
+  
+  # Scene 07: 露天風呂 NSFW Moderate（質問7でYと答えた場合のみ記載）
+  - 07_ob_008,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},__自作2_1/params/place_outdoor_bath__,...
+  ... (同じ連番で複数行、50-100行程度)
+```
+
+**作成ルール：**
+- 質問7で「N（NSFW混ぜない）」と答えたシーンは**pose_play_nsfwに記載しない**
+- 質問7で「Y（NSFW混ぜる）」と答えたシーンの**NSFW部分のみ**をpose_play_nsfwに抽出
+- 各シーンのNSFW開始連番は、SFW最終連番+1から開始
+- 服装・場所・時間帯はSFWシーンと同じものを使用
 
 **⚠️ 重要：参照順序について**
 
@@ -769,75 +774,120 @@ pose_play:
 ファイル名（`pose_scenes_beach`など）をパスに含める必要はありません。
 キー名（`scene_beach_arrival`など）のみで参照できます。
 
-**4. `sex_play.yaml`**
+**5. `sex_play.yaml`**
 ```yaml
 # Sex用プレイリスト（[テーマ名]）
+# 場所: [sex_location]
+# 男性タイプ: male_type_[xxx]
 
 sex_play:
-  - __wildcard-system/自作2_1/themes/[base]/sex_intro_gentle__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/sex_moderate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/sex_intense__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/sex_extreme__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/sex_creampie__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/sex_after__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_intro_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_moderate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_intense__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_extreme__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_creampie__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_after__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
 ```
 
-**5. `fellatio_play.yaml`** （オプション）
+**6. `fellatio_play.yaml`** （オプション）
 ```yaml
 # Fellatio用プレイリスト（[テーマ名]）
+# 場所: [sex_location]
+# 男性タイプ: male_type_[xxx]
 
 fellatio_play:
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_intro_tease__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_start_licking__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_moderate_gentle__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_intense_passionate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_climax_deep__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_finish_ejaculation__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_after_swallow__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
-  - __wildcard-system/自作2_1/themes/[base]/fellatio_extra_intimate__,__wildcard-system/自作2_1/params/place_[sex_location]__,__wildcard-system/自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_intro_tease__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_start_licking__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_moderate_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_intense_passionate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_climax_deep__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_finish_ejaculation__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_after_swallow__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_extra_intimate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
 ```
 
-**6. `main.yaml`**
+**7. `main.yaml`**
+
+**NSFW統合ありの場合:**
 ```yaml
-# メインエントリーポイント
+# メインエントリーポイント（[テーマ名]）
+# SFW/NSFWバランスをここで調整可能
 
 main:
-  - __wildcard-system/自作2_1/[テーマ名]/pose_play__
-  - __wildcard-system/自作2_1/[テーマ名]/sex_play__
-  - __wildcard-system/自作2_1/[テーマ名]/fellatio_play__  # オプション
+  # === バランス設定例 ===
+  # SFW 50% / NSFW 50%: sfw 3行 / nsfw 1行 / sex 1行 / fella 1行
+  # SFW 30% / NSFW 70%: sfw 2行 / nsfw 2行 / sex 2行 / fella 2行
+  # SFW 20% / NSFW 80%: sfw 1行 / nsfw 2行 / sex 2行 / fella 2行
+  
+  # SFWシーン（デート、到着、通常シーンなど）
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  
+  # NSFW軽め（キス、ハグ、愛撫、手コキ、パイズリなど）
+  - __自作2_1/[テーマ名]/pose_play_nsfw__
+  
+  # NSFW重め（セックス）
+  - __自作2_1/[テーマ名]/sex_play__
+  
+  # NSFW重め（フェラチオ）
+  - __自作2_1/[テーマ名]/fellatio_play__
 ```
 
-**7. `README.md`**（使い方ガイド）
+**NSFW統合なしの場合:**
+```yaml
+# メインエントリーポイント（[テーマ名]）
+# SFW/NSFWバランスをここで調整可能
+
+main:
+  # SFWシーンのみ（NSFW統合なし）
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  - __自作2_1/[テーマ名]/pose_play_sfw__
+  
+  # NSFW重め（セックス）
+  - __自作2_1/[テーマ名]/sex_play__
+  
+  # NSFW重め（フェラチオ）
+  - __自作2_1/[テーマ名]/fellatio_play__
+```
+
+**8. `README.md`**（使い方ガイド）
 
 ---
 
 ## 3. 使用方法
 
-#### Poseシーンのみ（SFW）
+### 個別シーンの使用
+
+#### SFWシーンのみ
 ```
-__wildcard-system/自作2_1/[テーマ名]/pose_play__
+__自作2_1/[テーマ名]/pose_play_sfw__
 ```
 
-#### Sexシーンのみ（NSFW）
+#### NSFW前戯シーンのみ（NSFW統合ありの場合のみ）
 ```
-__wildcard-system/自作2_1/[テーマ名]/sex_play__
-```
-
-#### Fellatioシーンのみ（NSFW - オプション）
-```
-__wildcard-system/自作2_1/[テーマ名]/fellatio_play__
+__自作2_1/[テーマ名]/pose_play_nsfw__
 ```
 
-#### 全シーン（Pose + Sex）
+#### Sexシーンのみ
 ```
-__wildcard-system/自作2_1/[テーマ名]/main__
+__自作2_1/[テーマ名]/sex_play__
 ```
 
-#### 全シーン（Pose + Sex + Fellatio）
+#### Fellatioシーンのみ（オプション）
 ```
-__wildcard-system/自作2_1/[テーマ名]/main__
+__自作2_1/[テーマ名]/fellatio_play__
 ```
-※fellatio_playをmainに含める場合
+
+### 全シーン統合（推奨）
+
+#### 全シーン（バランス調整済み）
+```
+__自作2_1/[テーマ名]/main__
+```
+
+**注意：`main.yaml`は常に`pose_play_sfw`を参照します。NSFW統合ありの場合は、`pose_play_nsfw`も参照されます。**
 
 ---
 

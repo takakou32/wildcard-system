@@ -1,0 +1,91 @@
+# ラブラブテーマ用ポーズプロンプト - 遊園地系シーン
+# pose_scenes_amusement.yaml
+# 使用対象：遊園地デート、テーマパーク、娯楽施設系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 遊園地入口 ==========
+
+scene_amusement_entrance:
+  - 01_en_001,1girl,amusement park entrance,entering,excited,cowboy shot,arrival
+  - 01_en_002,1girl,theme park gate,standing,looking at park,wide shot,full body,taking in view
+  - 01_en_003,1girl,amusement park,walking in,carrying bag,pov,first person view,entering
+  - 01_en_004,1girl,park entrance,standing,looking at map,from behind,over shoulder,planning
+  - 01_en_005,1girl,1boy,amusement park entrance,entering together,holding hands,wide shot,couple arrival
+  - 01_en_006,1girl,1boy,theme park gate,walking in excitedly,from behind,full body,together
+  - 01_en_007,1girl,1boy,park entrance,looking at park map together,cowboy shot,planning route
+
+# ========== シーン2: アトラクション待機列 ==========
+
+scene_amusement_queue:
+  - 02_qu_001,1girl,ride queue,standing in line,waiting,cowboy shot,waiting pose
+  - 02_qu_002,1girl,attraction line,looking at phone,pov angle,passing time
+  - 02_qu_003,1girl,queue area,standing,excited expression,close-up,face focus,anticipation
+  - 02_qu_004,1girl,ride line,leaning on railing,from behind,over shoulder,waiting
+  - 02_qu_005,1girl,attraction queue,standing,looking at ride,dutch angle,excited
+  - 02_qu_006,1girl,1boy,ride queue,standing together in line,talking,wide shot,waiting together
+  - 02_qu_007,1girl,1boy,attraction line,standing close,holding hands,cowboy shot,patient waiting
+  - 02_qu_008,1girl,1boy,queue area,girl leaning on boy,tired,close-up,comfortable
+  - 02_qu_009,1girl,1boy,ride line,talking excitedly about ride,dutch angle,animated conversation
+  - 02_qu_010,1girl,1boy,attraction queue,taking selfie together,pov,couple photo
+
+# ========== シーン3: アトラクション乗車・体験 ==========
+
+scene_amusement_rides:
+  - 03_rd_001,1girl,ride seat,sitting,safety bar down,excited expression,cowboy shot,ready for ride
+  - 03_rd_002,1girl,ferris wheel,sitting,looking out window,pov angle,scenic view
+  - 03_rd_003,1girl,carousel,sitting on horse,holding pole,close-up,face focus,joyful
+  - 03_rd_004,1girl,ride,screaming with excitement,thrill,dutch angle,dynamic moment
+  - 03_rd_005,1girl,observation ride,standing,looking at view,from behind,over shoulder,sightseeing
+  - 03_rd_006,1girl,1boy,roller coaster,sitting together,holding hands,excited,wide shot,thrill ride
+  - 03_rd_007,1girl,1boy,ferris wheel cabin,sitting together,romantic atmosphere,cowboy shot,private space
+  - 03_rd_008,1girl,1boy,ride,girl holding onto boy,scared,close-up,protective moment
+  - 03_rd_009,1girl,1boy,observation wheel,looking at view together,from behind,shared experience
+  - 03_rd_010,1girl,1boy,ferris wheel at top,very close,about to kiss,dutch angle,romantic height
+
+# ========== シーン4: 飲食エリア ==========
+
+scene_amusement_food:
+  - 04_fd_001,1girl,park food court,sitting at table,eating,cowboy shot,meal time
+  - 04_fd_002,1girl,outdoor seating,drinking colorful drink,pov angle,refreshing
+  - 04_fd_003,1girl,food stall,ordering food,close-up,face focus,deciding
+  - 04_fd_004,1girl,eating area,sitting,enjoying snack,from behind,over shoulder,relaxed
+  - 04_fd_005,1girl,park restaurant,standing,holding tray,wide shot,getting food
+  - 04_fd_006,1girl,1boy,food court,sitting across from each other,eating together,wide shot,dining
+  - 04_fd_007,1girl,1boy,outdoor table,sitting side by side,sharing food,cowboy shot,intimate sharing
+  - 04_fd_008,1girl,1boy,food area,feeding each other,playful,close-up,cute moment
+  - 04_fd_009,1girl,1boy,park cafe,holding hands on table,dutch angle,romantic meal
+  - 04_fd_010,1girl,1boy,eating area,sharing drink with two straws,pov,romantic sharing
+
+# ========== シーン5: パレード・ショー観覧 ==========
+
+scene_amusement_parade:
+  - 05_pr_001,1girl,parade route,standing,watching parade,pov,excited viewing
+  - 05_pr_002,1girl,show area,sitting,watching performance,close-up,face focus,entertained
+  - 05_pr_003,1girl,parade viewing,standing on tiptoes,trying to see,cowboy shot,excited
+  - 05_pr_004,1girl,1boy,parade route,standing together,watching,cowboy shot,enjoying together
+  - 05_pr_005,1girl,1boy,show area,sitting close,watching show,wide shot,shared entertainment
+  - 05_pr_006,1girl,1boy,parade viewing,boy lifting girl to see better,dutch angle,helpful gesture
+  - 05_pr_007,1girl,1boy,parade route,standing,boy behind girl,arms around her,from behind,protective
+  - 05_pr_008,1girl,1boy,show area,girl leaning on boy's shoulder,tired,close-up,comfortable
+  - 05_pr_009,1girl,1boy,parade viewing,both excited,pointing at parade,low angle,enthusiastic
+  - 05_pr_010,1girl,1boy,fireworks area,watching fireworks,embracing,high angle,from above,romantic
+
+# ========== シーン6: 夜の遊園地 ==========
+
+scene_amusement_night:
+  - 06_nt_001,1girl,park at night,standing,illuminations background,pov,nighttime magic
+  - 06_nt_002,1girl,night park,walking,colorful lights,close-up,face focus,illuminated
+  - 06_nt_003,1girl,park at night,standing by lit attraction,cowboy shot,night atmosphere
+  - 06_nt_004,1girl,1boy,night park,walking hand in hand,illuminations,wide shot,romantic walk
+  - 06_nt_005,1girl,1boy,park at night,standing close,lights background,cowboy shot,romantic lighting
+  - 06_nt_006,1girl,1boy,night park,embracing,illuminations behind,close-up,tender embrace
+  - 06_nt_007,1girl,1boy,park at night,looking at each other,colored lights,dutch angle,connection
+  - 06_nt_008,1girl,1boy,night park,sitting on bench,tired but happy,wide shot,end of day
+  - 06_nt_009,1girl,1boy,park at night,about to kiss,ferris wheel background,low angle,romantic moment
+  - 06_nt_010,1girl,1boy,night park exit,leaving together,holding hands,from behind,high angle,goodbye to park
+

@@ -1,0 +1,109 @@
+# ラブラブテーマ用ポーズプロンプト - ジム・スポーツ施設系シーン
+# pose_scenes_gym.yaml
+# 使用対象：ジムデート、トレーニング、スポーツ系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: ジム到着・準備 ==========
+
+scene_gym_arrival:
+  - 01_ar_001,1girl,gym entrance,entering,carrying gym bag,cowboy shot,arrival
+  - 01_ar_002,1girl,gym lobby,standing,looking around,wide shot,full body,checking in
+  - 01_ar_003,1girl,gym,walking to locker room,pov,first person view,entering
+  - 01_ar_004,1girl,gym locker area,organizing gear,from behind,over shoulder,preparing
+  - 01_ar_005,1girl,1boy,gym entrance,entering together,athletic wear,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,gym lobby,standing together,ready to train,from behind,together
+  - 01_ar_007,1girl,1boy,gym,discussing workout plan,cowboy shot,planning session
+
+# ========== シーン2: ストレッチ・ウォームアップ ==========
+
+scene_gym_stretching:
+  - 02_st_001,1girl,gym floor,stretching legs,sitting,cowboy shot,warming up
+  - 02_st_002,1girl,gym,standing,stretching arms overhead,pov angle,loosening up
+  - 02_st_003,1girl,gym mat,doing floor stretches,close-up,face focus,focused
+  - 02_st_004,1girl,gym,bending forward,touching toes,low angle,from below,flexibility
+  - 02_st_005,1girl,gym floor,sitting,stretching hamstrings,from behind,over shoulder,warm-up pose
+  - 02_st_006,1girl,1boy,gym,stretching together,partner stretches,wide shot,training together
+  - 02_st_007,1girl,1boy,gym floor,boy helping girl stretch,cowboy shot,assisting
+  - 02_st_008,1girl,1boy,gym,stretching side by side,dutch angle,synchronized
+  - 02_st_009,1girl,1boy,gym mat,partner balance stretch,close-up,cooperative training
+  - 02_st_010,1girl,1boy,gym,standing,discussing stretching routine,pov,planning
+
+# ========== シーン3: 有酸素運動 ==========
+
+scene_gym_cardio:
+  - 03_cd_001,1girl,gym,on treadmill,running,cowboy shot,cardio workout
+  - 03_cd_002,1girl,gym,on exercise bike,cycling,pov angle,active training
+  - 03_cd_003,1girl,gym,on elliptical,exercising,close-up,face focus,focused expression
+  - 03_cd_004,1girl,gym,taking break,drinking water,from behind,over shoulder,hydrating
+  - 03_cd_005,1girl,gym,wiping sweat with towel,dutch angle,intense workout
+  - 03_cd_006,1girl,gym,checking heart rate,standing,wide shot,monitoring
+  - 03_cd_007,1girl,1boy,gym,on treadmills side by side,running together,wide shot,cardio couple
+  - 03_cd_008,1girl,1boy,gym,both exercising,boy encouraging girl,cowboy shot,motivation
+  - 03_cd_009,1girl,1boy,gym,taking water break together,close-up,friendly competition
+  - 03_cd_010,1girl,1boy,gym,high-fiving after cardio,dutch angle,achievement
+  - 03_cd_011,1girl,1boy,gym,checking each other's progress,low angle,supportive
+  - 03_cd_012,1girl,1boy,gym,resting together after cardio,high angle,from above,recovery
+
+# ========== シーン4: ウェイトトレーニング ==========
+
+scene_gym_weights:
+  - 04_wt_001,1girl,gym,using dumbbells,standing,cowboy shot,strength training
+  - 04_wt_002,1girl,gym,doing squats,holding weights,pov angle,lower body workout
+  - 04_wt_003,1girl,gym,on weight machine,sitting,close-up,face focus,focused training
+  - 04_wt_004,1girl,gym,lifting weights,standing,low angle,from below,powerful
+  - 04_wt_005,1girl,gym,resting between sets,sitting on bench,from behind,break time
+  - 04_wt_006,1girl,1boy,gym,boy spotting girl,lifting weights,wide shot,safety support
+  - 04_wt_007,1girl,1boy,gym,training together,using equipment,cowboy shot,partner workout
+  - 04_wt_008,1girl,1boy,gym,boy teaching girl proper form,close-up,instructing
+  - 04_wt_009,1girl,1boy,gym,alternating sets,cheering each other,dutch angle,encouragement
+  - 04_wt_010,1girl,1boy,gym,high-five after good set,high angle,from above,celebration
+
+# ========== シーン5: ヨガ・ストレッチエリア ==========
+
+scene_gym_yoga:
+  - 05_yg_001,1girl,yoga area,doing yoga pose,mat,pov,zen moment
+  - 05_yg_002,1girl,gym yoga room,in warrior pose,close-up,face focus,concentrated
+  - 05_yg_003,1girl,yoga mat,doing downward dog,cowboy shot,flexibility
+  - 05_yg_004,1girl,gym,in tree pose,balancing,low angle,from below,balance
+  - 05_yg_005,1girl,yoga area,sitting in lotus position,meditating,from behind,peaceful
+  - 05_yg_006,1girl,1boy,yoga area,doing partner poses,wide shot,cooperative yoga
+  - 05_yg_007,1girl,1boy,gym yoga room,in synchronized pose,cowboy shot,harmony
+  - 05_yg_008,1girl,1boy,yoga mat,partner balance pose,dutch angle,trust exercise
+  - 05_yg_009,1girl,1boy,gym,boy helping girl with difficult pose,close-up,assistance
+  - 05_yg_010,1girl,1boy,yoga area,sitting together,meditating,high angle,from above,peaceful together
+
+# ========== シーン6: クールダウン・退店 ==========
+
+scene_gym_cooldown:
+  - 06_cd_001,1girl,gym,drinking protein shake,sitting,pov,post-workout
+  - 06_cd_002,1girl,gym bench,sitting,tired but satisfied,close-up,face focus,accomplished
+  - 06_cd_003,1girl,gym,wiping down equipment,standing,cowboy shot,cleaning up
+  - 06_cd_004,1girl,gym,walking to locker room,towel around neck,from behind,over shoulder,heading to shower
+  - 06_cd_005,1girl,gym locker area,preparing shower items,wide shot,getting ready
+  - 06_cd_006,1girl,1boy,gym,sitting together,drinking water,cowboy shot,post-workout chat
+  - 06_cd_007,1girl,1boy,gym bench,both tired,leaning on each other,close-up,exhausted together
+  - 06_cd_008,1girl,1boy,gym,congratulating each other,high-five,dutch angle,good workout
+  - 06_cd_009,1girl,1boy,gym,walking to locker room together,from behind,heading to shower
+  - 06_cd_010,1girl,1boy,gym locker area,preparing for shower,standing close,pov,intimate moment
+
+# ========== シーン7: シャワールーム ==========
+
+scene_gym_shower:
+  - 07_sh_001,1girl,gym shower room,entering shower area,towel wrap,cowboy shot,shower preparation
+  - 07_sh_002,1girl,gym shower stall,removing towel,standing,from behind,over shoulder,undressing
+  - 07_sh_003,1girl,gym shower,under running water,wet skin,close-up,face focus,refreshing
+  - 07_sh_004,1girl,gym shower room,washing body,showering,pov angle,bathing
+  - 07_sh_005,1girl,gym shower,rinsing off,water droplets,dutch angle,relaxing
+  - 07_sh_006,1girl,gym shower area,drying off with towel,standing,wide shot,after shower
+  - 07_sh_007,1girl,1boy,gym shower room,entering together,towel wraps,cowboy shot,couple shower prep
+  - 07_sh_008,1girl,1boy,gym shower,showering together,under water,wet skin,close-up,intimate shower
+  - 07_sh_009,1girl,1boy,gym shower stall,washing each other,steamy,from side,caring moment
+  - 07_sh_010,1girl,1boy,gym shower room,embracing under water,close,pov angle,romantic shower
+  - 07_sh_011,1girl,1boy,gym shower,standing close,water running,dutch angle,intimate
+  - 07_sh_012,1girl,1boy,gym shower area,after shower,drying each other,high angle,from above,tender
+

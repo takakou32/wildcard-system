@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - 公園系シーン
+# pose_scenes_park.yaml
+# 使用対象：公園デート、ピクニック、自然系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 公園入口・散策開始 ==========
+
+scene_park_entrance:
+  - 01_en_001,1girl,park entrance,entering park,walking,cowboy shot,arrival
+  - 01_en_002,1girl,park gate,standing,looking at park,wide shot,full body,taking in view
+  - 01_en_003,1girl,park path,walking in,carrying bag,pov,first person view,entering
+  - 01_en_004,1girl,park entrance,standing under trees,from behind,over shoulder,observing
+  - 01_en_005,1girl,1boy,park entrance,entering together,holding hands,wide shot,couple arrival
+  - 01_en_006,1girl,1boy,park gate,walking in together,from behind,full body,together
+  - 01_en_007,1girl,1boy,park path,talking,planning route,cowboy shot,conversation
+
+# ========== シーン2: 公園散策 ==========
+
+scene_park_walking:
+  - 02_wk_001,1girl,park path,walking,tree-lined path,cowboy shot,strolling
+  - 02_wk_002,1girl,park,standing by tree,looking up,pov angle,observing nature
+  - 02_wk_003,1girl,park path,walking,dappled sunlight,dutch angle,dynamic walk
+  - 02_wk_004,1girl,park,stopping to look at flowers,close-up,face focus,admiring
+  - 02_wk_005,1girl,park path,standing on bridge,looking at pond,from behind,over shoulder,scenic view
+  - 02_wk_006,1girl,1boy,park path,walking hand in hand,from behind,romantic walk
+  - 02_wk_007,1girl,1boy,park,standing under tree,talking,wide shot,conversation
+  - 02_wk_008,1girl,1boy,park path,arm in arm,walking,cowboy shot,close companionship
+  - 02_wk_009,1girl,1boy,park bridge,standing together,looking at view,close-up,shared moment
+  - 02_wk_010,1girl,1boy,park,boy picking flower for girl,dutch angle,romantic gesture
+
+# ========== シーン3: ベンチ・休憩 ==========
+
+scene_park_bench:
+  - 03_bn_001,1girl,park bench,sitting,relaxing,cowboy shot,resting
+  - 03_bn_002,1girl,bench,sitting,drinking water,pov angle,refreshing
+  - 03_bn_003,1girl,park bench,sitting,reading book,close-up,face focus,peaceful reading
+  - 03_bn_004,1girl,bench,sitting,looking at park scenery,from behind,over shoulder,observing
+  - 03_bn_005,1girl,park bench,standing up,stretching,wide shot,full body,refreshed
+  - 03_bn_006,1girl,1boy,park bench,sitting side by side,close,cowboy shot,together
+  - 03_bn_007,1girl,1boy,bench,girl leaning on boy's shoulder,from side,affectionate
+  - 03_bn_008,1girl,1boy,park bench,talking,facing each other,close-up,intimate conversation
+  - 03_bn_009,1girl,1boy,bench,holding hands,sitting close,dutch angle,romantic moment
+  - 03_bn_010,1girl,1boy,park bench,boy's arm around girl,wide shot,comfortable together
+
+# ========== シーン4: 芝生・ピクニック ==========
+
+scene_park_picnic:
+  - 04_pc_001,1girl,park lawn,spreading picnic blanket,cowboy shot,preparing
+  - 04_pc_002,1girl,picnic area,sitting on blanket,arranging food,pov angle,setting up
+  - 04_pc_003,1girl,park lawn,sitting,eating sandwich,close-up,face focus,enjoying meal
+  - 04_pc_004,1girl,picnic blanket,lying down,looking at sky,low angle,from below,relaxing
+  - 04_pc_005,1girl,park lawn,sitting,drinking from bottle,from behind,over shoulder,refreshing
+  - 04_pc_006,1girl,picnic area,standing,playing with frisbee,dutch angle,playful
+  - 04_pc_007,1girl,park lawn,sitting,reading,high angle,from above,peaceful
+  - 04_pc_008,1girl,1boy,picnic area,sitting together on blanket,eating,wide shot,picnic date
+  - 04_pc_009,1girl,1boy,park lawn,sharing food,feeding each other,cowboy shot,intimate feeding
+  - 04_pc_010,1girl,1boy,picnic blanket,lying side by side,looking at clouds,from above,peaceful together
+  - 04_pc_011,1girl,1boy,park lawn,boy lying with head on girl's lap,close-up,tender moment
+  - 04_pc_012,1girl,1boy,picnic area,playing together,catching frisbee,dutch angle,playful couple
+
+# ========== シーン5: 噴水・水辺 ==========
+
+scene_park_fountain:
+  - 05_ft_001,1girl,park fountain,standing by water,watching fountain,pov,observing
+  - 05_ft_002,1girl,fountain area,sitting on edge,close-up,face focus,contemplative
+  - 05_ft_003,1girl,park fountain,standing,water spray in background,cowboy shot,refreshing scene
+  - 05_ft_004,1girl,1boy,park fountain,standing together,watching water,cowboy shot,romantic spot
+  - 05_ft_005,1girl,1boy,fountain area,sitting on edge together,close,close-up,intimate
+  - 05_ft_006,1girl,1boy,park fountain,embracing,water background,dutch angle,romantic embrace
+  - 05_ft_007,1girl,1boy,fountain,holding hands,standing close,wide shot,peaceful moment
+  - 05_ft_008,1girl,1boy,park fountain,forehead touch,mist from fountain,low angle,tender
+  - 05_ft_009,1girl,1boy,fountain area,sitting,boy's arm around girl,from behind,affectionate
+  - 05_ft_010,1girl,1boy,park fountain,about to kiss,water spray background,high angle,romantic
+
+# ========== シーン6: 夕暮れの公園 ==========
+
+scene_park_sunset:
+  - 06_ss_001,1girl,park at dusk,standing on path,sunset light,pov,golden hour
+  - 06_ss_002,1girl,park at sunset,sitting on grass,watching sunset,close-up,face focus,peaceful
+  - 06_ss_003,1girl,park at dusk,standing,silhouette,cowboy shot,dramatic lighting
+  - 06_ss_004,1girl,1boy,park at sunset,walking hand in hand,from behind,romantic walk
+  - 06_ss_005,1girl,1boy,park at dusk,sitting together,watching sunset,wide shot,shared moment
+  - 06_ss_006,1girl,1boy,park at sunset,embracing,golden light,close-up,tender embrace
+  - 06_ss_007,1girl,1boy,park at dusk,standing close,looking at each other,dutch angle,connection
+  - 06_ss_008,1girl,1boy,park at sunset,on bench together,sunset glow,cowboy shot,romantic scene
+  - 06_ss_009,1girl,1boy,park at dusk,touching foreheads,silhouette,low angle,intimate
+  - 06_ss_010,1girl,1boy,park at sunset,kissing,golden hour light,high angle,from above,romantic moment
+

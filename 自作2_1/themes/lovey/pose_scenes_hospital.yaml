@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - 病院系シーン
+# pose_scenes_hospital.yaml
+# 使用対象：病院訪問、お見舞い、医療施設系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 病院到着・受付 ==========
+
+scene_hospital_arrival:
+  - 01_ar_001,1girl,hospital entrance,entering,cautious,cowboy shot,arrival
+  - 01_ar_002,1girl,hospital lobby,standing,looking around,wide shot,full body,observing
+  - 01_ar_003,1girl,hospital,walking to reception,pov,first person view,navigating
+  - 01_ar_004,1girl,hospital reception,standing,checking in,from behind,over shoulder,waiting
+  - 01_ar_005,1girl,1boy,hospital entrance,entering together,one supporting other,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,hospital lobby,standing together,concerned,from behind,together
+  - 01_ar_007,1girl,1boy,hospital reception,talking to staff,cowboy shot,checking in
+
+# ========== シーン2: 待合室 ==========
+
+scene_hospital_waiting:
+  - 02_wt_001,1girl,waiting room,sitting,nervous,cowboy shot,waiting
+  - 02_wt_002,1girl,hospital waiting area,sitting,reading magazine,pov angle,passing time
+  - 02_wt_003,1girl,waiting room,sitting,worried expression,close-up,face focus,anxious
+  - 02_wt_004,1girl,hospital waiting area,standing by window,looking outside,from behind,over shoulder,contemplating
+  - 02_wt_005,1girl,waiting room,sitting,checking phone,dutch angle,distracted
+  - 02_wt_006,1girl,1boy,hospital waiting room,sitting together,holding hands,wide shot,mutual support
+  - 02_wt_007,1girl,1boy,waiting area,sitting close,boy comforting girl,cowboy shot,reassurance
+  - 02_wt_008,1girl,1boy,waiting room,girl leaning on boy,worried,close-up,seeking comfort
+  - 02_wt_009,1girl,1boy,hospital waiting area,talking quietly,dutch angle,private conversation
+  - 02_wt_010,1girl,1boy,waiting room,boy's arm around girl,from side,protective
+
+# ========== シーン3: 廊下・移動 ==========
+
+scene_hospital_hallway:
+  - 03_hl_001,1girl,hospital corridor,walking,looking at room numbers,cowboy shot,searching
+  - 03_hl_002,1girl,hospital hallway,standing,reading signs,pov angle,navigating
+  - 03_hl_003,1girl,hospital corridor,walking slowly,quiet atmosphere,close-up,face focus,careful
+  - 03_hl_004,1girl,hospital hallway,standing by window,looking at courtyard,from behind,over shoulder,peaceful view
+  - 03_hl_005,1girl,hospital corridor,carrying flowers,walking,dutch angle,visiting
+  - 03_hl_006,1girl,hospital hallway,sitting on bench,resting,wide shot,taking break
+  - 03_hl_007,1girl,1boy,hospital corridor,walking together,holding hands,wide shot,companionship
+  - 03_hl_008,1girl,1boy,hospital hallway,standing,discussing room location,cowboy shot,planning
+  - 03_hl_009,1girl,1boy,hospital corridor,boy supporting girl,walking carefully,from behind,assistance
+  - 03_hl_010,1girl,1boy,hospital hallway,standing close,boy comforting girl,close-up,emotional support
+  - 03_hl_011,1girl,1boy,hospital corridor,sitting on bench together,waiting,dutch angle,resting
+  - 03_hl_012,1girl,1boy,hospital hallway,embracing,emotional moment,low angle,comfort
+
+# ========== シーン4: 病室訪問 ==========
+
+scene_hospital_room:
+  - 04_rm_001,1girl,hospital room,entering,carrying flowers,pov,visiting
+  - 04_rm_002,1girl,patient room,sitting on chair,visiting,cowboy shot,bedside visit
+  - 04_rm_003,1girl,hospital room,standing by bed,concerned expression,close-up,face focus,worried
+  - 04_rm_004,1girl,patient room,arranging flowers in vase,from behind,over shoulder,caring gesture
+  - 04_rm_005,1girl,hospital room,sitting,talking gently,dutch angle,conversation
+  - 04_rm_006,1girl,1boy,hospital room,both visiting,standing by bed,wide shot,together
+  - 04_rm_007,1girl,1boy,patient room,sitting together,holding hands,cowboy shot,support
+  - 04_rm_008,1girl,1boy,hospital room,boy comforting girl,standing,close-up,emotional
+  - 04_rm_009,1girl,1boy,patient room,talking quietly,respectful,low angle,gentle conversation
+  - 04_rm_010,1girl,1boy,hospital room,leaving together,from behind,high angle,departure
+
+# ========== シーン5: 病院カフェテリア ==========
+
+scene_hospital_cafeteria:
+  - 05_cf_001,1girl,hospital cafeteria,sitting at table,drinking coffee,pov,taking break
+  - 05_cf_002,1girl,hospital cafe,sitting,tired expression,close-up,face focus,exhausted
+  - 05_cf_003,1girl,cafeteria,standing,getting food,cowboy shot,meal time
+  - 05_cf_004,1girl,hospital cafe,sitting by window,contemplating,from behind,over shoulder,thinking
+  - 05_cf_005,1girl,cafeteria,sitting,eating slowly,dutch angle,quiet meal
+  - 05_cf_006,1girl,1boy,hospital cafeteria,sitting together,taking break,wide shot,resting together
+  - 05_cf_007,1girl,1boy,hospital cafe,sitting across from each other,talking,cowboy shot,conversation
+  - 05_cf_008,1girl,1boy,cafeteria,boy bringing food to girl,close-up,caring gesture
+  - 05_cf_009,1girl,1boy,hospital cafe,sitting close,boy comforting girl,low angle,support
+  - 05_cf_010,1girl,1boy,cafeteria,holding hands across table,high angle,from above,mutual comfort
+
+# ========== シーン6: 病院退出 ==========
+
+scene_hospital_departure:
+  - 06_dp_001,1girl,hospital,walking to exit,tired,pov,leaving
+  - 06_dp_002,1girl,hospital lobby,standing,preparing to leave,close-up,face focus,relieved
+  - 06_dp_003,1girl,hospital exit,walking out,cowboy shot,departure
+  - 06_dp_004,1girl,outside hospital,standing,breathing fresh air,from behind,over shoulder,relief
+  - 06_dp_005,1girl,hospital entrance,standing,looking back,wide shot,goodbye
+  - 06_dp_006,1girl,1boy,hospital,walking to exit together,holding hands,wide shot,leaving together
+  - 06_dp_007,1girl,1boy,hospital lobby,standing,discussing next steps,cowboy shot,planning
+  - 06_dp_008,1girl,1boy,hospital exit,boy supporting girl,walking out,from behind,assistance
+  - 06_dp_009,1girl,1boy,outside hospital,embracing,emotional relief,close-up,comfort
+  - 06_dp_010,1girl,1boy,hospital entrance,standing together,grateful,dutch angle,mutual support
+

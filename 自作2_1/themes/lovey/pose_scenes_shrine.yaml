@@ -1,0 +1,163 @@
+# ラブラブテーマ用ポーズプロンプト - 神社系シーン
+# pose_scenes_shrine.yaml
+# 使用対象：神社デート、お参り、日常的な神社参拝テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 神社境内を歩く ==========
+
+scene_shrine_grounds_walking:
+  - 01_wk_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine grounds,walking,stone path,torii gate in background,cowboy shot,peaceful stroll
+  - 01_wk_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,walking through torii gate,from behind,full body,passing through gate
+  - 01_wk_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine grounds,standing,looking at shrine buildings,pov angle,observing
+  - 01_wk_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine path,walking slowly,stone lanterns on both sides,wide shot,scenic walk
+  - 01_wk_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing by stone lantern,traditional architecture background,dutch angle,atmospheric
+  - 01_wk_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine grounds,walking,hands together,respectful posture,close-up,face focus,reverent
+  - 01_wk_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine path,looking up at trees,sunlight filtering through,low angle,from below,serene
+  - 01_wk_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing before main hall,from behind,over shoulder,approaching
+  - 01_wk_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine grounds,walking on gravel path,sound of footsteps,cowboy shot,mindful steps
+  - 01_wk_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,pausing,admiring architecture,wide shot,full body,contemplative
+  - 01_wk_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine grounds,walking hand in hand,torii gate background,from behind,couple visit
+  - 01_wk_012,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine path,walking side by side,stone lanterns,cowboy shot,peaceful walk together
+  - 01_wk_013,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,standing together,looking at main hall,wide shot,shared moment
+  - 01_wk_014,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine grounds,talking softly,planning visit,close-up,intimate conversation
+  - 01_wk_015,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine path,arm in arm,walking slowly,dutch angle,romantic stroll
+
+# ========== シーン2: お参り・お賽銭を投げる ==========
+
+scene_shrine_prayer_offering:
+  - 02_pr_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing before offering box,holding coin,cowboy shot,preparation
+  - 02_pr_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,about to throw coin,arm raised,dutch angle,offering moment
+  - 02_pr_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,throwing coin into offering box,dynamic motion,close-up,coin toss
+  - 02_pr_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,coin flying through air,motion blur,from side,action shot
+  - 02_pr_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,bowing,hands clasped in prayer,pov angle,respectful prayer
+  - 02_pr_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,praying,eyes closed,serene expression,close-up,face focus,devotion
+  - 02_pr_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,hands together in prayer,fingers interlaced,high angle,from above,earnest
+  - 02_pr_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,ringing bell,reaching up,low angle,from below,ritual action
+  - 02_pr_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,pulling rope to ring bell,effort,cowboy shot,traditional ritual
+  - 02_pr_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,bowing deeply,respectful pose,wide shot,reverent posture
+  - 02_pr_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,finishing prayer,opening eyes,soft smile,dutch angle,peaceful
+  - 02_pr_012,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing after prayer,satisfied expression,from behind,over shoulder,completed
+  - 02_pr_013,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,standing before offering box together,side by side,cowboy shot,together
+  - 02_pr_014,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,both throwing coins,synchronized motion,wide shot,shared offering
+  - 02_pr_015,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,praying together,heads bowed,hands clasped,close-up,united prayer
+  - 02_pr_016,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,holding hands while praying,from side,romantic prayer
+  - 02_pr_017,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,eyes closed in prayer together,dutch angle,spiritual connection
+  - 02_pr_018,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,ringing bell together,boy helping girl,low angle,cooperative
+  - 02_pr_019,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,finishing prayer,looking at each other,smiling,pov,shared moment
+  - 02_pr_020,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,bowing together,respectful,from behind,harmonious
+
+# ========== シーン3: 神社の回廊でいちゃつく様子 ==========
+
+scene_shrine_corridor_flirting:
+  - 03_co_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,standing,wooden pillars,pov,peaceful atmosphere
+  - 03_co_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,leaning against pillar,looking at viewer,cowboy shot,relaxed pose
+  - 03_co_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,walking along corridor,paper lanterns,from behind,graceful walk
+  - 03_co_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,standing by railing,looking at garden,close-up,face focus,serene
+  - 03_co_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,sitting on wooden floor,legs folded,wide shot,peaceful rest
+  - 03_co_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,looking back over shoulder,soft smile,dutch angle,inviting
+  - 03_co_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine corridor,standing in shadow,sunlight streaming through,from side,atmospheric lighting
+  - 03_co_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,standing close,facing each other,cowboy shot,intimate distance
+  - 03_co_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,talking softly,close together,close-up,private conversation
+  - 03_co_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,boy's hand on girl's shoulder,gentle touch,from side,tender
+  - 03_co_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,holding hands,looking at each other,dutch angle,romantic
+  - 03_co_012,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,girl leaning against pillar,boy leaning in,pov,closeness
+  - 03_co_013,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,embracing gently,peaceful atmosphere,wide shot,tender embrace
+  - 03_co_014,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,forehead touch,very close,low angle,intimate moment
+  - 03_co_015,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,boy tucking hair behind girl's ear,close-up,face focus,caring gesture
+  - 03_co_016,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,girl blushing,boy smiling,cowboy shot,sweet moment
+  - 03_co_017,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,holding both hands,facing each other,from side,connection
+  - 03_co_018,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,about to kiss,leaning in,dutch angle,romantic tension
+  - 03_co_019,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,soft kiss,gentle,close-up,tender kiss
+  - 03_co_020,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine corridor,embracing after kiss,peaceful,wide shot,affectionate
+
+# ========== シーン4: 手水舎（ちょうずや）での清め ==========
+
+scene_shrine_purification:
+  - 04_pu_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine purification area,chozuya,standing before water basin,cowboy shot,approaching
+  - 04_pu_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,chozuya,taking ladle,preparing to purify,pov,ritual beginning
+  - 04_pu_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine purification area,pouring water on hands,close-up,purification ritual
+  - 04_pu_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,chozuya,rinsing hands,water flowing,dutch angle,cleansing
+  - 04_pu_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine purification area,bringing water to mouth,respectful,from side,traditional
+  - 04_pu_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,chozuya,replacing ladle,finishing ritual,wide shot,completed
+  - 04_pu_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine purification area,standing together at basin,cowboy shot,together
+  - 04_pu_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,chozuya,boy helping girl with ladle,close-up,cooperative
+  - 04_pu_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine purification area,taking turns purifying,from behind,orderly
+  - 04_pu_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,chozuya,watching each other,smiling,dutch angle,playful moment
+
+# ========== シーン5: お守り・絵馬エリア ==========
+
+scene_shrine_omamori:
+  - 05_om_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing at charm shop,looking at omamori,cowboy shot,browsing
+  - 05_om_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine charm shop,holding omamori,examining closely,close-up,face focus,choosing
+  - 05_om_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,reading ema plaques,interested expression,from side,observing
+  - 05_om_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,writing on ema,wooden plaque,dutch angle,making wish
+  - 05_om_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine ema area,hanging ema,reaching up,low angle,from below,placing wish
+  - 05_om_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,holding newly bought omamori,happy expression,pov,satisfied
+  - 05_om_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine charm shop,looking at charms together,cowboy shot,shopping together
+  - 05_om_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,boy buying omamori for girl,close-up,thoughtful gesture
+  - 05_om_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine ema area,writing ema together,wide shot,shared wish
+  - 05_om_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,reading each other's ema,smiling,from side,sharing wishes
+  - 05_om_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,exchanging omamori,giving each other,dutch angle,romantic exchange
+  - 05_om_012,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,hanging ema together,cooperative,cowboy shot,teamwork
+
+# ========== シーン6: 神社の庭園・自然 ==========
+
+scene_shrine_garden:
+  - 06_gd_001,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,standing by pond,koi swimming,cowboy shot,peaceful scene
+  - 06_gd_002,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,sitting on stone,contemplative,close-up,face focus,tranquil
+  - 06_gd_003,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,walking on stepping stones,careful steps,dutch angle,balanced
+  - 06_gd_004,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,standing under tree,dappled sunlight,from below,serene
+  - 06_gd_005,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,looking at flowers,admiring,from side,appreciative
+  - 06_gd_006,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine garden,standing by bamboo,traditional atmosphere,wide shot,scenic
+  - 06_gd_007,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine garden,sitting together by pond,side by side,cowboy shot,peaceful together
+  - 06_gd_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine garden,walking hand in hand,garden path,from behind,romantic walk
+  - 06_gd_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine garden,standing under tree,talking softly,close-up,intimate
+  - 06_gd_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine garden,boy pointing at koi,girl looking,dutch angle,sharing moment
+
+# ========== プレイリスト: シーン統合 ==========
+
+# 全シーン統合（SFWのみ）
+shrine_all_scenes:
+  - ${scene_shrine_grounds_walking}
+  - ${scene_shrine_prayer_offering}
+  - ${scene_shrine_corridor_flirting}
+  - ${scene_shrine_purification}
+  - ${scene_shrine_omamori}
+  - ${scene_shrine_garden}
+
+# お参りメイン（境内→お参り）
+shrine_visit_main:
+  - ${scene_shrine_grounds_walking}
+  - ${scene_shrine_prayer_offering}
+
+# ロマンティックシーン（回廊でのいちゃつき中心）
+shrine_romantic:
+  - ${scene_shrine_corridor_flirting}
+  - ${scene_shrine_garden}
+
+# 伝統的な参拝（清め→お参り→お守り）
+shrine_traditional:
+  - ${scene_shrine_purification}
+  - ${scene_shrine_prayer_offering}
+  - ${scene_shrine_omamori}
+
+# カップルデート向け
+shrine_couple_date:
+  - ${scene_shrine_grounds_walking}
+  - ${scene_shrine_purification}
+  - ${scene_shrine_prayer_offering}
+  - ${scene_shrine_corridor_flirting}
+  - ${scene_shrine_omamori}
+  - ${scene_shrine_garden}
+
+# シンプル参拝
+shrine_simple_visit:
+  - ${scene_shrine_grounds_walking}
+  - ${scene_shrine_prayer_offering}
+  - ${scene_shrine_corridor_flirting}
+

@@ -1,0 +1,120 @@
+# ラブラブテーマ用ポーズプロンプト - 電車・交通系シーン
+# pose_scenes_train.yaml
+# 使用対象：通勤・通学デート、電車での出会い、移動系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 服装: outfit_business（ビジネスウェア）が設定されています
+# - 男性タイプ、時間帯、表情、雰囲気はテーマ側で指定可能
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 駅到着 ==========
+
+scene_station_arrival:
+  - 01_st_001,1girl,__自作2_1/params/outfit_business__,train station,entering station,walking,cowboy shot,arrival
+  - 01_st_002,1girl,__自作2_1/params/outfit_business__,station platform,standing,waiting for train,wide shot,full body,waiting pose
+  - 01_st_003,1girl,__自作2_1/params/outfit_business__,train station,looking at departure board,pov,checking schedule
+  - 01_st_004,1girl,__自作2_1/params/outfit_business__,station,walking on platform,from behind,over shoulder,walking pose
+  - 01_st_005,1girl,1boy,__自作2_1/params/outfit_business__,train station,meeting at ticket gate,wide shot,couple meeting
+  - 01_st_006,1girl,1boy,__自作2_1/params/outfit_business__,station platform,standing together,waiting,from behind,together
+  - 01_st_007,1girl,1boy,__自作2_1/params/outfit_business__,train station,talking,close,cowboy shot,conversation
+
+# ========== シーン2: プラットホーム ==========
+
+scene_train_platform:
+  - 02_pf_001,1girl,__自作2_1/params/outfit_business__,platform,standing by yellow line,waiting,cowboy shot,waiting for train
+  - 02_pf_002,1girl,__自作2_1/params/outfit_business__,station platform,sitting on bench,resting,pov angle,relaxing
+  - 02_pf_003,1girl,__自作2_1/params/outfit_business__,platform,looking down tracks,train approaching,dutch angle,anticipation
+  - 02_pf_004,1girl,__自作2_1/params/outfit_business__,station platform,checking phone,close-up,face focus,phone screen glow
+  - 02_pf_005,1girl,__自作2_1/params/outfit_business__,platform,standing,wind from train,from behind,dramatic moment
+  - 02_pf_006,1girl,1boy,__自作2_1/params/outfit_business__,platform,standing side by side,waiting together,wide shot,companionship
+  - 02_pf_007,1girl,1boy,__自作2_1/params/outfit_business__,station platform,sitting on bench together,close,cowboy shot,intimate waiting
+  - 02_pf_008,1girl,1boy,__自作2_1/params/outfit_business__,platform,talking quietly,close-up,private conversation
+  - 02_pf_009,1girl,1boy,__自作2_1/params/outfit_business__,station platform,boy pointing at approaching train,from behind,observing together
+  - 02_pf_010,1girl,1boy,__自作2_1/params/outfit_business__,platform,standing very close,crowded,dutch angle,close proximity
+
+# ========== シーン3: 電車内（混雑） ==========
+
+scene_train_crowded:
+  - 03_cr_001,1girl,__自作2_1/params/outfit_business__,crowded train,standing,holding handrail,cowboy shot,commuter pose
+  - 03_cr_002,1girl,__自作2_1/params/outfit_business__,train interior,standing,pressed against door,pov,first person view,crowded
+  - 03_cr_003,1girl,__自作2_1/params/outfit_business__,crowded train,sitting,squeezed between people,close-up,face focus,uncomfortable
+  - 03_cr_004,1girl,__自作2_1/params/outfit_business__,train car,standing by door,looking out window,from behind,over shoulder,observing
+  - 03_cr_005,1girl,__自作2_1/params/outfit_business__,crowded train,holding overhead strap,low angle,from below,reaching up
+  - 03_cr_006,1girl,__自作2_1/params/outfit_business__,train,standing,being jostled,dutch angle,unstable motion
+  - 03_cr_007,1girl,1boy,__自作2_1/params/outfit_business__,crowded train,standing very close,unavoidably close,cowboy shot,forced proximity
+  - 03_cr_008,1girl,1boy,__自作2_1/params/outfit_business__,train interior,boy protecting girl from crowd,from behind,protective
+  - 03_cr_009,1girl,1boy,__自作2_1/params/outfit_business__,crowded train,facing each other,very close,close-up,intimate distance
+  - 03_cr_010,1girl,1boy,__自作2_1/params/outfit_business__,train car,holding same handrail,hands close,high angle,from above,touching
+  - 03_cr_011,1girl,1boy,__自作2_1/params/outfit_business__,crowded train,boy's arm around girl for support,wide shot,caring gesture
+  - 03_cr_012,1girl,1boy,__自作2_1/params/outfit_business__,train,pressed together by crowd,dutch angle,accidental intimacy
+
+# ========== シーン4: 電車内（空いている） ==========
+
+scene_train_empty:
+  - 04_em_001,1girl,__自作2_1/params/outfit_business__,empty train,sitting by window,looking outside,cowboy shot,peaceful travel
+  - 04_em_002,1girl,__自作2_1/params/outfit_business__,train interior,sitting,reading book,pov angle,relaxed reading
+  - 04_em_003,1girl,__自作2_1/params/outfit_business__,empty train car,standing,holding strap,close-up,face focus,contemplative
+  - 04_em_004,1girl,__自作2_1/params/outfit_business__,train,sitting,looking at scenery passing by,from behind,over shoulder,watching view
+  - 04_em_005,1girl,__自作2_1/params/outfit_business__,empty train,standing by door,looking out,wide shot,full body,solitary moment
+  - 04_em_006,1girl,1boy,__自作2_1/params/outfit_business__,empty train,sitting next to each other,window seat,cowboy shot,couple travel
+  - 04_em_007,1girl,1boy,__自作2_1/params/outfit_business__,train interior,sitting across from each other,talking,wide shot,conversation
+  - 04_em_008,1girl,1boy,__自作2_1/params/outfit_business__,empty train car,girl leaning on boy's shoulder,sleeping,close-up,tender moment
+  - 04_em_009,1girl,1boy,__自作2_1/params/outfit_business__,train,standing together by window,looking out,from behind,shared view
+  - 04_em_010,1girl,1boy,__自作2_1/params/outfit_business__,empty train,sitting close,holding hands,dutch angle,romantic travel
+
+# ========== シーン5: 駅コンコース ==========
+
+scene_station_concourse:
+  - 05_cc_001,1girl,__自作2_1/params/outfit_business__,station concourse,walking,busy station,pov,navigating crowd
+  - 05_cc_002,1girl,__自作2_1/params/outfit_business__,station,standing by pillar,waiting,close-up,face focus,waiting
+  - 05_cc_003,1girl,__自作2_1/params/outfit_business__,station concourse,buying ticket at machine,cowboy shot,transaction
+  - 05_cc_004,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,walking together,holding hands,wide shot,couple walking
+  - 05_cc_005,1girl,1boy,__自作2_1/params/outfit_business__,station,standing close,talking,busy background,cowboy shot,private conversation
+  - 05_cc_006,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,boy guiding girl,from behind,protective guidance
+  - 05_cc_007,1girl,1boy,__自作2_1/params/outfit_business__,station,embracing,people passing by,close-up,public display of affection
+  - 05_cc_008,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,looking at station map together,dutch angle,planning route
+  - 05_cc_009,1girl,1boy,__自作2_1/params/outfit_business__,station,about to part ways,holding hands,low angle,reluctant goodbye
+  - 05_cc_010,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,reuniting,embracing,high angle,from above,joyful meeting
+
+# ========== シーン6: 終電・夜の駅 ==========
+
+scene_station_night:
+  - 06_nt_001,1girl,__自作2_1/params/outfit_business__,station at night,standing alone,platform,pov,late night atmosphere
+  - 06_nt_002,1girl,__自作2_1/params/outfit_business__,night platform,sitting on bench,tired,close-up,face focus,exhausted
+  - 06_nt_003,1girl,__自作2_1/params/outfit_business__,station at night,walking,empty platform,cowboy shot,solitary walk
+  - 06_nt_004,1girl,1boy,__自作2_1/params/outfit_business__,night station,waiting together,last train,cowboy shot,late night wait
+  - 06_nt_005,1girl,1boy,__自作2_1/params/outfit_business__,station platform at night,standing close,quiet conversation,close-up,intimate talk
+  - 06_nt_006,1girl,1boy,__自作2_1/params/outfit_business__,night station,embracing,under platform light,dutch angle,romantic night
+  - 06_nt_007,1girl,1boy,__自作2_1/params/outfit_business__,station at night,sitting on bench together,tired,wide shot,resting together
+  - 06_nt_008,1girl,1boy,__自作2_1/params/outfit_business__,night platform,boy offering jacket to girl,from side,caring gesture
+  - 06_nt_009,1girl,1boy,__自作2_1/params/outfit_business__,station at night,about to kiss,under light,low angle,romantic moment
+  - 06_nt_010,1girl,1boy,__自作2_1/params/outfit_business__,night station exit,walking out together,from behind,high angle,leaving together
+
+# ========== シーン7: 電車内痴漢（NSFW） ==========
+# 注意：このシーンはNSFWコンテンツを含みます
+# 使用時は nsfw_train_chikan.yaml のプロンプトと組み合わせて使用
+
+scene_train_chikan:
+  # 軽度：密着・接触（SFWからNSFWへの移行）
+  - 07_ch_001,1girl,__自作2_1/params/outfit_business__,crowded train,standing,being pressed from behind,unavoidable contact,blush,uncomfortable,close-up,face focus
+  - 07_ch_002,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand accidentally touching hip,from behind,over shoulder,unintentional contact
+  - 07_ch_003,1girl,__自作2_1/params/outfit_business__,train interior,standing,body pressed against,unavoidably close,crowded,blush,embarrassed
+  - 07_ch_004,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand on waist,from behind,protective stance,blush,confused
+  - 07_ch_005,1girl,__自作2_1/params/outfit_business__,train,standing,being jostled,hand touching back,unintentional,blush,flustered
+  
+  # 中度：胸・スカート（NSFW軽〜中度）
+  - 07_ch_006,1girl,__自作2_1/params/outfit_business__,crowded train,standing,breast groping from behind,hand on breast,blush,shocked expression,close-up,face focus
+  - 07_ch_007,1girl,__自作2_1/params/outfit_business__,train interior,standing,breast squeeze,groping,from behind,blush,embarrassed,unable to resist
+  - 07_ch_008,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand groping breast,blouse,blush,flustered,looking down
+  - 07_ch_009,1girl,__自作2_1/params/outfit_business__,train,standing,hand under skirt,skirt lifted,from behind,blush,shocked,embarrassed
+  - 07_ch_010,1girl,__自作2_1/params/outfit_business__,crowded train,standing,skirt being touched,hand on thigh,from behind,blush,unable to move
+  
+  # 重度：指マン・露出（NSFW重度）
+  - 07_ch_011,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fingering from behind,hand under skirt,fingering pussy,blush,moaning,unable to resist,close-up,face focus
+  - 07_ch_012,1girl,__自作2_1/params/outfit_business__,train interior,standing,fingering,pussy,skirt lifted,panties pulled aside,blush,embarrassed,public space
+  - 07_ch_013,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fingering pussy,pussy juice,hand inside,blush,moaning,people around
+  - 07_ch_014,1girl,__自作2_1/params/outfit_business__,train,standing,skirt lifted completely,panties pulled down,exposed pussy,blush,embarrassed,public exposure
+  - 07_ch_015,1girl,__自作2_1/params/outfit_business__,crowded train,standing,blouse unbuttoned,breast exposed,skirt up,exposed,blush,shocked,people watching
+

@@ -50,6 +50,17 @@
 | cafe | cf | カフェ |
 | restaurant | rs | レストラン |
 
+## 神社・宗教系
+
+| カテゴリ | 略称 | 説明 |
+|---------|------|------|
+| walking | wk | 境内を歩く |
+| prayer | pr | お参り、祈り |
+| corridor | co | 回廊 |
+| purification | pu | 手水舎、清め |
+| omamori | om | お守り、絵馬 |
+| garden | gd | 庭園 |
+
 ## 特殊シーン系
 
 | カテゴリ | 略称 | 説明 |

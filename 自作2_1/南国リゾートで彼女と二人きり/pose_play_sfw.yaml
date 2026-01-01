@@ -1,0 +1,26 @@
+# Pose用シーン定義 - SFW（南国リゾートで彼女と二人きり）
+# テーマ: lovey (ラブラブ)
+# タイプ: beach (ビーチ・リゾート系)
+# 時系列: 昼 → 夜
+# 男性タイプ: male_type_default
+# NSFW統合: あり（Scene 04=Light, Scene 05=Moderate, Scene 06=Heavy）
+
+pose_play_sfw:
+  # ========== Scene 01: 昼 - ビーチ到着・散策 (SFWのみ) ==========
+  - __自作2_1/themes/lovey/scene_beach_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # ========== Scene 02: 昼 - ビーチでの活動 (SFWのみ) ==========
+  - __自作2_1/themes/lovey/scene_beach_activity__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # ========== Scene 03: 午後 - ビーチカフェ・ビーチハウス (SFWのみ) ==========
+  - __自作2_1/themes/lovey/scene_beach_cafe__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_afternoon__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # ========== Scene 04: 午後 - 海水浴場シャワー (SFW部分のみ) ==========
+  - __自作2_1/themes/lovey/scene_beach_outdoor_shower__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_afternoon__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # ========== Scene 05: 夕方 - 夕暮れビーチ (SFW部分のみ) ==========
+  - __自作2_1/themes/lovey/scene_beach_sunset__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # ========== Scene 06: 夜 - ホテル・リゾート客室 (SFW部分のみ) ==========
+  - __自作2_1/themes/lovey/scene_resort_room__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+

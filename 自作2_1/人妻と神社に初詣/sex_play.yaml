@@ -1,0 +1,12 @@
+# Sex用プレイリスト（人妻と神社に初詣）
+# 場所: shrine_grounds (神社境内), shrine_hall (社務所)
+# 男性タイプ: male_type_default
+
+sex_play:
+  - __自作2_1/themes/lovey/sex_intro_gentle__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_moderate__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_intense__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_extreme__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_creampie__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_after__,{__自作2_1/params/place_shrine_grounds__|__自作2_1/params/place_shrine_hall__},__自作2_1/params/male_type_default__
+

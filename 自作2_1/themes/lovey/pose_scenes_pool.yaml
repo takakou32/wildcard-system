@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - プール系シーン
+# pose_scenes_pool.yaml
+# 使用対象：プールデート、リゾートプール、室内プール系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: プール到着 ==========
+
+scene_pool_arrival:
+  - 01_ar_001,1girl,pool,entering,looking around,cowboy shot,arrival scene
+  - 01_ar_002,1girl,pool,standing,first impression,wide shot,full body,taking in surroundings
+  - 01_ar_003,1girl,pool entrance,walking in,carrying bag,pov,first person view,entering
+  - 01_ar_004,1girl,poolside,standing by entrance,looking around,from behind,over shoulder,exploring
+  - 01_ar_005,1girl,1boy,pool,entering together,holding hands,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,pool entrance,walking in together,from behind,full body,together
+  - 01_ar_007,1girl,1boy,poolside,standing close,discussing,cowboy shot,planning together
+
+# ========== シーン2: プールサイド ==========
+
+scene_poolside_relaxing:
+  - 02_ps_001,1girl,poolside,sitting on edge,feet in water,cowboy shot,relaxing pose
+  - 02_ps_002,1girl,poolside,standing in shallow water,pov,first person view,casual pose
+  - 02_ps_003,1girl,pool deck,walking along poolside,dutch angle,dynamic pose,strolling
+  - 02_ps_004,1girl,poolside,sitting on lounger,close-up,face focus,relaxed expression
+  - 02_ps_005,1girl,pool deck,standing,adjusting swimsuit,from behind,over shoulder,casual gesture
+  - 02_ps_006,1girl,1boy,poolside,sitting on edge together,feet in water,wide shot,relaxing together
+  - 02_ps_007,1girl,1boy,pool deck,sitting on loungers,side by side,cowboy shot,comfortable
+  - 02_ps_008,1girl,1boy,poolside,girl sitting between boy's legs,from behind,intimate pose
+  - 02_ps_009,1girl,1boy,pool deck,applying sunscreen,cowboy shot,caring moment
+  - 02_ps_010,1girl,1boy,poolside,standing close,talking,close-up,private conversation
+
+# ========== シーン3: プールで泳ぐ ==========
+
+scene_pool_swimming:
+  - 03_sw_001,1girl,pool,swimming,freestyle stroke,cowboy shot,active swimming
+  - 03_sw_002,1girl,pool,floating on back,relaxed,low angle,from below,peaceful floating
+  - 03_sw_003,1girl,pool,diving underwater,dynamic,dutch angle,energetic dive
+  - 03_sw_004,1girl,pool,treading water,close-up,face focus,water droplets on face
+  - 03_sw_005,1girl,pool,holding pool edge,resting,high angle,from above,taking break
+  - 03_sw_006,1girl,pool,playing with water,splashing,pov,first person view,playful
+  - 03_sw_007,1girl,pool,emerging from water,hair wet,from behind,over shoulder,refreshing
+  - 03_sw_008,1girl,pool,standing in water,waist deep,wide shot,full body,standing pose
+  - 03_sw_009,1girl,1boy,pool,swimming together,side by side,cowboy shot,swimming couple
+  - 03_sw_010,1girl,1boy,pool,splashing each other,playful,dutch angle,fun interaction
+  - 03_sw_011,1girl,1boy,pool,floating together,holding hands,wide shot,romantic floating
+  - 03_sw_012,1girl,1boy,pool,racing,competitive play,from behind,playful competition
+
+# ========== シーン4: プールカフェ ==========
+
+scene_pool_cafe:
+  - 04_cf_001,1girl,pool cafe,sitting at table,poolside view,cowboy shot,break time
+  - 04_cf_002,1girl,pool cafe,drinking tropical drink,close-up,face focus,refreshing
+  - 04_cf_003,1girl,pool cafe terrace,leaning back in chair,pov angle,comfortable
+  - 04_cf_004,1girl,pool cafe,looking at menu,from behind,deciding order
+  - 04_cf_005,1girl,pool cafe,eating light meal,wide shot,dining scene
+  - 04_cf_006,1girl,1boy,pool cafe,sitting across from each other,wide shot,cafe date
+  - 04_cf_007,1girl,1boy,pool cafe terrace,sitting side by side,poolside view,cowboy shot,together
+  - 04_cf_008,1girl,1boy,pool cafe,sharing dessert,close-up,intimate sharing
+  - 04_cf_009,1girl,1boy,pool cafe,holding hands on table,dutch angle,romantic moment
+  - 04_cf_010,1girl,1boy,pool cafe,girl leaning on boy,from side,affectionate
+
+# ========== シーン5: サンセットプール ==========
+
+scene_pool_sunset:
+  - 05_ss_001,1girl,poolside at sunset,sitting on edge,watching sunset,pov,peaceful view
+  - 05_ss_002,1girl,pool at dusk,standing in water,sunset reflection,close-up,face focus,golden light
+  - 05_ss_003,1girl,poolside,standing,silhouette against sunset,cowboy shot,dramatic lighting
+  - 05_ss_004,1girl,1boy,poolside at sunset,sitting together,close,cowboy shot,romantic sunset
+  - 05_ss_005,1girl,1boy,pool at dusk,embracing in water,sunset background,close-up,intimate embrace
+  - 05_ss_006,1girl,1boy,poolside,looking at each other,golden hour lighting,dutch angle,connection
+  - 05_ss_007,1girl,1boy,pool at sunset,floating together,holding close,wide shot,peaceful moment
+  - 05_ss_008,1girl,1boy,poolside,forehead touch,sunset glow,low angle,romantic
+  - 05_ss_009,1girl,1boy,pool deck at dusk,walking hand in hand,from behind,romantic walk
+  - 05_ss_010,1girl,1boy,poolside at sunset,watching sunset together,sitting close,high angle,from above,shared moment
+
+# ========== シーン6: プライベートカバナ ==========
+
+scene_pool_cabana:
+  - 06_cb_001,1girl,private cabana,sitting on daybed,pov,intimate space
+  - 06_cb_002,1girl,pool cabana,standing,looking back,close-up,face focus,inviting
+  - 06_cb_003,1girl,cabana,leaning against pillow,cowboy shot,relaxed pose
+  - 06_cb_004,1girl,1boy,private cabana,sitting close together,very close,cowboy shot,intimate
+  - 06_cb_005,1girl,1boy,pool cabana,embracing,standing,close-up,tender embrace
+  - 06_cb_006,1girl,1boy,cabana,faces very close,about to kiss,dutch angle,romantic tension
+  - 06_cb_007,1girl,1boy,private cabana,lying together on daybed,from side,wide shot,affection
+  - 06_cb_008,1girl,1boy,pool cabana,back hug,standing,low angle,intimate moment
+  - 06_cb_009,1girl,1boy,cabana,lying together,cuddling,high angle,from above,tender
+  - 06_cb_010,1girl,1boy,private cabana,touching foreheads,looking at each other,pov angle,connection
+

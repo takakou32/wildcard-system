@@ -1,0 +1,266 @@
+# カスタムシーン作成テンプレート
+# custom_scene_template.yaml
+#
+# このテンプレートを使用して、新しい場所のシーンを効率的に作成できます。
+# 【使い方】の指示に従って、場所名・連番・動作をカスタマイズしてください。
+
+# ========================================
+# 【使い方】
+# ========================================
+# 
+# 1. このファイルをコピーして新しいファイル名にする
+#    例: pose_scenes_pool.yaml, pose_scenes_school.yaml
+#
+# 2. 以下の置換を実行:
+#    [LOCATION] → 具体的な場所名 (例: pool, school, train)
+#    [LOCATION_JP] → 日本語の場所名 (例: プール, 学校, 電車)
+#    [THEME_TYPE] → テーマタイプ (例: resort, daily, adventure)
+#
+# 3. 各シーンの連番カテゴリ略称を scene_category_codes.md から選択
+#
+# 4. 動作部分を場所に合わせてカスタマイズ
+#
+# 5. 場所固有の要素を2-3個追加（オプション）
+#
+# ========================================
+
+# [LOCATION_JP]系シーン（ラブラブテーマ用）
+# pose_scenes_[LOCATION].yaml
+# 使用対象：[THEME_TYPE]系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========================================
+# パターン選択ガイド
+# ========================================
+# 各シーンに適したパターンを選択:
+# - pattern_simple (6-7個): 導入、移動、簡単なシーン
+# - pattern_standard (10個): 標準的なメインシーン
+# - pattern_solo_focused (12個): 探索、個人活動中心
+# - pattern_couple_focused (10個): ロマンティック、親密
+# - pattern_extended (15個): 重要な中心シーン
+
+# ========================================
+# シーン1: 到着・導入
+# ========================================
+# 推奨パターン: pattern_simple (7プロンプト)
+# ソロ 57% / カップル 43%
+
+scene_[LOCATION]_arrival:
+  # ソロシーン 4個
+  - 01_ar_001,1girl,[LOCATION],entering,looking around,cowboy shot,arrival scene
+  - 01_ar_002,1girl,[LOCATION],standing,first impression,wide shot,full body,taking in surroundings
+  - 01_ar_003,1girl,[LOCATION] entrance,walking in,carrying bag,pov,first person view,entering
+  - 01_ar_004,1girl,[LOCATION],standing by [LANDMARK],looking around,from behind,over shoulder,exploring
+  
+  # カップルシーン 3個
+  - 01_ar_005,1girl,1boy,[LOCATION],entering together,holding hands,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,[LOCATION] entrance,walking in together,from behind,full body,together
+  - 01_ar_007,1girl,1boy,[LOCATION],standing close,discussing,cowboy shot,planning together
+
+# ========================================
+# シーン2: メイン活動 A
+# ========================================
+# 推奨パターン: pattern_standard (10プロンプト)
+# ソロ 50% / カップル 50%
+
+scene_[LOCATION]_activity_a:
+  # ソロシーン 5個
+  - 02_ac_001,1girl,[LOCATION],sitting,[SPECIFIC_LOCATION],cowboy shot,relaxing pose
+  - 02_ac_002,1girl,[LOCATION],[ACTION_1],pov,first person view,active scene
+  - 02_ac_003,1girl,[LOCATION],[ACTION_2],dutch angle,dynamic pose,energetic
+  - 02_ac_004,1girl,[LOCATION],[ACTION_3],close-up,face focus,focused expression
+  - 02_ac_005,1girl,[LOCATION],standing,[DETAIL],from behind,over shoulder,observing
+  
+  # カップルシーン 5個
+  - 02_ac_006,1girl,1boy,[LOCATION],sitting together,close,wide shot,relaxing together
+  - 02_ac_007,1girl,1boy,[LOCATION],[COUPLE_ACTION_1],cowboy shot,playful interaction
+  - 02_ac_008,1girl,1boy,[LOCATION],[COUPLE_ACTION_2],from behind,cooperative activity
+  - 02_ac_009,1girl,1boy,[LOCATION],[COUPLE_ACTION_3],close-up,intimate moment
+  - 02_ac_010,1girl,1boy,[LOCATION],standing close,talking,dutch angle,animated conversation
+
+# ========================================
+# シーン3: メイン活動 B
+# ========================================
+# 推奨パターン: pattern_solo_focused (12プロンプト)
+# ソロ 65% / カップル 35%
+
+scene_[LOCATION]_activity_b:
+  # ソロシーン 8個
+  - 03_ab_001,1girl,[LOCATION],[ACTION_4],cowboy shot,casual pose
+  - 03_ab_002,1girl,[LOCATION],[ACTION_5],low angle,from below,dynamic angle
+  - 03_ab_003,1girl,[LOCATION],[ACTION_6],close-up,face focus,expression
+  - 03_ab_004,1girl,[LOCATION],[ACTION_7],high angle,from above,full view
+  - 03_ab_005,1girl,[LOCATION],[ACTION_8],pov,first person view,immersive
+  - 03_ab_006,1girl,[LOCATION],walking,moving around,wide shot,full body,motion
+  - 03_ab_007,1girl,[LOCATION],[ACTION_9],from behind,over shoulder,observing
+  - 03_ab_008,1girl,[LOCATION],standing,[DETAIL_2],dutch angle,stylish pose
+  
+  # カップルシーン 4個
+  - 03_ab_009,1girl,1boy,[LOCATION],[COUPLE_ACTION_4],cowboy shot,together
+  - 03_ab_010,1girl,1boy,[LOCATION],[COUPLE_ACTION_5],wide shot,interaction
+  - 03_ab_011,1girl,1boy,[LOCATION],close together,talking,close-up,intimate conversation
+  - 03_ab_012,1girl,1boy,[LOCATION],standing side by side,from behind,companionship
+
+# ========================================
+# シーン4: 休憩・リラックス
+# ========================================
+# 推奨パターン: pattern_standard (10プロンプト)
+# ソロ 50% / カップル 50%
+
+scene_[LOCATION]_relaxing:
+  # ソロシーン 5個
+  - 04_rx_001,1girl,[REST_AREA],sitting,resting,cowboy shot,break time
+  - 04_rx_002,1girl,[REST_AREA],drinking [BEVERAGE],close-up,face focus,refreshing
+  - 04_rx_003,1girl,[REST_AREA],leaning back,relaxed,pov angle,comfortable
+  - 04_rx_004,1girl,[REST_AREA],looking at [OBJECT],from behind,peaceful moment
+  - 04_rx_005,1girl,[REST_AREA],standing up,stretching,wide shot,full body,refreshed
+  
+  # カップルシーン 5個
+  - 04_rx_006,1girl,1boy,[REST_AREA],sitting together,close,wide shot,resting together
+  - 04_rx_007,1girl,1boy,[REST_AREA],sharing [ITEM],cowboy shot,intimate sharing
+  - 04_rx_008,1girl,1boy,[REST_AREA],girl leaning on boy,from side,affectionate
+  - 04_rx_009,1girl,1boy,[REST_AREA],talking quietly,close-up,private conversation
+  - 04_rx_010,1girl,1boy,[REST_AREA],relaxing together,dutch angle,comfortable together
+
+# ========================================
+# シーン5: 特別な瞬間
+# ========================================
+# 推奨パターン: pattern_couple_focused (10プロンプト)
+# ソロ 30% / カップル 70%
+
+scene_[LOCATION]_special_moment:
+  # ソロシーン 3個
+  - 05_sm_001,1girl,[SPECIAL_SPOT],standing,looking at [SCENERY],pov,immersive view
+  - 05_sm_002,1girl,[SPECIAL_SPOT],sitting alone,contemplative,close-up,face focus,thoughtful
+  - 05_sm_003,1girl,[SPECIAL_SPOT],standing,[DRAMATIC_ACTION],cowboy shot,memorable moment
+  
+  # カップルシーン 7個
+  - 05_sm_004,1girl,1boy,[SPECIAL_SPOT],holding hands,standing close,cowboy shot,romantic
+  - 05_sm_005,1girl,1boy,[SPECIAL_SPOT],embracing,[BACKGROUND],close-up,intimate embrace
+  - 05_sm_006,1girl,1boy,[SPECIAL_SPOT],looking at each other,face to face,dutch angle,connection
+  - 05_sm_007,1girl,1boy,[SPECIAL_SPOT],sitting together,close,wide shot,peaceful moment
+  - 05_sm_008,1girl,1boy,[SPECIAL_SPOT],forehead touch,tender moment,low angle,romantic
+  - 05_sm_009,1girl,1boy,[SPECIAL_SPOT],dancing together,moving,pov angle,playful romance
+  - 05_sm_010,1girl,1boy,[SPECIAL_SPOT],watching [SCENERY] together,from behind,shared experience
+
+# ========================================
+# シーン6: 親密な時間
+# ========================================
+# 推奨パターン: pattern_couple_focused (10プロンプト)
+# ソロ 30% / カップル 70%
+
+scene_[LOCATION]_intimate:
+  # ソロシーン 3個
+  - 06_in_001,1girl,[PRIVATE_SPACE],sitting,waiting,pov,anticipation
+  - 06_in_002,1girl,[PRIVATE_SPACE],standing,looking back,close-up,face focus,inviting
+  - 06_in_003,1girl,[PRIVATE_SPACE],leaning against [OBJECT],cowboy shot,relaxed pose
+  
+  # カップルシーン 7個
+  - 06_in_004,1girl,1boy,[PRIVATE_SPACE],sitting close together,very close,cowboy shot,intimate
+  - 06_in_005,1girl,1boy,[PRIVATE_SPACE],embracing,standing,close-up,tender embrace
+  - 06_in_006,1girl,1boy,[PRIVATE_SPACE],faces very close,about to kiss,dutch angle,romantic tension
+  - 06_in_007,1girl,1boy,[PRIVATE_SPACE],holding each other,from side,wide shot,affection
+  - 06_in_008,1girl,1boy,[PRIVATE_SPACE],back hug,standing,low angle,intimate moment
+  - 06_in_009,1girl,1boy,[PRIVATE_SPACE],lying together,cuddling,high angle,from above,tender
+  - 06_in_010,1girl,1boy,[PRIVATE_SPACE],touching foreheads,looking at each other,pov angle,connection
+
+# ========================================
+# カスタマイズ用プレースホルダー一覧
+# ========================================
+
+# 【必須置換】
+# [LOCATION] - 場所名 (英語): pool, school, train, park, gym, etc.
+# [LOCATION_JP] - 場所名 (日本語): プール, 学校, 電車, 公園, ジム, etc.
+# [THEME_TYPE] - テーマタイプ: resort, daily, adventure, romance, etc.
+
+# 【場所固有の置換】
+# [LANDMARK] - その場所の目印: entrance gate, main building, ticket counter, etc.
+# [SPECIFIC_LOCATION] - 具体的な小場所: poolside, classroom, train car, bench, etc.
+# [REST_AREA] - 休憩エリア: pool cafe, cafeteria, waiting area, rest bench, etc.
+# [SPECIAL_SPOT] - 特別な場所: sunset poolside, rooftop, scenic window, observation deck, etc.
+# [PRIVATE_SPACE] - プライベート空間: changing room, private pool, empty classroom, etc.
+
+# 【動作の置換】
+# [ACTION_1] - [ACTION_9] - 場所に合った動作
+# [COUPLE_ACTION_1] - [COUPLE_ACTION_5] - カップルでの動作
+
+# 【その他の置換】
+# [DETAIL] - 詳細要素
+# [BEVERAGE] - 飲み物
+# [OBJECT] - オブジェクト
+# [ITEM] - アイテム
+# [SCENERY] - 景色
+# [BACKGROUND] - 背景
+# [DRAMATIC_ACTION] - ドラマチックな動作
+
+# ========================================
+# 使用例: プールシーン
+# ========================================
+
+# [LOCATION] → pool
+# [LOCATION_JP] → プール
+# [THEME_TYPE] → resort
+# [LANDMARK] → pool entrance
+# [SPECIFIC_LOCATION] → poolside
+# [REST_AREA] → pool cafe
+# [SPECIAL_SPOT] → sunset poolside
+# [PRIVATE_SPACE] → private pool cabana
+# 
+# [ACTION_1] → swimming in pool
+# [ACTION_2] → splashing water
+# [ACTION_3] → sitting on pool edge
+# [ACTION_4] → floating in water
+# [ACTION_5] → diving
+# [ACTION_6] → playing with beach ball
+# [ACTION_7] → lying on pool lounger
+# [ACTION_8] → drying off with towel
+# [ACTION_9] → adjusting swimsuit
+# 
+# [COUPLE_ACTION_1] → swimming together
+# [COUPLE_ACTION_2] → splashing each other playfully
+# [COUPLE_ACTION_3] → sitting on pool edge together
+# [COUPLE_ACTION_4] → floating together
+# [COUPLE_ACTION_5] → playing water game together
+# 
+# [DETAIL] → water droplets glistening
+# [DETAIL_2] → wet hair dripping
+# [BEVERAGE] → tropical drink
+# [OBJECT] → towel
+# [ITEM] → drink
+# [SCENERY] → pool view
+# [BACKGROUND] → pool at sunset
+# [DRAMATIC_ACTION] → jumping into pool
+
+# ========================================
+# 黄金律チェックリスト
+# ========================================
+
+# ✅ 各シーンのソロ/カップル比率は適切か？
+# ✅ 各シーンで6種類以上のアングルを使用しているか？
+# ✅ 動作バリエーションは8種類以上あるか？
+# ✅ 連番フォーマット（SS_CC_NNN）を正しく使用しているか？
+# ✅ カテゴリ略称は scene_category_codes.md に準拠しているか？
+# ✅ 同じ動作・アングルが連続していないか？
+# ✅ プロンプトは具体的で明確か？
+# ✅ 場所情報は一貫しているか？
+
+# ========================================
+# 次のステップ
+# ========================================
+
+# 1. このテンプレートをコピー
+# 2. 必須置換を実行
+# 3. 場所固有の要素を追加
+# 4. 動作をカスタマイズ
+# 5. 黄金律チェックリストで確認
+# 6. 代表プロンプト3つでクイック検証
+# 7. 問題なければ本番投入
+
+# 作成日: 2026-01-01
+# バージョン: 1.0
+

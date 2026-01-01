@@ -1,0 +1,422 @@
+# シーン構造パターン定義
+# scene_structure_patterns.yaml
+# 
+# このファイルは、新規シーン作成時に使用する構造パターンを定義します。
+# 既存の検証済みシーン（beach, daily, office, onsen）から抽出したパターンです。
+
+# ========================================
+# パターン1: スタンダード（バランス型）
+# ========================================
+# 用途: 最も汎用的なシーン
+# ソロ/カップル: 50/50
+# プロンプト数: 10個
+
+pattern_standard:
+  prompt_count: 10
+  solo_ratio: 0.5
+  couple_ratio: 0.5
+  
+  structure:
+    # ソロシーン 5個
+    - type: solo
+      angle: cowboy_shot
+      action_type: static
+    - type: solo
+      angle: close_up
+      action_type: static
+    - type: solo
+      angle: wide_shot
+      action_type: dynamic
+    - type: solo
+      angle: pov
+      action_type: static
+    - type: solo
+      angle: from_behind
+      action_type: dynamic
+    
+    # カップルシーン 5個
+    - type: couple
+      angle: wide_shot
+      action_type: interaction
+    - type: couple
+      angle: cowboy_shot
+      action_type: interaction
+    - type: couple
+      angle: close_up
+      action_type: intimate
+    - type: couple
+      angle: dutch_angle
+      action_type: dynamic
+    - type: couple
+      angle: from_behind
+      action_type: interaction
+
+  angles:
+    - cowboy_shot: 20%
+    - close_up: 20%
+    - wide_shot: 20%
+    - pov: 10%
+    - from_behind: 20%
+    - dutch_angle: 10%
+
+# ========================================
+# パターン2: ソロ重視型
+# ========================================
+# 用途: 1girl中心のシーン、探索系
+# ソロ/カップル: 65/35
+# プロンプト数: 12個
+
+pattern_solo_focused:
+  prompt_count: 12
+  solo_ratio: 0.65
+  couple_ratio: 0.35
+  
+  structure:
+    # ソロシーン 8個
+    - type: solo
+      angle: cowboy_shot
+      action_type: static
+    - type: solo
+      angle: pov
+      action_type: static
+    - type: solo
+      angle: dutch_angle
+      action_type: dynamic
+    - type: solo
+      angle: low_angle
+      action_type: static
+    - type: solo
+      angle: close_up
+      action_type: static
+    - type: solo
+      angle: from_behind
+      action_type: dynamic
+    - type: solo
+      angle: high_angle
+      action_type: static
+    - type: solo
+      angle: wide_shot
+      action_type: dynamic
+    
+    # カップルシーン 4個
+    - type: couple
+      angle: cowboy_shot
+      action_type: interaction
+    - type: couple
+      angle: wide_shot
+      action_type: interaction
+    - type: couple
+      angle: close_up
+      action_type: intimate
+    - type: couple
+      angle: from_behind
+      action_type: interaction
+
+  angles:
+    - cowboy_shot: 17%
+    - pov: 8%
+    - dutch_angle: 8%
+    - low_angle: 8%
+    - close_up: 17%
+    - from_behind: 17%
+    - high_angle: 8%
+    - wide_shot: 17%
+
+# ========================================
+# パターン3: カップル重視型
+# ========================================
+# 用途: ロマンティックシーン、親密な場面
+# ソロ/カップル: 30/70
+# プロンプト数: 10個
+
+pattern_couple_focused:
+  prompt_count: 10
+  solo_ratio: 0.3
+  couple_ratio: 0.7
+  
+  structure:
+    # ソロシーン 3個
+    - type: solo
+      angle: pov
+      action_type: static
+    - type: solo
+      angle: close_up
+      action_type: static
+    - type: solo
+      angle: cowboy_shot
+      action_type: static
+    
+    # カップルシーン 7個
+    - type: couple
+      angle: cowboy_shot
+      action_type: interaction
+    - type: couple
+      angle: close_up
+      action_type: intimate
+    - type: couple
+      angle: dutch_angle
+      action_type: dynamic
+    - type: couple
+      angle: wide_shot
+      action_type: interaction
+    - type: couple
+      angle: low_angle
+      action_type: intimate
+    - type: couple
+      angle: pov
+      action_type: intimate
+    - type: couple
+      angle: high_angle
+      action_type: intimate
+
+  angles:
+    - cowboy_shot: 20%
+    - close_up: 30%
+    - dutch_angle: 10%
+    - wide_shot: 10%
+    - low_angle: 10%
+    - pov: 10%
+    - high_angle: 10%
+
+# ========================================
+# パターン4: シンプル型
+# ========================================
+# 用途: 短い移動シーン、簡単な活動
+# ソロ/カップル: 50/50
+# プロンプト数: 6-8個
+
+pattern_simple:
+  prompt_count: 7
+  solo_ratio: 0.57
+  couple_ratio: 0.43
+  
+  structure:
+    # ソロシーン 4個
+    - type: solo
+      angle: cowboy_shot
+      action_type: static
+    - type: solo
+      angle: wide_shot
+      action_type: dynamic
+    - type: solo
+      angle: pov
+      action_type: static
+    - type: solo
+      angle: from_behind
+      action_type: dynamic
+    
+    # カップルシーン 3個
+    - type: couple
+      angle: wide_shot
+      action_type: interaction
+    - type: couple
+      angle: cowboy_shot
+      action_type: interaction
+    - type: couple
+      angle: close_up
+      action_type: intimate
+
+  angles:
+    - cowboy_shot: 28%
+    - wide_shot: 28%
+    - pov: 14%
+    - from_behind: 14%
+    - close_up: 14%
+
+# ========================================
+# パターン5: 拡張型
+# ========================================
+# 用途: 重要な中心シーン、詳細な描写
+# ソロ/カップル: 50/50
+# プロンプト数: 15個
+
+pattern_extended:
+  prompt_count: 15
+  solo_ratio: 0.53
+  couple_ratio: 0.47
+  
+  structure:
+    # ソロシーン 8個
+    - type: solo
+      angle: cowboy_shot
+      action_type: static
+    - type: solo
+      angle: pov
+      action_type: static
+    - type: solo
+      angle: dutch_angle
+      action_type: dynamic
+    - type: solo
+      angle: low_angle
+      action_type: static
+    - type: solo
+      angle: close_up
+      action_type: static
+    - type: solo
+      angle: high_angle
+      action_type: static
+    - type: solo
+      angle: from_behind
+      action_type: dynamic
+    - type: solo
+      angle: wide_shot
+      action_type: dynamic
+    
+    # カップルシーン 7個
+    - type: couple
+      angle: cowboy_shot
+      action_type: interaction
+    - type: couple
+      angle: wide_shot
+      action_type: interaction
+    - type: couple
+      angle: close_up
+      action_type: intimate
+    - type: couple
+      angle: pov
+      action_type: intimate
+    - type: couple
+      angle: dutch_angle
+      action_type: dynamic
+    - type: couple
+      angle: from_behind
+      action_type: interaction
+    - type: couple
+      angle: high_angle
+      action_type: intimate
+
+  angles:
+    - cowboy_shot: 13%
+    - pov: 13%
+    - dutch_angle: 13%
+    - low_angle: 7%
+    - close_up: 13%
+    - high_angle: 13%
+    - from_behind: 13%
+    - wide_shot: 13%
+
+# ========================================
+# アングル定義
+# ========================================
+
+angle_definitions:
+  cowboy_shot:
+    description: "腰から上を映す汎用アングル"
+    frequency: high
+    use_cases: ["静的ポーズ", "会話", "立ち姿"]
+  
+  close_up:
+    description: "顔や上半身に焦点"
+    frequency: medium
+    use_cases: ["表情重視", "親密シーン", "感情表現"]
+  
+  wide_shot:
+    description: "全体像と環境を含む"
+    frequency: medium
+    use_cases: ["環境重視", "全身ポーズ", "2人の関係性"]
+  
+  pov:
+    description: "主観視点、没入感"
+    frequency: medium
+    use_cases: ["対面", "視線", "親密距離"]
+  
+  from_behind:
+    description: "背面から、視線誘導"
+    frequency: medium
+    use_cases: ["歩く姿", "景色を見る", "雰囲気"]
+  
+  low_angle:
+    description: "下から見上げる、迫力"
+    frequency: low
+    use_cases: ["ドラマチック", "強調", "立ち姿"]
+  
+  high_angle:
+    description: "上から見下ろす、俯瞰"
+    frequency: low
+    use_cases: ["横たわる", "座る", "全体把握"]
+  
+  dutch_angle:
+    description: "傾いた構図、動的"
+    frequency: low
+    use_cases: ["動き", "エネルギー", "非日常"]
+
+# ========================================
+# 動作タイプ定義
+# ========================================
+
+action_type_definitions:
+  static:
+    description: "静的ポーズ"
+    examples: ["sitting", "standing", "lying", "leaning"]
+    ratio: 0.4-0.5
+  
+  dynamic:
+    description: "動的ポーズ"
+    examples: ["walking", "running", "jumping", "twirling"]
+    ratio: 0.2-0.3
+  
+  interaction:
+    description: "相互作用"
+    examples: ["holding hands", "talking", "looking at each other"]
+    ratio: 0.1-0.2
+  
+  intimate:
+    description: "親密な動作"
+    examples: ["embracing", "back hug", "forehead touch", "about to kiss"]
+    ratio: 0.1-0.2
+  
+  activity:
+    description: "特定の活動"
+    examples: ["eating", "drinking", "washing", "reading"]
+    ratio: 0.1-0.2
+
+# ========================================
+# パターン選択ガイド
+# ========================================
+
+pattern_selection_guide:
+  arrival_scenes:
+    recommended_pattern: pattern_simple
+    reason: "短い導入シーン、6-8プロンプトで十分"
+  
+  main_activity_scenes:
+    recommended_pattern: pattern_standard
+    reason: "バランスの取れた構成、10プロンプト"
+  
+  exploration_scenes:
+    recommended_pattern: pattern_solo_focused
+    reason: "1girl中心の探索、12プロンプト"
+  
+  romantic_scenes:
+    recommended_pattern: pattern_couple_focused
+    reason: "カップル重視、10プロンプト"
+  
+  climax_scenes:
+    recommended_pattern: pattern_extended
+    reason: "重要シーン、詳細描写、15プロンプト"
+  
+  transition_scenes:
+    recommended_pattern: pattern_simple
+    reason: "場面転換、7プロンプト"
+
+# ========================================
+# 使用例
+# ========================================
+
+usage_example:
+  scenario: "プールサイドで遊ぶ"
+  selected_pattern: pattern_standard
+  prompt_count: 10
+  
+  generated_structure:
+    - "01_ps_001,1girl,poolside,sitting on edge,feet in water,cowboy shot,relaxing"
+    - "01_ps_002,1girl,pool,standing in water,playing,close-up,face focus,playful"
+    - "01_ps_003,1girl,poolside,walking,carrying towel,wide shot,full body,casual"
+    - "01_ps_004,1girl,pool,floating,relaxed,pov,first person view,peaceful"
+    - "01_ps_005,1girl,poolside,drying off,towel,from behind,over shoulder,after swim"
+    - "01_ps_006,1girl,1boy,poolside,sitting together,close,wide shot,romantic"
+    - "01_ps_007,1girl,1boy,pool,playing together,splashing,cowboy shot,fun"
+    - "01_ps_008,1girl,1boy,poolside,sharing drink,sitting close,close-up,intimate"
+    - "01_ps_009,1girl,1boy,pool,swimming together,dutch angle,dynamic,energetic"
+    - "01_ps_010,1girl,1boy,poolside,embracing,sunset,from behind,romantic moment"
+

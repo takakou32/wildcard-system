@@ -1,0 +1,25 @@
+# Pose用シーン定義 - SFWのみ（人妻とジムトレ）
+# 全てのSFWシーンを含む
+
+pose_play_sfw:
+  # Scene 01: time_morning（朝） - ジム到着・準備
+  - __自作2_1/themes/lovey/scene_gym_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_morning__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 02: time_morning（朝） - ストレッチ・ウォームアップ
+  - __自作2_1/themes/lovey/scene_gym_stretching__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_morning__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 03: time_day（昼） - 有酸素運動
+  - __自作2_1/themes/lovey/scene_gym_cardio__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 04: time_day（昼） - ウェイトトレーニング
+  - __自作2_1/themes/lovey/scene_gym_weights__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 05: time_evening（夕方） - ヨガ・ストレッチエリア（SFW部分のみ）
+  - __自作2_1/themes/lovey/scene_gym_yoga__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # Scene 06: time_night（夜） - クールダウン・退店（SFW部分のみ）
+  - __自作2_1/themes/lovey/scene_gym_cooldown__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_sportswear__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # Scene 07: time_night（夜） - シャワールーム（SFW部分のみ）
+  - __自作2_1/themes/lovey/scene_gym_shower__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_towel__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+

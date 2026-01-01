@@ -1,0 +1,95 @@
+# ラブラブテーマ用ポーズプロンプト - 図書館系シーン
+# pose_scenes_library.yaml
+# 使用対象：図書館デート、静かな場所、勉強系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 図書館入口 ==========
+
+scene_library_entrance:
+  - 01_en_001,1girl,library entrance,entering,quiet atmosphere,cowboy shot,arrival
+  - 01_en_002,1girl,library lobby,standing,looking around,wide shot,full body,taking in space
+  - 01_en_003,1girl,library entrance,walking in,carrying bag,pov,first person view,entering
+  - 01_en_004,1girl,library,standing by information desk,from behind,over shoulder,checking in
+  - 01_en_005,1girl,1boy,library entrance,entering together,quiet greeting,wide shot,couple arrival
+  - 01_en_006,1girl,1boy,library lobby,walking in together,from behind,full body,together
+  - 01_en_007,1girl,1boy,library,standing,whispering,cowboy shot,quiet conversation
+
+# ========== シーン2: 書架・本探し ==========
+
+scene_library_browsing:
+  - 02_br_001,1girl,library bookshelf,browsing books,standing,cowboy shot,searching
+  - 02_br_002,1girl,library stacks,reaching for book on high shelf,low angle,from below,stretching
+  - 02_br_003,1girl,library aisle,walking between shelves,pov angle,exploring
+  - 02_br_004,1girl,library,standing,reading book spine,close-up,face focus,examining
+  - 02_br_005,1girl,library bookshelf,pulling out book,from behind,over shoulder,selecting
+  - 02_br_006,1girl,library stacks,sitting on floor,looking through books,dutch angle,casual browsing
+  - 02_br_007,1girl,library,standing,holding stack of books,wide shot,full body,collection
+  - 02_br_008,1girl,1boy,library bookshelf,browsing together,standing close,wide shot,searching together
+  - 02_br_009,1girl,1boy,library stacks,reaching for same book,accidental touch,cowboy shot,surprise moment
+  - 02_br_010,1girl,1boy,library aisle,boy helping girl reach high book,close-up,helpful gesture
+  - 02_br_011,1girl,1boy,library,standing between shelves,very close,dutch angle,hidden moment
+  - 02_br_012,1girl,1boy,library bookshelf,whispering recommendations,low angle,quiet sharing
+
+# ========== シーン3: 閲覧席・勉強 ==========
+
+scene_library_reading:
+  - 03_rd_001,1girl,library reading area,sitting at table,reading,cowboy shot,studying
+  - 03_rd_002,1girl,library desk,sitting,taking notes,pov angle,focused work
+  - 03_rd_003,1girl,library,reading,concentrated expression,close-up,face focus,absorbed
+  - 03_rd_004,1girl,library table,sitting,thinking,hand on chin,from behind,over shoulder,contemplating
+  - 03_rd_005,1girl,library reading room,sitting,turning page,dutch angle,quiet reading
+  - 03_rd_006,1girl,library desk,sitting,organizing notes,high angle,from above,studying
+  - 03_rd_007,1girl,library,standing,returning book to shelf,wide shot,responsible
+  - 03_rd_008,1girl,1boy,library table,sitting across from each other,studying,wide shot,study partners
+  - 03_rd_009,1girl,1boy,library,sitting side by side,sharing textbook,cowboy shot,studying together
+  - 03_rd_010,1girl,1boy,library desk,whispering,explaining something,close-up,helping
+  - 03_rd_011,1girl,1boy,library,passing note,smiling,dutch angle,secret communication
+  - 03_rd_012,1girl,1boy,library table,hands touching accidentally,low angle,unexpected contact
+
+# ========== シーン4: 休憩エリア ==========
+
+scene_library_break:
+  - 04_bk_001,1girl,library lounge,sitting on couch,relaxing,cowboy shot,taking break
+  - 04_bk_002,1girl,library break area,drinking water,pov angle,refreshing
+  - 04_bk_003,1girl,library lounge,standing by window,looking outside,close-up,face focus,resting
+  - 04_bk_004,1girl,library rest area,sitting,checking phone silently,from behind,over shoulder,break time
+  - 04_bk_005,1girl,library lounge,stretching,tired from studying,wide shot,relieving tension
+  - 04_bk_006,1girl,1boy,library break area,sitting on couch together,talking quietly,wide shot,break together
+  - 04_bk_007,1girl,1boy,library lounge,sitting close,sharing snack,cowboy shot,quiet sharing
+  - 04_bk_008,1girl,1boy,library rest area,girl leaning on boy,tired,close-up,comfortable
+  - 04_bk_009,1girl,1boy,library lounge,whispering,very close,dutch angle,private moment
+  - 04_bk_010,1girl,1boy,library break area,holding hands secretly,low angle,hidden affection
+
+# ========== シーン5: 特別コレクション・静かなエリア ==========
+
+scene_library_special:
+  - 05_sp_001,1girl,library archive,examining rare book,careful,pov,precious item
+  - 05_sp_002,1girl,special collections,standing,looking at display,close-up,face focus,impressed
+  - 05_sp_003,1girl,library quiet room,sitting alone,peaceful reading,cowboy shot,solitude
+  - 05_sp_004,1girl,library archive,walking through,from behind,over shoulder,exploring
+  - 05_sp_005,1girl,special section,standing by window,natural light,dutch angle,peaceful
+  - 05_sp_006,1girl,1boy,library archive,examining book together,very close,cowboy shot,shared interest
+  - 05_sp_007,1girl,1boy,special collections,whispering about exhibit,close-up,quiet discussion
+  - 05_sp_008,1girl,1boy,library quiet room,sitting together,alone,wide shot,private space
+  - 05_sp_009,1girl,1boy,library archive,standing very close,between shelves,low angle,intimate space
+  - 05_sp_010,1girl,1boy,special section,touching foreheads,surrounded by books,high angle,from above,peaceful intimacy
+
+# ========== シーン6: 閉館前・図書館退出 ==========
+
+scene_library_closing:
+  - 06_cl_001,1girl,library,packing up books,organizing,pov,preparing to leave
+  - 06_cl_002,1girl,library desk,standing,putting books in bag,close-up,face focus,wrapping up
+  - 06_cl_003,1girl,library,walking to exit,carrying books,cowboy shot,leaving
+  - 06_cl_004,1girl,library checkout,standing,returning books,from behind,over shoulder,checking out
+  - 06_cl_005,1girl,library exit,standing,looking back,wide shot,goodbye
+  - 06_cl_006,1girl,1boy,library,packing up together,quiet coordination,wide shot,finishing together
+  - 06_cl_007,1girl,1boy,library exit,walking out together,carrying books,from behind,leaving together
+  - 06_cl_008,1girl,1boy,library checkout,standing close,waiting,cowboy shot,patient
+  - 06_cl_009,1girl,1boy,library entrance,standing outside,relieved to talk normally,close-up,finally can speak
+  - 06_cl_010,1girl,1boy,outside library,embracing,evening,dutch angle,romantic goodbye
+

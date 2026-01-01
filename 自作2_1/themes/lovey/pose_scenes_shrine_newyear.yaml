@@ -1,0 +1,261 @@
+# ラブラブテーマ用ポーズプロンプト - 神社・新年系シーン
+# pose_scenes_shrine_newyear.yaml
+# 使用対象：初詣デート、神社、正月系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 神社境内を歩く ==========
+
+scene_shrine_walking:
+  - 01_wk_001,1girl,shrine grounds,walking,stone path,torii gate in background,cowboy shot,peaceful stroll
+  - 01_wk_002,1girl,shrine,walking through torii gate,from behind,full body,passing through gate
+  - 01_wk_003,1girl,shrine grounds,standing,looking at shrine buildings,pov angle,observing
+  - 01_wk_004,1girl,shrine path,walking,holding purification ladle,close-up,face focus,preparation
+  - 01_wk_005,1girl,shrine,standing by stone lantern,traditional architecture background,wide shot,scenic view
+  - 01_wk_006,1girl,shrine grounds,walking slowly,hands clasped together,dutch angle,reverent mood
+  - 01_wk_007,1girl,1boy,shrine path,walking hand in hand,torii gate background,from behind,couple visit
+  - 01_wk_008,1girl,1boy,shrine grounds,standing together,looking at shrine,cowboy shot,together
+  - 01_wk_009,1girl,1boy,shrine,walking side by side,traditional architecture,wide shot,peaceful walk
+  - 01_wk_010,1girl,1boy,shrine path,talking,planning prayer,close-up,intimate conversation
+
+# ========== シーン2: お参り・お賽銭を投げる ==========
+
+scene_shrine_prayer:
+  - 02_pr_001,1girl,shrine,standing before offering box,about to throw coin,cowboy shot,offering moment
+  - 02_pr_002,1girl,shrine,throwing coin into offering box,dynamic motion,dutch angle,coin toss
+  - 02_pr_003,1girl,shrine,bowing,hands clasped in prayer,close-up,face focus,peaceful prayer
+  - 02_pr_004,1girl,shrine,praying,eyes closed,serene expression,pov angle,devotion
+  - 02_pr_005,1girl,shrine,ringing bell,reaching up,from below,low angle,ritual action
+  - 02_pr_006,1girl,shrine,finishing prayer,opening eyes,soft smile,wide shot,completed prayer
+  - 02_pr_007,1girl,shrine,bowing deeply,respectful pose,from side,reverent
+  - 02_pr_008,1girl,1boy,shrine,standing before offering box together,side by side,cowboy shot,praying together
+  - 02_pr_009,1girl,1boy,shrine,both throwing coins,synchronized motion,dutch angle,shared ritual
+  - 02_pr_010,1girl,1boy,shrine,praying together,heads bowed,hands clasped,close-up,united prayer
+  - 02_pr_011,1girl,1boy,shrine,holding hands while praying,from behind,romantic prayer
+  - 02_pr_012,1girl,1boy,shrine,finishing prayer,looking at each other,smiling,wide shot,shared moment
+
+# ========== シーン3: 夜の神社・回廊でいちゃつく ==========
+
+scene_shrine_corridor_night:
+  - 03_nc_001,1girl,shrine corridor at night,standing,paper lanterns glowing,pov,atmospheric lighting
+  - 03_nc_002,1girl,shrine corridor,leaning against pillar,looking at viewer,close-up,face focus,inviting gaze
+  - 03_nc_003,1girl,corridor at night,standing,lantern light on face,cowboy shot,beautiful lighting
+  - 03_nc_004,1girl,shrine corridor,looking back over shoulder,mysterious smile,from behind,alluring
+  - 03_nc_005,1girl,1boy,shrine corridor at night,standing close,facing each other,cowboy shot,intimate atmosphere
+  - 03_nc_006,1girl,1boy,corridor,embracing gently,lantern glow,close-up,tender embrace
+  - 03_nc_007,1girl,1boy,shrine corridor,boy's hand on girl's cheek,looking at each other,dutch angle,romantic touch
+  - 03_nc_008,1girl,1boy,corridor at night,forehead touch,very close,low angle,intimate moment
+  - 03_nc_009,1girl,1boy,shrine corridor,girl leaning against pillar,boy leaning in,close-up,romantic tension
+  - 03_nc_010,1girl,1boy,corridor,kissing softly,lantern background,from side,passionate kiss
+  - 03_nc_011,1girl,1boy,shrine corridor at night,back hug,standing,wide shot,affectionate hold
+  - 03_nc_012,1girl,1boy,corridor,girl blushing,boy whispering in ear,cowboy shot,teasing moment
+
+# ========== シーン4: 神社回廊でNSFW Heavy ==========
+
+scene_shrine_corridor_nsfw:
+  - 04_nh_001,1girl,1boy,shrine corridor,intense kissing,pressed against pillar,close-up,passionate
+  - 04_nh_002,1girl,1boy,corridor at night,heavy petting,boy's hands on girl's waist,dutch angle,heated
+  - 04_nh_003,1girl,1boy,shrine corridor,girl against wall,boy leaning over,cowboy shot,aggressive,dominant
+  - 04_nh_004,1girl,1boy,corridor,deep kiss,girl's head tilted back,low angle,intense passion
+  - 04_nh_005,1girl,1boy,shrine corridor,disheveled kimono,straps loose,close-up,face focus,aroused expression,ahegao
+  - 04_nh_006,1girl,1boy,corridor at night,boy kissing girl's neck,girl's eyes closed,pleasure,from side,intimate
+  - 04_nh_007,1girl,1boy,shrine corridor,grinding,pressed together,very close bodies,cowboy shot,nsfw
+  - 04_nh_008,1girl,1boy,corridor,girl gripping boy's clothes,heavy breathing,close-up,intense,lust
+  - 04_nh_009,1girl,1boy,shrine corridor,kimono sliding off shoulder,exposed,dutch angle,undressing,nsfw
+  - 04_nh_010,1girl,1boy,corridor at night,girl sitting on boy's lap,straddling,wide shot,position,nsfw
+  - 04_nh_011,1girl,1boy,shrine corridor,touching intimately,hands exploring,close-up,explicit touch,nsfw
+  - 04_nh_012,1girl,1boy,corridor,girl moaning,boy's hand under kimono,from behind,sexual,nsfw,heavy
+  - 04_nh_013,1girl,1boy,shrine corridor,breast groping,kimono opened,close-up,chest exposure,nsfw
+  - 04_nh_014,1girl,1boy,corridor at night,nipple play,fingering breasts,dutch angle,sensitive touch,nsfw
+  - 04_nh_015,1girl,1boy,shrine corridor,boy sucking breasts,girl's head back,from side,oral stimulation,nsfw
+  - 04_nh_016,1girl,1boy,corridor,girl's hand on boy's crotch,rubbing,cowboy shot,teasing,nsfw
+  - 04_nh_017,1girl,1boy,shrine corridor,handjob,girl stroking,close-up,manual stimulation,nsfw
+  - 04_nh_018,1girl,1boy,corridor at night,fingering,boy's hand between legs,wide shot,penetration fingers,nsfw
+  - 04_nh_019,1girl,1boy,shrine corridor,girl masturbating,touching self,pov angle,self pleasure,nsfw
+  - 04_nh_020,1girl,1boy,corridor,panties pulled aside,exposure,dutch angle,undressing lower,nsfw
+  - 04_nh_021,1girl,1boy,shrine corridor,girl's legs spread,boy kneeling,low angle,cunnilingus preparation,nsfw
+  - 04_nh_022,1girl,1boy,corridor at night,oral sex on girl,eating out,close-up,face between thighs,nsfw
+  - 04_nh_023,1girl,1boy,shrine corridor,girl squirming,receiving oral,cowboy shot,intense pleasure,ahegao,nsfw
+  - 04_nh_024,1girl,1boy,corridor,sixty-nine position,mutual oral,from side,simultaneous pleasure,nsfw
+  - 04_nh_025,1girl,1boy,shrine corridor,girl grinding on face,sitting on boy,high angle,face sitting,nsfw
+  - 04_nh_026,1girl,1boy,corridor at night,thigh job,penis between thighs,close-up,intercrural,nsfw
+  - 04_nh_027,1girl,1boy,shrine corridor,breast fuck,paizuri,penis between breasts,dutch angle,titty fuck,nsfw
+  - 04_nh_028,1girl,1boy,corridor,girl licking tip,precum dripping,close-up,face focus,teasing,nsfw
+  - 04_nh_029,1girl,1boy,shrine corridor,insertion moment,penetration start,cowboy shot,entering,sex,nsfw
+  - 04_nh_030,1girl,1boy,corridor at night,standing sex,girl lifted,boy holding her,wide shot,vertical position,nsfw
+
+# ========== シーン5: 神社の木の横でSex Play / Fella Play ==========
+
+scene_shrine_tree_explicit:
+  - 05_sx_001,1girl,1boy,shrine,beside large tree,girl kneeling,fellatio,pov angle,oral sex,nsfw
+  - 05_sx_002,1girl,1boy,shrine grounds,tree background,girl on knees,blowjob,close-up,face focus,cock in mouth,nsfw
+  - 05_sx_003,1girl,1boy,shrine,tree trunk,girl performing oral,looking up at boy,dutch angle,eye contact,fellatio,nsfw
+  - 05_sx_004,1girl,1boy,shrine,beneath tree,irrumatio,boy's hands in girl's hair,cowboy shot,deep throat,nsfw
+  - 05_sx_005,1girl,1boy,shrine grounds,tree nearby,girl licking,teasing with tongue,close-up,sensual,oral play,nsfw
+  - 05_sx_006,1girl,1boy,shrine,beside tree,girl sucking,saliva dripping,from side,messy,fellatio,nsfw
+  - 05_sx_007,1girl,1boy,shrine,tree shadow,standing sex,girl pressed against tree,from behind,penetration,sex,nsfw
+  - 05_sx_008,1girl,1boy,shrine grounds,tree background,girl lifted up,holding legs,wide shot,standing position,sex,nsfw
+  - 05_sx_009,1girl,1boy,shrine,beneath tree,doggy style,girl on hands and knees,low angle,from behind,sex,nsfw
+  - 05_sx_010,1girl,1boy,shrine,tree trunk support,girl bent over,boy behind,dutch angle,rear entry,penetration,nsfw
+  - 05_sx_011,1girl,1boy,shrine grounds,tree base,girl riding,cowgirl position,close-up,face focus,pleasure,ahegao,nsfw
+  - 05_sx_012,1girl,1boy,shrine,beside tree,missionary position,girl lying on ground,wide shot,intimate,sex,nsfw
+  - 05_sx_013,1girl,1boy,shrine,tree background,cumshot,facial,girl kneeling,close-up,after oral,nsfw,explicit
+  - 05_sx_014,1girl,1boy,shrine grounds,tree nearby,girl with semen on face,satisfied expression,from side,aftermath,nsfw
+  - 05_sx_015,1girl,1boy,shrine,beneath tree,creampie,internal cumshot,girl's legs spread,cowboy shot,explicit,nsfw
+  - 05_sx_016,1girl,1boy,shrine,tree trunk,deep throat,gagging,tears,close-up,intense oral,nsfw
+  - 05_sx_017,1girl,1boy,shrine grounds,tree shadow,ball licking,sucking testicles,dutch angle,oral variation,nsfw
+  - 05_sx_018,1girl,1boy,shrine,beneath tree,girl stroking while licking,handjob and oral,from side,combination,nsfw
+  - 05_sx_019,1girl,1boy,shrine,tree background,paizuri,breast fuck,pov angle,titty fuck,nsfw
+  - 05_sx_020,1girl,1boy,shrine grounds,tree nearby,girl spitting on cock,lubricating,close-up,messy prep,nsfw
+  - 05_sx_021,1girl,1boy,shrine,beside tree,reverse cowgirl,girl riding facing away,low angle,from below,sex,nsfw
+  - 05_sx_022,1girl,1boy,shrine,tree trunk,girl against tree standing,one leg up,dutch angle,standing sex,nsfw
+  - 05_sx_023,1girl,1boy,shrine grounds,beneath tree,spooning position,side sex,from behind,intimate position,nsfw
+  - 05_sx_024,1girl,1boy,shrine,tree shadow,piledriver position,girl folded,high angle,from above,deep penetration,nsfw
+  - 05_sx_025,1girl,1boy,shrine,tree background,mating press,legs over shoulders,close-up,face focus,intense,ahegao,nsfw
+  - 05_sx_026,1girl,1boy,shrine grounds,tree base,girl on top leaning back,reverse view,wide shot,cowgirl variant,nsfw
+  - 05_sx_027,1girl,1boy,shrine,beneath tree,anal sex,ass fucking,from behind,cowboy shot,anal penetration,nsfw
+  - 05_sx_028,1girl,1boy,shrine,tree trunk,double penetration,fingers and penis,dutch angle,multiple penetration,nsfw
+  - 05_sx_029,1girl,1boy,shrine grounds,tree nearby,girl riding hard,bouncing,low angle,aggressive riding,nsfw
+  - 05_sx_030,1girl,1boy,shrine,beside tree,grinding cowgirl,circular motion,close-up,sensual movement,nsfw
+  - 05_sx_031,1girl,1boy,shrine,tree shadow,prone bone position,girl flat on ground,from above,dominant position,nsfw
+  - 05_sx_032,1girl,1boy,shrine grounds,tree background,standing doggy,bent over,wide shot,rear entry standing,nsfw
+  - 05_sx_033,1girl,1boy,shrine,beneath tree,suspended congress,boy holding girl up,dutch angle,aerial position,nsfw
+  - 05_sx_034,1girl,1boy,shrine,tree trunk,girl's legs wrapped around,embracing during sex,cowboy shot,intimate,nsfw
+  - 05_sx_035,1girl,1boy,shrine grounds,tree nearby,thrusting hard,intense motion,from side,vigorous sex,nsfw
+  - 05_sx_036,1girl,1boy,shrine,beside tree,slow grinding,sensual movement,close-up,face focus,passionate,nsfw
+  - 05_sx_037,1girl,1boy,shrine,tree shadow,girl climaxing,orgasm face,dutch angle,ahegao,peak pleasure,nsfw
+  - 05_sx_038,1girl,1boy,shrine grounds,tree background,multiple orgasms,overstimulated,wide shot,exhausted pleasure,nsfw
+  - 05_sx_039,1girl,1boy,shrine,beneath tree,cumming inside,internal ejaculation,low angle,creampie moment,nsfw
+  - 05_sx_040,1girl,1boy,shrine,tree trunk,cum overflowing,leaking out,close-up,aftermath,excessive cum,nsfw
+  - 05_sx_041,1girl,1boy,shrine grounds,tree nearby,facial cumshot,cum on face,cowboy shot,external finish,nsfw
+  - 05_sx_042,1girl,1boy,shrine,beside tree,cum in mouth,swallowing,close-up,face focus,oral finish,nsfw
+  - 05_sx_043,1girl,1boy,shrine,tree shadow,cum on breasts,body shot,dutch angle,chest covered,nsfw
+  - 05_sx_044,1girl,1boy,shrine grounds,tree background,cum on ass,doggy finish,from behind,rear cumshot,nsfw
+  - 05_sx_045,1girl,1boy,shrine,beneath tree,multiple cumshots,covered in semen,wide shot,excessive,messy,nsfw
+
+# ========== シーン6: 社務所・裏手でHidden NSFW ==========
+
+scene_shrine_office_hidden:
+  - 06_of_001,1girl,1boy,shrine office,sneaking in,kissing urgently,cowboy shot,forbidden place,nsfw
+  - 06_of_002,1girl,1boy,shrine back room,pressed against desk,heavy petting,close-up,risky location,nsfw
+  - 06_of_003,1girl,1boy,shrine office,girl bent over desk,skirt lifted,dutch angle,desk sex preparation,nsfw
+  - 06_of_004,1girl,1boy,shrine back room,standing sex against wall,hidden spot,from side,secret encounter,nsfw
+  - 06_of_005,1girl,1boy,shrine office,girl on desk,missionary,wide shot,desk sex,nsfw
+  - 06_of_006,1girl,1boy,shrine back room,girl riding on chair,boy seated,low angle,chair sex,nsfw
+  - 06_of_007,1girl,1boy,shrine office,doggy on desk,bent over,from behind,desk doggy,nsfw
+  - 06_of_008,1girl,1boy,shrine back room,standing doggy,against storage,cowboy shot,hidden sex,nsfw
+  - 06_of_009,1girl,1boy,shrine office,girl's mouth covered,silencing,close-up,face focus,quiet sex,ahegao,nsfw
+  - 06_of_010,1girl,1boy,shrine back room,quickie,rushed sex,dutch angle,fast encounter,nsfw
+  - 06_of_011,1girl,1boy,shrine office,fellatio under desk,hiding,pov angle,secret blowjob,nsfw
+  - 06_of_012,1girl,1boy,shrine back room,girl kneeling,deep throat,close-up,oral in office,nsfw
+  - 06_of_013,1girl,1boy,shrine office,fingering,standing,boy's hand under kimono,from behind,discreet touching,nsfw
+  - 06_of_014,1girl,1boy,shrine back room,breast play,groping,cowboy shot,fondling,nsfw
+  - 06_of_015,1girl,1boy,shrine office,cumshot,girl kneeling,facial,close-up,office finish,nsfw
+  - 06_of_016,1girl,1boy,shrine back room,creampie,internal finish,wide shot,risky creampie,nsfw
+  - 06_of_017,1girl,1boy,shrine office,girl fixing clothes,after sex,dutch angle,covering up,aftermath,nsfw
+  - 06_of_018,1girl,1boy,shrine back room,sneaking out,adjusting kimono,from behind,post-encounter,nsfw
+
+# ========== シーン7: 手水舎付近でRisky Public Play ==========
+
+scene_shrine_purification_risky:
+  - 07_pr_001,1girl,1boy,shrine purification area,late night,kissing,deserted,cowboy shot,risky kiss,nsfw
+  - 07_pr_002,1girl,1boy,chozuya,groping from behind,standing,dutch angle,public groping,nsfw
+  - 07_pr_003,1girl,1boy,shrine purification area,hand in kimono,fingering,close-up,public touching,nsfw
+  - 07_pr_004,1girl,1boy,chozuya,girl stroking through clothes,handjob attempt,from side,risky touch,nsfw
+  - 07_pr_005,1girl,1boy,shrine purification area,girl bent over stone basin,from behind,cowboy shot,public sex risk,nsfw
+  - 07_pr_006,1girl,1boy,chozuya,standing sex,quick insertion,wide shot,public intercourse,nsfw
+  - 07_pr_007,1girl,1boy,shrine purification area,girl against pavilion post,penetration,dutch angle,semi-public sex,nsfw
+  - 07_pr_008,1girl,1boy,chozuya,girl sitting on edge,boy between legs,low angle,oral at purification,nsfw
+  - 07_pr_009,1girl,1boy,shrine purification area,fellatio,kneeling by water basin,close-up,face focus,risky blowjob,nsfw
+  - 07_pr_010,1girl,1boy,chozuya,doggy position,quick sex,from behind,public doggy,nsfw
+  - 07_pr_011,1girl,1boy,shrine purification area,girl covering mouth,holding moan,cowboy shot,silent sex,ahegao,nsfw
+  - 07_pr_012,1girl,1boy,chozuya,creampie,risky finish,close-up,public creampie,nsfw
+  - 07_pr_013,1girl,1boy,shrine purification area,adjusting clothes,looking around nervously,wide shot,after public sex,nsfw
+  - 07_pr_014,1girl,1boy,chozuya,cum dripping,walking away,dutch angle,aftermath,nsfw
+  - 07_pr_015,1girl,1boy,shrine purification area,second round,insatiable,from side,multiple times,nsfw
+
+# ========== シーン8: 石段・階段でDomination Play ==========
+
+scene_shrine_stairs_domination:
+  - 08_st_001,1girl,1boy,shrine stone steps,girl pushed against steps,kissing dominantly,close-up,aggressive kiss,nsfw
+  - 08_st_002,1girl,1boy,shrine stairs,girl on steps,boy above,looking down,dutch angle,power dynamic,nsfw
+  - 08_st_003,1girl,1boy,shrine stone steps,girl kneeling on stairs,forced oral,pov angle,stair blowjob,nsfw
+  - 08_st_004,1girl,1boy,shrine stairs,irrumatio,deep throat on steps,cowboy shot,throat fucking,nsfw
+  - 08_st_005,1girl,1boy,shrine stone steps,girl bent over stairs,spanking,from behind,punishment play,nsfw
+  - 08_st_006,1girl,1boy,shrine stairs,doggy on steps,rough sex,wide shot,stair sex,nsfw
+  - 08_st_007,1girl,1boy,shrine stone steps,girl lying on stairs,forced missionary,low angle,from below,dominant position,nsfw
+  - 08_st_008,1girl,1boy,shrine stairs,standing sex,girl against handrail,dutch angle,rail support sex,nsfw
+  - 08_st_009,1girl,1boy,shrine stone steps,girl's face pressed down,submissive,close-up,face focus,dominated,ahegao,nsfw
+  - 08_st_010,1girl,1boy,shrine stairs,rough grinding,aggressive thrusting,from side,hard sex,nsfw
+  - 08_st_011,1girl,1boy,shrine stone steps,hair pulling,doggystyle,from behind,rough play,nsfw
+  - 08_st_012,1girl,1boy,shrine stairs,choking,breath play,cowboy shot,dominant choking,nsfw
+  - 08_st_013,1girl,1boy,shrine stone steps,girl climaxing hard,intense orgasm,close-up,overwhelming pleasure,nsfw
+  - 08_st_014,1girl,1boy,shrine stairs,cumshot on stairs,facial,wide shot,messy finish,nsfw
+  - 08_st_015,1girl,1boy,shrine stone steps,creampie overflow,cum dripping on steps,dutch angle,excessive finish,nsfw
+
+# ========== プレイリスト: 全シーン統合 ==========
+
+# 全シーン統合プレイ（SFW + NSFW）
+shrine_newyear_all_scenes:
+  - ${scene_shrine_walking}
+  - ${scene_shrine_prayer}
+  - ${scene_shrine_corridor_night}
+  - ${scene_shrine_corridor_nsfw}
+  - ${scene_shrine_tree_explicit}
+  - ${scene_shrine_office_hidden}
+  - ${scene_shrine_purification_risky}
+  - ${scene_shrine_stairs_domination}
+
+# SFWシーンのみ
+shrine_newyear_sfw_only:
+  - ${scene_shrine_walking}
+  - ${scene_shrine_prayer}
+  - ${scene_shrine_corridor_night}
+
+# NSFWシーンのみ
+shrine_newyear_nsfw_only:
+  - ${scene_shrine_corridor_nsfw}
+  - ${scene_shrine_tree_explicit}
+  - ${scene_shrine_office_hidden}
+  - ${scene_shrine_purification_risky}
+  - ${scene_shrine_stairs_domination}
+
+# ライトNSFW（回廊シーンのみ）
+shrine_newyear_nsfw_light:
+  - ${scene_shrine_corridor_night}
+  - ${scene_shrine_corridor_nsfw}
+
+# ヘビーNSFW（性行為中心）
+shrine_newyear_nsfw_heavy:
+  - ${scene_shrine_tree_explicit}
+  - ${scene_shrine_office_hidden}
+  - ${scene_shrine_stairs_domination}
+
+# フェラ・オーラルプレイ中心
+shrine_newyear_oral_focus:
+  - ${scene_shrine_tree_explicit}
+  - ${scene_shrine_office_hidden}
+
+# パブリック・リスキープレイ中心
+shrine_newyear_risky_public:
+  - ${scene_shrine_purification_risky}
+  - ${scene_shrine_stairs_domination}
+
+# ロマンティック進行（SFW→軽NSFW）
+shrine_newyear_romantic_progression:
+  - ${scene_shrine_walking}
+  - ${scene_shrine_prayer}
+  - ${scene_shrine_corridor_night}
+  - ${scene_shrine_corridor_nsfw}
+
+# ハード進行（徐々にエスカレート）
+shrine_newyear_hard_progression:
+  - ${scene_shrine_corridor_nsfw}
+  - ${scene_shrine_tree_explicit}
+  - ${scene_shrine_office_hidden}
+  - ${scene_shrine_stairs_domination}
+

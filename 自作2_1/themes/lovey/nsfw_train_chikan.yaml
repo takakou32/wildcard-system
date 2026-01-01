@@ -1,0 +1,65 @@
+# ラブラブテーマ：電車痴漢プレイ用プロンプト
+# themes/lovey/nsfw_train_chikan.yaml
+# 電車内での痴漢プレイ（段階的）
+# 注意：アングル情報は外部パラメータ化されています（params/angles.yaml）
+
+# ========== 痴漢プレイ：軽度（密着・接触） ==========
+
+nsfw_chikan_light:
+  # 密着・偶然の接触
+  - 90_ch001_0,1girl,__自作2_1/params/outfit_business__,crowded train,standing,being pressed from behind,unavoidable contact,blush,uncomfortable,close-up,face focus
+  - 90_ch001_1,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand accidentally touching hip,from behind,over shoulder,unintentional contact
+  - 90_ch001_2,1girl,__自作2_1/params/outfit_business__,train interior,standing,body pressed against,unavoidably close,crowded,blush,embarrassed
+  - 90_ch001_3,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand on waist,from behind,protective stance,blush,confused
+  - 90_ch001_4,1girl,__自作2_1/params/outfit_business__,train,standing,being jostled,hand touching back,unintentional,blush,flustered
+
+# ========== 痴漢プレイ：中度（胸・スカート） ==========
+
+nsfw_chikan_moderate:
+  # 胸を揉む
+  - 90_ch002_0,1girl,__自作2_1/params/outfit_business__,crowded train,standing,breast groping from behind,hand on breast,blush,shocked expression,close-up,face focus
+  - 90_ch002_1,1girl,__自作2_1/params/outfit_business__,train interior,standing,breast squeeze,groping,from behind,blush,embarrassed,unable to resist
+  - 90_ch002_2,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand groping breast,blouse,blush,flustered,looking down
+  - 90_ch002_3,1girl,__自作2_1/params/outfit_business__,train,standing,breast play from behind,hand on chest,blush,confused,people around
+  - 90_ch002_4,1girl,__自作2_1/params/outfit_business__,crowded train,standing,breast groping,hand squeezing,blush,uncomfortable,public space
+  
+  # スカートを触る・めくる
+  - 90_ch003_0,1girl,__自作2_1/params/outfit_business__,crowded train,standing,hand under skirt,skirt lifted,from behind,blush,shocked,embarrassed
+  - 90_ch003_1,1girl,__自作2_1/params/outfit_business__,train interior,standing,skirt being touched,hand on thigh,from behind,blush,unable to move
+  - 90_ch003_2,1girl,__自作2_1/params/outfit_business__,crowded train,standing,skirt pulled up slightly,hand exploring,blush,flustered,people nearby
+  - 90_ch003_3,1girl,__自作2_1/params/outfit_business__,train,standing,hand under skirt,feeling panties,from behind,blush,embarrassed,public
+  - 90_ch003_4,1girl,__自作2_1/params/outfit_business__,crowded train,standing,skirt lifted,hand on panties,blush,shocked,unable to resist
+
+# ========== 痴漢プレイ：重度（指マン・露出） ==========
+
+nsfw_chikan_intense:
+  # 指マン
+  - 90_ch004_0,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fingering from behind,hand under skirt,fingering pussy,blush,moaning,unable to resist,close-up,face focus
+  - 90_ch004_1,1girl,__自作2_1/params/outfit_business__,train interior,standing,fingering,pussy,skirt lifted,panties pulled aside,blush,embarrassed,public space
+  - 90_ch004_2,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fingering pussy,pussy juice,hand inside,blush,moaning,people around
+  - 90_ch004_3,1girl,__自作2_1/params/outfit_business__,train,standing,fingering,skirt up,panties down,exposed,blush,shocked,unable to stop
+  - 90_ch004_4,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fingering pussy,motion lines,pussy juice dripping,blush,moaning,public molestation
+  
+  # 露出・より露骨
+  - 90_ch005_0,1girl,__自作2_1/params/outfit_business__,crowded train,standing,skirt lifted completely,panties pulled down,exposed pussy,blush,embarrassed,public exposure
+  - 90_ch005_1,1girl,__自作2_1/params/outfit_business__,train interior,standing,blouse unbuttoned,breast exposed,skirt up,exposed,blush,shocked,people watching
+  - 90_ch005_2,1girl,__自作2_1/params/outfit_business__,crowded train,standing,fully exposed,clothes disheveled,blush,embarrassed,public humiliation
+  - 90_ch005_3,1girl,__自作2_1/params/outfit_business__,train,standing,breast out,skirt up,panties off,completely exposed,blush,unable to resist,public
+
+# ========== 統合用ランダムセレクター ==========
+# 電車痴漢プレイ全体を参照する際はこれを参照
+
+nsfw_chikan_all:
+  - __自作2_1/themes/lovey/nsfw_chikan_light__
+  - __自作2_1/themes/lovey/nsfw_chikan_moderate__
+  - __自作2_1/themes/lovey/nsfw_chikan_intense__
+
+# 軽度のみ
+nsfw_chikan_light_only:
+  - __自作2_1/themes/lovey/nsfw_chikan_light__
+
+# 軽度＋中度
+nsfw_chikan_light_moderate:
+  - __自作2_1/themes/lovey/nsfw_chikan_light__
+  - __自作2_1/themes/lovey/nsfw_chikan_moderate__
+

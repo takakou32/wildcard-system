@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - 映画館系シーン
+# pose_scenes_cinema.yaml
+# 使用対象：映画デート、シアター、エンターテインメント系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 映画館到着 ==========
+
+scene_cinema_arrival:
+  - 01_ar_001,1girl,cinema entrance,entering,looking at posters,cowboy shot,arrival
+  - 01_ar_002,1girl,movie theater lobby,standing,admiring interior,wide shot,full body,taking in atmosphere
+  - 01_ar_003,1girl,cinema entrance,walking in,excited,pov,first person view,entering
+  - 01_ar_004,1girl,theater lobby,standing,looking at movie posters,from behind,over shoulder,choosing
+  - 01_ar_005,1girl,1boy,cinema entrance,entering together,excited,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,movie theater,standing together,discussing movie choice,from behind,together
+  - 01_ar_007,1girl,1boy,cinema lobby,looking at showtime board,cowboy shot,planning
+
+# ========== シーン2: チケット購入・ロビー ==========
+
+scene_cinema_lobby:
+  - 02_lb_001,1girl,cinema box office,buying ticket,standing,cowboy shot,purchasing
+  - 02_lb_002,1girl,theater lobby,standing,holding ticket,pov angle,ready
+  - 02_lb_003,1girl,cinema lobby,looking at phone,checking time,close-up,face focus,waiting
+  - 02_lb_004,1girl,movie theater,standing by poster,taking photo,dutch angle,memorable moment
+  - 02_lb_005,1girl,cinema lobby,walking,carrying bag,from behind,over shoulder,moving
+  - 02_lb_006,1girl,1boy,cinema box office,standing together,buying tickets,wide shot,couple transaction
+  - 02_lb_007,1girl,1boy,theater lobby,discussing seats,holding tickets,cowboy shot,planning
+  - 02_lb_008,1girl,1boy,cinema lobby,taking selfie together,close-up,couple photo
+  - 02_lb_009,1girl,1boy,movie theater,standing by poster,posing together,dutch angle,fun moment
+  - 02_lb_010,1girl,1boy,cinema lobby,boy holding tickets,girl pointing at poster,low angle,excitement
+
+# ========== シーン3: コンセッション・売店 ==========
+
+scene_cinema_concession:
+  - 03_cs_001,1girl,cinema concession stand,ordering snacks,standing,cowboy shot,purchasing
+  - 03_cs_002,1girl,theater snack bar,deciding what to buy,pov angle,choosing
+  - 03_cs_003,1girl,cinema concession,receiving popcorn,close-up,face focus,happy
+  - 03_cs_004,1girl,theater lobby,carrying popcorn and drink,from behind,over shoulder,loaded up
+  - 03_cs_005,1girl,cinema snack area,standing,putting straw in drink,dutch angle,preparing
+  - 03_cs_006,1girl,1boy,cinema concession,ordering together,discussing choices,wide shot,deciding
+  - 03_cs_007,1girl,1boy,theater snack bar,boy paying,girl holding snacks,cowboy shot,sharing load
+  - 03_cs_008,1girl,1boy,cinema concession,sharing popcorn already,close-up,eager
+  - 03_cs_009,1girl,1boy,theater lobby,boy carrying drinks,girl with popcorn,low angle,teamwork
+  - 03_cs_010,1girl,1boy,cinema snack area,feeding each other popcorn,playful,high angle,from above,fun
+
+# ========== シーン4: シアター入場・着席 ==========
+
+scene_cinema_seating:
+  - 04_st_001,1girl,movie theater,entering auditorium,looking for seats,pov,searching
+  - 04_st_002,1girl,cinema theater,walking down aisle,carrying snacks,cowboy shot,finding seat
+  - 04_st_003,1girl,theater seats,sitting down,settling in,close-up,face focus,getting comfortable
+  - 04_st_004,1girl,cinema auditorium,sitting,placing drink in holder,from behind,over shoulder,organizing
+  - 04_st_005,1girl,theater seat,sitting,looking at screen,waiting for start,dutch angle,anticipation
+  - 04_st_006,1girl,1boy,movie theater,entering together,looking for seats,wide shot,couple entering
+  - 04_st_007,1girl,1boy,cinema theater,sitting down together,side by side,cowboy shot,settling in
+  - 04_st_008,1girl,1boy,theater seats,sharing armrest,close proximity,close-up,intimate space
+  - 04_st_009,1girl,1boy,cinema auditorium,whispering,before movie starts,low angle,conversation
+  - 04_st_010,1girl,1boy,theater,sitting close,sharing popcorn,high angle,from above,cozy
+
+# ========== シーン5: 映画鑑賞中 ==========
+
+scene_cinema_watching:
+  - 05_wt_001,1girl,theater seat,watching movie,absorbed,pov,immersed
+  - 05_wt_002,1girl,cinema,sitting,eating popcorn,screen glow on face,close-up,face focus,engaged
+  - 05_wt_003,1girl,theater,sitting,emotional reaction,crying,cowboy shot,moved
+  - 05_wt_004,1girl,cinema seat,sitting,scared reaction,covering mouth,dutch angle,frightened
+  - 05_wt_005,1girl,theater,sitting,laughing at comedy,from behind,over shoulder,enjoying
+  - 05_wt_006,1girl,cinema,sitting,drinking soda,watching intently,wide shot,focused
+  - 05_wt_007,1girl,1boy,theater seats,sitting together,both watching,wide shot,shared experience
+  - 05_wt_008,1girl,1boy,cinema,holding hands during tense scene,cowboy shot,comfort
+  - 05_wt_009,1girl,1boy,theater,girl hiding face on boy's shoulder,scared,close-up,seeking comfort
+  - 05_wt_010,1girl,1boy,cinema seats,sharing popcorn,still watching,dutch angle,casual intimacy
+  - 05_wt_011,1girl,1boy,theater,boy's arm around girl,romantic scene,low angle,romantic moment
+  - 05_wt_012,1girl,1boy,cinema,both reacting to movie,synchronized emotions,high angle,from above,together
+
+# ========== シーン6: 映画後・退出 ==========
+
+scene_cinema_departure:
+  - 06_dp_001,1girl,theater,standing up,movie ended,pov,finishing
+  - 06_dp_002,1girl,cinema aisle,walking out,carrying trash,close-up,face focus,thoughtful
+  - 06_dp_003,1girl,theater exit,leaving auditorium,cowboy shot,departure
+  - 06_dp_004,1girl,cinema lobby,standing,discussing movie,from behind,over shoulder,reflecting
+  - 06_dp_005,1girl,theater exit,walking to lobby,dutch angle,processing
+  - 06_dp_006,1girl,1boy,theater,standing up together,gathering belongings,wide shot,finishing
+  - 06_dp_007,1girl,1boy,cinema aisle,walking out together,discussing movie,cowboy shot,conversation
+  - 06_dp_008,1girl,1boy,theater lobby,standing,animated discussion about film,close-up,excited talk
+  - 06_dp_009,1girl,1boy,cinema exit,walking out,holding hands,low angle,leaving together
+  - 06_dp_010,1girl,1boy,outside theater,standing,still talking about movie,high angle,from above,engaged conversation
+

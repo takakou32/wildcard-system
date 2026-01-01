@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - 学校系シーン
+# pose_scenes_school.yaml
+# 使用対象：学園ラブ、放課後デート、学校恋愛系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: 校門・登校 ==========
+
+scene_school_arrival:
+  - 01_ar_001,1girl,school gate,entering school,morning,cowboy shot,arrival scene
+  - 01_ar_002,1girl,school entrance,walking in,carrying bag,wide shot,full body,going to school
+  - 01_ar_003,1girl,school courtyard,standing,looking at school building,pov,first person view,observing
+  - 01_ar_004,1girl,school gate,standing by entrance,waiting,from behind,over shoulder,anticipation
+  - 01_ar_005,1girl,1boy,school gate,meeting,greeting each other,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,school entrance,walking together,from behind,full body,together
+  - 01_ar_007,1girl,1boy,school courtyard,talking,close,cowboy shot,morning conversation
+
+# ========== シーン2: 教室 ==========
+
+scene_classroom:
+  - 02_cl_001,1girl,classroom,sitting at desk,studying,cowboy shot,student pose
+  - 02_cl_002,1girl,classroom,standing by window,looking outside,pov,daydreaming
+  - 02_cl_003,1girl,classroom,writing at desk,focused,dutch angle,studying hard
+  - 02_cl_004,1girl,classroom,standing,holding textbook,close-up,face focus,reading
+  - 02_cl_005,1girl,classroom,sitting on desk edge,casual pose,from behind,over shoulder,relaxed
+  - 02_cl_006,1girl,1boy,classroom,sitting at desks,talking,wide shot,classroom interaction
+  - 02_cl_007,1girl,1boy,classroom,standing close,discussing homework,cowboy shot,studying together
+  - 02_cl_008,1girl,1boy,classroom,sharing textbook,side by side,from behind,cooperative learning
+  - 02_cl_009,1girl,1boy,classroom,girl explaining to boy,close-up,teaching moment
+  - 02_cl_010,1girl,1boy,empty classroom,standing very close,dutch angle,private moment
+
+# ========== シーン3: 廊下・階段 ==========
+
+scene_school_hallway:
+  - 03_hl_001,1girl,school hallway,walking,carrying books,cowboy shot,walking pose
+  - 03_hl_002,1girl,hallway,standing by lockers,low angle,from below,standing pose
+  - 03_hl_003,1girl,school corridor,looking back,over shoulder,close-up,glancing back
+  - 03_hl_004,1girl,stairwell,walking up stairs,from below,climbing stairs
+  - 03_hl_005,1girl,hallway window,looking outside,pov,contemplative
+  - 03_hl_006,1girl,school corridor,leaning against wall,dutch angle,casual pose
+  - 03_hl_007,1girl,hallway,standing,organizing books,high angle,from above,preparing
+  - 03_hl_008,1girl,1boy,school hallway,walking together,from behind,full body,companionship
+  - 03_hl_009,1girl,1boy,hallway corner,talking quietly,close-up,secret conversation
+  - 03_hl_010,1girl,1boy,stairwell,standing close,very close,cowboy shot,private space
+  - 03_hl_011,1girl,1boy,school corridor,boy handing book to girl,wide shot,helpful gesture
+  - 03_hl_012,1girl,1boy,hallway,very close,looking at each other,dutch angle,tension
+
+# ========== シーン4: 図書室 ==========
+
+scene_school_library:
+  - 04_lb_001,1girl,school library,sitting at table,reading,cowboy shot,studying
+  - 04_lb_002,1girl,library,standing by bookshelf,selecting book,pov angle,browsing
+  - 04_lb_003,1girl,library reading area,sitting,taking notes,close-up,face focus,focused
+  - 04_lb_004,1girl,library,reaching for book on high shelf,low angle,from below,stretching
+  - 04_lb_005,1girl,school library,walking between shelves,from behind,over shoulder,searching
+  - 04_lb_006,1girl,1boy,library,sitting across table,studying together,wide shot,study session
+  - 04_lb_007,1girl,1boy,library bookshelf,standing close,reaching for same book,cowboy shot,accidental touch
+  - 04_lb_008,1girl,1boy,school library,whispering,very close,close-up,quiet conversation
+  - 04_lb_009,1girl,1boy,library corner,sitting side by side,sharing book,dutch angle,intimate study
+  - 04_lb_010,1girl,1boy,library,standing between bookshelves,alone,high angle,from above,hidden moment
+
+# ========== シーン5: 屋上 ==========
+
+scene_school_rooftop:
+  - 05_rf_001,1girl,school rooftop,standing,looking at sky,pov,open sky view
+  - 05_rf_002,1girl,rooftop,sitting,eating lunch,close-up,face focus,lunch time
+  - 05_rf_003,1girl,school rooftop,standing by fence,wind blowing,cowboy shot,breezy moment
+  - 05_rf_004,1girl,1boy,rooftop,sitting together,eating lunch,cowboy shot,lunch date
+  - 05_rf_005,1girl,1boy,school rooftop,standing,looking at cityscape,wide shot,scenic view
+  - 05_rf_006,1girl,1boy,rooftop,embracing,city background,close-up,romantic embrace
+  - 05_rf_007,1girl,1boy,school rooftop,sitting close,talking,dutch angle,private conversation
+  - 05_rf_008,1girl,1boy,rooftop fence,standing side by side,from behind,peaceful moment
+  - 05_rf_009,1girl,1boy,school rooftop,forehead touch,close,low angle,tender moment
+  - 05_rf_010,1girl,1boy,rooftop,about to kiss,faces close,high angle,from above,romantic tension
+
+# ========== シーン6: 放課後の教室 ==========
+
+scene_classroom_afterschool:
+  - 06_af_001,1girl,classroom after school,sitting alone,quiet,pov,peaceful atmosphere
+  - 06_af_002,1girl,empty classroom,standing by window,sunset light,close-up,face focus,golden hour
+  - 06_af_003,1girl,classroom,cleaning,organizing,cowboy shot,after school duty
+  - 06_af_004,1girl,1boy,classroom after school,alone together,sitting close,cowboy shot,intimate
+  - 06_af_005,1girl,1boy,empty classroom,standing very close,close-up,private moment
+  - 06_af_006,1girl,1boy,classroom,faces close,about to kiss,dutch angle,romantic tension
+  - 06_af_007,1girl,1boy,classroom after school,embracing,wide shot,tender embrace
+  - 06_af_008,1girl,1boy,empty classroom,back hug,standing,low angle,affectionate
+  - 06_af_009,1girl,1boy,classroom,sitting on desk,boy standing close,from side,intimate position
+  - 06_af_010,1girl,1boy,classroom after school,holding hands,looking at each other,high angle,from above,connection
+

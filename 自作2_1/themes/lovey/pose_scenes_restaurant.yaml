@@ -1,0 +1,93 @@
+# ラブラブテーマ用ポーズプロンプト - レストラン・飲食店系シーン
+# pose_scenes_restaurant.yaml
+# 使用対象：レストランデート、ディナー、食事系テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
+# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========== シーン1: レストラン到着 ==========
+
+scene_restaurant_arrival:
+  - 01_ar_001,1girl,restaurant entrance,entering,looking around,cowboy shot,arrival
+  - 01_ar_002,1girl,restaurant lobby,standing,elegant atmosphere,wide shot,full body,taking in ambiance
+  - 01_ar_003,1girl,restaurant entrance,walking in,pov,first person view,entering
+  - 01_ar_004,1girl,restaurant,standing by host stand,waiting,from behind,over shoulder,anticipation
+  - 01_ar_005,1girl,1boy,restaurant entrance,entering together,formal attire,wide shot,couple arrival
+  - 01_ar_006,1girl,1boy,restaurant lobby,standing together,checking in,from behind,together
+  - 01_ar_007,1girl,1boy,restaurant entrance,boy holding door for girl,cowboy shot,gentleman gesture
+
+# ========== シーン2: テーブル着席 ==========
+
+scene_restaurant_seating:
+  - 02_st_001,1girl,restaurant table,sitting down,elegant posture,cowboy shot,being seated
+  - 02_st_002,1girl,dining table,sitting,looking at menu,pov angle,choosing meal
+  - 02_st_003,1girl,restaurant,sitting,admiring table setting,close-up,face focus,appreciating
+  - 02_st_004,1girl,table by window,sitting,looking outside,from behind,over shoulder,view
+  - 02_st_005,1girl,restaurant table,sitting,adjusting napkin,dutch angle,elegant gesture
+  - 02_st_006,1girl,1boy,restaurant table,sitting across from each other,candlelight,wide shot,romantic setting
+  - 02_st_007,1girl,1boy,dining table,both looking at menus,cowboy shot,deciding together
+  - 02_st_008,1girl,1boy,restaurant,sitting,discussing menu,close-up,intimate conversation
+  - 02_st_009,1girl,1boy,table,holding hands across table,dutch angle,romantic gesture
+  - 02_st_010,1girl,1boy,restaurant table,looking at each other,smiling,pov,connection
+
+# ========== シーン3: 食事中 ==========
+
+scene_restaurant_dining:
+  - 03_dn_001,1girl,restaurant,eating elegantly,using fork and knife,cowboy shot,dining
+  - 03_dn_002,1girl,dining table,tasting food,close-up,face focus,enjoying flavor
+  - 03_dn_003,1girl,restaurant,drinking wine,elegant glass,pov angle,sophisticated
+  - 03_dn_004,1girl,table,cutting food,focused,from behind,over shoulder,dining pose
+  - 03_dn_005,1girl,restaurant,sitting back,satisfied,wide shot,content
+  - 03_dn_006,1girl,dining table,talking while eating,animated,dutch angle,conversation
+  - 03_dn_007,1girl,restaurant,taking sip of water,high angle,from above,pause
+  - 03_dn_008,1girl,1boy,restaurant table,eating together,enjoying meal,wide shot,dining couple
+  - 03_dn_009,1girl,1boy,dining table,girl offering bite to boy,cowboy shot,sharing food
+  - 03_dn_010,1girl,1boy,restaurant,feeding each other,playful,close-up,intimate feeding
+  - 03_dn_011,1girl,1boy,table,toasting with wine glasses,dutch angle,celebration
+  - 03_dn_012,1girl,1boy,restaurant,laughing together,joyful meal,low angle,happy moment
+
+# ========== シーン4: デザート・コーヒー ==========
+
+scene_restaurant_dessert:
+  - 04_ds_001,1girl,restaurant table,looking at dessert,excited,cowboy shot,sweet course
+  - 04_ds_002,1girl,dining table,eating dessert,close-up,face focus,enjoying sweetness
+  - 04_ds_003,1girl,restaurant,drinking coffee,elegant cup,pov angle,relaxing
+  - 04_ds_004,1girl,table,admiring dessert presentation,from behind,over shoulder,appreciating
+  - 04_ds_005,1girl,restaurant,sitting,satisfied after meal,wide shot,content
+  - 04_ds_006,1girl,1boy,restaurant table,sharing dessert,two spoons,cowboy shot,sharing sweetness
+  - 04_ds_007,1girl,1boy,dining table,both eating from same dessert,close-up,intimate sharing
+  - 04_ds_008,1girl,1boy,restaurant,drinking coffee together,talking,dutch angle,after-meal conversation
+  - 04_ds_009,1girl,1boy,table,boy offering bite of dessert to girl,low angle,sweet gesture
+  - 04_ds_010,1girl,1boy,restaurant,holding hands,finished meal,high angle,from above,romantic moment
+
+# ========== シーン5: レストラン内散策 ==========
+
+scene_restaurant_interior:
+  - 05_in_001,1girl,restaurant hallway,walking,elegant corridor,pov,exploring
+  - 05_in_002,1girl,restaurant interior,standing by window,city view,close-up,face focus,observing
+  - 05_in_003,1girl,restaurant terrace,standing outside,fresh air,cowboy shot,taking break
+  - 05_in_004,1girl,1boy,restaurant hallway,walking together,from behind,full body,strolling
+  - 05_in_005,1girl,1boy,restaurant terrace,standing together,looking at view,wide shot,romantic view
+  - 05_in_006,1girl,1boy,restaurant interior,standing close,private corner,close-up,intimate moment
+  - 05_in_007,1girl,1boy,terrace,leaning on railing,side by side,dutch angle,peaceful
+  - 05_in_008,1girl,1boy,restaurant,standing by window,city lights,cowboy shot,romantic atmosphere
+  - 05_in_009,1girl,1boy,terrace,embracing,night view background,low angle,romantic embrace
+  - 05_in_010,1girl,1boy,restaurant interior,about to kiss,elegant setting,high angle,romantic tension
+
+# ========== シーン6: レストラン退店 ==========
+
+scene_restaurant_departure:
+  - 06_dp_001,1girl,restaurant exit,standing up from table,pov,preparing to leave
+  - 06_dp_002,1girl,restaurant,walking toward exit,satisfied,close-up,face focus,content
+  - 06_dp_003,1girl,restaurant lobby,standing,waiting,cowboy shot,departure
+  - 06_dp_004,1girl,1boy,restaurant table,standing up together,wide shot,finishing date
+  - 06_dp_005,1girl,1boy,restaurant,walking to exit together,from behind,leaving together
+  - 06_dp_006,1girl,1boy,restaurant lobby,boy helping girl with coat,cowboy shot,gentleman gesture
+  - 06_dp_007,1girl,1boy,restaurant exit,standing at door,close-up,reluctant to leave
+  - 06_dp_008,1girl,1boy,restaurant entrance,exiting,holding hands,dutch angle,leaving together
+  - 06_dp_009,1girl,1boy,outside restaurant,standing,night air,low angle,after dinner
+  - 06_dp_010,1girl,1boy,restaurant exit,embracing outside,night,high angle,from above,perfect evening
+

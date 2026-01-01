@@ -1,0 +1,29 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 人妻とジムトレ
+# ベース: lovey（ラブラブテーマ）
+# テーマタイプ: ジム系（pose_scenes_gym.yaml）
+# 男性タイプ: デフォルト（faceless male）
+# 時系列: time_morning → time_night
+#   - Scene 01: time_morning（朝）
+#   - Scene 02: time_morning（朝）
+#   - Scene 03: time_day（昼）
+#   - Scene 04: time_day（昼）
+#   - Scene 05: time_evening（夕方）
+#   - Scene 06: time_night（夜）
+#   - Scene 07: time_night（夜）
+# Sex場所: gym_shower_room（ジムシャワー室）
+# NSFW統合: あり
+#   - Scene 05（ヨガ・ストレッチエリア）: Light
+#   - Scene 07（シャワールーム）: Heavy
+# 
+# シーンフロー:
+#   Scene 01: ジム到着・準備（朝）
+#   Scene 02: ストレッチ・ウォームアップ（朝）
+#   Scene 03: 有酸素運動（昼）
+#   Scene 04: ウェイトトレーニング（昼）
+#   Scene 05: ヨガ・ストレッチエリア（夕方）⭐ NSFW Light
+#   Scene 06: クールダウン・退店（夜）
+#   Scene 07: シャワールーム（夜）⭐ NSFW Heavy
+

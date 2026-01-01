@@ -162,4 +162,11 @@ place_onsen_changing_room:
   - changing area,private space,onsen preparation
   - dressing room,bathing preparation area
 
+# ========== ジム関連 ==========
+
+place_gym_shower_room:
+  - gym shower room,shower stall,locker room shower,gym facilities
+  - gym shower area,athletic facility shower,fitness center shower
+  - gym shower,private shower stall,locker room,steamy shower area
+
 
