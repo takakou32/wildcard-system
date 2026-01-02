@@ -1,52 +1,503 @@
-# ラブラブテーマ：Sex用プロンプトテンプレート
-# themes/lovey/sex_prompts.yaml
+# ラブラブテーマ：Sex用プロンプトテンプレート（バリエーション強化版）
+# themes/lovey.yaml
+# 
+# アングルと細かい体位を意識したシチュエーションベース
+# 各プロンプトには強調構文版(a)と非強調版(b)の2パターンを用意
 
-# 段階1: 優しい導入
+# ========== 段階1: 優しい導入 ==========
+
 sex_intro_gentle:
-  - 40_se001_0,((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,gentle,kiss,holding hands,heart,love,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_intro__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intro__
-  - 40_se001_1,((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,gentle,(french kiss:1.5),caressing face,love,intimate,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_intro__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intro__
-  - 40_se001_2,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,gentle,kiss,heart,steam,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_intro__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intro__
-  - 40_se001_3,((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,love,intimate,hands on chest,__wildcard-system/自作2_1/themes/lovey/sex_face_intro__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intro__
-  - 40_se001_4,((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,hug from behind,kiss,neck kiss,love,intimate,__wildcard-system/自作2_1/themes/lovey/sex_face_intro__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intro__
+  # POV・正常位・脚を大きく開いて：見つめ合いながら優しくキスをして、手を絡めて脚を大きく開いて結合している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_01a__|__wildcard-system/自作2_1/themes/lovey/40_se001_01b__}"
+  # 横から・正常位・脚を腰に絡めて：べろキスをしながらおっぱいを優しく揉んで、脚を腰に絡めてゆっくり腰を動かしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_02a__|__wildcard-system/自作2_1/themes/lovey/40_se001_02b__}"
+  # 上から・正常位・腕を首に回して：首筋にキスをしながら、腕を首に回されて優しく腰を抱いてゆっくり挿入している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_03a__|__wildcard-system/自作2_1/themes/lovey/40_se001_03b__}"
+  # 下から・正常位・脚を上げて：照れた表情で目を逸らしながら、脚を上げられて手を握られて優しく腰を動かされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_04a__|__wildcard-system/自作2_1/themes/lovey/40_se001_04b__}"
+  # 下から・騎乗位・しゃがんで胸に手を：恥ずかしそうに笑いながら、しゃがんで胸に手を置いてゆっくり腰を動かしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_05a__|__wildcard-system/自作2_1/themes/lovey/40_se001_05b__}"
+  # 下から・騎乗位・跪いて腰に手を：目を閉じて感じている表情で、跪いて腰に手を置いて優しく上下に動いている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_06a__|__wildcard-system/自作2_1/themes/lovey/40_se001_06b__}"
+  # POV下から・騎乗位・座って腕を後ろに：幸せそうな笑顔で、座って腕を後ろについて優しく腰を動かしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_07a__|__wildcard-system/自作2_1/themes/lovey/40_se001_07b__}"
+  # 横から・横位・脚を曲げて：耳元で囁かれながら、脚を曲げて後ろから抱きしめられて優しく挿入されている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_08a__|__wildcard-system/自作2_1/themes/lovey/40_se001_08b__}"
+  # 横から・横位・上の脚を上げて：幸せそうな笑顔で、上の脚を上げられておっぱいを優しく撫でられながら腰を動かされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_09a__|__wildcard-system/自作2_1/themes/lovey/40_se001_09b__}"
+  # 横から・立位・脚を腰に巻いて：目を潤ませて見つめながら、脚を腰に巻いて壁に押し付けられてキスをしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se001_10a__|__wildcard-system/自作2_1/themes/lovey/40_se001_10b__}"
 
-# 段階2: 徐々に激しく
+# 強調なし版
+40_se001_01b:
+  - ((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,gentle,kiss,holding hands,interlocked fingers,legs spread wide,eye contact,loving eyes,heart,love,sagging breasts,smile,blush,soft moan,breathing
+40_se001_02b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,gentle,french kiss,legs wrapped around waist,breast fondling,gentle,caressing breasts,love,intimate,sagging breasts,light smile,blush,closed eyes,peaceful,light sigh,heavy breathing
+40_se001_03b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,gentle,neck kiss,kissing neck,arms around neck,holding waist,gentle,heart,steam,sagging breasts,gentle smile,blush,soft eyes,affectionate,quiet moan,breath
+40_se001_04b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,gentle,legs up,legs raised,holding hands,hand holding,looking away,shy,embarrassed,sagging breasts,blush,shy smile,looking away,soft breathing
+40_se001_05b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,squatting,hands on chest,gentle smile,happy,love,intimate,sagging breasts,embarrassed smile,blush,content smile,soft moan
+40_se001_06b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,gentle,kneeling,hands on hips,gentle,moving up and down,slow,eyes closed,peaceful,sagging breasts,light smile,blush,gentle breathing
+40_se001_07b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,sitting,arms behind,leaning back,happy smile,love,sagging breasts,happy smile,blush,content,soft moan,breathing
+40_se001_08b:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,legs bent,hug from behind,whispering in ear,gentle embrace,love,intimate,sagging breasts,blush,embarrassed,shy smile,quiet moan
+40_se001_09b:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,top leg up,leg raised,breast fondling,gentle,caressing breasts,happy smile,love,sagging breasts,happy smile,blush,content,light sigh
+40_se001_10b:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,gentle,legs wrapped around waist,against wall,kiss,eye contact,looking at viewer,teary eyes,love,sagging breasts,blush,gentle smile,soft breathing
+
+# 強調あり版
+40_se001_01a:
+  - ((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,gentle,kiss,(holding hands:1.2),((interlocked fingers)),(legs spread wide:1.3),((eye contact)),(loving eyes:1.2),heart,love,sagging breasts,smile,blush,soft moan,breathing
+40_se001_02a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,gentle,(french kiss:1.4),(legs wrapped around waist:1.3),(breast fondling,gentle:1.2),((caressing breasts)),love,intimate,sagging breasts,light smile,blush,closed eyes,peaceful,light sigh,heavy breathing
+40_se001_03a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,gentle,(neck kiss:1.3),((kissing neck)),((arms around neck)),(holding waist,gentle:1.2),heart,steam,sagging breasts,gentle smile,blush,soft eyes,affectionate,quiet moan,breath
+40_se001_04a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,gentle,(legs up:1.3),((legs raised)),(holding hands:1.2),((hand holding)),(looking away,shy:1.3),embarrassed,sagging breasts,blush,shy smile,looking away,soft breathing
+40_se001_05a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,squatting,(hands on chest:1.2),(gentle smile:1.3),happy,love,intimate,sagging breasts,embarrassed smile,blush,content smile,soft moan
+40_se001_06a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,gentle,kneeling,(hands on hips:1.2),gentle,(moving up and down,slow:1.3),((eyes closed)),peaceful,sagging breasts,light smile,blush,gentle breathing
+40_se001_07a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,gentle,sitting,((arms behind)),(leaning back:1.2),(happy smile:1.3),love,sagging breasts,happy smile,blush,content,soft moan,breathing
+40_se001_08a:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,(legs bent:1.2),((hug from behind)),(whispering in ear:1.3),((gentle embrace)),love,intimate,sagging breasts,blush,embarrassed,shy smile,quiet moan
+40_se001_09a:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,gentle,(top leg up:1.3),((leg raised)),(breast fondling,gentle:1.2),((caressing breasts)),happy smile,love,sagging breasts,happy smile,blush,content,light sigh
+40_se001_10a:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,gentle,(legs wrapped around waist:1.3),((against wall)),kiss,((eye contact)),(looking at viewer:1.2),teary eyes,love,sagging breasts,blush,gentle smile,soft breathing
+
+# ========== 段階2: 徐々に激しく ==========
+
 sex_moderate:
-  - 40_se002_0,((1girl,1boy,missionary,on back,couple,pov)),vaginal,motion lines,bouncing breasts,holding waist,sweat,__wildcard-system/自作2_1/themes/lovey/sex_face_moderate__,__wildcard-system/自作2_1/themes/lovey/sex_sound_moderate__
-  - 40_se002_1,((1girl,1boy,missionary,on back,couple,from side)),vaginal,motion lines,kiss,steam,__wildcard-system/自作2_1/themes/lovey/sex_face_moderate__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_moderate__
-  - 40_se002_2,((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,motion lines,bouncing breasts,breast grab,sweat,__wildcard-system/自作2_1/themes/lovey/sex_face_moderate__,__wildcard-system/自作2_1/themes/lovey/sex_sound_moderate__
-  - 40_se002_3,((1girl,1boy,cowgirl,girl on top,straddling,couple,straight-on)),vaginal,motion lines,sweat,hands on hips,__wildcard-system/自作2_1/themes/lovey/sex_face_moderate__,__wildcard-system/自作2_1/themes/lovey/sex_sound_moderate__
-  - 40_se002_4,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,motion lines,ass focus,grabbing hips,steam,__wildcard-system/自作2_1/themes/lovey/sex_sound_moderate__
+  # 顔のクローズアップ・正常位・脚を広げて：喘ぎながらキスをして、脚を広げておっぱいを揉まれながら腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_01a__|__wildcard-system/自作2_1/themes/lovey/40_se002_01b__}"
+  # 横から・正常位・片脚を上げて：べろキスをしながら片脚を上げられて乳首をつままれて、体を震わせて喘いでいる
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_02a__|__wildcard-system/自作2_1/themes/lovey/40_se002_02b__}"
+  # 上から・正常位・脚を腰に絡めて：目を半開きにしてとろけた表情で、脚を腰に絡めて腰を掴まれて激しく突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_03a__|__wildcard-system/自作2_1/themes/lovey/40_se002_03b__}"
+  # 下から・正常位・腕を上げて：口を開けて喘ぎながら、腕を上げてシーツを掴んでおっぱいを揉み回されて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_04a__|__wildcard-system/自作2_1/themes/lovey/40_se002_04b__}"
+  # 下から・騎乗位・しゃがんで前屈み：涙を浮かべて喘ぎながら、しゃがんで前屈みになって脚を開かされて激しく腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_05a__|__wildcard-system/自作2_1/themes/lovey/40_se002_05b__}"
+  # POV下から・騎乗位・跪いて腰振り：シーツを掴んで喘ぎながら、跪いて自分で腰を振って背中を撫でられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_06a__|__wildcard-system/自作2_1/themes/lovey/40_se002_06b__}"
+  # 下から・騎乗位・座って胸を触る：恥ずかしそうに目を逸らしながら、座って自分で胸を触りながら腰を動かしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_07a__|__wildcard-system/自作2_1/themes/lovey/40_se002_07b__}"
+  # 後ろから・バック・四つん這い顔を下に：口を開けてとろけた表情で、四つん這いで顔を下にして腰を掴まれて突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_08a__|__wildcard-system/自作2_1/themes/lovey/40_se002_08b__}"
+  # 横から・バック・四つん這い振り返り：涙を浮かべて喘ぎながら、四つん這いで振り返って太ももを掴まれて激しく腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_09a__|__wildcard-system/自作2_1/themes/lovey/40_se002_09b__}"
+  # 横から・横位・脚を開いて：目を閉じて喘ぎながら、脚を開いて首筋にキスをされて激しく突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se002_10a__|__wildcard-system/自作2_1/themes/lovey/40_se002_10b__}"
 
-# 段階3: 激しく
+# 強調なし版
+40_se002_01b:
+  - ((1girl,1boy,missionary,on back,couple,closeup face)),vaginal,motion lines,kiss,legs spread,breast fondling,grabbing breasts,sweat,bouncing breasts,sagging breasts,open mouth,blush,heavy breathing,looking at viewer,moaning,panting
+40_se002_02b:
+  - ((1girl,1boy,missionary,on back,couple,from side)),vaginal,motion lines,french kiss,one leg up,leg raised,pinching nipples,nipple pinch,body trembling,steam,sagging breasts,light torogao,half-closed eyes,blush,saliva,breathing heavily,moan
+40_se002_03b:
+  - ((1girl,1boy,missionary,on back,couple,from above)),vaginal,motion lines,legs wrapped around waist,holding waist,firm,grabbing waist,half-closed eyes,pleasure,sweat,sagging breasts,open mouth,blush,pleasure face,moaning
+40_se002_04b:
+  - ((1girl,1boy,missionary,on back,couple,from below)),vaginal,motion lines,arms up,arms raised,grabbing sheets,breast fondling,rough,groping breasts,body trembling,bouncing breasts,sagging breasts,open mouth,blush,sweat,pleasure face,panting
+40_se002_05b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,motion lines,squatting,leaning forward,legs spread,teary eyes,moaning,sweat,sagging breasts,open mouth,blush,heavy breathing,moaning,panting
+40_se002_06b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,motion lines,kneeling,moving hips,hip movement,grabbing sheets,back caressing,moaning,sagging breasts,open mouth,embarrassed,blush,sweat,breathing heavily
+40_se002_07b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,motion lines,sitting,touching own breasts,self groping,looking away,shy,embarrassed,sweat,sagging breasts,open mouth,blush,pleasure,moaning
+40_se002_08b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,motion lines,on all fours,head down,face down,holding waist,grabbing hips,ass focus,pleasure face,open mouth,drooling,moaning
+40_se002_09b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,motion lines,on all fours,looking back,grabbing thighs,thigh grab,teary eyes,moaning,steam,sagging breasts,open mouth,blush,heavy breathing,panting heavily
+40_se002_10b:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,motion lines,legs spread,neck kiss,kissing neck,eyes closed,moaning,steam,sagging breasts,open mouth,blush,heavy breathing,moaning
+
+# 強調あり版
+40_se002_01a:
+  - ((1girl,1boy,missionary,on back,couple,(closeup face:1.3))),vaginal,(motion lines:1.2),kiss,(legs spread:1.3),(breast fondling:1.3),((grabbing breasts)),sweat,((bouncing breasts)),sagging breasts,open mouth,blush,heavy breathing,looking at viewer,moaning,panting
+40_se002_02a:
+  - ((1girl,1boy,missionary,on back,couple,from side)),vaginal,(motion lines:1.2),(french kiss:1.4),(one leg up:1.3),((leg raised)),(pinching nipples:1.3),((nipple pinch)),(body trembling:1.2),steam,sagging breasts,light torogao,half-closed eyes,blush,saliva,breathing heavily,moan
+40_se002_03a:
+  - ((1girl,1boy,missionary,on back,couple,from above)),vaginal,(motion lines:1.2),(legs wrapped around waist:1.3),(holding waist,firm:1.2),((grabbing waist)),(half-closed eyes:1.2),pleasure,sweat,sagging breasts,open mouth,blush,pleasure face,moaning
+40_se002_04a:
+  - ((1girl,1boy,missionary,on back,couple,from below)),vaginal,(motion lines:1.2),((arms up)),((arms raised)),((grabbing sheets)),(breast fondling,rough:1.3),((groping breasts)),(body trembling:1.2),((bouncing breasts)),sagging breasts,open mouth,blush,sweat,pleasure face,panting
+40_se002_05a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(motion lines:1.2),squatting,(leaning forward:1.2),(legs spread:1.3),(teary eyes:1.2),moaning,sweat,sagging breasts,open mouth,blush,heavy breathing,moaning,panting
+40_se002_06a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,(motion lines:1.2),kneeling,(moving hips:1.3),((hip movement)),((grabbing sheets)),(back caressing:1.2),moaning,sagging breasts,open mouth,embarrassed,blush,sweat,breathing heavily
+40_se002_07a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(motion lines:1.2),sitting,(touching own breasts:1.3),((self groping)),(looking away,shy:1.2),embarrassed,sweat,sagging breasts,open mouth,blush,pleasure,moaning
+40_se002_08a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(motion lines:1.2),((on all fours)),(head down:1.2),((face down)),(holding waist:1.2),((grabbing hips)),(ass focus:1.3),pleasure face,open mouth,drooling,moaning
+40_se002_09a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,(motion lines:1.2),((on all fours)),(looking back:1.3),(grabbing thighs:1.2),((thigh grab)),(teary eyes:1.2),moaning,steam,sagging breasts,open mouth,blush,heavy breathing,panting heavily
+40_se002_10a:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,(motion lines:1.2),(legs spread:1.3),(neck kiss:1.3),((kissing neck)),((eyes closed)),moaning,steam,sagging breasts,open mouth,blush,heavy breathing,moaning
+
+# ========== 段階3: 激しく ==========
+
 sex_intense:
-  - 40_se003_0,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,motion blur,ass focus,grabbing hips,steam,__wildcard-system/自作2_1/themes/lovey/sex_sound_intense__
-  - 40_se003_1,((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,intense,motion lines,sweat,steam,__wildcard-system/自作2_1/themes/lovey/sex_face_intense__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intense__
-  - 40_se003_2,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,motion blur,bouncing breasts,sweat,__wildcard-system/自作2_1/themes/lovey/sex_face_intense__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intense__
-  - 40_se003_3,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,intense,motion lines,spread legs,bouncing breasts,sagging breasts,grabbing sheets,steam,__wildcard-system/自作2_1/themes/lovey/sex_face_intense__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intense__
-  - 40_se003_4,((1girl,1boy,standing sex,suspended congress,couple)),vaginal,intense,leg lock,deep penetration,motion lines,sweat,steam,__wildcard-system/自作2_1/themes/lovey/sex_face_intense__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_intense__
+  # 顔の超クローズアップ・正常位・脚を大きく開いて：とろ顔で大きく口を開けて喘ぎながら、脚を大きく開いておっぱいを激しく揉まれて腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_01a__|__wildcard-system/自作2_1/themes/lovey/40_se003_01b__}"
+  # 横から・正常位・脚を腰に絡めてキス：べろキスをしながらおっぱいを揉んで、脚を腰に激しく絡めて腰を打ち付けている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_02a__|__wildcard-system/自作2_1/themes/lovey/40_se003_02b__}"
+  # 上から・正常位・腕を頭の上に：驚いた表情で目を見開きながら、腕を頭の上に伸ばして激しく突かれておっぱいを揉まれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_03a__|__wildcard-system/自作2_1/themes/lovey/40_se003_03b__}"
+  # 下から・正常位・脚を上げてM字：とろ顔で舌を出して喘ぎながら、脚を上げてM字開脚でシーツを掴んで激しく腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_04a__|__wildcard-system/自作2_1/themes/lovey/40_se003_04b__}"
+  # 斜め上から・正常位・片脚を肩に：涙を流して喘ぎながら、片脚を肩に担がれて腰を掴まれて激しく突き上げられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_05a__|__wildcard-system/自作2_1/themes/lovey/40_se003_05b__}"
+  # POV下から・騎乗位・しゃがんでおっぱい揉み：目を見開いて驚きながら、しゃがんでおっぱいを激しく揉まれて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_06a__|__wildcard-system/自作2_1/themes/lovey/40_se003_06b__}"
+  # 下から・騎乗位・跪いて自分で揉み：とろ顔でよだれを垂らしながら、跪いて自分でおっぱいを揉みながら腰を動かしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_07a__|__wildcard-system/自作2_1/themes/lovey/40_se003_07b__}"
+  # 低いアングル・騎乗位・座って腕を後ろ：べろキスをしながら髪を引っ張られて、座って腕を後ろについて激しく腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_08a__|__wildcard-system/自作2_1/themes/lovey/40_se003_08b__}"
+  # 下から・背面騎乗位・しゃがんで振り返り：驚いた表情で声を上げながら、しゃがんで振り返って背中を掴まれて激しく突き上げられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_09a__|__wildcard-system/自作2_1/themes/lovey/40_se003_09b__}"
+  # 後ろから・バック・四つん這い顔を上げて：とろ顔で目を半開きにして喘ぎながら、四つん這いで顔を上げておっぱいを激しく揉まれて腰を打ち付けられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_10a__|__wildcard-system/自作2_1/themes/lovey/40_se003_10b__}"
+  # 横から・バック・四つん這い振り返りキス：目を見開いてびっくりした表情で、四つん這いで振り返ってべろキスしながら激しく突かれて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_11a__|__wildcard-system/自作2_1/themes/lovey/40_se003_11b__}"
+  # 後ろから・バック・うつ伏せ顔を床に：とろ顔でよだれを垂らしながら、うつ伏せで顔を床につけて腰を掴まれて激しく突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_12a__|__wildcard-system/自作2_1/themes/lovey/40_se003_12b__}"
+  # クローズアップお尻・バック・うつ伏せ尻を上げて：驚きの表情で体を震わせながら、うつ伏せで尻を上げて激しく突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_13a__|__wildcard-system/自作2_1/themes/lovey/40_se003_13b__}"
+  # 横から・立位・脚を腰に巻いて壁：とろ顔で舌を出して喘ぎながら、脚を腰に巻いて壁に押し付けられて激しく突き上げられている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_14a__|__wildcard-system/自作2_1/themes/lovey/40_se003_14b__}"
+  # 横から・駅弁・脚を広げて：目を大きく開けて驚きながら、脚を広げて抱え上げられて激しく突かれている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se003_15a__|__wildcard-system/自作2_1/themes/lovey/40_se003_15b__}"
 
-# 段階4: のけ反り絶頂
+# 強調なし版
+40_se003_01b:
+  - ((1girl,1boy,missionary,on back,lying,couple,extreme closeup face)),vaginal,intense,motion blur,legs spread wide,breast fondling,rough,grabbing breasts,firm,groping breasts,rough,steam,bouncing breasts,sagging breasts,torogao,open mouth wide,heavy breathing,saliva,drooling,moaning loudly,panting heavily
+40_se003_02b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,intense,motion blur,french kiss,intense,tongue kiss,deep,legs wrapped around waist,tight,breast fondling,rough,steam,sagging breasts,torogao,half-closed eyes,saliva,moaning loudly,panting heavily
+40_se003_03b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,intense,motion blur,arms above head,arms up,surprised,pleasure,wide eyes,pleasure,shocked,pleasure,breast fondling,rough,grabbing breasts,sweat,bouncing breasts,sagging breasts,open mouth,heavy breathing,gasping
+40_se003_04b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,intense,motion lines,legs up,m-legs,spread legs,wide,grabbing sheets,clutching tight,steam,bouncing breasts,sagging breasts,torogao,tongue out,open mouth,saliva,drooling,moaning loudly,screaming
+40_se003_05b:
+  - ((1girl,1boy,missionary,on back,lying,couple,dutch angle)),vaginal,intense,motion blur,one leg over shoulder,leg on shoulder,holding waist,firm,grabbing waist,teary eyes,crying,moaning,sweat,steam,sagging breasts,open mouth wide,heavy breathing,panting heavily
+40_se003_06b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,intense,motion blur,squatting,breast fondling,rough,grabbing breasts,firm,body trembling,body shaking,sweat,bouncing breasts,sagging breasts,surprised,wide eyes,shocked,open mouth,gasping
+40_se003_07b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,motion blur,kneeling,touching own breasts,self groping,squeezing own breasts,sweat,steam,sagging breasts,torogao,open mouth,drooling,saliva,moaning loudly
+40_se003_08b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,motion lines,sitting,arms behind,leaning back,french kiss,intense,hair pulling,gentle,steam,sagging breasts,torogao,half-closed eyes,saliva,moaning loudly,panting heavily
+40_se003_09b:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,motion blur,squatting,looking back,back grab,surprised,voice raised,sweat,steam,ass focus,sagging breasts,open mouth,shocked,gasping
+40_se003_10b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,motion blur,on all fours,head up,face up,breast fondling,rough,grabbing breasts,firm,ass grab,sweat,steam,sagging breasts,torogao,half-closed eyes,open mouth,drooling,moaning loudly
+40_se003_11b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,intense,motion lines,on all fours,looking back,french kiss,intense,tongue kiss,body trembling,sweat,steam,sagging breasts,surprised,wide eyes,shocked,saliva,gasping
+40_se003_12b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,motion blur,prone,face down,head on floor,holding waist,grabbing hips,ass focus,sweat,steam,torogao,drooling,saliva,moaning
+40_se003_13b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,motion blur,prone,ass up,hips raised,ass focus,closeup ass,surprised,body trembling,sweat,steam,open mouth,shocked,gasping
+40_se003_14b:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,intense,motion blur,legs wrapped around waist,tight,against wall,pressed against wall,steam,sweat,sagging breasts,torogao,tongue out,open mouth,drooling,moaning loudly,screaming
+40_se003_15b:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,intense,motion lines,legs spread,carried,lifted,held up,sweat,steam,sagging breasts,surprised,wide eyes,shocked,open mouth,gasping
+
+# 強調あり版
+40_se003_01a:
+  - ((1girl,1boy,missionary,on back,lying,couple,(extreme closeup face:1.4))),vaginal,intense,(motion blur:1.2),(legs spread wide:1.4),(breast fondling,rough:1.4),((grabbing breasts,firm)),((groping breasts,rough)),steam,((bouncing breasts)),sagging breasts,torogao,(open mouth wide:1.3),heavy breathing,saliva,drooling,moaning loudly,panting heavily
+40_se003_02a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,intense,(motion blur:1.2),(french kiss,intense:1.4),(tongue kiss,deep:1.3),(legs wrapped around waist,tight:1.3),(breast fondling,rough:1.3),steam,sagging breasts,torogao,half-closed eyes,saliva,moaning loudly,panting heavily
+40_se003_03a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,intense,(motion blur:1.2),((arms above head)),((arms up)),(surprised,pleasure:1.4),(wide eyes,pleasure:1.4),(shocked,pleasure:1.3),(breast fondling,rough:1.3),((grabbing breasts)),sweat,((bouncing breasts)),sagging breasts,open mouth,heavy breathing,gasping
+40_se003_04a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,intense,(motion lines:1.2),(legs up:1.3),((m-legs)),(spread legs,wide:1.4),((grabbing sheets)),((clutching tight)),steam,((bouncing breasts)),sagging breasts,torogao,(tongue out:1.3),open mouth,saliva,drooling,moaning loudly,screaming
+40_se003_05a:
+  - ((1girl,1boy,missionary,on back,lying,couple,(dutch angle:1.2))),vaginal,intense,(motion blur:1.2),(one leg over shoulder:1.4),((leg on shoulder)),(holding waist,firm:1.2),((grabbing waist)),(teary eyes:1.3),crying,moaning,sweat,steam,sagging breasts,(open mouth wide:1.3),heavy breathing,panting heavily
+40_se003_06a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,intense,(motion blur:1.2),squatting,(breast fondling,rough:1.4),((grabbing breasts,firm)),(body trembling:1.3),(body shaking:1.2),sweat,((bouncing breasts)),sagging breasts,(surprised:1.4),(wide eyes:1.4),(shocked:1.3),open mouth,gasping
+40_se003_07a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,(motion blur:1.2),kneeling,(touching own breasts:1.3),((self groping)),((squeezing own breasts)),sweat,steam,sagging breasts,torogao,open mouth,drooling,saliva,moaning loudly
+40_se003_08a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,(motion lines:1.2),sitting,((arms behind)),(leaning back:1.2),(french kiss,intense:1.4),(hair pulling,gentle:1.2),steam,sagging breasts,torogao,half-closed eyes,saliva,moaning loudly,panting heavily
+40_se003_09a:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,intense,(motion blur:1.2),squatting,(looking back:1.3),((back grab)),(surprised:1.3),(voice raised:1.2),sweat,steam,(ass focus:1.3),sagging breasts,open mouth,shocked,gasping
+40_se003_10a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,(motion blur:1.2),((on all fours)),(head up:1.2),((face up)),(breast fondling,rough:1.4),((grabbing breasts,firm)),((ass grab)),sweat,steam,sagging breasts,torogao,half-closed eyes,open mouth,drooling,moaning loudly
+40_se003_11a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,intense,(motion lines:1.2),((on all fours)),(looking back:1.3),(french kiss,intense:1.4),((tongue kiss)),(body trembling:1.2),sweat,steam,sagging breasts,(surprised:1.3),(wide eyes:1.3),shocked,saliva,gasping
+40_se003_12a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,(motion blur:1.2),((prone)),(face down:1.3),((head on floor)),(holding waist:1.2),((grabbing hips)),(ass focus:1.3),sweat,steam,torogao,drooling,saliva,moaning
+40_se003_13a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,intense,(motion blur:1.2),((prone)),(ass up:1.4),((hips raised)),(ass focus:1.4),(closeup ass:1.3),(surprised:1.3),(body trembling:1.2),sweat,steam,open mouth,shocked,gasping
+40_se003_14a:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,intense,(motion blur:1.2),(legs wrapped around waist,tight:1.4),((against wall)),((pressed against wall)),steam,sweat,sagging breasts,torogao,(tongue out:1.3),open mouth,drooling,moaning loudly,screaming
+40_se003_15a:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,intense,(motion lines:1.2),(legs spread:1.3),((carried)),((lifted)),((held up)),sweat,steam,sagging breasts,(surprised:1.4),(wide eyes:1.4),(shocked:1.3),open mouth,gasping
+
+# ========== 段階4: のけ反り絶頂 ==========
+
 sex_extreme:
-  - 40_se004_0,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,extreme orgasm,arched back,x-ray,womb,cervix penetration,motion lines,bouncing breasts,sagging breasts,steam,__wildcard-system/自作2_1/themes/lovey/sex_face_extreme__,__wildcard-system/自作2_1/themes/lovey/sex_sound_extreme__
-  - 40_se004_1,((1girl,1boy,missionary,on back,lying,couple,straight-on)),vaginal,extreme orgasm,arched back,x-ray,womb,steam,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_extreme__,__wildcard-system/自作2_1/themes/lovey/sex_sound_extreme__
-  - 40_se004_2,((1girl,1boy,mating press,couple)),vaginal,intense orgasm,extreme arched back,steam,spread legs,__wildcard-system/自作2_1/themes/lovey/sex_face_extreme__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_extreme__
-  - 40_se004_3,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,extreme orgasm,arched back,x-ray,womb,motion lines,steam,big penis,__wildcard-system/自作2_1/themes/lovey/sex_sound_extreme__
-  - 40_se004_4,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,extreme orgasm,x-ray,womb,bouncing breasts,steam,big penis,__wildcard-system/自作2_1/themes/lovey/sex_face_extreme__,__wildcard-system/自作2_1/themes/lovey/sex_sound_extreme__
+  # 上から・正常位・脚を大きく開いて反る：目を大きく開け、最後の一突きを期待した表情で脚を大きく開いて体を反らしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_01a__|__wildcard-system/自作2_1/themes/lovey/40_se004_01b__}"
+  # 顔のクローズアップ・正常位・腕を頭の上で反る：びっくりした表情で目を見開き、腕を頭の上に伸ばして激しく突かれて絶頂寸前で体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_02a__|__wildcard-system/自作2_1/themes/lovey/40_se004_02b__}"
+  # 横から・正常位・脚を腰に絡めて反る：舌を長く出してとろ顔で、脚を腰に絡めて体を大きく反らして絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_03a__|__wildcard-system/自作2_1/themes/lovey/40_se004_03b__}"
+  # 下から・正常位・M字開脚で反る：驚愕の表情で目を見開き、M字開脚で激しく突き上げられて絶頂寸前で体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_04a__|__wildcard-system/自作2_1/themes/lovey/40_se004_04b__}"
+  # 斜め上から・種付けプレス・脚を折りたたんで：目を大きく開けて驚きながら、脚を折りたたまれて最後の一突きで体を大きく反らして絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_05a__|__wildcard-system/自作2_1/themes/lovey/40_se004_05b__}"
+  # POV下から・騎乗位・しゃがんで反る：とろ顔で舌を出して目を見開き、しゃがんで激しく突かれて体を震わせて絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_06a__|__wildcard-system/自作2_1/themes/lovey/40_se004_06b__}"
+  # 下から・騎乗位・跪いて頭を反らす：びっくりした表情で声を上げながら、跪いて頭を反らして激しく突き上げられて絶頂寸前
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_07a__|__wildcard-system/自作2_1/themes/lovey/40_se004_07b__}"
+  # 低いアングル・騎乗位・座って腕を後ろで反る：目を見開いて驚愕しながら、座って腕を後ろについて最後の一突きで体を震わせて絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_08a__|__wildcard-system/自作2_1/themes/lovey/40_se004_08b__}"
+  # 下から・背面騎乗位・しゃがんで振り返り反る：舌を長く出してとろ顔で目を見開き、しゃがんで振り返って激しく突かれて体を大きく反らして絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_09a__|__wildcard-system/自作2_1/themes/lovey/40_se004_09b__}"
+  # 後ろから・バック・四つん這い顔を上げて反る：驚きの表情で涙を流しながら、四つん這いで顔を上げて激しく突き上げられて体を震わせて絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_10a__|__wildcard-system/自作2_1/themes/lovey/40_se004_10b__}"
+  # 横から・バック・四つん這い振り返り反る：目を大きく開けて期待した表情で、四つん這いで振り返って最後の一突きを待って体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_11a__|__wildcard-system/自作2_1/themes/lovey/40_se004_11b__}"
+  # 後ろから・バック・うつ伏せ尻を上げて反る：びっくりした表情でよだれを垂らしながら、うつ伏せで尻を上げて激しく突かれて絶頂寸前で体を反らしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_12a__|__wildcard-system/自作2_1/themes/lovey/40_se004_12b__}"
+  # 横から・立位・脚を腰に巻いて反る：とろ顔で舌を出して目を見開き、脚を腰に巻いて壁に押し付けられて体を大きく反らして絶頂している
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_13a__|__wildcard-system/自作2_1/themes/lovey/40_se004_13b__}"
+  # 横から・駅弁・脚を広げて反る：驚愕の表情で声を上げながら、脚を広げて抱え上げられて激しく突き上げられて絶頂して体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_14a__|__wildcard-system/自作2_1/themes/lovey/40_se004_14b__}"
+  # 横から・全身ネルソン・脚を開いて反る：目を大きく開けて驚きながら、脚を開いて抱え上げられて最後の一突きで絶頂して体を大きく反らしている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se004_15a__|__wildcard-system/自作2_1/themes/lovey/40_se004_15b__}"
 
-# 段階5: 中だし
+# 強調なし版
+40_se004_01b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,extreme orgasm,arched back,extreme arched back,legs spread wide,wide open,surprised,extreme pleasure,wide eyes,extreme pleasure,eyes wide open,extreme pleasure,x-ray,womb,cervix penetration,motion lines,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_02b:
+  - ((1girl,1boy,missionary,on back,lying,couple,closeup face)),vaginal,extreme orgasm,arched back,arms above head,arms up,surprised,wide eyes,shocked,extreme pleasure,eyes wide open,mouth open,heavy breathing,saliva,x-ray,womb,cervix penetration,motion lines,bouncing breasts,sagging breasts,body trembling,body shaking,grabbing sheets,steam,intense moaning,screaming,sfx
+40_se004_03b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,extreme orgasm,arched back,extreme arched back,legs wrapped around waist,tongue out long,torogao,open mouth wide,heavy breathing,saliva,x-ray,womb,motion lines,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_04b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,extreme orgasm,arched back,legs up,m-legs,spread legs,wide,surprised,extreme pleasure,wide eyes,extreme pleasure,shocked,extreme pleasure,eyes wide open,x-ray,womb,cervix penetration,bouncing breasts,sagging breasts,body trembling,body shaking,steam,screaming,sfx
+40_se004_05b:
+  - ((1girl,1boy,mating press,couple,dutch angle)),vaginal,extreme orgasm,extreme arched back,legs folded,legs pressed,surprised,wide eyes,shocked,x-ray,womb,cervix penetration,motion lines,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_06b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,extreme orgasm,squatting,arched back,tongue out long,torogao,wide eyes,open mouth,x-ray,womb,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_07b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,extreme orgasm,kneeling,head back,arched back,surprised,voice raised,wide eyes,shocked,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_08b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,extreme orgasm,sitting,arms behind,leaning back,arched back,surprised,wide eyes,shocked,x-ray,womb,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_09b:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,extreme orgasm,squatting,looking back,arched back,extreme arched back,tongue out long,torogao,wide eyes,x-ray,womb,ass focus,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_10b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,extreme orgasm,on all fours,head up,arched back,surprised,teary eyes,crying,wide eyes,x-ray,womb,motion lines,ass focus,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_11b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,extreme orgasm,on all fours,looking back,arched back,surprised,wide eyes,expecting,body trembling,x-ray,womb,motion lines,sagging breasts,steam,intense moaning,screaming,sfx
+40_se004_12b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,extreme orgasm,prone,ass up,arched back,surprised,drooling,saliva,wide eyes,shocked,x-ray,womb,ass focus,closeup ass,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_13b:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,extreme orgasm,legs wrapped around waist,against wall,arched back,extreme arched back,tongue out long,torogao,wide eyes,open mouth,drooling,x-ray,womb,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_14b:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,extreme orgasm,legs spread,carried,arched back,surprised,voice raised,wide eyes,shocked,x-ray,womb,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se004_15b:
+  - ((1girl,1boy,standing sex,full nelson,couple,from side)),vaginal,extreme orgasm,legs spread,held,arched back,extreme arched back,surprised,wide eyes,shocked,x-ray,womb,body trembling,body shaking,steam,intense moaning,screaming,sfx
+
+# 強調あり版
+40_se004_01a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,(extreme orgasm:1.5),(arched back:1.4),(extreme arched back:1.4),(legs spread wide:1.4),((wide open)),(surprised,extreme pleasure:1.5),(wide eyes,extreme pleasure:1.5),((eyes wide open,extreme pleasure)),(x-ray,womb:1.3),(cervix penetration:1.2),(motion lines:1.2),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_02a:
+  - ((1girl,1boy,missionary,on back,lying,couple,(closeup face:1.3))),vaginal,(extreme orgasm:1.5),(arched back:1.3),((arms above head)),((arms up)),(surprised,wide eyes,shocked:1.4),(extreme pleasure:1.5),((eyes wide open)),((mouth open)),heavy breathing,saliva,(x-ray,womb:1.3),(cervix penetration:1.2),motion lines,((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),((grabbing sheets)),steam,(intense moaning:1.3),screaming,sfx
+40_se004_03a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,(extreme orgasm:1.5),(arched back:1.4),(extreme arched back:1.4),(legs wrapped around waist:1.3),(tongue out long:1.4),torogao,(open mouth wide:1.3),heavy breathing,saliva,(x-ray,womb:1.3),motion lines,((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_04a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),vaginal,(extreme orgasm:1.5),(arched back:1.3),(legs up:1.3),((m-legs)),(spread legs,wide:1.4),(surprised,extreme pleasure:1.5),(wide eyes,extreme pleasure:1.5),(shocked,extreme pleasure:1.4),((eyes wide open)),(x-ray,womb:1.3),(cervix penetration:1.2),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,screaming,sfx
+40_se004_05a:
+  - ((1girl,1boy,mating press,couple,(dutch angle:1.2))),vaginal,(extreme orgasm:1.5),(extreme arched back:1.5),((legs folded)),((legs pressed)),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(x-ray,womb:1.3),(cervix penetration:1.2),motion lines,((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_06a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,(extreme orgasm:1.5),squatting,(arched back:1.3),(tongue out long:1.4),torogao,(wide eyes:1.4),open mouth,(x-ray,womb:1.3),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_07a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(extreme orgasm:1.5),kneeling,(head back:1.4),(arched back:1.3),(surprised:1.4),(voice raised:1.2),(wide eyes:1.4),shocked,((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_08a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(extreme orgasm:1.5),sitting,((arms behind)),(leaning back:1.2),(arched back:1.3),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(x-ray,womb:1.3),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_09a:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,(extreme orgasm:1.5),squatting,(looking back:1.3),(arched back:1.4),(extreme arched back:1.4),(tongue out long:1.4),torogao,(wide eyes:1.4),(x-ray,womb:1.3),(ass focus:1.3),((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_10a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(extreme orgasm:1.5),((on all fours)),(head up:1.2),(arched back:1.3),(surprised:1.3),(teary eyes:1.2),crying,(wide eyes:1.4),(x-ray,womb:1.3),motion lines,(ass focus:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_11a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,(extreme orgasm:1.5),((on all fours)),(looking back:1.3),(arched back:1.3),(surprised:1.4),(wide eyes:1.4),(expecting:1.2),(body trembling:1.2),(x-ray,womb:1.3),motion lines,sagging breasts,steam,(intense moaning:1.3),screaming,sfx
+40_se004_12a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(extreme orgasm:1.5),((prone)),(ass up:1.4),(arched back:1.3),(surprised:1.3),drooling,saliva,(wide eyes:1.4),shocked,(x-ray,womb:1.3),(ass focus:1.4),(closeup ass:1.3),((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_13a:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,(extreme orgasm:1.5),(legs wrapped around waist:1.3),((against wall)),(arched back:1.4),(extreme arched back:1.4),(tongue out long:1.4),torogao,(wide eyes:1.4),open mouth,drooling,(x-ray,womb:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_14a:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,(extreme orgasm:1.5),(legs spread:1.3),((carried)),(arched back:1.3),(surprised:1.4),(voice raised:1.2),(wide eyes:1.4),shocked,(x-ray,womb:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se004_15a:
+  - ((1girl,1boy,standing sex,full nelson,couple,from side)),vaginal,(extreme orgasm:1.5),(legs spread:1.4),((held)),(arched back:1.4),(extreme arched back:1.4),(surprised:1.5),(wide eyes:1.5),(shocked:1.4),(x-ray,womb:1.3),((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+
+# ========== 段階5: 中出し ==========
+
 sex_creampie:
-  - 40_se005_0,((1girl,1boy,mating press,couple)),vaginal,creampie,ejaculation,excessive cum,extreme arched back,orgasm,heart,motion lines,spoken heart,__wildcard-system/自作2_1/themes/lovey/sex_face_creampie__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_creampie__
-  - 40_se005_1,((1girl,1boy,mating press,couple,from side)),vaginal,creampie,ejaculation,excessive cum,orgasm,heart,spoken heart,__wildcard-system/自作2_1/themes/lovey/sex_face_creampie__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_creampie__
-  - 40_se005_2,((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,arched back,orgasm,heart,spread legs,spoken heart,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_creampie__,__wildcard-system/自作2_1/themes/lovey/sex_sound_creampie__
-  - 40_se005_3,((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,orgasm,heart,ass focus,spoken heart,big penis,__wildcard-system/自作2_1/themes/lovey/sex_sound_creampie__
-  - 40_se005_4,((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,creampie,ejaculation,x-ray,cum in womb,excessive cum,extreme arched back,orgasm,heart,spoken heart,big penis,__wildcard-system/自作2_1/themes/lovey/sex_face_creampie__,__wildcard-system/自作2_1/themes/lovey/sex_sound_creampie__
+  # POV・正常位・脚を大きく開いてM字：びっくりした表情で目を見開き、脚を大きく開いてM字で中出しされている瞬間を感じている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_01a__|__wildcard-system/自作2_1/themes/lovey/40_se005_01b__}"
+  # 横から・正常位・脚を腰に絡めて抱きしめ：とろ顔で舌を出して恍惚の表情で、脚を腰に絡めて抱きしめられながら中出しされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_02a__|__wildcard-system/自作2_1/themes/lovey/40_se005_02b__}"
+  # 上から・正常位・腕を首に回して密着：目を細めて幸せそうな表情で、腕を首に回して密着して愛情深く中出しされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_03a__|__wildcard-system/自作2_1/themes/lovey/40_se005_03b__}"
+  # 斜め上から・種付けプレス・脚を折りたたんで：驚愕の表情で目を見開き、脚を折りたたまれて深く中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_04a__|__wildcard-system/自作2_1/themes/lovey/40_se005_04b__}"
+  # 下から・騎乗位・しゃがんでおっぱい押し付け：とろ顔で舌を出して恍惚の表情で、しゃがんでおっぱいを押し付けて中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_05a__|__wildcard-system/自作2_1/themes/lovey/40_se005_05b__}"
+  # POV下から・騎乗位・跪いて前屈み密着：びっくりした表情で驚きながら、跪いて前屈みで密着して深く中出しされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_06a__|__wildcard-system/自作2_1/themes/lovey/40_se005_06b__}"
+  # 下から・騎乗位・座って腕を後ろでのけ反り：目を大きく開けて驚きながら、座って腕を後ろについて体を反らして中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_07a__|__wildcard-system/自作2_1/themes/lovey/40_se005_07b__}"
+  # 下から・背面騎乗位・しゃがんで振り返り：とろ顔で恍惚の表情で、しゃがんで振り返って中出しされている瞬間を感じている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_08a__|__wildcard-system/自作2_1/themes/lovey/40_se005_08b__}"
+  # 後ろから・バック・四つん這い顔を下に：口を開けてよだれを垂らしながら、四つん這いで顔を下にして腰を掴まれて深く中出しされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_09a__|__wildcard-system/自作2_1/themes/lovey/40_se005_09b__}"
+  # 横から・バック・四つん這い振り返り驚き：びっくりした表情で目を見開き、四つん這いで振り返って中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_10a__|__wildcard-system/自作2_1/themes/lovey/40_se005_10b__}"
+  # 後ろから・バック・うつ伏せ尻を上げて：とろ顔で恍惚の表情で、うつ伏せで尻を上げて中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_11a__|__wildcard-system/自作2_1/themes/lovey/40_se005_11b__}"
+  # クローズアップお尻・バック・うつ伏せ尻強調：目を大きく開けて驚きながら、うつ伏せで尻を上げて深く中出しされている瞬間のお尻アップ
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_12a__|__wildcard-system/自作2_1/themes/lovey/40_se005_12b__}"
+  # 横から・横位・上の脚を上げて密着：幸せそうな笑顔で、上の脚を上げて後ろから抱きしめられて優しく中出しされている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_13a__|__wildcard-system/自作2_1/themes/lovey/40_se005_13b__}"
+  # 横から・立位・脚を腰に巻いて壁押し付け：とろ顔で舌を出して、脚を腰に巻いて壁に押し付けられて中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_14a__|__wildcard-system/自作2_1/themes/lovey/40_se005_14b__}"
+  # 横から・駅弁・脚を広げて抱え上げ：驚愕の表情で声を上げながら、脚を広げて抱え上げられて深く中出しされて体を震わせている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se005_15a__|__wildcard-system/自作2_1/themes/lovey/40_se005_15b__}"
 
-# 段階6: 事後
+# 強調なし版
+40_se005_01b:
+  - ((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,legs spread wide,m-legs,wide open,surprised,wide eyes,shocked,extreme pleasure,eyes wide open,x-ray,womb,semen,cum,cervix,motion lines,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_02b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,legs wrapped around waist,tight embrace,hug,tongue out long,torogao,blissful,ecstasy,x-ray,womb,semen,cum,sagging breasts,body trembling,steam,intense moaning,sfx
+40_se005_03b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,arms around neck,close embrace,intimate,body pressed together,loving,eyes narrowed,happy smile,blissful,x-ray,womb,semen,cum,sagging breasts,body trembling,steam,soft moaning,sfx
+40_se005_04b:
+  - ((1girl,1boy,mating press,couple,dutch angle)),vaginal,internal cumshot,cum in pussy,ejaculation,deep penetration,orgasm,legs folded,legs pressed,surprised,wide eyes,shocked,extreme pleasure,x-ray,womb,semen,cum,deep,cervix,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+40_se005_05b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,squatting,breast press,pressing breasts,tongue out long,torogao,blissful,ecstasy,x-ray,womb,semen,cum,sagging breasts,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_06b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,internal cumshot,cum in pussy,ejaculation,deep penetration,orgasm,kneeling,leaning forward,close embrace,intimate,body pressed together,surprised,shocked,wide eyes,x-ray,womb,semen,cum,deep,sagging breasts,body trembling,steam,intense moaning,sfx
+40_se005_07b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,sitting,arms behind,leaning back,arched back,surprised,wide eyes,shocked,x-ray,womb,semen,cum,bouncing breasts,sagging breasts,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_08b:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,squatting,looking back,torogao,blissful,ecstasy,x-ray,womb,semen,cum,ass focus,body trembling,steam,intense moaning,sfx
+40_se005_09b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,internal cumshot,cum in pussy,ejaculation,deep penetration,orgasm,on all fours,head down,face down,holding waist,grabbing hips,open mouth,drooling,saliva,x-ray,womb,semen,cum,deep,cervix,ass focus,body trembling,steam,intense moaning,sfx
+40_se005_10b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,on all fours,looking back,surprised,wide eyes,shocked,x-ray,womb,semen,cum,sagging breasts,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_11b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,prone,ass up,hips raised,torogao,blissful,ecstasy,x-ray,womb,semen,cum,ass focus,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_12b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,internal cumshot,cum in pussy,ejaculation,deep penetration,orgasm,prone,ass up,hips raised,surprised,wide eyes,shocked,x-ray,womb,semen,cum,deep,cervix,ass focus,closeup ass,body trembling,steam,intense moaning,sfx
+40_se005_13b:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,top leg up,leg raised,hug from behind,gentle embrace,happy smile,blissful,loving,x-ray,womb,semen,cum,sagging breasts,body trembling,steam,soft moaning,sfx
+40_se005_14b:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,legs wrapped around waist,against wall,pressed against wall,tongue out long,torogao,x-ray,womb,semen,cum,sagging breasts,body trembling,body shaking,steam,intense moaning,sfx
+40_se005_15b:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,deep penetration,orgasm,legs spread,carried,lifted,surprised,voice raised,wide eyes,shocked,x-ray,womb,semen,cum,deep,sagging breasts,body trembling,body shaking,steam,intense moaning,screaming,sfx
+
+# 強調あり版
+40_se005_01a:
+  - ((1girl,1boy,missionary,on back,lying,couple,pov)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),(legs spread wide:1.4),((m-legs)),((wide open)),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(extreme pleasure:1.5),((eyes wide open)),(x-ray,womb:1.4),(semen,cum:1.3),(cervix:1.2),motion lines,((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_02a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),(legs wrapped around waist:1.3),((tight embrace)),((hug)),(tongue out long:1.4),torogao,(blissful:1.3),ecstasy,(x-ray,womb:1.4),(semen,cum:1.3),sagging breasts,(body trembling:1.2),steam,(intense moaning:1.3),sfx
+40_se005_03a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),vaginal,(internal cumshot:1.4),(cum in pussy:1.3),((ejaculation)),(orgasm:1.3),((arms around neck)),((close embrace)),(intimate:1.3),((body pressed together)),(loving:1.3),(eyes narrowed:1.2),happy smile,(blissful:1.3),(x-ray,womb:1.3),(semen,cum:1.2),sagging breasts,(body trembling:1.2),steam,soft moaning,sfx
+40_se005_04a:
+  - ((1girl,1boy,mating press,couple,(dutch angle:1.2))),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(deep penetration:1.4),(orgasm:1.5),((legs folded)),((legs pressed)),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(extreme pleasure:1.4),(x-ray,womb:1.4),(semen,cum:1.4),((deep)),(cervix:1.3),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+40_se005_05a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),squatting,((breast press)),((pressing breasts)),(tongue out long:1.4),torogao,(blissful:1.3),ecstasy,(x-ray,womb:1.4),(semen,cum:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_06a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(deep penetration:1.4),(orgasm:1.4),kneeling,(leaning forward:1.2),((close embrace)),((intimate)),((body pressed together)),(surprised:1.3),(shocked:1.3),(wide eyes:1.3),(x-ray,womb:1.4),(semen,cum:1.4),((deep)),sagging breasts,(body trembling:1.2),steam,(intense moaning:1.3),sfx
+40_se005_07a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),sitting,((arms behind)),(leaning back:1.2),(arched back:1.2),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(x-ray,womb:1.4),(semen,cum:1.3),((bouncing breasts)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_08a:
+  - ((1girl,1boy,reverse cowgirl,girl on top,straddling,couple,from below)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),squatting,(looking back:1.3),torogao,(blissful:1.3),ecstasy,(x-ray,womb:1.4),(semen,cum:1.3),(ass focus:1.3),(body trembling:1.2),steam,(intense moaning:1.3),sfx
+40_se005_09a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(deep penetration:1.4),(orgasm:1.4),((on all fours)),(head down:1.2),((face down)),(holding waist:1.2),((grabbing hips)),open mouth,drooling,saliva,(x-ray,womb:1.4),(semen,cum:1.4),((deep)),(cervix:1.3),(ass focus:1.3),(body trembling:1.2),steam,(intense moaning:1.3),sfx
+40_se005_10a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),((on all fours)),(looking back:1.3),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(x-ray,womb:1.4),(semen,cum:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_11a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),((prone)),(ass up:1.4),((hips raised)),torogao,(blissful:1.3),ecstasy,(x-ray,womb:1.4),(semen,cum:1.3),(ass focus:1.4),((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_12a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(deep penetration:1.4),(orgasm:1.4),((prone)),(ass up:1.4),((hips raised)),(surprised:1.4),(wide eyes:1.4),(shocked:1.3),(x-ray,womb:1.4),(semen,cum:1.4),((deep)),(cervix:1.3),(ass focus:1.5),(closeup ass:1.4),(body trembling:1.2),steam,(intense moaning:1.3),sfx
+40_se005_13a:
+  - ((1girl,1boy,spooning,on side,couple,from side)),vaginal,(internal cumshot:1.4),(cum in pussy:1.3),((ejaculation)),(orgasm:1.3),(top leg up:1.3),((leg raised)),((hug from behind)),((gentle embrace)),(happy smile:1.3),(blissful:1.3),(loving:1.3),(x-ray,womb:1.3),(semen,cum:1.2),sagging breasts,(body trembling:1.2),steam,soft moaning,sfx
+40_se005_14a:
+  - ((1girl,1boy,standing sex,couple,from side)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(orgasm:1.4),(legs wrapped around waist:1.3),((against wall)),((pressed against wall)),(tongue out long:1.4),torogao,(x-ray,womb:1.4),(semen,cum:1.3),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),sfx
+40_se005_15a:
+  - ((1girl,1boy,standing sex,suspended congress,couple,from side)),vaginal,(internal cumshot:1.5),(cum in pussy:1.4),((ejaculation)),(deep penetration:1.4),(orgasm:1.5),(legs spread:1.3),((carried)),((lifted)),(surprised:1.4),(voice raised:1.2),(wide eyes:1.4),shocked,(x-ray,womb:1.4),(semen,cum:1.4),((deep)),sagging breasts,((body trembling)),(body shaking:1.2),steam,(intense moaning:1.3),screaming,sfx
+
+# ========== 段階6: 事後 ==========
+
 sex_after:
-  - 40_se006_0,((1girl,1boy,sex,spread legs,after sex,on back,lying,from below)),((orgasm,steam,humid,trembling)),spoken heart,(((cum pool,cum overflow:1.5))),x-ray,womb full of cum,(closeup pussy:1.5),cumdrip,big penis,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_after__,__wildcard-system/自作2_1/themes/lovey/sex_sound_after__
-  - 40_se006_1,((1girl,1boy,sex,after sex,on back,lying,from side)),((steam,humid,trembling)),spoken heart,((cum pool,cum overflow)),x-ray,womb full of cum,cumdrip,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_after__,__MALE_TYPE__,__wildcard-system/自作2_1/themes/lovey/sex_sound_after__
-  - 40_se006_2,((1girl,1boy,sex,spread legs,after sex,on back,lying,from above)),((steam,humid,trembling)),cum overflow,cum pool,x-ray,womb full of cum,spread legs,sagging breasts,__wildcard-system/自作2_1/themes/lovey/sex_face_after__,__wildcard-system/自作2_1/themes/lovey/sex_sound_after__
-  - 40_se006_3,((1girl,1boy,after sex,doggy style,sex from behind,from behind)),((steam,humid,trembling)),cumdrip from pussy,cum overflow,ass focus,(closeup pussy:1.5),head down,__wildcard-system/自作2_1/themes/lovey/sex_sound_after__
-  - 40_se006_4,((1girl,1boy,after sex,cowgirl,girl on top,from below)),((steam,humid,trembling)),cum overflow,cumdrip,(closeup pussy:1.5),x-ray,womb full of cum,big penis,__wildcard-system/自作2_1/themes/lovey/sex_face_after__,__wildcard-system/自作2_1/themes/lovey/sex_sound_after__
+  # 横から・正常位・脚を開いて倒れている：幸せそうな疲れた笑顔で、脚を開いて倒れたまま精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_01a__|__wildcard-system/自作2_1/themes/lovey/40_se006_01b__}"
+  # 上から・正常位・脚を閉じて横たわる：目を細めて満足そうな表情で、脚を閉じて横たわり精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_02a__|__wildcard-system/自作2_1/themes/lovey/40_se006_02b__}"
+  # POV下から・騎乗位・座ったまま前屈み：とろけた表情で呼吸を整えながら、座ったまま前屈みになって精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_03a__|__wildcard-system/自作2_1/themes/lovey/40_se006_03b__}"
+  # 下から・騎乗位・跪いて体を起こす：満足そうな笑顔で、跪いて体を起こしたまま精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_04a__|__wildcard-system/自作2_1/themes/lovey/40_se006_04b__}"
+  # 後ろから・バック・四つん這い顔を下に：疲れた表情で呼吸を整えながら、四つん這いで顔を下にして精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_05a__|__wildcard-system/自作2_1/themes/lovey/40_se006_05b__}"
+  # 横から・バック・四つん這い振り返り：幸せそうな笑顔で振り返りながら、四つん這いのまま精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_06a__|__wildcard-system/自作2_1/themes/lovey/40_se006_06b__}"
+  # 後ろから・うつ伏せ・尻を下ろして：とろけた表情で脱力しながら、うつ伏せで尻を下ろして精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_07a__|__wildcard-system/自作2_1/themes/lovey/40_se006_07b__}"
+  # クローズアップお尻・うつ伏せ・尻アップ：疲れて脱力しながら、うつ伏せで尻から精液が溢れているお尻のクローズアップ
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_08a__|__wildcard-system/自作2_1/themes/lovey/40_se006_08b__}"
+  # 横から・横向き・抱き合って：目を細めて幸せそうな表情で、横向きで抱き合ったまま精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_09a__|__wildcard-system/自作2_1/themes/lovey/40_se006_09b__}"
+  # 下から・仰向け・M字開脚で脱力：満足そうな疲れた表情で、仰向けでM字開脚のまま脱力して精液が溢れている
+  - "{__wildcard-system/自作2_1/themes/lovey/40_se006_10a__|__wildcard-system/自作2_1/themes/lovey/40_se006_10b__}"
 
+# 強調なし版
+40_se006_01b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),after sex,after vaginal,cum overflow,cum pool,cumdrip,pussy juice,legs spread,lying,exhausted,tired,happy smile,satisfied,blissful,sagging breasts,sweat,steam,heavy breathing,afterglow
+40_se006_02b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),after sex,after vaginal,cum overflow,cum pool,cumdrip,pussy juice,legs closed,lying down,resting,eyes narrowed,satisfied,content smile,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_03b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),after sex,after vaginal,cum overflow,cumdrip,pussy juice,sitting,leaning forward,tired expression,catching breath,torogao,blissful,sagging breasts,sweat,steam,heavy breathing,afterglow
+40_se006_04b:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),after sex,after vaginal,cum overflow,cumdrip,pussy juice,kneeling,upright,satisfied smile,content,happy,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_05b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),after sex,after vaginal,cum overflow,cum pool,cumdrip,pussy juice,on all fours,head down,tired expression,catching breath,exhausted,ass focus,sweat,steam,heavy breathing,afterglow
+40_se006_06b:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),after sex,after vaginal,cum overflow,cumdrip,pussy juice,on all fours,looking back,happy smile,blissful,satisfied,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_07b:
+  - ((1girl,1boy,prone,couple,from behind)),after sex,after vaginal,cum overflow,cum pool,cumdrip,pussy juice,prone,hips down,exhausted,limp,torogao,blissful,ass focus,sweat,steam,heavy breathing,afterglow
+40_se006_08b:
+  - ((1girl,1boy,prone,couple,from behind)),after sex,after vaginal,cum overflow,cumdrip,pussy juice,closeup ass,ass focus,prone,exhausted,limp,tired,sweat,steam,breathing,afterglow
+40_se006_09b:
+  - ((1girl,1boy,spooning,on side,couple,from side)),after sex,after vaginal,cum overflow,cumdrip,pussy juice,hugging,embrace,eyes narrowed,happy smile,blissful,loving,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_10b:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),after sex,after vaginal,cum overflow,cum pool,cumdrip,pussy juice,m-legs,legs spread,limp,exhausted,satisfied,tired smile,sagging breasts,sweat,steam,heavy breathing,afterglow
 
+# 強調あり版
+40_se006_01a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from side)),after sex,after vaginal,(cum overflow:1.4),(cum pool:1.3),((cumdrip)),pussy juice,(legs spread:1.2),lying,exhausted,tired,(happy smile:1.3),satisfied,blissful,sagging breasts,sweat,steam,heavy breathing,afterglow
+40_se006_02a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from above)),after sex,after vaginal,(cum overflow:1.4),(cum pool:1.3),((cumdrip)),pussy juice,(legs closed:1.2),lying down,resting,(eyes narrowed:1.2),satisfied,(content smile:1.2),sagging breasts,sweat,steam,breathing,afterglow
+40_se006_03a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,pov,from below)),after sex,after vaginal,(cum overflow:1.4),((cumdrip)),pussy juice,sitting,(leaning forward:1.2),(tired expression:1.2),(catching breath:1.2),torogao,blissful,sagging breasts,sweat,steam,heavy breathing,afterglow
+40_se006_04a:
+  - ((1girl,1boy,cowgirl,girl on top,straddling,couple,from below)),after sex,after vaginal,(cum overflow:1.4),((cumdrip)),pussy juice,kneeling,upright,(satisfied smile:1.3),content,happy,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_05a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from behind)),after sex,after vaginal,(cum overflow:1.4),(cum pool:1.3),((cumdrip)),pussy juice,((on all fours)),(head down:1.2),(tired expression:1.2),(catching breath:1.2),exhausted,(ass focus:1.3),sweat,steam,heavy breathing,afterglow
+40_se006_06a:
+  - ((1girl,1boy,doggy style,sex from behind,couple,from side)),after sex,after vaginal,(cum overflow:1.4),((cumdrip)),pussy juice,((on all fours)),(looking back:1.3),(happy smile:1.3),blissful,satisfied,sagging breasts,sweat,steam,breathing,afterglow
+40_se006_07a:
+  - ((1girl,1boy,prone,couple,from behind)),after sex,after vaginal,(cum overflow:1.4),(cum pool:1.3),((cumdrip)),pussy juice,((prone)),(hips down:1.2),exhausted,limp,torogao,blissful,(ass focus:1.3),sweat,steam,heavy breathing,afterglow
+40_se006_08a:
+  - ((1girl,1boy,prone,couple,from behind)),after sex,after vaginal,(cum overflow:1.4),((cumdrip)),pussy juice,(closeup ass:1.4),(ass focus:1.4),((prone)),exhausted,limp,tired,sweat,steam,breathing,afterglow
+40_se006_09a:
+  - ((1girl,1boy,spooning,on side,couple,from side)),after sex,after vaginal,(cum overflow:1.4),((cumdrip)),pussy juice,((hugging)),((embrace)),(eyes narrowed:1.2),(happy smile:1.3),blissful,(loving:1.3),sagging breasts,sweat,steam,breathing,afterglow
+40_se006_10a:
+  - ((1girl,1boy,missionary,on back,lying,couple,from below)),after sex,after vaginal,(cum overflow:1.4),(cum pool:1.3),((cumdrip)),pussy juice,((m-legs)),(legs spread:1.3),limp,exhausted,satisfied,(tired smile:1.2),sagging breasts,sweat,steam,heavy breathing,afterglow
