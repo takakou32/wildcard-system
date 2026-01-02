@@ -169,4 +169,19 @@ place_gym_shower_room:
   - gym shower area,athletic facility shower,fitness center shower
   - gym shower,private shower stall,locker room,steamy shower area
 
+# ========== 神社関連 ==========
 
+place_shrine_building_interior:
+  - shrine building interior,shrine hall,traditional japanese architecture,wooden structure
+  - shrine interior,shrine building,traditional architecture,wooden pillars
+  - shrine hall,shrine building interior,japanese traditional building,wooden floor
+
+place_shrine_grounds:
+  - shrine grounds,shrine area,shrine precinct,shrine temple
+  - shrine garden,shrine temple,shrine courtyard,shrine garden
+  - shrine precinct,shrine temple,shrine garden,shrine area
+
+place_shrine_hall:
+  - shrine hall,shrine building,traditional japanese architecture,wooden structure
+  - shrine interior,shrine building,traditional architecture,wooden pillars
+  - shrine hall,shrine building interior,japanese traditional building,wooden floor

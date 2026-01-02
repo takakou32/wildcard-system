@@ -304,21 +304,49 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 **パート2：Sex/Fellatio用の場所**
 
-「Sex/Fellatio用の場所を教えてください（この回答は`sex_play.yaml`と`fellatio_play.yaml`の両方に反映されます）」
+「Sex/Fellatio用の場所を選んでください（この回答は`sex_play.yaml`と`fellatio_play.yaml`の両方に反映されます）」
 
-**利用可能な共通場所：**
-- home_bedroom (自宅寝室)
-- home_living_room (自宅リビング)
-- bathroom (浴室)
-- hotel_room (ホテル客室)
-- ryokan_room (旅館客室)
-- car (車内)
-- beach (ビーチ)
-- office (オフィス)
+**利用可能な場所：**
 
-**カスタム場所も可能**
+**自宅関連：**
+1. **place_home_bedroom** - 自宅寝室
+2. **place_home_living_room** - 自宅リビング
+3. **place_home_bathroom** - 自宅浴室
+4. **place_home_shower** - 自宅シャワー
+5. **place_home_kitchen** - 自宅キッチン
+6. **place_home_dining_room** - 自宅ダイニング
 
-**場所を入力してください（複数指定する場合は`|`で区切ってください。例：`place_shrine_grounds|place_shrine_hall`）**
+**ホテル関連：**
+7. **place_hotel_room** - ホテル客室
+8. **place_hotel_bathroom** - ホテル浴室
+9. **place_hotel_corridor** - ホテル廊下
+
+**温泉旅館関連：**
+10. **place_ryokan_room** - 旅館客室
+11. **place_onsen** - 温泉（室内）
+12. **place_outdoor_bath** - 露天風呂
+13. **place_onsen_changing_room** - 温泉更衣室
+
+**ビーチ関連：**
+14. **place_beach** - ビーチ
+15. **place_beach_house** - ビーチハウス
+16. **place_shower_room** - ビーチシャワー
+17. **place_beach_changing_room** - ビーチ更衣室
+
+**神社関連：**
+18. **place_shrine_grounds** - 神社境内
+19. **place_shrine_hall** - 神社本殿
+20. **place_shrine_building_interior** - 神社建物内
+
+**その他：**
+21. **place_outdoor_taxi_interior** - タクシー車内
+22. **place_gym_shower_room** - ジムシャワー室
+23. **place_entrance_home** - 自宅玄関
+24. **place_entrance_hallway** - 玄関ホール
+
+**カスタム場所も可能（25番を選択してカスタム場所名を入力）**
+
+**数字で答えてください（1〜25、またはカスタム場所の場合は25を選択して場所名を入力してください。複数指定する場合は`|`で区切ってください。例：`18|19`）**
 
 **パート3：Sex/Fellatio用の服装**
 
@@ -1005,6 +1033,33 @@ loveyテーマ（`themes/lovey/`）：
 ntrテーマ（`themes/ntr/`）：
 - 表情: `ntr_face_reluctant`, `ntr_face_conflicted`, `ntr_face_giving_in`, `ntr_face_corrupted`
 - 雰囲気: `ntr_atmosphere_tense`, `ntr_atmosphere_guilty`, `ntr_atmosphere_corrupting`, `ntr_atmosphere_fallen`
+
+### 4-7 服装パラメータの参照方法（使用場所による違い）
+
+**⚠️ 重要：使用するファイルによって参照方法が異なります**
+
+#### pose_play_nsfw.yamlでの服装参照
+```yaml
+# ✅ 正しい（character_outfitsを含めない）
+__自作2_1/params/outfit_furisode__
+__自作2_1/params/outfit_business__
+```
+
+#### sex_play.yaml / fellatio_play.yamlでの服装参照
+```yaml
+# ✅ 正しい（character_outfitsを含める）
+__自作2_1/params/character_outfits/outfit_furisode__
+__自作2_1/params/character_outfits/outfit_business__
+```
+
+**使い分けの理由：**
+- `pose_play_nsfw.yaml`: 服装はシーンライブラリから継続するため、直接参照
+- `sex_play.yaml` / `fellatio_play.yaml`: 服装を新規指定するため、フルパス指定
+
+**必須チェックリスト：**
+- [ ] `pose_play_nsfw.yaml`では`__自作2_1/params/outfit_xxx__`形式を使用
+- [ ] `sex_play.yaml`では`__自作2_1/params/character_outfits/outfit_xxx__`形式を使用
+- [ ] `fellatio_play.yaml`では`__自作2_1/params/character_outfits/outfit_xxx__`形式を使用
 
 ---
 

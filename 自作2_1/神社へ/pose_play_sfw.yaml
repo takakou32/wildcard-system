@@ -1,0 +1,20 @@
+# Pose用シーン定義 - SFWのみ（神社へ）
+# 全てのSFWシーンを含む
+# 時系列: 昼 → 夕方 → 夜
+
+pose_play_sfw:
+  # Scene 01: 昼 - 神社境内を歩く
+  - __自作2_1/themes/lovey/scene_shrine_grounds_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 02: 昼 - お参り・お賽銭を投げる
+  - __自作2_1/themes/lovey/scene_shrine_prayer_offering__,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 03: 昼〜夕方 - 神社の回廊でいちゃつく様子 (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  - __自作2_1/themes/lovey/scene_shrine_corridor_flirting__,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # Scene 05: 夕方 - お守り・絵馬エリア
+  - __自作2_1/themes/lovey/scene_shrine_omamori__,__自作2_1/params/male_type_default__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # Scene 06: 夕方〜夜 - 神社の庭園・自然 (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  - __自作2_1/themes/lovey/scene_shrine_garden__,__自作2_1/params/male_type_default__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+

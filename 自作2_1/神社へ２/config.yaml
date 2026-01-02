@@ -1,0 +1,21 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 神社へ２
+# ベース: lovey (ラブラブ)
+# テーマタイプ: 神社系
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: 昼 (time_day) → 夜 (time_night)
+# Sex場所: place_shrine_building_interior (神社建物内)
+# Sex/Fellatio服装: outfit_furisode (振袖)
+# NSFW統合: あり
+#   - Scene 03: 回廊でいちゃつく → Light
+#   - Scene 05: 庭園・自然 → Moderate
+
+# シーンフロー:
+#   Scene 01: 昼 - 神社境内を歩く (SFWのみ)
+#   Scene 02: 昼 - お参り・お賽銭 (SFWのみ)
+#   Scene 03: 夕方 - 回廊でいちゃつく (SFW + NSFW Light)
+#   Scene 04: 夕方 - お守り・絵馬エリア (SFWのみ)
+#   Scene 05: 夜 - 庭園・自然 (SFW + NSFW Moderate)
+
