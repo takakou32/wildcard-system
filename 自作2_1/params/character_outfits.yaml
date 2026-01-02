@@ -37,6 +37,11 @@ outfit_kimono:
   # - blue kimono,white obi,formal japanese wear,traditional pattern
   # - black kimono,red obi,formal traditional,elegant style
 
+outfit_furisode:
+  - (luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,intricate hair,updo,hair ornament,kanzashi,traditional japanese formal wear,new year shrine visit
+  # - (luxurious furisode:1.2),kimono,floral print,silver embroidery,vibrant colors,intricate hair,updo,hair ornament,kanzashi,traditional japanese formal wear,elegant
+  # - (luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,intricate hair,updo,hair ornament,kanzashi,traditional japanese formal wear,refined
+
 # ========== 下着・裸 ==========
 
 outfit_underwear:

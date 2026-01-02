@@ -93,9 +93,7 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
    - 各シーンに順序番号（01, 02, 03...）を付与
    - ユーザーの承認後、ファイル作成開始
 
-**これらの質問とシーンフロー承認を行わずにテーマファイルを作成することは禁止。**
-
----
+**これらの質問とシーンフロー承認を行わずにテーマファイルを作成することは禁止。**---
 
 ## 1. Wildcardシステムの基本構造
 
@@ -153,9 +151,9 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 ## 2. テーマ作成プロセス
 
-### 2-1 必須質問（6〜8問）
+### 2-1 必須質問（7〜9問）
 
-#### 質問1 (of 6): テーマベース
+#### 質問1 (of 7): テーマベース
 
 「どのテーマベースを使いますか？」
 
@@ -166,7 +164,7 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 ---
 
-#### 質問2 (of 6): テーマタイプ（シーンライブラリ選択）
+#### 質問2 (of 7): テーマタイプ（シーンライブラリ選択）
 
 「テーマのタイプを選んでください（使用するシーンライブラリを決定します）」
 
@@ -248,7 +246,7 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 ---
 
-#### 質問3 (of 6): テーマ名
+#### 質問3 (of 7): テーマ名
 
 「テーマの名前を教えてください」
 
@@ -261,7 +259,7 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 ---
 
-#### 質問4 (of 6): 時系列変化
+#### 質問4 (of 7): 時系列変化
 
 「時系列の変化はありますか？」
 
@@ -290,7 +288,7 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 ---
 
-#### 質問5 (of 6): 男性キャラクタータイプ & Sex場所
+#### 質問5 (of 7): 男性キャラクタータイプ & Sex/Fellatio場所 & 服装
 
 **パート1：男性キャラクタータイプ**
 
@@ -304,9 +302,9 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 **数字で答えてください（1〜5）**
 
-**パート2：Sex用の場所**
+**パート2：Sex/Fellatio用の場所**
 
-「Sex用の場所を教えてください」
+「Sex/Fellatio用の場所を教えてください（この回答は`sex_play.yaml`と`fellatio_play.yaml`の両方に反映されます）」
 
 **利用可能な共通場所：**
 - home_bedroom (自宅寝室)
@@ -320,11 +318,59 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 **カスタム場所も可能**
 
-**場所を入力してください**
+**場所を入力してください（複数指定する場合は`|`で区切ってください。例：`place_shrine_grounds|place_shrine_hall`）**
+
+**パート3：Sex/Fellatio用の服装**
+
+「Sex/Fellatio用の服装を選んでください（この回答は`sex_play.yaml`と`fellatio_play.yaml`の両方に反映されます）」
+
+**利用可能な服装：**
+
+**カジュアル（外出着）：**
+1. **outfit_casual_day** - 白いブラウス、青いデニムスカート、茶色のサンダル
+2. **outfit_casual_shopping** - 白いブラウス、黒いスカート、ショッピングバッグ
+
+**室内着・部屋着：**
+3. **outfit_house_clothes** - グレーのセーター、青いジーンズ
+4. **outfit_house_with_apron** - 白いエプロン、ベージュのセーター、青いジーンズ
+
+**和装・浴衣：**
+5. **outfit_yukata** - 青い浴衣、白い帯
+6. **outfit_kimono** - 赤い着物、金の帯
+7. **outfit_furisode** - 振袖（初詣などに使用）
+
+**下着・裸：**
+8. **outfit_underwear** - 白いブラ、白いパンティー
+9. **outfit_towel** - 白いバスタオル
+10. **outfit_nude** - 裸
+
+**ビジネス・オフィス：**
+11. **outfit_business** - 白いブラウス、黒いペンシルスカート、黒いブレザー
+12. **outfit_office_lady** - 白いブラウス、黒いペンシルスカート、黒いブレザー
+13. **outfit_business_casual** - 白いブラウス、グレーのスラックス
+
+**ナイトウェア：**
+14. **outfit_pajamas** - ピンクのパジャマ
+15. **outfit_nightgown** - 白いナイトガウン
+16. **outfit_bathrobe** - 白いバスローブ
+
+**特殊・職業：**
+17. **outfit_nurse** - 白いナースユニフォーム
+18. **outfit_maid** - 黒いメイドドレス、白いエプロン
+19. **outfit_school** - 白いセーラー服、青い襟
+
+**スポーツ・アクティブ：**
+20. **outfit_sportswear** - 白いスポーツブラ、黒いレギンス
+21. **outfit_swimsuit** - 白いビキニ
+22. **outfit_beach_swimsuit** - ビーチ用水着（複数バリエーションあり）
+
+**カスタム服装も可能**
+
+**服装を入力してください（服装名のみ。例：`outfit_furisode`。複数指定する場合は`|`で区切ってください。例：`outfit_furisode|outfit_yukata`）**
 
 ---
 
-#### 質問6 (of 6): NSFWシーンの統合
+#### 質問6 (of 7): NSFWシーンの統合
 
 「Poseシーン（デート・前戯）にNSFWを混ぜ込みますか？」
 
@@ -509,19 +555,25 @@ NSFWプロンプトは、**SFW最終連番+1**から開始します。
 pose_play_nsfw:
   # Scene 02: 客室 NSFW Light
   # SFW最終: 02_rm_007 → NSFW開始: 02_rm_008
-  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_ryokan_room__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_yukata__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_default__,__自作2_1/params/outfit_[sfw_outfit]__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   - 02_rm_008,__自作2_1/themes/lovey/nsfw_light_all__,...
   ... (同じ連番で20-40行程度)
   
   # Scene 06: 温泉 NSFW Moderate
   # SFW最終: 06_on_009 → NSFW開始: 06_on_010
-  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_lewd__,__自作2_1/themes/lovey/lovey_atmosphere_sexy__
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_default__,__自作2_1/params/outfit_[sfw_outfit]__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_lewd__,__自作2_1/themes/lovey/lovey_atmosphere_sexy__
   - 06_on_010,__自作2_1/themes/lovey/nsfw_moderate_all__,...
   ... (同じ連番で50-100行程度)
   
   # Scene 07: 露天風呂 NSFW Moderate
   # SFW最終: 07_ob_007 → NSFW開始: 07_ob_008
-  - 07_ob_008,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},__自作2_1/params/place_outdoor_bath__,...
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 07_ob_008,__自作2_1/themes/lovey/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_default__,__自作2_1/params/outfit_[sfw_outfit]__,...
   - 07_ob_008,__自作2_1/themes/lovey/nsfw_moderate_all__,...
   ... (同じ連番で50-100行程度)
 ```
@@ -575,19 +627,23 @@ pose_play_nsfw:
 **⚠️ 重要なルール：服装と場所の継続性**
 
 同じシーン内で、SFWからNSFWに移行する際は：
-1. **服装は同じものを継続**（急に変わらない）
-2. **場所パラメータを追加**（NSFW行に必須）
-3. **時間帯も同じものを継続**
+1. **服装は対応するSFWシーンの服装を継続**（SFWシーンのシーンライブラリに含まれる服装を使用。シーンライブラリに服装が含まれていない場合は、`scene_outfit_mapping.md`に基づいて自動選択された服装を使用）
+2. **場所パラメータを追加**（NSFW行に必須。質問5パート2で指定した場所を使用）
+3. **時間帯も同じものを継続**（SFWシーンと同じ`time_xxx`を使用）
 4. **アングルパラメータを追加**（複数ある場合は`{A|B|C}`構文）
 
+**注意：質問5パート3で指定した服装は`sex_play.yaml`と`fellatio_play.yaml`用です。`pose_play_nsfw.yaml`では対応するSFWシーンの服装を使用します。**
+
 **必須チェックリスト（NSFW統合時）：**
-- [ ] NSFWプロンプトは、SFWシーンと**同じ服装**（`outfit_xxx`）を使用
+- [ ] NSFWプロンプトは、**対応するSFWシーンの服装**を使用（SFWシーンのシーンライブラリに含まれる服装、または`scene_outfit_mapping.md`に基づいて自動選択された服装）
 - [ ] NSFWプロンプトは、SFWシーンと**同じ時間帯**（`time_xxx`）を使用
-- [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加
+- [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加（質問5パート2で指定した場所を使用）
 - [ ] NSFWプロンプトに**アングルパラメータ**（`angle_xxx`）を追加、複数ある場合は`{A|B|C}`構文
 - [ ] NSFWプロンプトに**適切な連番**（SFW最終+1から）を付与
 - [ ] **`nsfw_light_all` または `nsfw_moderate_all` を使用**
 - [ ] **同じシーンのNSFW行は同じ連番に統一**（ファイル名を揃える）
+
+**注意：質問5パート3で指定した服装は`sex_play.yaml`と`fellatio_play.yaml`専用です。`pose_play_nsfw.yaml`では対応するSFWシーンの服装を継続します。**
 
 ---
 
@@ -729,17 +785,23 @@ pose_play_sfw:
 
 pose_play_nsfw:
   # Scene 02: 客室 NSFW Light（質問7でYと答えた場合のみ記載）
-  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},__自作2_1/params/place_ryokan_room__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_yukata__,__自作2_1/params/time_day__,__自作2_1/themes/[base]/lovey_face_intimate__,__自作2_1/themes/[base]/lovey_atmosphere_romantic__
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_[sfw_outfit]__,__自作2_1/params/time_day__,__自作2_1/themes/[base]/lovey_face_intimate__,__自作2_1/themes/[base]/lovey_atmosphere_romantic__
   - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{...},...
   ... (同じ連番で複数行、20-40行程度)
   
   # Scene 06: 温泉 NSFW Moderate（質問7でYと答えた場合のみ記載）
-  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},__自作2_1/params/place_onsen__,__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_evening__,__自作2_1/themes/[base]/lovey_face_lewd__,__自作2_1/themes/[base]/lovey_atmosphere_sexy__
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_[sfw_outfit]__,__自作2_1/params/time_evening__,__自作2_1/themes/[base]/lovey_face_lewd__,__自作2_1/themes/[base]/lovey_atmosphere_sexy__
   - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,{...},...
   ... (同じ連番で複数行、50-100行程度)
   
   # Scene 07: 露天風呂 NSFW Moderate（質問7でYと答えた場合のみ記載）
-  - 07_ob_008,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},__自作2_1/params/place_outdoor_bath__,...
+  # 服装: 対応するSFWシーンの服装を継続（シーンライブラリに含まれる服装、またはscene_outfit_mapping.mdに基づいて自動選択された服装）
+  # 場所: [place]（質問5パート2で指定した場所を使用）
+  - 07_ob_008,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/outfit_[sfw_outfit]__,...
   ... (同じ連番で複数行、50-100行程度)
 ```
 
@@ -777,33 +839,39 @@ pose_play_nsfw:
 **5. `sex_play.yaml`**
 ```yaml
 # Sex用プレイリスト（[テーマ名]）
-# 場所: [sex_location]
+# 場所: [sex_location]（質問5パート2で指定した場所。fellatio_play.yamlと同じ場所を使用）
+# 服装: [outfit]（質問5パート3で指定した服装。fellatio_play.yamlと同じ服装を使用）
 # 男性タイプ: male_type_[xxx]
+# 注意: 複数場所を指定する場合は {place1|place2} 形式で記述
+# 注意: 複数服装を指定する場合は {outfit1|outfit2} 形式で記述
 
 sex_play:
-  - __自作2_1/themes/[base]/sex_intro_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_moderate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_intense__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_extreme__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_creampie__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/sex_after__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_intro_gentle__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_moderate__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_intense__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_extreme__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_creampie__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/sex_after__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
 ```
 
 **6. `fellatio_play.yaml`** （オプション）
 ```yaml
 # Fellatio用プレイリスト（[テーマ名]）
-# 場所: [sex_location]
+# 場所: [sex_location]（質問5パート2で指定した場所。sex_play.yamlと同じ場所を使用）
+# 服装: [outfit]（質問5パート3で指定した服装。sex_play.yamlと同じ服装を使用）
 # 男性タイプ: male_type_[xxx]
+# 注意: 複数場所を指定する場合は {place1|place2} 形式で記述
+# 注意: 複数服装を指定する場合は {outfit1|outfit2} 形式で記述
 
 fellatio_play:
-  - __自作2_1/themes/[base]/fellatio_intro_tease__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_start_licking__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_moderate_gentle__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_intense_passionate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_climax_deep__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_finish_ejaculation__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_after_swallow__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
-  - __自作2_1/themes/[base]/fellatio_extra_intimate__,__自作2_1/params/place_[sex_location]__,__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_intro_tease__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_start_licking__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_moderate_gentle__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_intense_passionate__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_climax_deep__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_finish_ejaculation__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_after_swallow__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+  - __自作2_1/themes/[base]/fellatio_extra_intimate__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
 ```
 
 **7. `main.yaml`**
@@ -966,3 +1034,5 @@ ntrテーマ（`themes/ntr/`）：
 | オフィス全般 | of, mt, br, ot, el, pr, lv | `outfit_business` |
 
 詳細は `templates/scene_outfit_mapping.md` を参照。
+
+
