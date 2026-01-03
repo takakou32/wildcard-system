@@ -4,38 +4,38 @@
 pose_play_sfw:
   # Scene 01: time_day (昼) - 旅館到着
   # 背景のみ：旅館玄関・ロビー
-  - 00_bg_ar_001,no humans,empty,ryokan entrance,ryokan lobby,traditional architecture,wide shot,__自作2_1/params/time_day__
+  - 00_bg_ar_001,(no humans,empty,ryokan entrance,ryokan lobby,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 外出着（blouse_skirt）
   - __自作2_1/themes/lovey/scene_ryokan_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 02: time_day (昼) - 客室でくつろぐ
   # 背景のみ：旅館客室
-  - 00_bg_rm_001,no humans,empty,ryokan room,tatami room,japanese room,tatami floor,futon,wide shot,__自作2_1/params/time_day__
+  - 00_bg_rm_001,(no humans,empty,ryokan room,tatami room,japanese room,tatami floor,futon,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 浴衣（yukata）- 旅館客室で着替え
   # → NSFW継承用服装パラメータ: __自作2_1/params/yukata__
   - __自作2_1/themes/lovey/scene_ryokan_room__,__自作2_1/params/male_type_default__,__自作2_1/params/yukata__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
   
   # Scene 03: time_day (昼) - 温泉街散策
   # 背景のみ：温泉街
-  - 00_bg_ot_001,no humans,empty,onsen town,onsen street,traditional buildings,stone pavement,steam vent,wide shot,__自作2_1/params/time_day__
+  - 00_bg_ot_001,(no humans,empty,onsen town,onsen street,traditional buildings,stone pavement,steam vent,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 同じ浴衣（yukata）- 統一性確保
   - __自作2_1/themes/lovey/scene_onsen_town__,__自作2_1/params/male_type_default__,__自作2_1/params/yukata__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 04: time_evening (夕方) - 旅館食事処
   # 背景のみ：旅館食事処
-  - 00_bg_dn_001,no humans,empty,ryokan dining room,traditional dining room,tatami floor,low table,kaiseki meal,wide shot,__自作2_1/params/time_evening__
+  - 00_bg_dn_001,(no humans,empty,ryokan dining room,traditional dining room,tatami floor,low table,kaiseki meal,wide shot,__自作2_1/params/time_evening__:2)
   # 服装: 同じ浴衣（yukata）- 統一性確保
   - __自作2_1/themes/lovey/scene_ryokan_dining__,__自作2_1/params/male_type_default__,__自作2_1/params/yukata__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
   
   # Scene 05: time_evening (夕方) - 温泉脱衣所
   # 背景のみ：温泉脱衣所
-  - 00_bg_ch_001,no humans,empty,changing room,onsen changing room,onsen changing area,steam,wide shot,__自作2_1/params/time_evening__
+  - 00_bg_ch_001,(no humans,empty,changing room,onsen changing room,onsen changing area,steam,wide shot,__自作2_1/params/time_evening__:2)
   # 服装: バスタオル（towel）- 入浴準備
   - __自作2_1/themes/lovey/scene_onsen_changing_room__,__自作2_1/params/male_type_default__,__自作2_1/params/towel__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__,barefoot,no shoes
   
   # Scene 07: time_night (夜) - 露天風呂
   # 背景のみ：露天風呂
-  - 00_bg_ob_001,no humans,empty,outdoor bath,rotenburo,outdoor onsen,nature background,steam,night sky,starry sky,wide shot,cinematic,__自作2_1/params/time_night__
+  - 00_bg_ob_001,(no humans,empty,outdoor bath,rotenburo,outdoor onsen,nature background,steam,night sky,starry sky,wide shot,cinematic,__自作2_1/params/time_night__:2)
   # 服装: 裸（nude）- 露天風呂
   # → NSFW継承用服装パラメータ: __自作2_1/params/nude__
   - __自作2_1/themes/lovey/scene_outdoor_bath__,__自作2_1/params/male_type_default__,__自作2_1/params/nude__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_bathing__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__,barefoot,no shoes

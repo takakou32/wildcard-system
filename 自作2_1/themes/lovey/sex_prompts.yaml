@@ -4,6 +4,16 @@
 # アングルと細かい体位を意識したシチュエーションベース
 # 各プロンプトには強調構文版(a)と非強調版(b)の2パターンを用意
 
+# ========== 段階0: 挿入前 ==========
+
+sex_before:
+  # 挿入前・おねだり（spread pussy）：脚を大きく開いておねだりしている、おまんこが開いて愛液が溢れている
+  - 40_se000_00,((1girl,1boy,lying,on back,from below)),female orgasm,hetero,pussy,heart,spread pussy,pussy juice,pussy juice drip,sweat,spread legs,explicit,nsfw,blush,open mouth,heavy breathing
+  # 挿入前・くぱぁアップ：とろ顔で見つめながら、おまんこを大きく開いてくぱぁしている
+  - 40_se000_01,((1girl,1boy,lying,on back,from below)),female orgasm,hetero,torogao,looking at viewer,sweat,spread legs,pussy juice,pussy juice drip,anus,vagina,close up,spread pussy,closeup pussy,explicit,pubic hair
+  # 挿入前・ペニスアップ：大きな血管の浮いたペニスを見上げながら、挿入を待っている
+  - 40_se000_02,((1boy,big veiny penis,spread legs,on back,lying,pillow,pov,couple)),precum string,precum on stomach,penis head,top of penis,penis on pussy,pubic hair,blush,light smile
+
 # ========== 段階1: 優しい導入 ==========
 
 sex_intro_gentle:
@@ -27,6 +37,14 @@ sex_intro_gentle:
   - 40_se001_08,{__wildcard-system/自作2_1/themes/lovey/40_se001_09a__|__wildcard-system/自作2_1/themes/lovey/40_se001_09b__}
   # 横から・立位・脚を腰に巻いて：目を潤ませて見つめながら、脚を腰に巻いて壁に押し付けられてキスをしている
   - 40_se001_09,{__wildcard-system/自作2_1/themes/lovey/40_se001_10a__|__wildcard-system/自作2_1/themes/lovey/40_se001_10b__}
+  # 上から・正常位・頭からのアングル（逆さ正常位）：逆さ正常位で優しく結合している、脚を大きく開いて優しく腰を動かされている
+  - 40_se001_10,((1girl,1boy,missionary,on back,lying,from above)),vaginal,gentle,upside-down,missionary position,spread legs,legs spread wide,heart,motion lines,steam,trembling,bouncing breasts,sagging breasts,blush,gentle smile,soft moan,breathing
+  # 横から・正常位・だいしゅきホールド：脚を絡めて腕を首に回されて抱きしめられながら、優しく腰を動かされている
+  - 40_se001_11,((1girl,1boy,missionary,on back,lying,from side)),vaginal,gentle,leg lock,arms around neck,hug,thighs,faceless male,blush,gentle smile,soft moan,breathing,heart
+  # 横から・側背位・脚を開いて：横を向いて後ろから抱きしめられながら、脚を開いて優しく挿入されている
+  - 40_se001_12,((1girl,1boy,spooning,on side,from side)),vaginal,gentle,spread legs,looking at another,hug,penis,closed legs,happy,hug from behind,sagging breasts,blush,gentle smile,soft moan
+  # 横から・側背位・脚を開いて（中出し）：横を向いて後ろから抱きしめられながら、脚を開いて中出しされている
+  - 40_se001_13,((1girl,1boy,spooning,on side,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,spread legs,closed legs,uterus,sagging breasts,blush,gentle smile,soft moan,heart
 
 # 強調なし版
 40_se001_01b:
@@ -89,12 +107,30 @@ sex_moderate:
   - 40_se002_05,{__wildcard-system/自作2_1/themes/lovey/40_se002_06a__|__wildcard-system/自作2_1/themes/lovey/40_se002_06b__}
   # 下から・騎乗位・座って胸を触る：恥ずかしそうに目を逸らしながら、座って自分で胸を触りながら腰を動かしている
   - 40_se002_06,{__wildcard-system/自作2_1/themes/lovey/40_se002_07a__|__wildcard-system/自作2_1/themes/lovey/40_se002_07b__}
+  # 後ろから・リバース騎乗位・尻アップ（基本）：後ろから見てお尻を上げてしゃがんでいる、お尻を自分で開いている
+  - 40_se002_13,((1girl,reverse cowgirl,from behind,from below)),anus,pubic hair,ass,pussy,sweat,steam,spread own anus,spread own ass,own ass grab,hands on own ass,puckered anus,pubic,steam,humid,solo focus,ass focus,blush,moaning
+  # 後ろから・リバース騎乗位・尻アップ（指入れ）：後ろから見てお尻を上げてしゃがんでいる、指を入れている
+  - 40_se002_14,((1girl,reverse cowgirl,from behind,from below)),anus,pubic hair,ass,pussy,sweat,steam,spread own anus,spread own ass,own ass grab,hands on own ass,puckered anus,pubic,steam,humid,solo focus,ass focus,insert finger,finge in vagina,fingering pov,pussy juice,blush,moaning
+  # 後ろから・リバース騎乗位・尻アップ（ペニス）：後ろから見てお尻を上げてしゃがんでいる、大きなペニスを見ている
+  - 40_se002_15,((1girl,reverse cowgirl,from behind,from below)),anus,pubic hair,ass,pussy,sweat,steam,big veiny penis,penis head,puckered anus,pubic,steam,humid,solo focus,ass focus,open mouth,tongue out,saliva,blush,moaning
+  # 後ろから・リバース騎乗位・尻アップ（入れかけ）：後ろから見てお尻を上げてしゃがんでいる、ペニスを入れかけている
+  - 40_se002_16,((1girl,reverse cowgirl,from behind,from below)),anus,vaginal,pubic hair,ass,pussy,sweat,steam,pov squatting,big veiny penis,puckered anus,pubic,steam,humid,solo focus,ass focus,open mouth,tongue out,saliva,blush,moaning
+  # 後ろから・リバース騎乗位・尻アップ（密着）：後ろから見てお尻を上げてしゃがんでいる、密着して腰を動かしている
+  - 40_se002_17,((1girl,reverse cowgirl,from behind,from below)),anus,pubic close contact vagina,sex,vagina close contact waist,pubic hair,ass,pussy,sweat,steam,pov squatting,puckered anus,pubic,steam,humid,solo focus,ass focus,orgasm,motion lines,bouncing breasts,blush,moaning
+  # 後ろから・リバース騎乗位・尻アップ（フィニッシュ）：後ろから見てお尻を上げてしゃがんでいる、激しく腰を動かして絶頂している
+  - 40_se002_18,((1girl,1boy,reverse cowgirl,from behind,from below)),anus,sex,pubic hair,ass,vaginal,girl on top,straddling,male pubic hair,pussy,sweat,steam,cowgirl position,reverse cowgirl position,ass focus,hands on own ass,squatting cowgirl position,testicles,erection,orgasm,motion lines,steam,humid,trembling,bouncing breasts,cum in pussy,extreme orgasm,arched back,body trembling,body shaking,steam,intense moaning,sfx
   # 後ろから・バック・四つん這い顔を下に：口を開けてとろけた表情で、四つん這いで顔を下にして腰を掴まれて突かれている
   - 40_se002_07,{__wildcard-system/自作2_1/themes/lovey/40_se002_08a__|__wildcard-system/自作2_1/themes/lovey/40_se002_08b__}
   # 横から・バック・四つん這い振り返り：涙を浮かべて喘ぎながら、四つん這いで振り返って太ももを掴まれて激しく腰を打ち付けられている
   - 40_se002_08,{__wildcard-system/自作2_1/themes/lovey/40_se002_09a__|__wildcard-system/自作2_1/themes/lovey/40_se002_09b__}
   # 横から・横位・脚を開いて：目を閉じて喘ぎながら、脚を開いて首筋にキスをされて激しく突かれている
   - 40_se002_09,{__wildcard-system/自作2_1/themes/lovey/40_se002_10a__|__wildcard-system/自作2_1/themes/lovey/40_se002_10b__}
+  # 横から・正常位・激しくキス：べろキスをしながら激しく腰を打ち付けられている、おっぱいが跳ねて喘いでいる
+  - 40_se002_10,((1girl,1boy,missionary,on back,lying,from side)),vaginal,motion lines,french kiss,steam,hetero,sex,blush,heart,faceless,faceless male,large breasts,closed eyes,orgasm,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 横から・正常位・キスはめ：横から見てべろキスをしながら激しく突かれている、おっぱいが跳ねて喘いでいる
+  - 40_se002_11,((1girl,1boy,missionary,on back,lying,from side)),vaginal,motion lines,french kiss,steam,hetero,sex,blush,heart,faceless,faceless male,orgasm,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 正常位・駅弁：抱え上げられて激しく突かれている、おっぱいが跳ねて喘いでいる
+  - 40_se002_12,((1girl,1boy,missionary,on back,lying)),vaginal,suspended congress,steam,hetero,sex,blush,heart,faceless,faceless male,orgasm,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
 
 # 強調なし版
 40_se002_01b:
@@ -173,6 +209,30 @@ sex_intense:
   - 40_se003_13,{__wildcard-system/自作2_1/themes/lovey/40_se003_14a__|__wildcard-system/自作2_1/themes/lovey/40_se003_14b__}
   # 横から・駅弁・脚を広げて：目を大きく開けて驚きながら、脚を広げて抱え上げられて激しく突かれている
   - 40_se003_14,{__wildcard-system/自作2_1/themes/lovey/40_se003_15a__|__wildcard-system/自作2_1/themes/lovey/40_se003_15b__}
+  # POV・正常位・フィニッシュ：上から見下ろして激しく突かれて絶頂寸前、おっぱいが跳ねて声を上げている
+  - 40_se003_15,((1girl,1boy,missionary,on back,lying,pov,from above)),vaginal,orgasm,motion lines,steam,humid,trembling,bouncing breasts,spread legs,spoken,heart,screaming,closed eyes,biting lips,saliva,clenched teeth,grabbing breasts,grope tits,holding waist,insert
+  # 横から・正常位・フィニッシュ：横から見て激しく突かれて絶頂寸前、おっぱいが跳ねて声を上げている
+  - 40_se003_16,((1girl,1boy,missionary,on back,lying,from side)),vaginal,orgasm,motion lines,steam,humid,trembling,bouncing breasts,spread legs,spoken,heart,screaming,closed eyes,biting lips,saliva,clenched teeth,grabbing breasts,grope tits,holding waist,insert
+  # POV・正常位・フィニッシュ（中出し）：上から見下ろして激しく突かれて中出しされている、頭を反らして絶頂している
+  - 40_se003_17,((1girl,1boy,missionary,on back,lying,pov,from side)),vaginal,orgasm,motion lines,steam,humid,trembling,bouncing breasts,spread legs,spoken,heart,head back,cum,uterus,holding waist,insert
+  # 下から・騎乗位・M字開脚（基本）：しゃがんでM字開脚で腰を動かしている、おっぱいが跳ねて喘いでいる
+  - 40_se003_18,((1girl,1boy,cowgirl,girl on top,straddling,pov,from below)),vaginal,big veiny penis,penis,precum,girl on top,squatting,blush,sweat,looking at viewer,navel,solo focus,pussy,collarbone,spread legs,thighs,pussy juice,closeup breasts,arms behind head,from below,sagging breasts,moaning
+  # 下から・騎乗位・M字開脚（激しく）：しゃがんでM字開脚で激しく腰を動かしている、おっぱいが跳ねて喘いでいる
+  - 40_se003_19,((1girl,1boy,cowgirl,girl on top,straddling,pov,from below)),vaginal,squatting cowgirl position,straddling,blush,cowgirl position,sweat,looking at viewer,navel,solo focus,pussy,collarbone,spread legs,thighs,pussy juice,closeup breasts,arms behind head,from below,orgasm,motion lines,bouncing breasts,sagging breasts,moaning
+  # 下から・騎乗位・M字開脚・ヘッドバック（フィニッシュ）：しゃがんでM字開脚で頭を反らして絶頂している、中出しされて体を震わせている
+  - 40_se003_20,((1girl,1boy,cowgirl,girl on top,straddling,pov,from below)),vaginal,girl on top,straddling,blush,cowgirl position,uterus,sweat,looking at viewer,navel,solo focus,pussy,collarbone,spread legs,thighs,pussy juice,closeup breasts,arms behind head,from below,head back,cum,orgasm,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 後ろから・バック・うつ伏せ（顔を床に）：うつ伏せで顔を床につけて激しく突かれている、お尻が跳ねて喘いでいる
+  - 40_se003_21,((1girl,1boy,doggy style,sex from behind,from below)),vaginal,doggy style sex,creeping,face on bed,closeup face,head on floor,large breasts,ass focus,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 下から・バック・うつ伏せ（顔クローズアップ）：うつ伏せで顔を上げて激しく突かれている、お尻を掴まれて喘いでいる
+  - 40_se003_22,((1girl,1boy,doggy style,sex from behind,from below)),vaginal,closeup face,sex from behind,top-down bottom-up,doggystyle,ass grab,ass focus,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 後ろから・バック・POV（お尻クローズアップ）：後ろから見てお尻をクローズアップ、大きなペニスが挿入されている
+  - 40_se003_23,((1girl,1boy,doggy style,sex from behind,from behind,pov)),vaginal,sex from behind,lying,closeup ass,focus ass,big veiny penis,precum,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 後ろから・バック・POV（お尻クローズアップ・フィニッシュ）：後ろから見てお尻をクローズアップ、中出しされて精液が溢れている
+  - 40_se003_24,((1girl,1boy,doggy style,sex from behind,from behind,pov)),vaginal,sex from behind,lying,closeup ass,focus ass,big veiny penis,precum,cum in pussy,orgasm,cum overflow,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # バック・立位/座り/横：立位、座り、または横で後ろから激しく突かれている、お尻が跳ねて喘いでいる
+  - 40_se003_25,((1girl,1boy,doggy style,sex from behind,from below)),vaginal,sex from behind,lying,sitting,standing,boy is standing,ass focus,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
+  # 横から・横位・スプーニング（脚を上げて）：横を向いて脚を上げて後ろから抱きしめられながら、激しく突かれている
+  - 40_se003_26,((1girl,1boy,spooning,on side,from side)),vaginal,lying,solo focus,barefoot,leg lift,leg up,spread legs,spooning,ass focus,motion lines,steam,humid,trembling,bouncing breasts,sagging breasts,moaning
 
 # 強調なし版
 40_se003_01b:
@@ -271,6 +331,14 @@ sex_extreme:
   - 40_se004_13,{__wildcard-system/自作2_1/themes/lovey/40_se004_14a__|__wildcard-system/自作2_1/themes/lovey/40_se004_14b__}
   # 横から・全身ネルソン・脚を開いて反る：目を大きく開けて驚きながら、脚を開いて抱え上げられて最後の一突きで絶頂して体を大きく反らしている
   - 40_se004_14,{__wildcard-system/自作2_1/themes/lovey/40_se004_15a__|__wildcard-system/自作2_1/themes/lovey/40_se004_15b__}
+  # 下から・バック・駅弁（フルネルソン）：後ろからフルネルソンで抱え上げられて激しく突き上げられて絶頂している、声を上げながら体を震わせている
+  - 40_se004_15,((1girl,1boy,doggy style,sex from behind,from below)),vaginal,penis,hetero,sex,pussy,full nelson,testicles,sex from behind,faceless-boy,looking at viewer,solo focus,sweat,spread legs,motion lines,big penis,love juice,cum in pussy,orgasm,cum overflow,head back,tongue out,extreme orgasm,arched back,body trembling,body shaking,steam,intense moaning,screaming,sfx
+  # 下から・種付けプレス・おまんこクローズアップ（基本）：種付けプレスでおまんこをクローズアップ、大きなペニスが深く挿入されている
+  - 40_se004_16,((1girl,1boy,mating press,on back,lying,from below)),vaginal,hetero,sex,anus,vaginal,on back,lying,testicles,pussy,big ass,boy on top,mating press,missionary,sweat,closeup pussy,big penis,love juice,sheet grab,motion lines,extreme orgasm,arched back,legs folded,legs pressed,body trembling,body shaking,steam,intense moaning,sfx
+  # 下から・種付けプレス・おまんこクローズアップ（フィニッシュ）：種付けプレスでおまんこをクローズアップ、脚を絡めて中出しされて絶頂している
+  - 40_se004_17,((1girl,1boy,mating press,on back,lying,from below)),vaginal,mating press,cum,hetero,cum in pussy,anus,sex,vaginal,testicles,ass,cum overflow,heart,lying,on back,indoors,penis,nude,boy on top,pussy,deep penetration,sweat,motion lines,on bed,cumdrip,spread legs,bed,excessive cum,orgasm,motion lines,leg lock,closeup ass,extreme orgasm,arched back,legs folded,legs pressed,body trembling,body shaking,steam,intense moaning,sfx
+  # 下から・種付けプレス・おまんこクローズアップ（フィニッシュ・強調版）：種付けプレスでおまんこをクローズアップ、脚を絡めて中出しされて絶頂している（強調版）
+  - 40_se004_18,((1girl,1boy,mating press,on back,lying,from below)),vaginal,steam,hetero,sex,anus,vaginal,on back,lying,testicles,pussy,big ass,boy on top,mating press,missionary,sweat,closeup pussy,big penis,love juice,legs lock,cum in pussy,orgasm,cum overflow,sheet grab,motion lines,extreme orgasm,arched back,legs folded,legs pressed,body trembling,body shaking,steam,intense moaning,sfx
 
 # 強調なし版
 40_se004_01b:
@@ -371,6 +439,14 @@ sex_creampie:
   - 40_se005_14,{__wildcard-system/自作2_1/themes/lovey/40_se005_15a__|__wildcard-system/自作2_1/themes/lovey/40_se005_15b__}
   # 後ろから・バック・四つん這い顔を上げて反る中出し：とろ顔で舌を長く出して涙を流しながら、四つん這いで顔を上げて体を反らして中出しされて絶頂している
   - 40_se005_15,{__wildcard-system/自作2_1/themes/lovey/40_se005_16a__|__wildcard-system/自作2_1/themes/lovey/40_se005_16b__}
+  # 横から・正常位・中出し（横位）：横を向いて後ろから抱きしめられながら、脚を閉じて中出しされている
+  - 40_se005_16,((1girl,1boy,spooning,on side,from side)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,lying,closed legs,couple,on side,uterus,sagging breasts,body trembling,steam,intense moaning,sfx
+  # POV・正常位・中出し（上から）：上から見下ろして脚を大きく開いて中出しされている、頭を反らして絶頂している
+  - 40_se005_17,((1girl,1boy,missionary,on back,lying,pov,from above)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,spread legs,uterus,sagging breasts,body trembling,steam,intense moaning,sfx
+  # 下から・バック・中出し（おまんこクローズアップ）：後ろから見ておまんこをクローズアップ、中出しされて精液が溢れている
+  - 40_se005_18,((1girl,1boy,doggy style,sex from behind,from below)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,vaginal,from below,closeup pussy,love juice,closeup vagina,sex from behind,spread legs,uterus,head back,sagging breasts,body trembling,steam,intense moaning,sfx
+  # 上から・バック・中出し（顔クローズアップ）：後ろから見て顔をクローズアップ、頭を反らして中出しされて絶頂している
+  - 40_se005_19,((1girl,1boy,doggy style,sex from behind,from above)),vaginal,internal cumshot,cum in pussy,ejaculation,orgasm,closeup face,sex from behind,from above,from center,head back,saliva,biting lips,clenched teeth,teeth,tears,nose blush,sagging breasts,body trembling,steam,intense moaning,sfx
 
 # 強調なし版
 40_se005_01b:
@@ -463,6 +539,20 @@ sex_after:
   - 40_se006_08,{__wildcard-system/自作2_1/themes/lovey/40_se006_09a__|__wildcard-system/自作2_1/themes/lovey/40_se006_09b__}
   # 下から・仰向け・M字開脚で脱力：満足そうな疲れた表情で、仰向けでM字開脚のまま脱力して精液が溢れている
   - 40_se006_09,{__wildcard-system/自作2_1/themes/lovey/40_se006_10a__|__wildcard-system/自作2_1/themes/lovey/40_se006_10b__}
+  # 上から・正常位・事後（POV）：上から見下ろして脚を大きく開いて倒れている、精液が溢れている
+  - 40_se006_10,((1girl,1boy,missionary,on back,lying,from above)),after sex,after vaginal,orgasm,steam,humid,trembling,spread legs,spoken,heart,head back,cum pool,cum overflow,screaming,tongue out,sagging breasts,exhausted,tired,afterglow
+  # 下から・正常位・事後（おまんこクローズアップ）：下から見上げておまんこをクローズアップ、精液が溢れている
+  - 40_se006_11,((1girl,1boy,missionary,on back,lying,from below)),after sex,after vaginal,orgasm,steam,humid,trembling,spread legs,spoken,heart,head back,cum pool,cum overflow,screaming,tongue out,closeup pussy,from below,sagging breasts,exhausted,tired,afterglow
+  # 事後フェラ：セックス後にペニスを舐めている、精液が絡み合い疲れた表情で喘いでいる
+  - 40_se006_12,((1girl,1boy,after sex)),after sex,after vaginal,anus,pubic hair,oral,hetero,fellatio,ass,nude,cum,female pubic hair,penis,condom,completely nude,breasts,used condom,sweat,pussy,cum in pussy,squatting,indoors,cumdrip,barefoot,back,from behind,male pubic hair,pointless condom,trembling,speech bubble,solo focus,soles,lying,explicit,steam,heavy breathing,afterglow
+  # 事後チン媚：セックス後にペニスを崇拝している、ペニスが顔に当たって精液が絡み合っている
+  - 40_se006_13,((1girl,1boy,after sex,from above)),after sex,after vaginal,breasts,nipples,erection,tongue on penis,penis,cum,hetero,penis on face,penis over eyes,completely nude,navel,lying,on back,cumdrip,spread legs,pussy,open mouth,solo focus,pubic hair,breasts apart,indoors,sweat,explicit,nsfw,trembling,motion lines,steam,heavy breathing,afterglow
+  # 下から・正常位・溢れ精液（正面から）：下から見上げて脚を大きく開いて倒れている、精液が溢れている
+  - 40_se006_14,((1girl,1boy,missionary,on back,lying,pov,from below)),cum shot,cumdrip,orgasm,steam,humid,trembling,spread legs,head back,closeup pussy,from below,open mouth,tongue out,saliva,sagging breasts,exhausted,tired,afterglow
+  # 後ろから・バック・溢れ精液（背後から）：後ろから見て脚を大きく開いて四つん這いになっている、精液が溢れている
+  - 40_se006_15,((1girl,1boy,doggy style,sex from behind,from behind)),cum shot,cumdrip,orgasm,steam,humid,trembling,spread legs,from behind,focus ass,from below,crawl on all fours,on all fours,ass focus,sagging breasts,exhausted,tired,afterglow
+  # 後ろから・バック・溢れ精液（お尻）：後ろから見てお尻をクローズアップ、精液が溢れている
+  - 40_se006_16,((1girl,1boy,doggy style,sex from behind,from behind)),cum shot,cumdrip,orgasm,trembling,anus,pubic hair,ass,pussy,sweat,steam,from behind,from below,spread own anus,spread own ass,own ass grab,hands on own ass,puckered anus,pubic,steam,humid,solo focus,ass focus,sagging breasts,exhausted,tired,afterglow
 
 # 強調なし版
 40_se006_01b:
