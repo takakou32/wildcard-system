@@ -1,61 +1,96 @@
 # ラブラブテーマ：中度NSFW用プロンプト
 # themes/lovey/nsfw_moderate.yaml
-# SFWシーンに混ぜる中度NSFW表現（手コキ、フェラ簡易版）
+# SFWシーンに混ぜる中度NSFW表現（ハグキス、ハグキスしながら手コキ、フェラ簡易版）
 # 注意：アングル情報は外部パラメータ化されました（params/angles.yaml）
+# 各プロンプトには内容を説明した日本語コメントを付与
 
-# 手コキ（軽め）
-nsfw_handjob_light:
-  - 80_nm001_0,1girl,1boy,couple,handjob,penis,big penis,erection,hand on penis,blush,light smile,sound effects,__MALE_TYPE__
-  - 80_nm001_1,1girl,1boy,couple,handjob,penis,big veiny penis,erection,precum,hand on penis,motion lines,blush,nose blush,sound effects,heart,__MALE_TYPE__
-  - 80_nm001_2,1girl,handjob,penis on face,big penis,erection,precum,looking at penis,tongue out,seductive smile,sound effects
+# ハグキス（軽め・優しい）
+nsfw_hug_kiss_light:
+  # 抱き合いながら優しいキス：向かい合って抱き合いながら優しくキスをしている、ロマンティックな雰囲気で心のマークが浮かぶ
+  - 80_nm001_0,1girl,1boy,hug,kiss,embracing,kissing,face to face,blush,gentle kiss,romantic,heart,__MALE_TYPE__
+  # 抱き合いながら深いキス：抱き合いながらフレンチキスをしている、近づいて目を閉じ、唾液が絡み合い心のマークが浮かぶ
+  - 80_nm001_1,1girl,1boy,hug,deep kiss,french kiss,embracing,close together,blush,saliva,eyes closed,heart,__MALE_TYPE__
+  # 抱き合いながらキス：お互いに腕を回して抱き合いながらキスをしている、体を押し付け合って親密な雰囲気で心のマークが浮かぶ
+  - 80_nm001_2,1girl,1boy,hugging,kissing,arms around each other,body pressed together,blush,intimate,heart,__MALE_TYPE__
 
-# 手コキ（激しめ）
-nsfw_handjob_intense:
-  - 80_nm002_0,1girl,1boy,couple,handjob,penis,big penis,precum drip,precum string,motion lines,sound effects,half-closed eyes,blush,heart,__MALE_TYPE__
-  - 80_nm002_1,1girl,1boy,couple,lying,on back,handjob,penis,big veiny penis,erection,motion lines,face to face,kiss,saliva,sound effects,intimate,heart,__MALE_TYPE__
-  - 80_nm002_2,1girl,handjob,penis,big veiny penis,precum drip,motion lines,sound effects,spoken,half-closed eyes,blush,heart
+# ハグキス（中度・密着・べろチュー）
+nsfw_hug_kiss_moderate:
+  # 密着してべろチュー：抱き合いながら深いフレンチキスをしている、舌を絡め合い体を押し付け合って密着、唾液が絡み合い蒸気が立ち込める
+  - 80_nm002_0,1girl,1boy,hug,deep kiss,french kiss,tongue kiss,tongue in mouth,body pressed together,close embrace,blush,saliva,steam,heart,__MALE_TYPE__
+  # 情熱的に抱き合いながらべろチュー：抱き合いながら情熱的にフレンチキスをしている、舌を絡め合い背中や腰に手を回して体を押し付け合い、激しく呼吸している
+  - 80_nm002_1,1girl,1boy,hugging,kissing passionately,french kiss,tongue kiss,tongue in mouth,hands on back,hands on waist,body pressed,blush,saliva,heavy breathing,heart,__MALE_TYPE__
+  # 壁に押し付けながらべろチュー：抱き合いながらフレンチキスをしている、舌を絡め合い脚を腰に巻いて立ち、壁に押し付けられて情熱的な雰囲気で唾液が絡み合う
+  - 80_nm002_2,1girl,1boy,embracing,kissing,french kiss,tongue kiss,tongue in mouth,legs wrapped around waist,standing,against wall,blush,saliva,passionate,heart,__MALE_TYPE__
+
+# ハグキスしながら手コキ（べろチュー）
+nsfw_hug_kiss_handjob:
+  # 抱き合いながらべろチューして手コキ：抱き合いながら深いフレンチキスをして、片手で大きなペニスを扱っている、舌を絡め合い体を密着させながら情熱的にキスを続けている
+  - 80_nm003_0,1girl,1boy,hug,kiss,embracing,kissing,french kiss,tongue kiss,tongue in mouth,handjob,penis,big penis,erection,hand on penis,body pressed together,blush,saliva,heart,sound effects,__MALE_TYPE__
+  # 壁に押し付けられながらべろチューして手コキ：壁に押し付けられながら深いフレンチキスをして、片手で大きな血管の浮いたペニスを扱っている、舌を絡め合い脚を腰に巻いて密着している
+  - 80_nm003_1,1girl,1boy,embracing,kissing,french kiss,tongue kiss,tongue in mouth,handjob,penis,big veiny penis,erection,legs wrapped around waist,standing,against wall,hand on penis,blush,saliva,passionate,heart,sound effects,__MALE_TYPE__
+  # 仰向けでべろチューしながら手コキ：仰向けに寝て深いフレンチキスをしながら、片手で大きな血管の浮いたペニスを扱っている、舌を絡め合い向かい合って顔を近づけながら手を動かしている
+  - 80_nm003_2,1girl,1boy,lying,on back,handjob,penis,big veiny penis,erection,face to face,kiss,french kiss,tongue kiss,tongue in mouth,hand on penis,motion lines,blush,saliva,intimate,heart,sound effects,__MALE_TYPE__
 
 # フェラ（導入・軽め）
 nsfw_fellatio_light:
-  - 80_nm003_0,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,oral,precum,solo focus,penis awe,sweat,tongue out,licking penis,sound effects,__MALE_TYPE__
-  - 80_nm003_1,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,veiny penis,saliva,precum,solo focus,fellatio,penis awe,sweat,kissing penis,puckered lips,sound effects,__MALE_TYPE__
-  - 80_nm003_2,1girl,penis,hetero,male pubic hair,blush,oral,erection,big veiny penis,fellatio,veins,large penis,sound effects,looking up,precum string,saliva
+  # ペニスを舐める：大きなペニスを舐めている、勃起していて男性の陰毛が見え、先走りが出てペニスに感嘆しながら舌を出して汗をかいている
+  - 80_nm004_0,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,oral,precum,solo focus,penis awe,sweat,tongue out,licking penis,sound effects,__MALE_TYPE__
+  # ペニスにキス：大きな血管の浮いたペニスにキスをしている、勃起していて男性の陰毛が見え、先走りが出てペニスに感嘆しながら唇をすぼめて汗をかいている
+  - 80_nm004_1,1girl,1boy,penis,hetero,erection,male pubic hair,blush,large penis,veiny penis,saliva,precum,solo focus,fellatio,penis awe,sweat,kissing penis,puckered lips,sound effects,__MALE_TYPE__
+  # ペニスを見上げながら：大きな血管の浮いたペニスを見上げながら、勃起していて男性の陰毛が見え、先走りが糸を引いて唾液が絡んでいる
+  - 80_nm004_2,1girl,penis,hetero,male pubic hair,blush,oral,erection,big veiny penis,fellatio,veins,large penis,sound effects,looking up,precum string,saliva
 
 # フェラ（本格的）
 nsfw_fellatio_intense:
-  - 80_nm004_0,1girl,1boy,fellatio,oral,hetero,erection,blush,large penis,saliva,veiny penis,penis on face,oral,steam,precum,solo focus,fellatio,penis awe,sweat,sound effects,spoken,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
-  - 80_nm004_1,1girl,1boy,vacuum fellatio,oral,tongue out,penis,hetero,erection,blush,big penis,saliva,motion lines,sound effects,spoken,looking up,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
-  - 80_nm004_2,1girl,1boy,vacuum fellatio,oral,penis,big veiny penis,saliva,steam,sound effects,spoken,motion lines,looking up,half-closed eyes,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  # 本格的なフェラチオ：大きな血管の浮いたペニスを口で扱っている、勃起していて顔の前にあり、先走りが出てペニスに感嘆しながら声を出して汗をかき蒸気が立ち込める
+  - 80_nm005_0,1girl,1boy,fellatio,oral,hetero,erection,blush,large penis,saliva,veiny penis,penis on face,oral,steam,precum,solo focus,fellatio,penis awe,sweat,sound effects,spoken,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  # バキュームフェラチオ：大きなペニスをバキュームフェラチオで扱っている、勃起していて舌を出して見上げながら、動きの線が見え声を出している
+  - 80_nm005_1,1girl,1boy,vacuum fellatio,oral,tongue out,penis,hetero,erection,blush,big penis,saliva,motion lines,sound effects,spoken,looking up,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  # バキュームフェラチオ（激しい）：大きな血管の浮いたペニスをバキュームフェラチオで扱っている、唾液が絡み合い蒸気が立ち込め、動きの線が見え見上げながら目を半開きにしている
+  - 80_nm005_2,1girl,1boy,vacuum fellatio,oral,penis,big veiny penis,saliva,steam,sound effects,spoken,motion lines,looking up,half-closed eyes,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
 
 # 指マン
 nsfw_fingering:
-  - 80_nm005_0,1girl,1boy,couple,fingering,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
-  - 80_nm005_1,1girl,1boy,couple,fingering,pussy,pussy juice,motion lines,sweat,blush,heart,sound effects,__MALE_TYPE__
-  - 80_nm005_2,1girl,1boy,couple,fingering,pussy,pussy juice,female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,steam,__MALE_TYPE__
+  # 優しく指マン：仰向けに寝て脚を開いて指で扱われている、照れながら心のマークが浮かび音が聞こえる
+  - 80_nm006_0,1girl,1boy,fingering,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
+  # 指マン（愛液が出る）：指で扱われていて愛液が出ている、動きの線が見え汗をかき照れながら心のマークが浮かび音が聞こえる
+  - 80_nm006_1,1girl,1boy,fingering,pussy,pussy juice,motion lines,sweat,blush,heart,sound effects,__MALE_TYPE__
+  # 指マンで絶頂：指で扱われていて愛液が出て女性が絶頂している、動きの線が見え動的な動きで口を開けてアヘ顔になり蒸気が立ち込める
+  - 80_nm006_2,1girl,1boy,fingering,pussy,pussy juice,female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,steam,__MALE_TYPE__
 
 # クンニ
 nsfw_cunnilingus:
-  - 80_nm006_0,1girl,1boy,couple,cunnilingus,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
-  - 80_nm006_1,1girl,1boy,couple,cunnilingus,pussy,(pussy juice:1.5),blush,heart,sound effects,__MALE_TYPE__
-  - 80_nm006_2,1girl,1boy,couple,cunnilingus,pussy,(pussy juice:2),female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,spoken,steam,__MALE_TYPE__
+  # 優しくクンニリングス：仰向けに寝て脚を開いて舌で扱われている、照れながら心のマークが浮かび音が聞こえる
+  - 80_nm007_0,1girl,1boy,cunnilingus,pussy,spread legs,on back,lying,blush,heart,sound effects,__MALE_TYPE__
+  # クンニリングス（愛液が多い）：舌で扱われていて愛液が多く出ている、照れながら心のマークが浮かび音が聞こえる
+  - 80_nm007_1,1girl,1boy,cunnilingus,pussy,(pussy juice:1.5),blush,heart,sound effects,__MALE_TYPE__
+  # クンニリングスで絶頂：舌で扱われていて愛液が大量に出て女性が絶頂している、動きの線が見え動的な動きで口を開けてアヘ顔になり声を出して蒸気が立ち込める
+  - 80_nm007_2,1girl,1boy,cunnilingus,pussy,(pussy juice:2),female orgasm,motion lines,dynamic motion,open mouth,ahegao,blush,heart,sound effects,spoken,steam,__MALE_TYPE__
 
 # パイズリ（導入・軽め）
 nsfw_paizuri_light:
-  - 80_nm007_0,1girl,1boy,couple,huge breasts,cleavage,breasts squeeze,penis between breasts,big penis,precum,blush,light smile,__MALE_TYPE__
-  - 80_nm007_1,1girl,1boy,couple,huge breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,blush,__MALE_TYPE__
-  - 80_nm007_2,1girl,1boy,paizuri,couple,huge breasts,breasts squeeze,penis between breasts,big penis,precum,motion lines,blush,nose blush,sound effects,__MALE_TYPE__
+  # 優しくパイズリ：大きなおっぱいで谷間を作って大きなペニスを挟んでいる、先走りが出て軽い笑顔で照れている
+  - 80_nm008_0,1girl,1boy,huge breasts,cleavage,breasts squeeze,penis between breasts,big penis,precum,blush,light smile,__MALE_TYPE__
+  # パイズリ（自分で胸を押す）：大きなおっぱいを自分で押して大きな血管の浮いたペニスを挟んでいる、動きの線が見え照れている
+  - 80_nm008_1,1girl,1boy,huge breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,blush,__MALE_TYPE__
+  # パイズリ（動きがある）：大きなおっぱいで大きなペニスを挟んでパイズリしている、先走りが出て動きの線が見え鼻も赤くなって音が聞こえる
+  - 80_nm008_2,1girl,1boy,paizuri,huge breasts,breasts squeeze,penis between breasts,big penis,precum,motion lines,blush,nose blush,sound effects,__MALE_TYPE__
 
 # パイズリ（本格的）
 nsfw_paizuri_intense:
-  - 80_nm008_0,1girl,1boy,paizuri,couple,huge breasts,bouncing breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,sweat,sound effects,one eye closed,blush,heart,__MALE_TYPE__
-  - 80_nm008_1,1girl,1boy,paizuri,couple,huge breasts,breasts squeeze,bouncing breasts,penis between breasts,big penis,precum,motion lines,sweat,sound effects,half-closed eyes,blush,heart,__MALE_TYPE__
-  - 80_nm008_2,1girl,1boy,paizuri,fellatio,couple,tongue out,licking penis,penis between breasts,huge breasts,hands on own breasts,big veiny penis,saliva,sound effects,spoken,motion lines,looking up,nose blush,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
+  # 激しいパイズリ：大きなおっぱいを自分で押して大きな血管の浮いたペニスを挟んでパイズリしている、おっぱいが跳ねて動きの線が見え汗をかき片目を閉じて音が聞こえる
+  - 80_nm009_0,1girl,1boy,paizuri,huge breasts,bouncing breasts,hands on own breasts,breast press,penis between breasts,big veiny penis,motion lines,sweat,sound effects,one eye closed,blush,heart,__MALE_TYPE__
+  # 激しいパイズリ（おっぱいが跳ねる）：大きなおっぱいで大きなペニスを挟んでパイズリしている、おっぱいが跳ねて先走りが出て動きの線が見え汗をかき目を半開きにして音が聞こえる
+  - 80_nm009_1,1girl,1boy,paizuri,huge breasts,breasts squeeze,bouncing breasts,penis between breasts,big penis,precum,motion lines,sweat,sound effects,half-closed eyes,blush,heart,__MALE_TYPE__
+  # パイズリとフェラの組み合わせ：大きなおっぱいで大きな血管の浮いたペニスを挟みながら舌を出してペニスを舐めている、自分で胸を押して唾液が絡み合い声を出しながら見上げて鼻も赤くなっている
+  - 80_nm009_2,1girl,1boy,paizuri,fellatio,tongue out,licking penis,penis between breasts,huge breasts,hands on own breasts,big veiny penis,saliva,sound effects,spoken,motion lines,looking up,nose blush,heart,<lora:Vacuum felaltio-000009:1>,__MALE_TYPE__
 
 # ========== 統合用ランダムセレクター ==========
 # SFWシーンに統合する際はこれを参照
 nsfw_moderate_all:
-  - __自作2_1/themes/lovey/nsfw_handjob_light__
-  - __自作2_1/themes/lovey/nsfw_handjob_intense__
+  - __自作2_1/themes/lovey/nsfw_hug_kiss_light__
+  - __自作2_1/themes/lovey/nsfw_hug_kiss_moderate__
+  - __自作2_1/themes/lovey/nsfw_hug_kiss_handjob__
   - __自作2_1/themes/lovey/nsfw_fellatio_light__
   - __自作2_1/themes/lovey/nsfw_fellatio_intense__
   - __自作2_1/themes/lovey/nsfw_fingering__

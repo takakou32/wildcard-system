@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 神社境内を歩く ==========
 
@@ -21,7 +21,7 @@ scene_shrine_grounds_walking:
   - 01_wk_008,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,standing before main hall,from behind,over shoulder,approaching
   - 01_wk_009,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine grounds,walking on gravel path,sound of footsteps,cowboy shot,mindful steps
   - 01_wk_010,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,shrine,pausing,admiring architecture,wide shot,full body,contemplative
-  - 01_wk_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine grounds,walking hand in hand,torii gate background,from behind,couple visit
+  - 01_wk_011,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine grounds,walking hand in hand,torii gate background,from behind,visit
   - 01_wk_012,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine path,walking side by side,stone lanterns,cowboy shot,peaceful walk together
   - 01_wk_013,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine,standing together,looking at main hall,wide shot,shared moment
   - 01_wk_014,1girl,intricate hair,updo,hair ornament,kanzashi,(luxurious furisode:1.2),kimono,floral print,gold embroidery,vibrant colors,1boy,shrine grounds,talking softly,planning visit,close-up,intimate conversation

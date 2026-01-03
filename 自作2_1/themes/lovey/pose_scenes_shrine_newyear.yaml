@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 神社境内を歩く ==========
 
@@ -17,7 +17,7 @@ scene_shrine_walking:
   - 01_wk_004,1girl,shrine path,walking,holding purification ladle,close-up,face focus,preparation
   - 01_wk_005,1girl,shrine,standing by stone lantern,traditional architecture background,wide shot,scenic view
   - 01_wk_006,1girl,shrine grounds,walking slowly,hands clasped together,dutch angle,reverent mood
-  - 01_wk_007,1girl,1boy,shrine path,walking hand in hand,torii gate background,from behind,couple visit
+  - 01_wk_007,1girl,1boy,shrine path,walking hand in hand,torii gate background,from behind,visit
   - 01_wk_008,1girl,1boy,shrine grounds,standing together,looking at shrine,cowboy shot,together
   - 01_wk_009,1girl,1boy,shrine,walking side by side,traditional architecture,wide shot,peaceful walk
   - 01_wk_010,1girl,1boy,shrine path,talking,planning prayer,close-up,intimate conversation

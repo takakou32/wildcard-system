@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: ジム到着・準備 ==========
 
@@ -15,7 +15,7 @@ scene_gym_arrival:
   - 01_ar_002,1girl,gym lobby,standing,looking around,wide shot,full body,checking in
   - 01_ar_003,1girl,gym,walking to locker room,pov,first person view,entering
   - 01_ar_004,1girl,gym locker area,organizing gear,from behind,over shoulder,preparing
-  - 01_ar_005,1girl,1boy,gym entrance,entering together,athletic wear,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,gym entrance,entering together,athletic wear,wide shot,arrival
   - 01_ar_006,1girl,1boy,gym lobby,standing together,ready to train,from behind,together
   - 01_ar_007,1girl,1boy,gym,discussing workout plan,cowboy shot,planning session
 
@@ -42,7 +42,7 @@ scene_gym_cardio:
   - 03_cd_004,1girl,gym,taking break,drinking water,from behind,over shoulder,hydrating
   - 03_cd_005,1girl,gym,wiping sweat with towel,dutch angle,intense workout
   - 03_cd_006,1girl,gym,checking heart rate,standing,wide shot,monitoring
-  - 03_cd_007,1girl,1boy,gym,on treadmills side by side,running together,wide shot,cardio couple
+  - 03_cd_007,1girl,1boy,gym,on treadmills side by side,running together,wide shot,cardio together
   - 03_cd_008,1girl,1boy,gym,both exercising,boy encouraging girl,cowboy shot,motivation
   - 03_cd_009,1girl,1boy,gym,taking water break together,close-up,friendly competition
   - 03_cd_010,1girl,1boy,gym,high-fiving after cardio,dutch angle,achievement
@@ -100,7 +100,7 @@ scene_gym_shower:
   - 07_sh_004,1girl,gym shower room,washing body,showering,pov angle,bathing
   - 07_sh_005,1girl,gym shower,rinsing off,water droplets,dutch angle,relaxing
   - 07_sh_006,1girl,gym shower area,drying off with towel,standing,wide shot,after shower
-  - 07_sh_007,1girl,1boy,gym shower room,entering together,towel wraps,cowboy shot,couple shower prep
+  - 07_sh_007,1girl,1boy,gym shower room,entering together,towel wraps,cowboy shot,shower prep
   - 07_sh_008,1girl,1boy,gym shower,showering together,under water,wet skin,close-up,intimate shower
   - 07_sh_009,1girl,1boy,gym shower stall,washing each other,steamy,from side,caring moment
   - 07_sh_010,1girl,1boy,gym shower room,embracing under water,close,pov angle,romantic shower

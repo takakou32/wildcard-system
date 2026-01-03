@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 映画館到着 ==========
 
@@ -15,7 +15,7 @@ scene_cinema_arrival:
   - 01_ar_002,1girl,movie theater lobby,standing,admiring interior,wide shot,full body,taking in atmosphere
   - 01_ar_003,1girl,cinema entrance,walking in,excited,pov,first person view,entering
   - 01_ar_004,1girl,theater lobby,standing,looking at movie posters,from behind,over shoulder,choosing
-  - 01_ar_005,1girl,1boy,cinema entrance,entering together,excited,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,cinema entrance,entering together,excited,wide shot,arrival
   - 01_ar_006,1girl,1boy,movie theater,standing together,discussing movie choice,from behind,together
   - 01_ar_007,1girl,1boy,cinema lobby,looking at showtime board,cowboy shot,planning
 
@@ -27,9 +27,9 @@ scene_cinema_lobby:
   - 02_lb_003,1girl,cinema lobby,looking at phone,checking time,close-up,face focus,waiting
   - 02_lb_004,1girl,movie theater,standing by poster,taking photo,dutch angle,memorable moment
   - 02_lb_005,1girl,cinema lobby,walking,carrying bag,from behind,over shoulder,moving
-  - 02_lb_006,1girl,1boy,cinema box office,standing together,buying tickets,wide shot,couple transaction
+  - 02_lb_006,1girl,1boy,cinema box office,standing together,buying tickets,wide shot,transaction
   - 02_lb_007,1girl,1boy,theater lobby,discussing seats,holding tickets,cowboy shot,planning
-  - 02_lb_008,1girl,1boy,cinema lobby,taking selfie together,close-up,couple photo
+  - 02_lb_008,1girl,1boy,cinema lobby,taking selfie together,close-up,photo
   - 02_lb_009,1girl,1boy,movie theater,standing by poster,posing together,dutch angle,fun moment
   - 02_lb_010,1girl,1boy,cinema lobby,boy holding tickets,girl pointing at poster,low angle,excitement
 
@@ -55,7 +55,7 @@ scene_cinema_seating:
   - 04_st_003,1girl,theater seats,sitting down,settling in,close-up,face focus,getting comfortable
   - 04_st_004,1girl,cinema auditorium,sitting,placing drink in holder,from behind,over shoulder,organizing
   - 04_st_005,1girl,theater seat,sitting,looking at screen,waiting for start,dutch angle,anticipation
-  - 04_st_006,1girl,1boy,movie theater,entering together,looking for seats,wide shot,couple entering
+  - 04_st_006,1girl,1boy,movie theater,entering together,looking for seats,wide shot,entering together
   - 04_st_007,1girl,1boy,cinema theater,sitting down together,side by side,cowboy shot,settling in
   - 04_st_008,1girl,1boy,theater seats,sharing armrest,close proximity,close-up,intimate space
   - 04_st_009,1girl,1boy,cinema auditorium,whispering,before movie starts,low angle,conversation

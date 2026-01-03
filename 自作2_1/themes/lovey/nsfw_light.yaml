@@ -2,29 +2,42 @@
 # themes/lovey/nsfw_light.yaml
 # SFWシーンに混ぜやすい軽度のNSFW表現
 # 注意：アングル情報は外部パラメータ化されました（params/angles.yaml）
+# 各プロンプトには内容を説明した日本語コメントを付与
 
 # キス（軽め）
 nsfw_kiss:
-  - 70_nl001_0,1girl,1boy,couple,kiss,kissing,face to face,blush,eyes closed,romantic,heart,__MALE_TYPE__
-  - 70_nl001_1,1girl,1boy,couple,french kiss,deep kiss,face to face,saliva,blush,eyes closed,heart,steam,__MALE_TYPE__
+  # 顔を近づけて：向かい合って優しくキスをしている、目を閉じてロマンティックな雰囲気
+  - 70_nl001_0,1girl,1boy,kiss,kissing,face to face,blush,eyes closed,romantic,heart,__MALE_TYPE__
+  # 深いキス：向かい合ってフレンチキスをしている、唾液が絡み合い、目を閉じて蒸気が立ち込める
+  - 70_nl001_1,1girl,1boy,french kiss,deep kiss,face to face,saliva,blush,eyes closed,heart,steam,__MALE_TYPE__
+  # キス直前：キスをしようと唇をすぼめて、口を開けて目を閉じ、ロマンティックな表情で待っている
   - 70_nl001_2,1girl,about to kiss,incoming kiss,puckered lips,open mouth,eyes closed,blush,romantic
 
 # 抱擁・密着
 nsfw_embrace:
-  - 70_nl002_0,1girl,1boy,couple,hug,embrace,face to face,blush,collarbone,light smile,romantic,__MALE_TYPE__
-  - 70_nl002_1,1girl,1boy,couple,hug from behind,back hug,blush,intimate,__MALE_TYPE__
-  - 70_nl002_2,1girl,1boy,couple,close together,intimate distance,face to face,blush,heart,__MALE_TYPE__
+  # 向かい合って抱擁：向かい合って抱き合っている、鎖骨が見え、軽い笑顔でロマンティックな雰囲気
+  - 70_nl002_0,1girl,1boy,hug,embrace,face to face,blush,collarbone,light smile,romantic,__MALE_TYPE__
+  # 後ろから抱擁：後ろから抱きしめられている、親密な距離で照れている
+  - 70_nl002_1,1girl,1boy,hug from behind,back hug,blush,intimate,__MALE_TYPE__
+  # 密着：向かい合って親密な距離で近づいている、照れながら心臓のマークが浮かぶ
+  - 70_nl002_2,1girl,1boy,close together,intimate distance,face to face,blush,heart,__MALE_TYPE__
 
 # 愛撫・タッチ（ソフト）
 nsfw_touch:
-  - 70_nl003_0,1girl,1boy,couple,touching,caressing,gentle touch,blush,light smile,intimate,__MALE_TYPE__
-  - 70_nl003_1,1girl,1boy,couple,hug,kiss on neck,neck kiss,blush,intimate,__MALE_TYPE__
-  - 70_nl003_2,1girl,1boy,couple,face to face,touching face,caressing face,blush,romantic,__MALE_TYPE__
+  # 優しいタッチ：優しく触れ合っている、軽い笑顔で親密な雰囲気
+  - 70_nl003_0,1girl,1boy,touching,caressing,gentle touch,blush,light smile,intimate,__MALE_TYPE__
+  # 首筋にキス：抱き合いながら首筋にキスをされている、照れながら親密な距離
+  - 70_nl003_1,1girl,1boy,hug,kiss on neck,neck kiss,blush,intimate,__MALE_TYPE__
+  # 顔を撫でる：向かい合って顔を優しく撫でられている、照れながらロマンティックな表情
+  - 70_nl003_2,1girl,1boy,face to face,touching face,caressing face,blush,romantic,__MALE_TYPE__
 
 # 愛撫・胸タッチ（やや進んだ）
 nsfw_breast_touch:
-  - 70_nl004_0,1girl,1boy,couple,touching,breast grab,gentle,blush,light smile,intimate,__MALE_TYPE__
-  - 70_nl004_1,1girl,1boy,couple,hug from behind,grabbing breasts,breast press,blush,nose blush,__MALE_TYPE__
+  # 優しく胸を触る：優しく胸を掴まれている、軽い笑顔で親密な雰囲気
+  - 70_nl004_0,1girl,1boy,touching,breast grab,gentle,blush,light smile,intimate,__MALE_TYPE__
+  # 後ろから胸を揉む：後ろから抱きしめられながら胸を揉まれている、照れて鼻も赤くなっている
+  - 70_nl004_1,1girl,1boy,hug from behind,grabbing breasts,breast press,blush,nose blush,__MALE_TYPE__
+  # 胸を揉む：自分で胸を揉んでいる、胸を掴んで揉みしだいている、照れている
   - 70_nl004_2,1girl,grabbing breasts,groping,breast squeeze,hands on breasts,blush
 
 # ========== 統合用ランダムセレクター ==========

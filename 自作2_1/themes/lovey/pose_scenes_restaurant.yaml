@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: レストラン到着 ==========
 
@@ -15,7 +15,7 @@ scene_restaurant_arrival:
   - 01_ar_002,1girl,restaurant lobby,standing,elegant atmosphere,wide shot,full body,taking in ambiance
   - 01_ar_003,1girl,restaurant entrance,walking in,pov,first person view,entering
   - 01_ar_004,1girl,restaurant,standing by host stand,waiting,from behind,over shoulder,anticipation
-  - 01_ar_005,1girl,1boy,restaurant entrance,entering together,formal attire,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,restaurant entrance,entering together,formal attire,wide shot,arrival
   - 01_ar_006,1girl,1boy,restaurant lobby,standing together,checking in,from behind,together
   - 01_ar_007,1girl,1boy,restaurant entrance,boy holding door for girl,cowboy shot,gentleman gesture
 
@@ -43,7 +43,7 @@ scene_restaurant_dining:
   - 03_dn_005,1girl,restaurant,sitting back,satisfied,wide shot,content
   - 03_dn_006,1girl,dining table,talking while eating,animated,dutch angle,conversation
   - 03_dn_007,1girl,restaurant,taking sip of water,high angle,from above,pause
-  - 03_dn_008,1girl,1boy,restaurant table,eating together,enjoying meal,wide shot,dining couple
+  - 03_dn_008,1girl,1boy,restaurant table,eating together,enjoying meal,wide shot,dining together
   - 03_dn_009,1girl,1boy,dining table,girl offering bite to boy,cowboy shot,sharing food
   - 03_dn_010,1girl,1boy,restaurant,feeding each other,playful,close-up,intimate feeding
   - 03_dn_011,1girl,1boy,table,toasting with wine glasses,dutch angle,celebration

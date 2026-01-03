@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 公園入口・散策開始 ==========
 
@@ -15,7 +15,7 @@ scene_park_entrance:
   - 01_en_002,1girl,park gate,standing,looking at park,wide shot,full body,taking in view
   - 01_en_003,1girl,park path,walking in,carrying bag,pov,first person view,entering
   - 01_en_004,1girl,park entrance,standing under trees,from behind,over shoulder,observing
-  - 01_en_005,1girl,1boy,park entrance,entering together,holding hands,wide shot,couple arrival
+  - 01_en_005,1girl,1boy,park entrance,entering together,holding hands,wide shot,arrival
   - 01_en_006,1girl,1boy,park gate,walking in together,from behind,full body,together
   - 01_en_007,1girl,1boy,park path,talking,planning route,cowboy shot,conversation
 
@@ -61,7 +61,7 @@ scene_park_picnic:
   - 04_pc_009,1girl,1boy,park lawn,sharing food,feeding each other,cowboy shot,intimate feeding
   - 04_pc_010,1girl,1boy,picnic blanket,lying side by side,looking at clouds,from above,peaceful together
   - 04_pc_011,1girl,1boy,park lawn,boy lying with head on girl's lap,close-up,tender moment
-  - 04_pc_012,1girl,1boy,picnic area,playing together,catching frisbee,dutch angle,playful couple
+  - 04_pc_012,1girl,1boy,picnic area,playing together,catching frisbee,dutch angle,playful
 
 # ========== シーン5: 噴水・水辺 ==========
 

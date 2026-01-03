@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 病院到着・受付 ==========
 
@@ -15,7 +15,7 @@ scene_hospital_arrival:
   - 01_ar_002,1girl,hospital lobby,standing,looking around,wide shot,full body,observing
   - 01_ar_003,1girl,hospital,walking to reception,pov,first person view,navigating
   - 01_ar_004,1girl,hospital reception,standing,checking in,from behind,over shoulder,waiting
-  - 01_ar_005,1girl,1boy,hospital entrance,entering together,one supporting other,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,hospital entrance,entering together,one supporting other,wide shot,arrival
   - 01_ar_006,1girl,1boy,hospital lobby,standing together,concerned,from behind,together
   - 01_ar_007,1girl,1boy,hospital reception,talking to staff,cowboy shot,checking in
 

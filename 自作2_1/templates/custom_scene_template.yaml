@@ -58,7 +58,7 @@ scene_[LOCATION]_arrival:
   - 01_ar_004,1girl,[LOCATION],standing by [LANDMARK],looking around,from behind,over shoulder,exploring
   
   # カップルシーン 3個
-  - 01_ar_005,1girl,1boy,[LOCATION],entering together,holding hands,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,[LOCATION],entering together,holding hands,wide shot,arrival
   - 01_ar_006,1girl,1boy,[LOCATION] entrance,walking in together,from behind,full body,together
   - 01_ar_007,1girl,1boy,[LOCATION],standing close,discussing,cowboy shot,planning together
 

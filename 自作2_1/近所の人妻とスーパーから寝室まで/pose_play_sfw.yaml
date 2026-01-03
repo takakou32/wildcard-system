@@ -1,28 +1,40 @@
 # Pose用シーン定義 - SFWのみ（近所の人妻とスーパーから寝室まで）
 # 全てのSFWシーンを含む
+# 服装統一: シーン進行に応じた段階的な服装変更パターン
 
 pose_play_sfw:
   # Scene 01: time_day (昼) - ショッピング
-  - __自作2_1/themes/lovey/scene_outdoor_shopping__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_shopping__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  # 服装: 外出着（blouse_skirt_bag）
+  - __自作2_1/themes/lovey/scene_outdoor_shopping__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_bag__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 02: time_day (昼) - 街歩き
-  - __自作2_1/themes/lovey/scene_street_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  # 服装: 同じ外出着（blouse_skirt_bag）- 統一性確保
+  - __自作2_1/themes/lovey/scene_street_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_bag__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 03: time_evening (夕方) - 帰宅
-  - __自作2_1/themes/lovey/scene_home_entrance__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_casual_day__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  # 服装: 同じ外出着（blouse_skirt_bag）- まだ着替えていない
+  - __自作2_1/themes/lovey/scene_home_entrance__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_bag__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 04: time_evening (夕方) - 料理
-  - __自作2_1/themes/lovey/scene_kitchen_cooking__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_with_apron__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  # 服装: エプロン付き室内着（apron_sweater_jeans）- 着替えて料理開始
+  - __自作2_1/themes/lovey/scene_kitchen_cooking__,__自作2_1/params/male_type_default__,__自作2_1/params/apron_sweater_jeans__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 05: time_evening (夕方) - 食事
-  - __自作2_1/themes/lovey/scene_dining__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  # 服装: 室内着（sweater_jeans）- エプロンを外した状態
+  - __自作2_1/themes/lovey/scene_dining__,__自作2_1/params/male_type_default__,__自作2_1/params/sweater_jeans__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
   
   # Scene 06: time_night (夜) - リビング
-  - __自作2_1/themes/lovey/scene_living_room_relaxing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_house_clothes__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
-  
+  # 服装: 同じ室内着（sweater_jeans）- リラックスタイム
+  # → NSFW継承用服装パラメータ: __自作2_1/params/sweater_jeans__
+  - __自作2_1/themes/lovey/scene_living_room_relaxing__,__自作2_1/params/male_type_default__,__自作2_1/params/sweater_jeans__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
   # Scene 07: time_night (夜) - 親密
-  - __自作2_1/themes/lovey/scene_intimate_moment__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_underwear__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
-  
+  # 服装: 下着（underwear）- 親密なシーン
+  # → NSFW継承用服装パラメータ: __自作2_1/params/underwear__
+  - __自作2_1/themes/lovey/scene_intimate_moment__,__自作2_1/params/male_type_default__,__自作2_1/params/underwear__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+
   # Scene 08: time_night (夜) - 入浴
-  - __自作2_1/themes/lovey/scene_bathroom_bathing__,__自作2_1/params/male_type_default__,__自作2_1/params/outfit_nude__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  # 服装: 裸（nude）- 入浴シーン
+  # → NSFW継承用服装パラメータ: __自作2_1/params/nude__
+  - __自作2_1/themes/lovey/scene_bathroom_bathing__,__自作2_1/params/male_type_default__,__自作2_1/params/nude__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
 

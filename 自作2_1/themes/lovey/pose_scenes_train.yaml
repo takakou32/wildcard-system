@@ -7,7 +7,7 @@
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 服装: outfit_business（ビジネスウェア）が設定されています
 # - 男性タイプ、時間帯、表情、雰囲気はテーマ側で指定可能
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 駅到着 ==========
 
@@ -16,7 +16,7 @@ scene_station_arrival:
   - 01_st_002,1girl,__自作2_1/params/outfit_business__,station platform,standing,waiting for train,wide shot,full body,waiting pose
   - 01_st_003,1girl,__自作2_1/params/outfit_business__,train station,looking at departure board,pov,checking schedule
   - 01_st_004,1girl,__自作2_1/params/outfit_business__,station,walking on platform,from behind,over shoulder,walking pose
-  - 01_st_005,1girl,1boy,__自作2_1/params/outfit_business__,train station,meeting at ticket gate,wide shot,couple meeting
+  - 01_st_005,1girl,1boy,__自作2_1/params/outfit_business__,train station,meeting at ticket gate,wide shot,meeting
   - 01_st_006,1girl,1boy,__自作2_1/params/outfit_business__,station platform,standing together,waiting,from behind,together
   - 01_st_007,1girl,1boy,__自作2_1/params/outfit_business__,train station,talking,close,cowboy shot,conversation
 
@@ -58,7 +58,7 @@ scene_train_empty:
   - 04_em_003,1girl,__自作2_1/params/outfit_business__,empty train car,standing,holding strap,close-up,face focus,contemplative
   - 04_em_004,1girl,__自作2_1/params/outfit_business__,train,sitting,looking at scenery passing by,from behind,over shoulder,watching view
   - 04_em_005,1girl,__自作2_1/params/outfit_business__,empty train,standing by door,looking out,wide shot,full body,solitary moment
-  - 04_em_006,1girl,1boy,__自作2_1/params/outfit_business__,empty train,sitting next to each other,window seat,cowboy shot,couple travel
+  - 04_em_006,1girl,1boy,__自作2_1/params/outfit_business__,empty train,sitting next to each other,window seat,cowboy shot,traveling together
   - 04_em_007,1girl,1boy,__自作2_1/params/outfit_business__,train interior,sitting across from each other,talking,wide shot,conversation
   - 04_em_008,1girl,1boy,__自作2_1/params/outfit_business__,empty train car,girl leaning on boy's shoulder,sleeping,close-up,tender moment
   - 04_em_009,1girl,1boy,__自作2_1/params/outfit_business__,train,standing together by window,looking out,from behind,shared view
@@ -70,7 +70,7 @@ scene_station_concourse:
   - 05_cc_001,1girl,__自作2_1/params/outfit_business__,station concourse,walking,busy station,pov,navigating crowd
   - 05_cc_002,1girl,__自作2_1/params/outfit_business__,station,standing by pillar,waiting,close-up,face focus,waiting
   - 05_cc_003,1girl,__自作2_1/params/outfit_business__,station concourse,buying ticket at machine,cowboy shot,transaction
-  - 05_cc_004,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,walking together,holding hands,wide shot,couple walking
+  - 05_cc_004,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,walking together,holding hands,wide shot,walking together
   - 05_cc_005,1girl,1boy,__自作2_1/params/outfit_business__,station,standing close,talking,busy background,cowboy shot,private conversation
   - 05_cc_006,1girl,1boy,__自作2_1/params/outfit_business__,station concourse,boy guiding girl,from behind,protective guidance
   - 05_cc_007,1girl,1boy,__自作2_1/params/outfit_business__,station,embracing,people passing by,close-up,public display of affection

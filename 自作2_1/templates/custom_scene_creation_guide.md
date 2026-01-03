@@ -220,7 +220,7 @@ scene_pool_arrival:
   - 01_ar_002,1girl,pool,standing,first impression,wide shot,full body,taking in surroundings
   - 01_ar_003,1girl,pool entrance,walking in,carrying beach bag,pov,first person view,entering
   - 01_ar_004,1girl,pool,standing by entrance gate,looking around,from behind,over shoulder,exploring
-  - 01_ar_005,1girl,1boy,pool,entering together,holding hands,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,pool,entering together,holding hands,wide shot,arrival
   - 01_ar_006,1girl,1boy,pool entrance,walking in together,from behind,full body,together
   - 01_ar_007,1girl,1boy,pool,standing close,discussing,cowboy shot,planning together
 ```

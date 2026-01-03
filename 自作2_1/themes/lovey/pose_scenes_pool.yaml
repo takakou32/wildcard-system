@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: プール到着 ==========
 
@@ -15,7 +15,7 @@ scene_pool_arrival:
   - 01_ar_002,1girl,pool,standing,first impression,wide shot,full body,taking in surroundings
   - 01_ar_003,1girl,pool entrance,walking in,carrying bag,pov,first person view,entering
   - 01_ar_004,1girl,poolside,standing by entrance,looking around,from behind,over shoulder,exploring
-  - 01_ar_005,1girl,1boy,pool,entering together,holding hands,wide shot,couple arrival
+  - 01_ar_005,1girl,1boy,pool,entering together,holding hands,wide shot,arrival
   - 01_ar_006,1girl,1boy,pool entrance,walking in together,from behind,full body,together
   - 01_ar_007,1girl,1boy,poolside,standing close,discussing,cowboy shot,planning together
 
@@ -44,7 +44,7 @@ scene_pool_swimming:
   - 03_sw_006,1girl,pool,playing with water,splashing,pov,first person view,playful
   - 03_sw_007,1girl,pool,emerging from water,hair wet,from behind,over shoulder,refreshing
   - 03_sw_008,1girl,pool,standing in water,waist deep,wide shot,full body,standing pose
-  - 03_sw_009,1girl,1boy,pool,swimming together,side by side,cowboy shot,swimming couple
+  - 03_sw_009,1girl,1boy,pool,swimming together,side by side,cowboy shot,swimming together
   - 03_sw_010,1girl,1boy,pool,splashing each other,playful,dutch angle,fun interaction
   - 03_sw_011,1girl,1boy,pool,floating together,holding hands,wide shot,romantic floating
   - 03_sw_012,1girl,1boy,pool,racing,competitive play,from behind,playful competition

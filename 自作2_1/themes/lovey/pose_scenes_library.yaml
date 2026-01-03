@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 図書館入口 ==========
 
@@ -15,7 +15,7 @@ scene_library_entrance:
   - 01_en_002,1girl,library lobby,standing,looking around,wide shot,full body,taking in space
   - 01_en_003,1girl,library entrance,walking in,carrying bag,pov,first person view,entering
   - 01_en_004,1girl,library,standing by information desk,from behind,over shoulder,checking in
-  - 01_en_005,1girl,1boy,library entrance,entering together,quiet greeting,wide shot,couple arrival
+  - 01_en_005,1girl,1boy,library entrance,entering together,quiet greeting,wide shot,arrival
   - 01_en_006,1girl,1boy,library lobby,walking in together,from behind,full body,together
   - 01_en_007,1girl,1boy,library,standing,whispering,cowboy shot,quiet conversation
 

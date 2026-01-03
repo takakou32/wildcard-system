@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 遊園地入口 ==========
 
@@ -15,7 +15,7 @@ scene_amusement_entrance:
   - 01_en_002,1girl,theme park gate,standing,looking at park,wide shot,full body,taking in view
   - 01_en_003,1girl,amusement park,walking in,carrying bag,pov,first person view,entering
   - 01_en_004,1girl,park entrance,standing,looking at map,from behind,over shoulder,planning
-  - 01_en_005,1girl,1boy,amusement park entrance,entering together,holding hands,wide shot,couple arrival
+  - 01_en_005,1girl,1boy,amusement park entrance,entering together,holding hands,wide shot,arrival
   - 01_en_006,1girl,1boy,theme park gate,walking in excitedly,from behind,full body,together
   - 01_en_007,1girl,1boy,park entrance,looking at park map together,cowboy shot,planning route
 
@@ -31,7 +31,7 @@ scene_amusement_queue:
   - 02_qu_007,1girl,1boy,attraction line,standing close,holding hands,cowboy shot,patient waiting
   - 02_qu_008,1girl,1boy,queue area,girl leaning on boy,tired,close-up,comfortable
   - 02_qu_009,1girl,1boy,ride line,talking excitedly about ride,dutch angle,animated conversation
-  - 02_qu_010,1girl,1boy,attraction queue,taking selfie together,pov,couple photo
+  - 02_qu_010,1girl,1boy,attraction queue,taking selfie together,pov,photo
 
 # ========== シーン3: アトラクション乗車・体験 ==========
 

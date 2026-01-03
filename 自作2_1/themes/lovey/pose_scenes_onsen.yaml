@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: 旅館到着（玄関、ロビー） ==========
 
@@ -15,9 +15,9 @@ scene_ryokan_arrival:
   - 01_ar_002,1girl,ryokan lobby,admiring interior,traditional architecture,low angle,from below
   - 01_ar_003,1girl,ryokan,standing by window,looking outside at garden,from behind,over shoulder
   - 01_ar_004,1girl,ryokan hallway,walking down corridor,carrying bag,dutch angle,walking pose
-  - 01_ar_005,couple,1girl,1boy,ryokan entrance,entering together,holding hands,from behind,full body
-  - 01_ar_006,couple,1girl,1boy,ryokan lobby,standing,close together,traditional interior,cowboy shot
-  - 01_ar_007,couple,1girl,1boy,ryokan hallway,walking together,pov,first person view
+  - 01_ar_005,1girl,1boy,ryokan entrance,entering together,holding hands,from behind,full body
+  - 01_ar_006,1girl,1boy,ryokan lobby,standing,close together,traditional interior,cowboy shot
+  - 01_ar_007,1girl,1boy,ryokan hallway,walking together,pov,first person view
 
 # ========== シーン2: 客室でくつろぐ ==========
 
@@ -26,20 +26,20 @@ scene_ryokan_room:
   - 02_rm_002,1girl,ryokan room,standing by window,looking at view,from behind,silhouette
   - 02_rm_003,1girl,tatami room,sitting at low table,drinking tea,close-up,tea time
   - 02_rm_004,1girl,japanese room,lying on futon,relaxed,high angle,from above
-  - 02_rm_005,couple,1girl,1boy,tatami room,sitting on tatami together,close,wide shot
-  - 02_rm_006,couple,1girl,1boy,tatami room,girl leaning on boy,sitting,dutch angle,intimate
-  - 02_rm_007,couple,1girl,1boy,ryokan room,lying on futon together,cuddling,from above,relaxed
+  - 02_rm_005,1girl,1boy,tatami room,sitting on tatami together,close,wide shot
+  - 02_rm_006,1girl,1boy,tatami room,girl leaning on boy,sitting,dutch angle,intimate
+  - 02_rm_007,1girl,1boy,ryokan room,lying on futon together,cuddling,from above,relaxed
 
 # ========== シーン3: 温泉街散策 ==========
 
 scene_onsen_town:
-  - 03_ot_001,1girl,onsen town,walking on stone pavement,traditional buildings,wide shot,walking pose
-  - 03_ot_002,1girl,onsen street,standing,looking at shops,cowboy shot,sightseeing
-  - 03_ot_003,1girl,onsen town,standing by steam vent,hot spring steam,dutch angle,atmospheric
-  - 03_ot_004,1girl,onsen town bridge,walking across,from behind,over shoulder,scenic view
-  - 03_ot_005,couple,1girl,1boy,onsen street,holding hands,walking together,pov,romantic walk
-  - 03_ot_006,couple,1girl,1boy,onsen town,arm in arm,sightseeing,from behind,full body
-  - 03_ot_007,couple,1girl,1boy,onsen street,girl leaning on boy's shoulder,walking,close-up,affectionate
+  - 03_ot_001,1girl,onsen town,walking on stone pavement,traditional buildings,wearing shoes,shoes on,wide shot,walking pose
+  - 03_ot_002,1girl,onsen street,standing,looking at shops,wearing shoes,shoes on,cowboy shot,sightseeing
+  - 03_ot_003,1girl,onsen town,standing by steam vent,hot spring steam,wearing shoes,shoes on,dutch angle,atmospheric
+  - 03_ot_004,1girl,onsen town bridge,walking across,wearing shoes,shoes on,from behind,over shoulder,scenic view
+  - 03_ot_005,1girl,1boy,onsen street,holding hands,walking together,wearing shoes,shoes on,pov,romantic walk
+  - 03_ot_006,1girl,1boy,onsen town,arm in arm,sightseeing,wearing shoes,shoes on,from behind,full body
+  - 03_ot_007,1girl,1boy,onsen street,girl leaning on boy's shoulder,walking,wearing shoes,shoes on,close-up,affectionate
 
 # ========== シーン4: 旅館食事処 ==========
 
@@ -48,9 +48,9 @@ scene_ryokan_dining:
   - 04_dn_002,1girl,traditional dining room,eating kaiseki meal,using chopsticks,close-up,dining pose
   - 04_dn_003,1girl,traditional dining,drinking sake,small cup,high angle,from above
   - 04_dn_004,1girl,ryokan dining room,admiring food presentation,pov across table,upper body
-  - 04_dn_005,couple,1girl,1boy,ryokan dining,sitting across from each other,wide shot,dining scene
-  - 04_dn_006,couple,1girl,1boy,traditional dining room,sitting side by side,close together,dutch angle
-  - 04_dn_007,couple,1girl,1boy,traditional dining,girl feeding boy,close-up,intimate
+  - 04_dn_005,1girl,1boy,ryokan dining,sitting across from each other,wide shot,dining scene
+  - 04_dn_006,1girl,1boy,traditional dining room,sitting side by side,close together,dutch angle
+  - 04_dn_007,1girl,1boy,traditional dining,girl feeding boy,close-up,intimate
 
 # ========== シーン5: 温泉脱衣所 ==========
 
@@ -69,9 +69,9 @@ scene_onsen_bathing:
   - 06_on_004,1girl,hot spring,leaning on edge of bath,eyes closed,close-up,face focus,soaking pose
   - 06_on_005,1girl,hot spring bath,sitting,looking up at sky,low angle,from below,scenic view
   - 06_on_006,1girl,onsen,standing up from bath,water dripping,steam,from behind,standing pose
-  - 06_on_007,couple,1girl,1boy,private onsen,sitting together in bath,close,wide shot,intimate bathing
-  - 06_on_008,couple,1girl,1boy,hot spring,back hug in water,steam,from behind,romantic scene
-  - 06_on_009,couple,1girl,1boy,onsen,washing each other's back,cowboy shot,caring moment
+  - 06_on_007,1girl,1boy,private onsen,sitting together in bath,close,wide shot,intimate bathing
+  - 06_on_008,1girl,1boy,hot spring,back hug in water,steam,from behind,romantic scene
+  - 06_on_009,1girl,1boy,onsen,washing each other's back,cowboy shot,caring moment
 
 # ========== シーン7: 露天風呂 ==========
 
@@ -80,6 +80,6 @@ scene_outdoor_bath:
   - 07_ob_002,1girl,outdoor onsen,leaning on rocks,hot spring,relaxed,cowboy shot,scenic bath
   - 07_ob_003,1girl,rotenburo,looking at scenery,mountains visible,from behind,over shoulder,scenic view
   - 07_ob_004,1girl,outdoor bath,sitting in hot spring,steam rising,high angle,from above,peaceful scene
-  - 07_ob_005,couple,1girl,1boy,outdoor bath,sitting together,scenic background,from behind,romantic
-  - 07_ob_006,couple,1girl,1boy,rotenburo,close together in bath,steam,nature,dutch angle,intimate moment
-  - 07_ob_007,couple,1girl,1boy,outdoor onsen,girl leaning on boy,in bath,close-up,affectionate
+  - 07_ob_005,1girl,1boy,outdoor bath,sitting together,scenic background,from behind,romantic
+  - 07_ob_006,1girl,1boy,rotenburo,close together in bath,steam,nature,dutch angle,intimate moment
+  - 07_ob_007,1girl,1boy,outdoor onsen,girl leaning on boy,in bath,close-up,affectionate

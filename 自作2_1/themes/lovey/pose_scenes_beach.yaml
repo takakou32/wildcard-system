@@ -6,7 +6,7 @@
 # - 場所情報が含まれています
 # - 連番はデフォルト値（テーマ作成時に上書き可能）
 # - 男性タイプ、時間帯、服装、表情、雰囲気はテーマ側で指定
-# - coupleシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
 
 # ========== シーン1: ビーチ到着・散策 ==========
 
@@ -16,9 +16,9 @@ scene_beach_arrival:
   - 01_ba_003,1girl,beach,standing,feeling sea breeze,low angle,from below,looking up,dramatic view
   - 01_ba_004,1girl,beach,stretching arms,wide shot,refreshing moment
   - 01_ba_005,1girl,beach entrance,carrying beach bag,pov,first person view,arrival scene
-  - 01_ba_006,1girl,1boy,beach,arm in arm,walking at shoreline,cowboy shot,couple walk
+  - 01_ba_006,1girl,1boy,beach,arm in arm,walking at shoreline,cowboy shot,walking together
   - 01_ba_007,1girl,1boy,beach,looking at ocean together,standing close,wide shot,scenic moment
-  - 01_ba_008,1girl,1boy,beach,girl pointing at distance,from behind,couple interaction
+  - 01_ba_008,1girl,1boy,beach,girl pointing at distance,from behind,interaction
 
 # ========== シーン2: ビーチでの活動 ==========
 
@@ -33,7 +33,7 @@ scene_beach_activity:
   - 02_bc_008,1girl,1boy,beach,sitting on towel together,wide shot,relaxing together
   - 02_bc_009,1girl,1boy,beach,girl sitting between boy's legs,from behind,intimate pose
   - 02_bc_010,1girl,1boy,beach,applying sunscreen,cowboy shot,caring moment
-  - 02_bc_011,1girl,1boy,beach,piggyback ride,full body,playful couple
+  - 02_bc_011,1girl,1boy,beach,piggyback ride,full body,playful
   - 02_bc_012,1girl,1boy,beach,building sandcastle together,from above,cooperative activity
 
 # ========== シーン3: ビーチハウス・カフェ ==========
@@ -58,8 +58,8 @@ scene_beach_outdoor_shower:
   - 04_os_005,1girl,outdoor beach shower,swimsuit,arms raised,shower water falling,wet skin glistening,low angle,from below,dynamic shower
   - 04_os_006,1girl,outdoor shower,swimsuit,hand on wall,shower stream,water running down,pov angle,intimate shower scene
   - 04_os_007,1girl,beach shower,swimsuit,washing shoulders,water flowing over body,dutch angle,wet scene
-  - 04_os_008,1girl,1boy,beach shower area,swimsuit,both wet,water dripping,standing close,from side,couple after shower
-  - 04_os_009,1girl,1boy,outdoor shower,both in swimsuit,sharing shower,water streaming,cowboy shot,couple shower scene
+  - 04_os_008,1girl,1boy,beach shower area,swimsuit,both wet,water dripping,standing close,from side,after shower
+  - 04_os_009,1girl,1boy,outdoor shower,both in swimsuit,sharing shower,water streaming,cowboy shot,shower scene
 
 # ========== シーン5: 夕暮れビーチ ==========
 
