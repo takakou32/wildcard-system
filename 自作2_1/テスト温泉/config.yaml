@@ -7,7 +7,7 @@
 # 男性タイプ: デフォルト (faceless male)
 # 時系列: time_day (昼) → time_night (夜)
 # Sex場所: place_ryokan_room（旅館客室）
-# Sex/Fellatio服装: outfit_yukata（青い浴衣、白い帯）
+# Sex/Fellatio服装: yukata（青い浴衣、白い帯）
 # NSFW統合: あり
 #   - Scene 02: 客室でくつろぐ → NSFW: Light
 #   - Scene 07: 露天風呂 → NSFW: Moderate
@@ -18,4 +18,3 @@
 #   Scene 04: time_evening - 旅館食事処
 #   Scene 05: time_evening - 温泉脱衣所
 #   Scene 07: time_night - 露天風呂（NSFW: Moderate）
-
