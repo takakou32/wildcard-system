@@ -33,13 +33,13 @@ scene_ryokan_room:
 # ========== シーン3: 温泉街散策 ==========
 
 scene_onsen_town:
-  - 03_ot_001,1girl,onsen town,walking on stone pavement,traditional buildings,wearing shoes,shoes on,wide shot,walking pose
-  - 03_ot_002,1girl,onsen street,standing,looking at shops,wearing shoes,shoes on,cowboy shot,sightseeing
-  - 03_ot_003,1girl,onsen town,standing by steam vent,hot spring steam,wearing shoes,shoes on,dutch angle,atmospheric
-  - 03_ot_004,1girl,onsen town bridge,walking across,wearing shoes,shoes on,from behind,over shoulder,scenic view
-  - 03_ot_005,1girl,1boy,onsen street,holding hands,walking together,wearing shoes,shoes on,pov,romantic walk
-  - 03_ot_006,1girl,1boy,onsen town,arm in arm,sightseeing,wearing shoes,shoes on,from behind,full body
-  - 03_ot_007,1girl,1boy,onsen street,girl leaning on boy's shoulder,walking,wearing shoes,shoes on,close-up,affectionate
+  - 03_ot_001,1girl,onsen town,walking on stone pavement,traditional buildings,wide shot,walking pose
+  - 03_ot_002,1girl,onsen street,standing,looking at shops,cowboy shot,sightseeing
+  - 03_ot_003,1girl,onsen town,standing by steam vent,hot spring steam,dutch angle,atmospheric
+  - 03_ot_004,1girl,onsen town bridge,walking across,from behind,over shoulder,scenic view
+  - 03_ot_005,1girl,1boy,onsen street,holding hands,walking together,pov,romantic walk
+  - 03_ot_006,1girl,1boy,onsen town,arm in arm,sightseeing,from behind,full body
+  - 03_ot_007,1girl,1boy,onsen street,girl leaning on boy's shoulder,walking,close-up,affectionate
 
 # ========== シーン4: 旅館食事処 ==========
 

@@ -108,6 +108,9 @@ place_home_shower:
   - shower,running water,shower interior,wet area
   - shower stall,shower space
 
+place_bathroom:
+  - bathroom,washroom,bathing area
+
 # ========== ホテル ==========
 
 place_hotel_lobby:

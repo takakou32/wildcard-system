@@ -306,6 +306,8 @@ AIは自動的に質問プロセスを開始します（基本6問、NSFW統合�
 
 「Sex/Fellatio用の場所を選んでください（この回答は`sex_play.yaml`と`fellatio_play.yaml`の両方に反映されます）」
 
+**⚠️ 重要：この場所は`pose_play_nsfw.yaml`では使用しません。`pose_play_nsfw.yaml`では対応するSFWシーンの場所を使用します。**
+
 **利用可能な場所：**
 
 **自宅関連：**
@@ -695,9 +697,11 @@ pose_play_nsfw:
 
 同じシーン内で、SFWからNSFWに移行する際は：
 1. **服装は対応するSFWシーンの服装を継続**（`pose_play_sfw.yaml`の該当シーンの実装行から服装パラメータを抽出。ステップ2-2を参照）
-2. **場所パラメータを追加**（NSFW行に必須。質問5パート2で指定した場所を使用）
+2. **場所パラメータを追加**（NSFW行に必須。**対応するSFWシーンの場所を使用**。例：`scene_ryokan_room` → `place_ryokan_room`、`scene_outdoor_bath` → `place_outdoor_bath`）
 3. **時間帯も同じものを継続**（SFWシーンと同じ`time_xxx`を使用）
 4. **アングルパラメータを追加**（複数ある場合は`{A|B|C}`構文）
+
+**⚠️ 重要：質問5パート2で指定した場所は`sex_play.yaml`と`fellatio_play.yaml`専用です。`pose_play_nsfw.yaml`では対応するSFWシーンの場所を使用してください。**
 
 **注意：質問5パート3で指定した服装は`sex_play.yaml`と`fellatio_play.yaml`用です。`pose_play_nsfw.yaml`では対応するSFWシーンの服装を使用します。**
 
@@ -705,7 +709,7 @@ pose_play_nsfw:
 - [ ] NSFWプロンプトは、**対応するSFWシーンの服装パラメータ**を使用（`pose_play_sfw.yaml`の実装行から抽出。ステップ2-2を参照）
 - [ ] 旧命名規則（`outfit_xxx`）は使用せず、新命名規則（`sweater_jeans`, `underwear`, `nude`など）を使用
 - [ ] NSFWプロンプトは、SFWシーンと**同じ時間帯**（`time_xxx`）を使用
-- [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加（質問5パート2で指定した場所を使用）
+- [ ] NSFWプロンプトに**場所パラメータ**（`place_xxx`）を追加（**対応するSFWシーンの場所を使用**。例：`scene_ryokan_room` → `place_ryokan_room`、`scene_outdoor_bath` → `place_outdoor_bath`）
 - [ ] NSFWプロンプトに**アングルパラメータ**（`angle_xxx`）を追加、複数ある場合は`{A|B|C}`構文
 - [ ] NSFWプロンプトに**適切な連番**（SFW最終+1から）を付与
 - [ ] **`nsfw_light_all` または `nsfw_moderate_all` を使用**
@@ -855,24 +859,24 @@ pose_play_nsfw:
   # Scene 02: 客室 NSFW Light（質問7でYと答えた場合のみ記載）
   # SFW最終: 02_rm_007 → NSFW開始: 02_rm_008
   # 服装: sweater_jeans（SFWシーンから継続 - pose_play_sfw.yamlの実装行から抽出: __自作2_1/params/sweater_jeans__）
-  # 場所: [place]（質問5パート2で指定した場所を使用）
-  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/sweater_jeans__,__自作2_1/params/time_day__,__自作2_1/themes/[base]/lovey_face_intimate__,__自作2_1/themes/[base]/lovey_atmosphere_romantic__
+  # 場所: place_ryokan_room（SFWシーン`scene_ryokan_room`から継承）
+  - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{__自作2_1/params/angle_closeup_face__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_upper_body__},{__自作2_1/params/place_ryokan_room__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/sweater_jeans__,__自作2_1/params/time_day__,__自作2_1/themes/[base]/lovey_face_intimate__,__自作2_1/themes/[base]/lovey_atmosphere_romantic__
   - 02_rm_008,__自作2_1/themes/[base]/nsfw_light_all__,{...},...
   ... (同じ連番で複数行、20-40行程度)
   
   # Scene 06: 温泉 NSFW Moderate（質問7でYと答えた場合のみ記載）
   # SFW最終: 06_on_009 → NSFW開始: 06_on_010
   # 服装: yukata（SFWシーンから継続 - pose_play_sfw.yamlの実装行から抽出: __自作2_1/params/yukata__）
-  # 場所: [place]（質問5パート2で指定した場所を使用）
-  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/yukata__,__自作2_1/params/time_evening__,__自作2_1/themes/[base]/lovey_face_lewd__,__自作2_1/themes/[base]/lovey_atmosphere_sexy__
+  # 場所: place_onsen（SFWシーン`scene_onsen_bathing`から継承）
+  - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,{__自作2_1/params/angle_pov_above__|__自作2_1/params/angle_from_side__|__自作2_1/params/angle_closeup_action__},{__自作2_1/params/place_onsen__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/yukata__,__自作2_1/params/time_evening__,__自作2_1/themes/[base]/lovey_face_lewd__,__自作2_1/themes/[base]/lovey_atmosphere_sexy__
   - 06_on_010,__自作2_1/themes/[base]/nsfw_moderate_all__,{...},...
   ... (同じ連番で複数行、50-100行程度)
   
   # Scene 07: 露天風呂 NSFW Moderate（質問7でYと答えた場合のみ記載）
   # SFW最終: 07_ob_007 → NSFW開始: 07_ob_008
-  # 服装: yukata（SFWシーンから継続 - pose_play_sfw.yamlの実装行から抽出: __自作2_1/params/yukata__）
-  # 場所: [place]（質問5パート2で指定した場所を使用）
-  - 07_ob_008,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},{__自作2_1/params/place_[place1]__|__自作2_1/params/place_[place2]__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/yukata__,... 
+  # 服装: nude（SFWシーンから継続 - pose_play_sfw.yamlの実装行から抽出: __自作2_1/params/nude__）
+  # 場所: place_outdoor_bath（SFWシーン`scene_outdoor_bath`から継承）
+  - 07_ob_008,__自作2_1/themes/[base]/nsfw_moderate_all__,wet skin,steam,night sky,starry sky,{...},{__自作2_1/params/place_outdoor_bath__},__自作2_1/params/male_type_[xxx]__,__自作2_1/params/nude__,... 
   ... (同じ連番で複数行、50-100行程度)
 ```
 

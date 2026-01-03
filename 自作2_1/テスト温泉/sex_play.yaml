@@ -1,0 +1,13 @@
+# Sex用プレイリスト（テスト温泉）
+# 場所: place_ryokan_room（旅館客室）
+# 服装: yukata（青い浴衣、白い帯）
+# 男性タイプ: male_type_default
+
+sex_play:
+  - __自作2_1/themes/lovey/sex_intro_gentle__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_moderate__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_intense__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_extreme__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_creampie__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_after__,__自作2_1/params/place_ryokan_room__,__自作2_1/params/character_outfits/yukata__,__自作2_1/params/male_type_default__
+
