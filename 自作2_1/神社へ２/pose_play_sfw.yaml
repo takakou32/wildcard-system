@@ -4,32 +4,32 @@
 pose_play_sfw:
   # Scene 01: time_day (昼) - 神社境内を歩く
   # 背景のみ：神社境内
-  - 00_bg_wk_001,(no humans,empty,shrine grounds,stone path,torii gate,stone lanterns,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
+  - 01_bg_wk_000,(no humans,empty,shrine grounds,stone path,torii gate,stone lanterns,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 振袖（furisode）- 神社参拝用
   - __自作2_1/themes/lovey/scene_shrine_grounds_walking__,__自作2_1/params/male_type_default__,__自作2_1/params/furisode__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 02: time_day (昼) - お参り・お賽銭
   # 背景のみ：神社本殿前
-  - 00_bg_pr_001,(no humans,empty,shrine main hall,offering box,rope with bell,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
+  - 02_bg_pr_000,(no humans,empty,shrine main hall,offering box,rope with bell,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 同じ振袖（furisode）- 統一性確保
   - __自作2_1/themes/lovey/scene_shrine_prayer_offering__,__自作2_1/params/male_type_default__,__自作2_1/params/furisode__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 03: time_evening (夕方) - 回廊でいちゃつく
   # 背景のみ：神社回廊
-  - 00_bg_co_001,(no humans,empty,shrine corridor,wooden pillars,paper lanterns,wooden floor,traditional architecture,wide shot,__自作2_1/params/time_evening__:2)
+  - 03_bg_co_000,(no humans,empty,shrine corridor,wooden pillars,paper lanterns,wooden floor,traditional architecture,wide shot,__自作2_1/params/time_evening__:2)
   # 服装: 同じ振袖（furisode）- 統一性確保
   # → NSFW継承用服装パラメータ: __自作2_1/params/furisode__
   - __自作2_1/themes/lovey/scene_shrine_corridor_flirting__,__自作2_1/params/male_type_default__,__自作2_1/params/furisode__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   
   # Scene 04: time_evening (夕方) - お守り・絵馬エリア
   # 背景のみ：お守り・絵馬エリア
-  - 00_bg_om_001,(no humans,empty,shrine charm shop,ema area,wooden plaques,traditional architecture,wide shot,__自作2_1/params/time_evening__:2)
+  - 04_bg_om_000,(no humans,empty,shrine charm shop,ema area,wooden plaques,traditional architecture,wide shot,__自作2_1/params/time_evening__:2)
   # 服装: 同じ振袖（furisode）- 統一性確保
   - __自作2_1/themes/lovey/scene_shrine_omamori__,__自作2_1/params/male_type_default__,__自作2_1/params/furisode__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
   
   # Scene 05: time_night (夜) - 庭園・自然
   # 背景のみ：神社庭園
-  - 00_bg_gd_001,(no humans,empty,shrine garden,pond,koi swimming,bamboo,trees,stone path,night sky,moonlight,wide shot,cinematic,__自作2_1/params/time_night__:2)
+  - 05_bg_gd_000,(no humans,empty,shrine garden,pond,koi swimming,bamboo,trees,stone path,night sky,moonlight,wide shot,cinematic,__自作2_1/params/time_night__:2)
   # 服装: 同じ振袖（furisode）- 統一性確保
   # → NSFW継承用服装パラメータ: __自作2_1/params/furisode__
   - __自作2_1/themes/lovey/scene_shrine_garden__,__自作2_1/params/male_type_default__,__自作2_1/params/furisode__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
