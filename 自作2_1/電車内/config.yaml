@@ -1,0 +1,18 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 電車内
+# ベース: lovey（ラブラブ）
+# テーマタイプ: 電車・交通系（pose_scenes_train.yaml）
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: なし（特定の時間帯に固定）
+# Sex場所: public toilet（カスタム）
+# Sex/Fellatio服装: blouse_skirt_blazer（カスタム）
+# NSFW統合: あり
+#   - Scene 03: 電車内（混雑） → NSFW: Light（scene_train_chikan使用）
+# シーンフロー: 
+#   Scene 01: time_day - 駅到着
+#   Scene 02: time_day - プラットホーム
+#   Scene 03: time_day - 電車内（混雑）（NSFW: Light - scene_train_chikan使用）
+#   Scene 04: time_day - 駅コンコース
+

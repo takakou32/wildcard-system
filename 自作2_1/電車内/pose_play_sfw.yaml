@@ -1,0 +1,29 @@
+# Pose用シーン定義 - SFWのみ（電車内）
+# 全てのSFWシーンを含む
+
+pose_play_sfw:
+  # Scene 01: time_day (昼) - 駅到着
+  # 背景のみ：駅入口・改札
+  - 01_bg_st_000,(no humans,empty,train station,station entrance,ticket gate,platform,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: blouse_skirt_blazer（シーンライブラリに含まれる）
+  - __自作2_1/themes/lovey/scene_station_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 02: time_day (昼) - プラットホーム
+  # 背景のみ：プラットホーム
+  - 02_bg_pf_000,(no humans,empty,station platform,train platform,yellow line,train tracks,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: 同じblouse_skirt_blazer - 統一性確保
+  - __自作2_1/themes/lovey/scene_train_platform__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 03: time_day (昼) - 電車内（混雑）
+  # 背景のみ：電車内（混雑）
+  - 03_bg_cr_000,(no humans,empty,crowded train,train interior,train car,handrails,seats,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: 同じblouse_skirt_blazer - 統一性確保
+  # → NSFW継承用服装パラメータ: __自作2_1/params/blouse_skirt_blazer__
+  - __自作2_1/themes/lovey/scene_train_crowded__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 04: time_day (昼) - 駅コンコース
+  # 背景のみ：駅コンコース
+  - 05_bg_cc_000,(no humans,empty,station concourse,train station,station hall,ticket machines,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: 同じblouse_skirt_blazer - 統一性確保
+  - __自作2_1/themes/lovey/scene_station_concourse__,__自作2_1/params/male_type_default__,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+

@@ -1,0 +1,17 @@
+# Fellatio用プレイリスト（電車内）
+# 場所: public toilet（カスタム）
+# 服装: blouse_skirt_blazer（カスタム）
+# 男性タイプ: male_type_default
+
+fellatio_play:
+  # 背景のみ：トイレ
+  - 30_fe000_0,(no humans,empty,public toilet,public restroom,restroom interior,wide shot,__自作2_1/params/time_day__:2)
+  - __自作2_1/themes/lovey/fellatio_intro_tease__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_start_licking__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_moderate_gentle__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_intense_passionate__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_climax_deep__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_finish_ejaculation__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_after_swallow__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_extra_intimate__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
+

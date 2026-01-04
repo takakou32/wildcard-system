@@ -940,6 +940,10 @@ sex_play:
 # 注意: 複数服装を指定する場合は {outfit1|outfit2} 形式で記述
 
 fellatio_play:
+  # 背景のみ：[場所]（fellatio_intro_teaseの最初の連番30_fe001_0より前の連番30_fe000_0を使用）
+  # 場所の説明: 質問5パート2で指定した場所に応じた説明を記述（例：public toilet,public restroom,restroom interior）
+  # 時間帯: 質問4で指定した時系列を使用（時系列なしの場合は固定時間帯）
+  - 30_fe000_0,(no humans,empty,[場所の説明],wide shot,__自作2_1/params/[time]__:2)
   - __自作2_1/themes/[base]/fellatio_intro_tease__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
   - __自作2_1/themes/[base]/fellatio_start_licking__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
   - __自作2_1/themes/[base]/fellatio_moderate_gentle__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
@@ -948,6 +952,27 @@ fellatio_play:
   - __自作2_1/themes/[base]/fellatio_finish_ejaculation__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
   - __自作2_1/themes/[base]/fellatio_after_swallow__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
   - __自作2_1/themes/[base]/fellatio_extra_intimate__,{__自作2_1/params/place_[sex_location1]__|__自作2_1/params/place_[sex_location2]__},{__自作2_1/params/character_outfits/[outfit1]__|__自作2_1/params/character_outfits/[outfit2]__},__自作2_1/params/male_type_[xxx]__
+```
+
+**⚠️ 重要：背景プロンプトの連番ルール**
+
+`fellatio_play.yaml`を作成する際は、**必ず最初に背景のみのプロンプトを追加**してください。
+
+- **連番**: `30_fe000_0`（`fellatio_intro_tease`の最初の連番`30_fe001_0`より前）
+- **場所の説明**: 質問5パート2で指定した場所に応じた説明を記述
+  - 例（public toilet）: `public toilet,public restroom,restroom interior`
+  - 例（place_ryokan_room）: `ryokan room,tatami room,japanese room,tatami floor`
+  - 例（place_home_bedroom）: `bedroom,sleeping area,private room`
+- **時間帯**: 質問4で指定した時系列を使用（時系列なしの場合は固定時間帯）
+  - 例: `__自作2_1/params/time_day__:2`
+- **フォーマット**: `(no humans,empty,[場所の説明],wide shot,__自作2_1/params/[time]__:2)`
+
+**例（電車内テーマ）:**
+```yaml
+fellatio_play:
+  # 背景のみ：トイレ
+  - 30_fe000_0,(no humans,empty,public toilet,public restroom,restroom interior,wide shot,__自作2_1/params/time_day__:2)
+  - __自作2_1/themes/lovey/fellatio_intro_tease__,public toilet,public restroom,__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/male_type_default__
 ```
 
 **7. `main.yaml`**
@@ -996,7 +1021,65 @@ main:
   - __自作2_1/[テーマ名]/fellatio_play__
 ```
 
-**8. `README.md`**（使い方ガイド）
+**8. `thumbnail.yaml`**（サムネイル用プロンプト - 手動実行用）
+
+**⚠️ 重要：このファイルは`main.yaml`には含めません。手動実行用です。**
+
+```yaml
+# サムネイル用画像プロンプト（[テーマ名]）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: [場所1]（[ポーズ]）
+  - ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/[outfit]__,__自作2_1/params/[time]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+  
+  # バリエーション2: [場所2]（[ポーズ]）
+  - ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/[outfit]__,__自作2_1/params/[time]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+  
+  # バリエーション3: [場所3]（[ポーズ]）
+  - ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/[outfit]__,__自作2_1/params/[time]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+  
+  # バリエーション4: [場所4]（[ポーズ]）
+  - ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/[outfit]__,__自作2_1/params/[time]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+  
+  # バリエーション5: [場所5]（[ポーズ]）
+  - ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/[outfit]__,__自作2_1/params/[time]__,__自作2_1/themes/[base]/[face]__,__自作2_1/themes/[base]/[atmosphere]__
+```
+
+**作成ルール：**
+- **必須作成**: 新規テーマ作成時は必ず作成する
+- **バリエーション数**: 5個程度（テーマの主要シーンに合わせて調整）
+- **テーマ固有要素の反映**:
+  - **場所**: テーマの主要シーンから選択（例：電車内、プラットホーム、駅コンコース）
+  - **服装**: 質問5パート3で指定した服装、またはテーマの主要服装
+  - **日時**: 質問4で指定した時系列（時系列なしの場合は固定時間帯）
+  - **ライティング**: 場所に応じた適切なライティング（自然光、窓からの光、室内照明など）
+- **ベースプロンプト**: 以下の形式を基本とする
+  ```
+  ((Tyndall effect,cinematic lighting, bloom,[time],[lighting],))
+  [pose],looking at viewer, left side,[location],[specific_location],upper body,from above,(girl is left side of the image,on left:1.5)
+  ```
+- **使用方法**: `__自作2_1/[テーマ名]/thumbnail__` で参照（手動実行）
+
+**例（電車内テーマ）：**
+```yaml
+thumbnail:
+  # バリエーション1: 電車内（座席）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  sitting on train seat,looking at viewer, left side,train interior,crowded train,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: プラットホーム（ベンチ）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,station lighting,))
+  sitting on platform bench,looking at viewer, left side,station platform,train station,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+```
+
+**9. `README.md`**（使い方ガイド）
 
 ---
 
@@ -1023,6 +1106,13 @@ __自作2_1/[テーマ名]/sex_play__
 ```
 __自作2_1/[テーマ名]/fellatio_play__
 ```
+
+#### サムネイル用プロンプト（手動実行用）
+```
+__自作2_1/[テーマ名]/thumbnail__
+```
+
+**注意：** サムネイル用プロンプトは`main.yaml`には含まれていません。手動で実行してください。
 
 ### 全シーン統合（推奨）
 

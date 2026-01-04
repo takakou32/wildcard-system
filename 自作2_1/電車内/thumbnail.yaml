@@ -1,0 +1,25 @@
+# サムネイル用画像プロンプト（電車内）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: 電車内（座席）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  sitting on train seat,looking at viewer, left side,train interior,crowded train,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: プラットホーム（ベンチ）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,station lighting,))
+  sitting on platform bench,looking at viewer, left side,station platform,train station,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション3: 電車内（立っている）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  standing in train,holding handrail,looking at viewer, left side,train interior,crowded train,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション4: 駅コンコース
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,station lighting,))
+  sitting on station bench,looking at viewer, left side,station concourse,train station,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション5: 電車内（窓際）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,sunlight through window,))
+  sitting by train window,looking at viewer, left side,train interior,empty train,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_blazer__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+

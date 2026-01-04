@@ -1,0 +1,29 @@
+# Pose用シーン定義 - NSFWのみ（電車内）
+# 質問7でYと選択したシーンのNSFW部分のみ
+# Scene 03: 電車内（混雑） (scene_train_chikan使用)
+
+pose_play_nsfw:
+  # ========== Scene 03: 電車内（混雑） NSFW Light（scene_train_chikan使用） ==========
+  # SFW最終: 03_cr_012 → NSFW開始: 03_cr_013
+  # 服装: blouse_skirt_blazer（SFWシーンから継続 - 実装行から抽出: __自作2_1/params/blouse_skirt_blazer__）
+  # 時間: time_day (SFWから継続)
+  # レベル: Light（scene_train_chikanのプロンプトを使用、連番を03_cr_013から開始）
+  # 場所: crowded train（SFWシーン`scene_train_crowded`から継承）
+  
+  # scene_train_chikanのプロンプトを03_cr_013から始まる連番に変更して使用
+  - 03_cr_013,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,being pressed from behind,unavoidable contact,blush,uncomfortable,close-up,face focus,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_014,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,hand accidentally touching hip,from behind,over shoulder,unintentional contact,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_015,1girl,__自作2_1/params/blouse_skirt_blazer__,train interior,standing,body pressed against,unavoidably close,crowded,blush,embarrassed,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_016,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,hand on waist,from behind,protective stance,blush,confused,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_017,1girl,__自作2_1/params/blouse_skirt_blazer__,train,standing,being jostled,hand touching back,unintentional,blush,flustered,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_018,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,breast groping from behind,hand on breast,blush,shocked expression,close-up,face focus,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_019,1girl,__自作2_1/params/blouse_skirt_blazer__,train interior,standing,breast squeeze,groping,from behind,blush,embarrassed,unable to resist,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_020,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,hand groping breast,blouse,blush,flustered,looking down,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_021,1girl,__自作2_1/params/blouse_skirt_blazer__,train,standing,hand under skirt,skirt lifted,from behind,blush,shocked,embarrassed,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_022,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,skirt being touched,hand on thigh,from behind,blush,unable to move,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_023,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,fingering from behind,hand under skirt,fingering pussy,blush,moaning,unable to resist,close-up,face focus,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_024,1girl,__自作2_1/params/blouse_skirt_blazer__,train interior,standing,fingering,pussy,skirt lifted,panties pulled aside,blush,embarrassed,public space,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_025,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,fingering pussy,pussy juice,hand inside,blush,moaning,people around,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_026,1girl,__自作2_1/params/blouse_skirt_blazer__,train,standing,skirt lifted completely,panties pulled down,exposed pussy,blush,embarrassed,public exposure,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  - 03_cr_027,1girl,__自作2_1/params/blouse_skirt_blazer__,crowded train,standing,blouse unbuttoned,breast exposed,skirt up,exposed,blush,shocked,people watching,__自作2_1/params/male_type_default__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+
