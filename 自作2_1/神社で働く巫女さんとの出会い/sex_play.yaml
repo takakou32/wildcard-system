@@ -1,0 +1,13 @@
+# Sex用プレイリスト（神社で働く巫女さんとの出会い）
+# 場所: place_shrine_office (神社事務所)
+# 服装: miko (巫女服)
+# 男性タイプ: male_type_default
+
+sex_play:
+  - __自作2_1/themes/lovey/sex_intro_gentle__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_moderate__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_intense__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_extreme__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_creampie__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/sex_after__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+

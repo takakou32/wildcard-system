@@ -111,6 +111,11 @@ school_uniform:
   # - school blazer,white shirt,plaid skirt,student uniform
   # - sailor uniform,white and blue,pleated skirt,school outfit
 
+miko:
+  - miko,shrine maiden,white hakama,red hakama,white kosode,traditional shrine outfit
+  # - miko,shrine maiden,white hakama,white kosode,shrine uniform,traditional
+  # - shrine maiden,miko,red hakama,white top,shrine attire,formal
+
 # ========== スポーツ・アクティブ ==========
 
 sportswear:

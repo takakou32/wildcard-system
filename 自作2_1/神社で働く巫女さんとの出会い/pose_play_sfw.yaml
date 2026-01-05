@@ -1,0 +1,26 @@
+# Pose用シーン定義 - SFWのみ（神社で働く巫女さんとの出会い）
+# 全てのSFWシーンを含む
+# 時系列: 昼 → 夕方 → 夜
+# 服装統一: 全シーン巫女服（miko）で統一
+
+pose_play_sfw:
+  # Scene 01: 昼 (time_day) - 働いている巫女さん
+  # 服装: 巫女服（miko）
+  # → NSFW継承用服装パラメータ: __自作2_1/params/miko__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_shrine_miko_working__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 02: 昼 (time_day) - 巫女さんと合流
+  # 服装: 同じ巫女服（miko）
+  # → NSFW継承用服装パラメータ: __自作2_1/params/miko__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_shrine_miko_meeting__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # Scene 03: 夕方 (time_evening) - 神社内で巫女さんとイチャイチャ (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  # 服装: 同じ巫女服（miko）
+  # → NSFW継承用服装パラメータ: __自作2_1/params/miko__
+  - __自作2_1/themes/lovey/scene_shrine_miko_flirting__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # Scene 04: 夜 (time_night) - 親密な時間（NSFW準備） (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  # 服装: 同じ巫女服（miko）
+  # → NSFW継承用服装パラメータ: __自作2_1/params/miko__
+  - __自作2_1/themes/lovey/scene_shrine_miko_intimate__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+

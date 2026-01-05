@@ -1,0 +1,22 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 神社で働く巫女さんとの出会い
+# ベース: lovey (ラブラブ)
+# テーマタイプ: 神社・巫女さん系（特殊版）
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: 昼 (time_day) → 夜 (time_night)
+# Sex場所: place_shrine_office (神社事務所)
+# Sex服装: miko (巫女服)
+# NSFW統合: あり
+#   - Scene 01: 働いている巫女さん → なし
+#   - Scene 02: 巫女さんと合流 → なし
+#   - Scene 03: 神社内で巫女さんとイチャイチャ → Light
+#   - Scene 04: 親密な時間（NSFW準備） → Moderate
+
+# シーンフロー:
+#   Scene 01: 昼 (time_day) - 働いている巫女さん (SFWのみ)
+#   Scene 02: 昼 (time_day) - 巫女さんと合流 (SFWのみ)
+#   Scene 03: 夕方 (time_evening) - 神社内で巫女さんとイチャイチャ (SFW + NSFW Light)
+#   Scene 04: 夜 (time_night) - 親密な時間（NSFW準備） (SFW + NSFW Moderate)
+

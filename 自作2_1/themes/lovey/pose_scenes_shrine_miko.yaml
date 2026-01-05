@@ -1,0 +1,123 @@
+# ラブラブテーマ用ポーズプロンプト - 神社・巫女さん系シーン
+# pose_scenes_shrine_miko.yaml
+# 使用対象：神社で働く巫女さんとの出会い・親密テーマ
+# 
+# 注意：このファイルは完全な自己完結型プロンプトです
+# - 場所情報が含まれています
+# - 連番はデフォルト値（テーマ作成時に上書き可能）
+# - 男性タイプ、時間帯、表情、雰囲気はテーマ側で指定
+# - 1girl,1boyシーンで男性タイプを反映させる場合は、テーマ側で__male_type__を追加
+
+# ========================================
+# シーン1: 働いている巫女さん
+# ========================================
+# 推奨パターン: pattern_solo_focused (12プロンプト)
+# ソロ 65% / カップル 35%
+
+scene_shrine_miko_working:
+  # ソロシーン 8個
+  - 01_ac_001,1girl,miko,shrine maiden,shrine,working,sweeping grounds,broom in hand,cowboy shot,dedicated work
+  - 01_ac_002,1girl,miko,shrine maiden,shrine,standing at offering box,collecting coins,close-up,face focus,focused expression
+  - 01_ac_003,1girl,miko,shrine maiden,shrine,arranging omamori,charm shop,organizing items,dutch angle,attentive
+  - 01_ac_004,1girl,miko,shrine maiden,shrine,ringing bell,main hall,performing ritual,low angle,from below,traditional
+  - 01_ac_005,1girl,miko,shrine maiden,shrine,walking along corridor,carrying tray,pov,first person view,graceful movement
+  - 01_ac_006,1girl,miko,shrine maiden,shrine,standing by torii gate,greeting visitors,wide shot,full body,professional
+  - 01_ac_007,1girl,miko,shrine maiden,shrine,cleaning chozuya,water basin,leaning forward,from behind,over shoulder,careful work
+  - 01_ac_008,1girl,miko,shrine maiden,shrine,sitting at desk,writing records,close-up,face focus,concentrated
+  
+  # カップルシーン 4個
+  - 01_ac_009,1girl,miko,shrine maiden,1boy,shrine,visitor approaching miko,standing close,cowboy shot,first meeting
+  - 01_ac_010,1girl,miko,shrine maiden,1boy,shrine,boy asking miko question,miko answering,wide shot,interaction
+  - 01_ac_011,1girl,miko,shrine maiden,1boy,shrine,miko showing boy around,walking together,from behind,guided tour
+  - 01_ac_012,1girl,miko,shrine maiden,1boy,shrine,standing together,talking softly,close-up,intimate conversation
+
+# ========================================
+# シーン2: 巫女さんと合流
+# ========================================
+# 推奨パターン: pattern_standard (10プロンプト)
+# ソロ 30% / カップル 70%
+
+scene_shrine_miko_meeting:
+  # ソロシーン 3個
+  - 02_ar_001,1girl,miko,shrine maiden,shrine,finishing work,putting away tools,cowboy shot,work completed
+  - 02_ar_002,1girl,miko,shrine maiden,shrine,looking around,checking if alone,from behind,over shoulder,checking surroundings
+  - 02_ar_003,1girl,miko,shrine maiden,shrine,standing,waiting,close-up,face focus,anticipation
+  
+  # カップルシーン 7個
+  - 02_ar_004,1girl,miko,shrine maiden,1boy,shrine,miko meeting boy,standing close together,cowboy shot,reunion
+  - 02_ar_005,1girl,miko,shrine maiden,1boy,shrine,embracing,greeting hug,close-up,tender embrace
+  - 02_ar_006,1girl,miko,shrine maiden,1boy,shrine,holding hands,looking at each other,dutch angle,romantic connection
+  - 02_ar_007,1girl,miko,shrine maiden,1boy,shrine,walking together,side by side,wide shot,companionship
+  - 02_ar_008,1girl,miko,shrine maiden,1boy,shrine,boy touching miko's hair,gentle gesture,from side,affectionate
+  - 02_ar_009,1girl,miko,shrine maiden,1boy,shrine,standing very close,faces close,low angle,from below,intimate distance
+  - 02_ar_010,1girl,miko,shrine maiden,1boy,shrine,talking quietly,private conversation,pov angle,shared moment
+
+# ========================================
+# シーン3: 神社内で巫女さんとイチャイチャ
+# ========================================
+# 推奨パターン: pattern_couple_focused (10プロンプト)
+# ソロ 20% / カップル 80%
+
+scene_shrine_miko_flirting:
+  # ソロシーン 2個
+  - 03_in_001,1girl,miko,shrine maiden,shrine corridor,leaning against pillar,looking back,close-up,face focus,inviting
+  - 03_in_002,1girl,miko,shrine maiden,shrine,standing in shadow,hidden spot,from behind,over shoulder,secluded area
+  
+  # カップルシーン 8個
+  - 03_in_003,1girl,miko,shrine maiden,1boy,shrine corridor,standing close together,very close,cowboy shot,intimate
+  - 03_in_004,1girl,miko,shrine maiden,1boy,shrine corridor,embracing,holding each other,close-up,tender embrace
+  - 03_in_005,1girl,miko,shrine maiden,1boy,shrine corridor,faces very close,about to kiss,dutch angle,romantic tension
+  - 03_in_006,1girl,miko,shrine maiden,1boy,shrine corridor,soft kiss,gentle,close-up,face focus,tender kiss
+  - 03_in_007,1girl,miko,shrine maiden,1boy,shrine,back hug,boy hugging miko from behind,from side,affectionate
+  - 03_in_008,1girl,miko,shrine maiden,1boy,shrine corridor,boy's hand on miko's waist,gentle touch,low angle,from below,intimate
+  - 03_in_009,1girl,miko,shrine maiden,1boy,shrine,holding hands,looking at each other,wide shot,romantic moment
+  - 03_in_010,1girl,miko,shrine maiden,1boy,shrine,forehead touch,very close,pov angle,connection
+
+# ========================================
+# シーン4: 親密な時間（NSFW準備）
+# ========================================
+# 推奨パターン: pattern_couple_focused (10プロンプト)
+# ソロ 20% / カップル 80%
+
+scene_shrine_miko_intimate:
+  # ソロシーン 2個
+  - 04_in_001,1girl,miko,shrine maiden,shrine,private room,sitting,waiting,close-up,face focus,anticipation
+  - 04_in_002,1girl,miko,shrine maiden,shrine,private room,standing,looking back,from behind,over shoulder,inviting pose
+  
+  # カップルシーン 8個
+  - 04_in_003,1girl,miko,shrine maiden,1boy,shrine,private room,sitting close together,very close,cowboy shot,intimate
+  - 04_in_004,1girl,miko,shrine maiden,1boy,shrine,private room,embracing passionately,standing,close-up,passionate embrace
+  - 04_in_005,1girl,miko,shrine maiden,1boy,shrine,private room,deep kiss,intense,dutch angle,romantic tension
+  - 04_in_006,1girl,miko,shrine maiden,1boy,shrine,private room,boy untying miko's obi,gentle,from side,tender moment
+  - 04_in_007,1girl,miko,shrine maiden,1boy,shrine,private room,lying together,cuddling,high angle,from above,tender
+  - 04_in_008,1girl,miko,shrine maiden,1boy,shrine,private room,boy's hand on miko's thigh,gentle touch,low angle,from below,intimate
+  - 04_in_009,1girl,miko,shrine maiden,1boy,shrine,private room,holding each other,very close,wide shot,affectionate
+  - 04_in_010,1girl,miko,shrine maiden,1boy,shrine,private room,touching foreheads,looking at each other,pov angle,deep connection
+
+# ========== プレイリスト: シーン統合 ==========
+
+# 全シーン統合
+shrine_miko_all_scenes:
+  - ${scene_shrine_miko_working}
+  - ${scene_shrine_miko_meeting}
+  - ${scene_shrine_miko_flirting}
+  - ${scene_shrine_miko_intimate}
+
+# 出会いから親密まで（フルストーリー）
+shrine_miko_full_story:
+  - ${scene_shrine_miko_working}
+  - ${scene_shrine_miko_meeting}
+  - ${scene_shrine_miko_flirting}
+  - ${scene_shrine_miko_intimate}
+
+# イチャイチャ中心
+shrine_miko_romantic:
+  - ${scene_shrine_miko_meeting}
+  - ${scene_shrine_miko_flirting}
+  - ${scene_shrine_miko_intimate}
+
+# 親密シーン中心
+shrine_miko_intimate_only:
+  - ${scene_shrine_miko_flirting}
+  - ${scene_shrine_miko_intimate}
+
