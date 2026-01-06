@@ -5,21 +5,29 @@
 
 pose_play_sfw:
   # Scene 01: 昼 (time_day) - 働いている巫女さん
+  # 背景のみ：神社境内
+  - 01_bg_ac_000,(no humans,empty,shrine grounds,shrine precinct,stone path,torii gate,stone lanterns,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 巫女服（miko）
   # → NSFW継承用服装パラメータ: __自作2_1/params/miko__（NSFW統合なしのため使用しない）
   - __自作2_1/themes/lovey/scene_shrine_miko_working__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
   
   # Scene 02: 昼 (time_day) - 巫女さんと合流
+  # 背景のみ：神社境内
+  - 02_bg_ar_000,(no humans,empty,shrine grounds,shrine precinct,stone path,torii gate,traditional architecture,wide shot,__自作2_1/params/time_day__:2)
   # 服装: 同じ巫女服（miko）
   # → NSFW継承用服装パラメータ: __自作2_1/params/miko__（NSFW統合なしのため使用しない）
   - __自作2_1/themes/lovey/scene_shrine_miko_meeting__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   
   # Scene 03: 夕方 (time_evening) - 神社内で巫女さんとイチャイチャ (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  # 背景のみ：神社回廊
+  - 03_bg_in_000,(no humans,empty,shrine corridor,wooden pillars,paper lanterns,wooden floor,traditional architecture,wide shot,__自作2_1/params/time_evening__:2)
   # 服装: 同じ巫女服（miko）
   # → NSFW継承用服装パラメータ: __自作2_1/params/miko__
   - __自作2_1/themes/lovey/scene_shrine_miko_flirting__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
   
   # Scene 04: 夜 (time_night) - 親密な時間（NSFW準備） (SFW部分のみ、NSFW部分はpose_play_nsfwに記載)
+  # 背景のみ：神社の控え室
+  - 04_bg_in_000,(no humans,empty,shrine private room,shrine office,traditional japanese room,wooden desk,wooden floor,paper lanterns,soft lighting,wide shot,__自作2_1/params/time_night__:2)
   # 服装: 同じ巫女服（miko）
   # → NSFW継承用服装パラメータ: __自作2_1/params/miko__
   - __自作2_1/themes/lovey/scene_shrine_miko_intimate__,__自作2_1/params/male_type_default__,__自作2_1/params/miko__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__

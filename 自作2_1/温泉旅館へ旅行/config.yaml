@@ -1,0 +1,18 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 温泉旅館へ旅行
+# ベース: lovey
+# テーマタイプ: 温泉・旅館系
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: time_day (昼) → time_night (夜)
+# Sex場所: place_outdoor_bath (露天風呂)
+# Sex服装: outfit_towel (白いバスタオル)
+# シーンフロー: 
+#   Scene 01: time_day - 旅館到着
+#   Scene 02: time_day - 客室でくつろぐ（NSFW: Light）
+#   Scene 03: time_evening - 温泉街散策
+#   Scene 04: time_evening - 食事処
+#   Scene 05: time_night - 脱衣所
+#   Scene 06: time_night - 露天風呂（NSFW: Moderate）
+

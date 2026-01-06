@@ -1,4 +1,4 @@
-# メインエントリーポイント（テスト温泉）
+# メインエントリーポイント（温泉旅館へ旅行）
 # SFW/NSFWバランスをここで調整可能
 
 main:
@@ -8,16 +8,16 @@ main:
   # SFW 20% / NSFW 80%: sfw 1行 / nsfw 2行 / sex 2行 / fella 2行
   
   # SFWシーン（デート、到着、通常シーンなど）
-  - __自作2_1/テスト温泉/pose_play_sfw__
-  - __自作2_1/テスト温泉/pose_play_sfw__
-  - __自作2_1/テスト温泉/pose_play_sfw__
+  - __自作2_1/温泉旅館へ旅行/pose_play_sfw__
+  - __自作2_1/温泉旅館へ旅行/pose_play_sfw__
+  - __自作2_1/温泉旅館へ旅行/pose_play_sfw__
   
   # NSFW軽め（キス、ハグ、愛撫、手コキ、パイズリなど）
-  - __自作2_1/テスト温泉/pose_play_nsfw__
+  - __自作2_1/温泉旅館へ旅行/pose_play_nsfw__
   
   # NSFW重め（セックス）
-  - __自作2_1/テスト温泉/sex_play__
+  - __自作2_1/温泉旅館へ旅行/sex_play__
   
   # NSFW重め（フェラチオ）
-  - __自作2_1/テスト温泉/fellatio_play__
+  - __自作2_1/温泉旅館へ旅行/fellatio_play__
 

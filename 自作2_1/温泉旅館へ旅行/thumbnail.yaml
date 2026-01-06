@@ -1,0 +1,25 @@
+# サムネイル用画像プロンプト（温泉旅館へ旅行）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: 旅館到着（玄関）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  standing at doorway,looking at viewer, left side,ryokan entrance,traditional architecture,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: 客室でくつろぐ（浴衣）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  sitting on tatami floor,looking at viewer, left side,tatami room,ryokan room,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/yukata__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # バリエーション3: 温泉街散策（浴衣）
+  - ((Tyndall effect,cinematic lighting, bloom,evening,warm light,street lighting,))
+  walking on stone pavement,looking at viewer, left side,onsen town,traditional buildings,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/yukata__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # バリエーション4: 脱衣所（タオル）
+  - ((Tyndall effect,cinematic lighting, bloom,night,soft lighting,indoor lighting,))
+  holding towel,covering body,looking at viewer, left side,changing room,onsen changing area,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/towel__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # バリエーション5: 露天風呂（裸）
+  - ((Tyndall effect,cinematic lighting, bloom,night,starry sky,moonlight,))
+  sitting in hot spring,looking at viewer, left side,outdoor bath,rotenburo,nature view,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/nude__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_bathing__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+
