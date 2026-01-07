@@ -1,0 +1,23 @@
+# メインエントリーポイント（テストビーチで二人きり）
+# SFW/NSFWバランスをここで調整可能
+# NSFW統合: 軽度混合（pose_playに既にLight NSFWが含まれる）
+
+main:
+  # === SFW/NSFWバランス設定 ===
+  # 現在: SFW重視（pose_play 3行、sex_play 1行、fellatio_play 1行）
+  # SFW比率を上げる例: pose_playを4-5行に増やす
+  # NSFW比率を上げる例: sex_playやfellatio_playを2-3行に増やす
+  
+  # SFW+Light NSFWシーン（リゾート到着、客室、ビーチ、プール、シャワー、ディナー）
+  - __自作2_1/テストビーチで二人きり/pose_play__
+  - __自作2_1/テストビーチで二人きり/pose_play__
+  - __自作2_1/テストビーチで二人きり/pose_play__
+  
+  # NSFW（セックス - 客室）
+  - __自作2_1/テストビーチで二人きり/sex_play__
+  
+  # NSFW（フェラチオ - 客室）
+  - __自作2_1/テストビーチで二人きり/fellatio_play__
+
+
+

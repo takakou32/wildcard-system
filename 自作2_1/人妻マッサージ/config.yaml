@@ -1,0 +1,27 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 人妻マッサージ
+# ベース: lovey（ラブラブ）
+# テーマタイプ: カスタム（マッサージ店）
+# 男性タイプ: デフォルト (faceless male)
+# 時系列: なし（特定の時間帯に固定 - time_day）
+# Sex場所: place_massage_room（マッサージ店の個室）
+# Sex/Fellatio服装: nude（裸）
+# NSFW統合: あり
+#   - Scene 07: 腰・お尻のマッサージ → NSFW: Moderate
+#   - Scene 08: タオルがずれる瞬間 → NSFW: Moderate
+#   - Scene 09: 胸へのタッチ → NSFW: Moderate
+#   - Scene 10: 指マン・愛撫 → NSFW: Moderate
+# シーンフロー: 
+#   Scene 01: time_day - マッサージ店への来店
+#   Scene 02: time_day - 個室への案内
+#   Scene 03: time_day - 個室での着替え
+#   Scene 04: time_day - マッサージベッドに横たわる
+#   Scene 05: time_day - 肩・首のマッサージ
+#   Scene 06: time_day - 背中のマッサージ
+#   Scene 07: time_day - 腰・お尻のマッサージ（NSFW: Moderate）
+#   Scene 08: time_day - タオルがずれる瞬間（NSFW: Moderate）
+#   Scene 09: time_day - 胸へのタッチ（NSFW: Moderate）
+#   Scene 10: time_day - 指マン・愛撫（NSFW: Moderate）
+

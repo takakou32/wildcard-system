@@ -1,0 +1,25 @@
+# サムネイル用画像プロンプト（人妻マッサージ）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: マッサージ店の受付（来店）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,soft lighting,))
+  standing,looking at viewer, left side,massage parlor,reception desk,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: マッサージ店の個室（着替え）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,soft lighting,))
+  standing,wrapped in towel,looking down, left side,massage room,private room,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/towel__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # バリエーション3: マッサージベッドに横たわる
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,soft lighting,))
+  lying on massage table,face down,eyes closed, left side,massage room,massage table,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/towel__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # バリエーション4: マッサージ中（背中）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,soft lighting,))
+  receiving massage,back massage,looking away, left side,massage room,massage table,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/towel__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # バリエーション5: マッサージ店の個室（リラックス）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,soft lighting,))
+  relaxing,lying,looking to side, left side,massage room,private room,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/towel__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+

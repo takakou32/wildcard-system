@@ -188,3 +188,10 @@ place_shrine_hall:
   - shrine hall,shrine building,traditional japanese architecture,wooden structure
   - shrine interior,shrine building,traditional architecture,wooden pillars
   - shrine hall,shrine building interior,japanese traditional building,wooden floor
+
+# ========== マッサージ店関連 ==========
+
+place_massage_room:
+  - massage room,private room,massage table,relaxing atmosphere,soft lighting
+  - massage therapy room,private treatment room,massage bed,aromatherapy,calm space
+  - massage parlor room,individual room,massage table,soft music,peaceful environment

@@ -1,0 +1,23 @@
+# メインエントリーポイント（人妻マッサージ）
+# SFW/NSFWバランスをここで調整可能
+
+main:
+  # === バランス設定例 ===
+  # SFW 50% / NSFW 50%: sfw 3行 / nsfw 1行 / sex 1行 / fella 1行
+  # SFW 30% / NSFW 70%: sfw 2行 / nsfw 2行 / sex 2行 / fella 2行
+  # SFW 20% / NSFW 80%: sfw 1行 / nsfw 2行 / sex 2行 / fella 2行
+  
+  # SFWシーン（デート、到着、通常シーンなど）
+  - __自作2_1/人妻マッサージ/pose_play_sfw__
+  - __自作2_1/人妻マッサージ/pose_play_sfw__
+  - __自作2_1/人妻マッサージ/pose_play_sfw__
+  
+  # NSFW軽め（キス、ハグ、愛撫、手コキ、パイズリなど）
+  - __自作2_1/人妻マッサージ/pose_play_nsfw__
+  
+  # NSFW重め（セックス）
+  - __自作2_1/人妻マッサージ/sex_play__
+  
+  # NSFW重め（フェラチオ）
+  - __自作2_1/人妻マッサージ/fellatio_play__
+

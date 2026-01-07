@@ -1,0 +1,18 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: ビーチリゾートで彼女とバカンス
+# ベース: lovey（ラブラブ）
+# テーマタイプ: beach（ビーチ・リゾート系）
+# 男性タイプ: male_type_default（デフォルト）
+# 時系列: time_morning（朝）→ time_night（夜）
+# Sex場所: shower_room（シャワールーム）
+# NSFW統合: 完全分離
+# 
+# シーンフロー:
+#   Scene 01: time_morning - リゾート到着、チェックイン
+#   Scene 02: time_afternoon - ビーチで遊ぶ、海水浴
+#   Scene 03: time_afternoon - プールサイドでリラックス
+#   Scene 04: time_evening - シャワールームで二人きり（SFW）
+#   Scene 05: time_night - ディナー、客室でくつろぐ
+

@@ -3,14 +3,14 @@
 
 # カジュアルな表情（外出、食事など）
 lovey_face_casual:
-  - smile,friendly expression,warm,looking at viewer
+  - smile,friendly expression,warm,
   - gentle smile,relaxed,comfortable,eye contact
   - happy expression,cheerful,natural smile
   - soft smile,content,at ease
 
 # 親密な表情（距離が近づく）
 lovey_face_intimate:
-  - subtle blush,shy smile,warm gaze,looking at viewer
+  - subtle blush,shy smile,warm gaze,
   - slight blush,nervous smile,affectionate look
   - blushing,loving eyes,intimate expression
   - bashful smile,light blush,adoring look
