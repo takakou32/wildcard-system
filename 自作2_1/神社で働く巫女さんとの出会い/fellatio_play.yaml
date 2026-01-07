@@ -8,12 +8,11 @@ fellatio_play:
   # 場所の説明: shrine office,shrine administrative office,shrine office room,traditional japanese office
   # 時間帯: time_night (質問4で指定した時系列の終了時間)
   - 30_fe000_0,(no humans,empty,shrine office,shrine administrative office,shrine office room,traditional japanese office,wide shot,__自作2_1/params/time_night__:2)
-  - __自作2_1/themes/lovey/fellatio_intro_tease__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_start_licking__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_moderate_gentle__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_intense_passionate__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_climax_deep__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_finish_ejaculation__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_after_swallow__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-  - __自作2_1/themes/lovey/fellatio_extra_intimate__,__自作2_1/params/place_shrine_office__,__自作2_1/params/character_outfits/miko__,__自作2_1/params/male_type_default__
-
+  - __自作2_1/themes/lovey/fellatio_intro_tease__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_start_licking__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_moderate_gentle__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_intense_passionate__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_climax_deep__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_finish_ejaculation__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_after_swallow__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
+  - __自作2_1/themes/lovey/fellatio_extra_intimate__,__自作2_1/params/place_shrine_office__,__自作2_1/params/miko__,__自作2_1/params/male_type_default__
