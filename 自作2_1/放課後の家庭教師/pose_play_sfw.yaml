@@ -1,0 +1,33 @@
+# Pose用シーン定義 - SFWのみ（放課後の家庭教師）
+# Scene 01-10: 放課後のイチャイチャ授業
+
+pose_play_sfw:
+  # Scene 01: Entrance Chime (玄関チャイム)
+  - 01_chime,(masterpiece, best quality:1.4), absurdres, highres, 1boy, 1girl, shota, (older female:1.2), (age difference), (view from behind boy:1.3), medium shot, deep depth of field, indoors, entrance, door open, (evening light:1.2), warm lighting, boy smiling, boy welcoming, (boy wearing gym clothes:1.1), girl standing at door, (girl waving hand), girl bowing slightly, girl happy expression, (translucent white chiffon blouse:1.2), (open collar:1.1), (cleavage), (navy pencil skirt:1.2), (black sheer stockings:1.2), red heels, (mature female)
+
+  # Scene 02: Study Start (お勉強開始)
+  - 02_study,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, indoors, study desk, textbooks, notebook, (from above:1.3), high angle, (boy and girl sitting next to each other:1.3), (shoulder to shoulder:1.2), zero distance, boy holding pencil, boy nervous expression, boy side glance, (beige ribbed knit sleeveless turtleneck:1.3), (tight skirt:1.2), (sheer stockings), (clothing tightness), soft lighting, study room background
+
+  # Scene 03: Peeking Over (覗き込み)
+  - 03_peek,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (side view:1.3), (close up:1.2), focus on boy, (girl leaning over boy's back:1.4), (breast squash:1.3), (breasts on back), boy frozen, boy looking at notebook, boy embarrassed, (beige ribbed knit:1.2), (texture of knit), (heavy breasts), intimate atmosphere, afternoon light
+
+  # Scene 04: Head Pat (頭なでなで)
+  - 04_pat,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (pov:1.3), (looking at boy:1.3), (from girl's point of view), (girl head patting boy:1.4), (girl stroking boy's hair), girl petting boy, boy blushing, boy looking down, boy ears red, girl arms visible, (sleeveless knit:1.2), (armpit:1.2), (bra strap visible:1.1), motherly love, gentle atmosphere
+
+  # Scene 05: Say Ahh (あ～ん)
+  - 05_feed,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (focus on spoon:1.2), (girl feeding boy:1.3), say ahh, boy mouth open, boy waiting, boy embarrassed, (girl leaning forward:1.2), (cleavage:1.3), (focus on chest), (beige ribbed knit turtleneck:1.2), (collarbone), girl holding spoon, pudding, cake, blurred background
+
+  # Scene 06: Back Hug (バックハグ)
+  - 06_hug,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (mirror shot:1.3), (reflection in mirror), (girl back hugging boy:1.4), (girl hugging boy from behind), (cheek to cheek:1.2), boy trapped, boy surprised, (girl arms around waist:1.2), (black stockings legs:1.2), (legs intertwined), skirt hiked up, intimate, bedroom background
+
+  # Scene 07: Ear Whisper (耳攻め)
+  - 07_whisper,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (extreme close up:1.4), (macro photography:1.2), focus on ear, (girl whispering:1.3), (girl blowing into ear), boy flinching, boy shiver, girl smiling, girl teasing, girl playful expression, girl half closed eyes, (loose hair), (nape), (bare shoulders), (sleeveless knit)
+
+  # Scene 08: Sniffing (猫かわいがり)
+  - 08_sniff,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (side view:1.3), boy lying on sofa, boy looking up, boy resigned expression, (girl burying face in neck:1.3), (girl sniffing boy), (girl smelling boy), (breasts hanging:1.2), (gravity), (knit stretching:1.2), boy gym clothes, midriff visible, soft indoor lighting
+
+  # Scene 09: Pinned Down (押し倒し)
+  - 09_pinned,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (pov:1.4), (looking up at girl:1.3), (boy's point of view), (boy pinned to floor), (girl straddling boy:1.3), (girl on top), girl holding boy's wrists, (domination:1.1), (skirt hiked up:1.3), (garter belt:1.2), (garter ring), (black stockings), (zettai ryouiki:1.2), messy clothes, intense stare
+
+  # Scene 10: Aftermath/Hickey (キスマーク)
+  - 10_hickey,(masterpiece, best quality:1.4), absurdres, 1boy, 1girl, shota, older female, (soft focus:1.2), (cinematic lighting), (rim lighting), (sunset), (boy touching neck:1.2), (hickey:1.3), (kiss mark on neck), boy dazed, boy mouth slightly open, girl wiping lips, (smudged lipstick:1.1), (messy hair), (sweaty skin), satisfaction, seductive smile, atmosphere
