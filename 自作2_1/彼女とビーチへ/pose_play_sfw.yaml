@@ -1,0 +1,40 @@
+# Pose用シーン定義 - SFWのみ（彼女とビーチへ）
+# 全てのSFWシーンを含む
+# 時系列: time_day (昼) → time_evening (夕方) → time_night (夜)
+
+pose_play_sfw:
+  # Scene 01: time_day (昼) - ビーチ到着・散策
+  # 背景のみ：ビーチ
+  - 01_ba_000,(no humans,empty,sandy beach,beach shore,seaside,sand and water,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: 水着（swimsuit）- ビーチ到着
+  # → NSFW継承用服装パラメータ: __自作2_1/params/swimsuit__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_beach_arrival__,__自作2_1/params/male_type_default__,__自作2_1/params/swimsuit__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 02: time_day (昼) - ビーチでの活動
+  # 背景のみ：ビーチ
+  - 02_bc_000,(no humans,empty,sandy beach,beach shore,seaside,sand and water,wide shot,__自作2_1/params/time_day__:2)
+  # 服装: 水着（swimsuit）- ビーチ活動
+  # → NSFW継承用服装パラメータ: __自作2_1/params/swimsuit__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_beach_activity__,__自作2_1/params/male_type_default__,__自作2_1/params/swimsuit__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # Scene 03: time_day → time_evening (昼→夕方) - ビーチシャワー（NSFW統合: Moderate）
+  # 背景のみ：ビーチシャワー
+  - 04_os_000,(no humans,empty,beach shower,open shower,outdoor shower facility,wide shot,__自作2_1/params/time_evening__:2)
+  # 服装: 水着（swimsuit）- ビーチシャワー
+  # → NSFW継承用服装パラメータ: __自作2_1/params/swimsuit__
+  - __自作2_1/themes/lovey/scene_beach_outdoor_shower__,__自作2_1/params/male_type_default__,__自作2_1/params/swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # Scene 04: time_evening (夕方) - 夕暮れビーチ
+  # 背景のみ：夕暮れビーチ
+  - 05_ss_000,(no humans,empty,beach at sunset,golden hour,sunset,wide shot,__自作2_1/params/time_evening__:2)
+  # 服装: 水着（swimsuit）- 夕暮れビーチ
+  # → NSFW継承用服装パラメータ: __自作2_1/params/swimsuit__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_beach_sunset__,__自作2_1/params/male_type_default__,__自作2_1/params/swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # Scene 05: time_night (夜) - リゾート客室
+  # 背景のみ：リゾート客室
+  - 06_rr_000,(no humans,empty,resort room,hotel room,guest room,private room,wide shot,__自作2_1/params/time_night__:2)
+  # 服装: 部屋着（sweater_jeans）- リゾート客室
+  # → NSFW継承用服装パラメータ: __自作2_1/params/sweater_jeans__（NSFW統合なしのため使用しない）
+  - __自作2_1/themes/lovey/scene_resort_room__,__自作2_1/params/male_type_default__,__自作2_1/params/sweater_jeans__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+

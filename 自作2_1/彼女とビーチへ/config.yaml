@@ -1,0 +1,17 @@
+# テーマ設定（参考用）
+# このファイルはワイルドカードとして使用されません
+
+# テーマ名: 彼女とビーチへ
+# ベース: lovey
+# テーマタイプ: ビーチ・リゾート系
+# 男性タイプ: デフォルト
+# 時系列: time_day (昼) → time_night (夜)
+# Sex場所: place_hotel_bathroom（ホテル浴室）
+# Sex服装: outfit_nude（裸）
+# シーンフロー: 
+#   Scene 01: time_day - ビーチ到着・散策
+#   Scene 02: time_day - ビーチでの活動
+#   Scene 03: time_day → time_evening - ビーチシャワー（NSFW統合: Moderate）
+#   Scene 04: time_evening - 夕暮れビーチ
+#   Scene 05: time_night - リゾート客室
+

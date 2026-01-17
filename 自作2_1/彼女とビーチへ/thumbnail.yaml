@@ -1,0 +1,25 @@
+# サムネイル用画像プロンプト（彼女とビーチへ）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: ビーチ到着（水着）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,sunlight,))
+  standing at beach,looking at ocean,looking at viewer, left side,sandy beach,beach shore,seaside,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/swimsuit__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: ビーチ活動（水着）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,sunlight,))
+  sitting on sand,looking at viewer, left side,sandy beach,beach shore,seaside,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/swimsuit__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション3: ビーチシャワー（水着）
+  - ((Tyndall effect,cinematic lighting, bloom,evening,natural light,water droplets,))
+  under shower stream,looking at viewer, left side,beach shower,outdoor shower facility,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_bathing_prep__,__自作2_1/themes/lovey/lovey_atmosphere_steamy__
+  
+  # バリエーション4: 夕暮れビーチ（水着）
+  - ((Tyndall effect,cinematic lighting, bloom,evening,golden hour,sunset,))
+  standing at beach,looking at viewer, left side,beach at sunset,golden hour,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/swimsuit__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__
+  
+  # バリエーション5: リゾート客室（部屋着）
+  - ((Tyndall effect,cinematic lighting, bloom,night,soft lighting,indoor lighting,))
+  sitting on bed,looking at viewer, left side,resort room,hotel room,guest room,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/sweater_jeans__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+
