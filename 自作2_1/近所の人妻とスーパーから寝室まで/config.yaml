@@ -3,18 +3,17 @@
 
 # テーマ名: 近所の人妻とスーパーから寝室まで
 # ベース: lovey
-# テーマタイプ: 日常系（pose_scenes_daily.yaml）
-# 男性タイプ: デフォルト
+# テーマタイプ: 日常系
+# 男性タイプ: デフォルト (faceless male)
 # 時系列: time_day (昼) → time_night (夜)
 # Sex場所: place_home_bedroom（自宅寝室）
-# Sex/Fellatio服装: outfit_pajamas（ピンクのパジャマ）
+# Sex/Fellatio服装: outfit_underwear（白いブラ、白いパンティー）
+# NSFW統合: あり
 # シーンフロー: 
-#   Scene 01: time_day - ショッピング (scene_outdoor_shopping)
-#   Scene 02: time_day - 街歩き (scene_street_walking)
-#   Scene 03: time_evening - 帰宅 (scene_home_entrance)
-#   Scene 04: time_evening - 料理 (scene_kitchen_cooking)
-#   Scene 05: time_evening - 食事 (scene_dining)
-#   Scene 06: time_night - リビング (scene_living_room_relaxing) → NSFW: Light
-#   Scene 07: time_night - 親密 (scene_intimate_moment) → NSFW: Moderate
-#   Scene 08: time_night - 入浴 (scene_bathroom_bathing) → NSFW: Moderate
-
+#   Scene 01: time_day - 外出先でのショッピング・散策
+#   Scene 02: time_day - 帰宅中（街を歩く）
+#   Scene 03: time_day - 玄関到着
+#   Scene 04: time_day - 料理中（食事準備）
+#   Scene 05: time_evening - 自宅でのひと時（リラックス）
+#   Scene 06: time_night - 親密な時間（距離が近い）← NSFW統合あり（Light）
+#   Scene 07: time_night - 入浴（脱衣からシャワーまで）← NSFW統合あり（Moderate）

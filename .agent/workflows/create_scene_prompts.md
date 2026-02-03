@@ -1,34 +1,53 @@
 ---
-description: Create scene prompts from a given topic (Draft -> Review -> Prompts)
+description: シチュエーションからシーンプロンプトを作成するワークフロー
 ---
 
-This workflow standardizes the process of converting a user-provided topic into Stable Diffusion prompts.
+# シーンプロンプト作成ワークフロー
 
-# Steps
+特定のトピックやシチュエーションに基づいて、詳細なシーン説明と画像生成プロンプトを作成するための標準プロセスです。
 
-1. **Understand the Topic**: Read the user's request to understand the core situation and desired "moe" points or fetishes.
+## ワークフロー手順
 
-2. **Draft Scenes (`scenes_draft.md`)**:
-   - Create or update `scenes_draft.md`.
-   - List 10 scenes (or requested number).
-   - For each scene, define the **Concept** and the following **Visual Elements**:
-     - **Background (背景)**
-     - **Boy (男の子)** - Expression, action
-     - **Woman (女性)** - Expression, action
-     - **Clothing (服装)** - Describe for **Woman ONLY**. Must be highly specific (e.g., fabric type, fit, specific garments like 'ribbed knit', 'sheer blouse', 'pencil skirt').
-     - **Pose (ポーズ)** - Physical interaction
-     - **Angle (アングル)** - Camera position
+1. **トピックの理解**:
+   - ユーザーのリクエストを読み、核となるシチュエーションや「萌えポイント」、フェティシズムを理解します。
 
-3. **User Review**:
-   - Present the draft to the user using `notify_user`.
-   - Ask for confirmation or specific refinements (e.g., "Add more erotic tension", "Change the outfit").
+2. **既存情報の確認 (`grep_search`)**:
+   - `grep_search` を使用して、既存の wildcard ファイルに関連するコンセプトがないか確認します。
+   - 例: 「家庭教師」のトピックなら、既存の「先生」や「学校」関連のファイルを検索し、スタイルを合わせます。
 
-4. **Generate Prompts (`prompts.md`)**:
-   - Once the draft is approved, create or update `prompts.md`.
-   - Convert the visual elements into specific Stable Diffusion tags (e.g., `1boy, 1girl, shota, older female`).
-   - **CRITICAL**: Always include the subject for actions (e.g., `girl waving`, `boy smiling`, `girl hugging boy`) to avoid ambiguity.
-   - Use strict quality tags (`masterpiece, best quality`) and negative prompts.
-   - Ensure specific elements like 'erection reveal' are translated into effective tags (`bulge`, `tenting`, `pointing`, etc.).
+3. **シーンのドラフト作成 (`scenes_draft.md`)**:
+   - `scenes_draft.md` を作成または更新します。
+   - リクエストに応じて10〜20のシーンをリストアップします。
+   - **必須事項**: 「NSFWシーン」を必ず含めてください（明示的に禁止されている場合を除く）。健全（SFW）テーマであっても、親密なシーンやNSFWのバリエーションを提案に含めてください。
+   - 各シーンについて、**コンセプト**と以下の**視覚的要素**を定義します：
+     - **背景 (Background)**
+     - **男の子 (Boy)** - 表情、アクション
+     - **女の子 (Girl)** - 表情、アクション、**服装（具体的かつ女性のみ）**
+     - **構図・アングル (Composition)**
+     - **雰囲気・照明 (Atmosphere)**
+   - **服装ルール**: 女性の服装は非常に具体的に記述してください（例：「セーター」ではなく「ケーブル編みのオフショルダーセーター」）。
 
-5. **Final Output**:
-   - (Optional) Convert the prompts into a YAML format (`pose_scenes.yaml`) if requested.
+4. **ユーザーレビュー**:
+   - ドラフトを `notify_user` でユーザーに提示します。
+   - 確認や具体的な修正指示（例：「もっとエロティックな緊張感を」「服装を変更して」）を求めます。
+
+5. **プロンプト生成 (`prompts.md`)**:
+   - **重要**: `doc/ai_prompt_generation_rules.md` で定義された「AIプロンプト構築レシピ」を使用してください。
+   - 決して説明文をただ翻訳しないでください。6モジュール構成を使用してプロンプトを**「構築」**してください：
+     1. **品質** (`masterpiece...`)
+     2. **カメラ** (`dutch angle` 等)
+     3. **アクション** (重み付け `(tag:1.3)`)
+     4. **物理・肉感** (`bouncing breasts`, `deformation`)
+     5. **空気感・液体** (`steam`, `sweat`, `humid`)
+     6. **表情** (詳細に)
+   - **視覚的フォーマット**: `()` や `weights` の使用を明確に出力してください。
+   - アンビギュイティ（曖昧さ）を避けるため、アクションには必ず主語を含めてください（例: `girl waving`, `boy smiling`）。
+   - 厳格な品質タグとネガティブプロンプトを使用してください。
+
+6. **最終出力**:
+   - （オプション）要望があれば、プロンプトをYAML形式（`pose_scenes.yaml`）に変換します。
+
+## 注意事項
+
+- **一貫性**: 既存の `themes` ディレクトリにある高品質なプロンプトのスタイル（重み付け、強調、物理表現）を常に意識してください。
+- **具体性**: 「かわいい」「セクシー」といった曖昧な言葉を使わず、具体的な視覚的タグ（例: `frilled bikini`, `blush`, `parted lips`）に変換してください。

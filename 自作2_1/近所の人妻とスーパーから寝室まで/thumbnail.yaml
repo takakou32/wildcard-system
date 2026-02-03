@@ -1,0 +1,24 @@
+# サムネイル用画像プロンプト（近所の人妻とスーパーから寝室まで）
+# 手動実行用 - main.yamlには含めません
+# テーマ固有の場所、服装、日時、ライティングを反映
+
+thumbnail:
+  # バリエーション1: スーパー（ショッピング）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,store lighting,))
+  shopping,holding shopping basket,looking at viewer, left side,supermarket,store interior,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt_bag__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション2: 帰宅中（街を歩く）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,outdoor lighting,))
+  walking,carrying shopping bags,looking at viewer, left side,residential street,neighborhood,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/blouse_skirt__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_casual__
+  
+  # バリエーション3: 料理中（キッチン）
+  - ((Tyndall effect,cinematic lighting, bloom,day,natural light,window light,))
+  cooking,preparing food,apron,looking at viewer, left side,kitchen,home kitchen,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/apron_sweater_jeans__,__自作2_1/params/time_day__,__自作2_1/themes/lovey/lovey_face_casual__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # バリエーション4: リビング（リラックス）
+  - ((Tyndall effect,cinematic lighting, bloom,evening,warm lighting,indoor lighting,))
+  sitting on sofa,relaxing,looking at viewer, left side,living room,home interior,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/sweater_jeans__,__自作2_1/params/time_evening__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_cozy__
+  
+  # バリエーション5: 親密な時間（リビング）
+  - ((Tyndall effect,cinematic lighting, bloom,night,warm lighting,romantic lighting,))
+  sitting close,embracing,looking at viewer, left side,living room,home interior,upper body,from above,(girl is left side of the image,on left:1.5),__自作2_1/params/sweater_jeans__,__自作2_1/params/time_night__,__自作2_1/themes/lovey/lovey_face_intimate__,__自作2_1/themes/lovey/lovey_atmosphere_romantic__

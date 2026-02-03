@@ -16,8 +16,8 @@ ramdom_place:
   #-
 
 pose_chakui:
-  #- (),
-  -,white shirt, red jacket, red long skirt
+  - (),
+  #-,white shirt, red jacket, red long skirt
   #- Black suits, white shirt, black short skirt,
   #-school uniform, ribbon
   #ヨル衣装
@@ -69,17 +69,17 @@ pose_datsui:
   #- serafuku,skirt
   #- japanese kimono,,head ornament, long sleeves, layered clothes,jewelry
   #- panties, pink bra,pink panties,lace-trimmed bra,garter belt, garter straps, 
-  - panties, white bra,white panties,lace-trimmed bra, 
+  #- panties, white bra,white panties,lace-trimmed bra, 
   #-  (beige bra,beige panties,lace-trimmed bra,big bra:1)
   #- playboy bunny,rabbit ears, black rabbit ears, fake rabbit ears,black leotard,
-  #- ()
+  - ()
 
   #- white bikini 
 pose_nemaki:
   #- black serafuku,skirt
-  #- serafuku,skirt
+  #- serafuku,skir
   #- khaki pants, yellow shirt, collarbone, long sleeves
-  - white bathrobe
+  #- white bathrobe
   #-  white negligee
   #- yukata
   #- white t-shirt, denim,
@@ -90,7 +90,7 @@ pose_nemaki:
   #-  (beige bra,beige panties,lace-trimmed bra,big bra:1)
   #- white bikini ,Beach blanket
   #- white bathrobe
-  #- ()
+  - ()
 #汎用着衣,着衣衣装
 #汎用脱衣中,脱衣用衣装
 #汎用寝巻,寝巻
