@@ -6,7 +6,7 @@ place_room:
   #- flat room, wall,bed,,space ship
   #- ((on bed)),room,,window,furniture,bookshlf
   #- hospital,on bed,medical equipment
-  - ((on bed)),old room,(old,traditional,1600's europe room:1.5),traditional europe room,
+  nnl- ((on bed)),old room,(old,traditional,1600's europe room:1.5),traditional europe room,
   #- ((on bed)),furniture,china,chinese room
   #- on bed,hotel room,cinematic lighting, 
   #- ((on bed)), hotel room,,
@@ -15,7 +15,7 @@ place_room:
   #- outdoor,beach,on blanket
   #- onsen,steam
   #- beach,sea
-  #- tatami,futon, 
+  #- (dark room:1.3),gaming chair,desktop \(computing\),monitor,computer keyboard, 
   #- ((japanese room,,shogatsu)),window(japanese  Furniture:1.2),futon,,(bathrobe:1.8)
   #- ((japanese room,,shogatsu)),(japanese  Furniture:1.2),
   #- ((on sofa)),europe room,picture,bookshelf,
@@ -49,7 +49,7 @@ place_lighting:
   #- ((dark room,,cinematic lighting,natural light))
   #- ((dark room,,cinematic lighting))
   #- cinematic lighting  
-  - dark room,((Tyndall effect,cinematic lighting, bloom,night,natural light,)),
+  - ((Tyndall effect,cinematic lighting, summer,bloom,evening,sunlight,natural light,)),
   #- ((Tyndall effect,cinematic lighting,day ,bloom,,natural light)),dappled sunlight
   #- ((Tyndall effect,cinematic lighting, bloom,night,natural light)),dappled sunlight
   #- ((cinematic lighting,day,tyndall effect,natulal light,sunshine,sun))
