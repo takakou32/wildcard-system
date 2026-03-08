@@ -1,0 +1,198 @@
+# フェーズ7〜13 自動生成プロンプト
+# ワークフロー規則に則り、「連番, カメラ・構図, ポーズ・体位, 表情・視線」の順序で出力。
+# キャラクター、照明、場所指定は除外済み。
+
+generated_prompts:
+  # === フェーズ7: フェラ直後「まだ足りない…」の余韻 ===
+  # 7-1 フェラ終了直後、見上げ・フルボディ
+  - 40_se700, full body, kneeling, wiping mouth with hand, looking up at viewer, shy blush, lustful eyes
+  # 7-2 見上げ・顔アップ
+  - 40_se701, closeup face, looking up, open mouth, torogao, slight blush, shy but craving, lustful eyes
+  # 7-3 横顔・息を荒げる
+  - 40_se702, profile, side view, saliva on chin, drooling, open mouth, heavy breathing
+  # 7-4 表情変化の3段階（段階1：戸惑い）
+  - 40_se703, upper body, wiping mouth, saliva trail, looking slightly disgusted but blushing
+  # 7-4 表情変化の3段階（段階2：欲情）
+  - 40_se704, upper body, torogao, half-closed eyes, lustful, heavy breathing
+  # 7-4 表情変化の3段階（段階3：誘い 上半身）
+  - 40_se705, upper body, saliva, sticking tongue out, open mouth, panting, torogao
+  # 7-4 表情変化の3段階（段階3：誘い 顔アップ）
+  - 40_se706, closeup face, saliva, sticking tongue out, open mouth, panting, torogao
+  # 7-5 太ももすり寄り・甘えポーズ
+  - 40_se707, closeup, hugging male thigh, rubbing cheek against thigh, looking up, sweet smile, begging
+
+  # === フェーズ8: パイズリ移行・自分から胸を寄せる ===
+  # 8-1 胸を持ち上げる
+  - 40_se708, kneeling, holding own breasts with both hands, looking up, shy expression, anticipation
+  # 8-2〜8-4 胸を挟む過程
+  - 40_se709, paizuri, grabbing own breasts, preparing to squeeze penis, looking at viewer, blush
+  # 8-5〜8-8 パイズリ開始後（開始）
+  - 40_se710, paizuri, breasts squeezing penis lightly, slight blush
+  # 8-5〜8-8 パイズリ開始後（激しく）
+  - 40_se711, paizuri, breasts squeezing penis tightly, bouncing breasts, motion lines, heavy breathing
+  # 8-9 顔アップ（ヨダレ垂れ）
+  - 40_se712, closeup face, saliva dripping onto breasts, torogao, open mouth
+  # 8-10 横アングル（谷間から顔）
+  - 40_se713, side view, face visible from cleavage, heavy sweat, torogao, open mouth
+  # 8-11 乳首弄り＋パイズリ
+  - 40_se714, paizuri, actively grinding hips, holding own nipple, tweaking own nipple, torogao, lustful expression
+  # 8-12 腰くねらせ全身ショット（1/5）
+  - 40_se715, full body, paizuri, arching back, grinding hips, bouncing breasts, motion blur, heavy sweat, torogao, open mouth, saliva
+  # 8-12 腰くねらせ全身ショット（2/5）
+  - 40_se716, full body, paizuri, shaking hips, bouncing breasts, motion lines, heavy sweat, torogao, open mouth, heavy breathing
+  # 8-12 腰くねらせ全身ショット（3/5）
+  - 40_se717, full body, paizuri, twisting hips, bouncing breasts, motion blur, heavy sweat, torogao, open mouth, saliva
+  # 8-12 腰くねらせ全身ショット（4/5）
+  - 40_se718, full body, paizuri, grinding hips vigorously, bouncing breasts, motion lines, heavy sweat, torogao, open mouth, heavy breathing
+  # 8-12 腰くねらせ全身ショット（5/5）
+  - 40_se719, full body, paizuri, moving hips chaotically, bouncing breasts, motion blur, heavy sweat, torogao, open mouth, saliva trail
+
+  # === フェーズ9: 騎乗位へ移行・自分で挿入する瞬間 ===
+  # 9-1 押し倒し
+  - 40_se720, pushing boy down, pinning boy down, straddling, getting up, dominant
+  # 9-2 跨る直前（顔アップ）
+  - 40_se721, closeup face, cowgirl position, straddling, hesitating, looking anxious but willing, blush
+  # 9-3〜9-6 挿入過程（浅）
+  - 40_se722, cowgirl position, tip insertion, grimace
+  # 9-3〜9-6 挿入過程（半ば）
+  - 40_se723, cowgirl position, half insertion, slowly sinking down, breathing heavily
+  # 9-7 挿入完了直後
+  - 40_se724, cowgirl position, deep insertion, fully inserted, eyes wide open, surprised and pleasurable expression, open mouth
+  # 9-8 横アングル結合部
+  - 40_se725, side view, cowgirl position, full insertion, penetration visible
+  # 9-9 腰振り開始（ゆっくり）
+  - 40_se726, cowgirl position, hands on boys chest, slowly moving hips, looking down at boy, torogao
+  # 9-9 腰振り開始（激しく）
+  - 40_se727, cowgirl position, hands on boys chest, actively moving hips, bouncing breasts, looking down at boy, torogao
+  # 9-10 顔クローズアップ（トロン）
+  - 40_se728, closeup face, cowgirl position, torogao, half-closed eyes, completely melted expression, blushing heavily, open mouth
+  # 9-10 顔クローズアップ（焦点合わず）
+  - 40_se729, closeup face, cowgirl position, torogao, unfocused eyes, completely melted expression, blushing heavily, open mouth
+
+  # === フェーズ10: 騎乗位本気腰振り ===
+  # 10-1〜10-5 腰振り速度段階（通常）
+  - 40_se730, cowgirl position, slowly moving hips, bouncing breasts, torogao, open mouth, saliva
+  # 10-1〜10-5 腰振り速度段階（高速）
+  - 40_se731, cowgirl position, vigorously moving hips, high speed, motion lines, bouncing breasts, torogao, open mouth, saliva
+  # 10-6 上体反らしオホ声
+  - 40_se732, full body, cowgirl position, leaning back, arching back, screaming in pleasure, torogao
+  # 10-7 顔アップ白目＋舌出し
+  - 40_se733, closeup face, cowgirl position, heavy sweat, torogao, tongue out, open mouth, saliva dripping, screaming
+  # 10-8 汗だく髪張り付き（横顔）
+  - 40_se734, side view, cowgirl position, sweaty hair stuck to face, heavy sweat, torogao
+  # 10-9 自慰併用（M要素）
+  - 40_se735, cowgirl position, holding own clitoris, rubbing own clitoris, masochistic expression, torogao
+  # 10-10〜10-12 絶頂接近（眉寄せ）
+  - 40_se736, cowgirl position, tensing up, furrowed eyebrows
+  # 10-10〜10-12 絶頂接近（口開け）
+  - 40_se737, cowgirl position, heavy breathing, open mouth
+  # 10-10〜10-12 絶頂接近（全身震え・絶頂）
+  - 40_se738, cowgirl position, full body trembling, climaxing, torogao, open mouth wide, saliva
+  # 10-13 結合部クローズアップ（愛液）
+  - 40_se739, closeup crotch, cowgirl position, penetration, love juice splashing
+  # 10-14 男性視点見上げ
+  - 40_se740, low angle, pov from boy, looking up at girl, cowgirl position, bouncing breasts, torogao
+  # 10-15 一瞬止まって懇願（1）
+  - 40_se741, cowgirl position, stopping suddenly, heavy sweat, looking down, begging for more, pleading expression, blush, torogao
+  # 10-15 一瞬止まって懇願（2）
+  - 40_se742, cowgirl position, stopping completely, heavy sweat, looking down, begging eyes, pleading expression, blush, torogao
+  # 10-16 連続絶頂接近（1）
+  - 40_se743, cowgirl position, approaching second climax, heavy sweat, furrowed brows, open mouth, torogao
+  # 10-16 連続絶頂接近（2）
+  - 40_se744, cowgirl position, full body violently shaking, second climax, heavy sweat, torogao, open mouth
+
+  # === フェーズ11: バックへ体位変更・自分からお尻を突き出す ===
+  # 11-1 四つん這い移行
+  - 40_se745, getting off, on all fours, doggystyle preparation, looking back
+  # 11-2 お尻掲げ振り返り
+  - 40_se746, doggystyle, ass up, looking back over shoulder, lustful expression, asking for more, torogao
+  # 11-3〜11-6 バック挿入過程（浅）
+  - 40_se747, doggystyle, tip insertion, looking back, biting lip
+  # 11-3〜11-6 バック挿入過程（半ば）
+  - 40_se748, doggystyle, halfway inserted, back arched, moaning, torogao
+  # 11-3〜11-6 バック挿入過程（深・荒い息）
+  - 40_se749, doggystyle, deep insertion, fully inserted, heavy breathing, torogao
+  # 11-3〜11-6 バック挿入過程（深・絶叫）
+  - 40_se750, doggystyle, deep insertion, fully inserted, screaming in pleasure, open mouth, torogao
+  # 11-7 激しい突き・オホ声連発
+  - 40_se751, doggystyle, intense thrusting, face pressed against bed, screaming loud, torogao, heavy saliva
+  # 11-8〜11-10 自ら腰を振る（積極）
+  - 40_se752, doggystyle, pushing hips back actively, meeting thrusts, torogao
+  # 11-8〜11-10 自ら腰を振る（ガクガク）
+  - 40_se753, doggystyle, actively thrusting back, trembling, torogao, heavy breathing
+  # 11-8〜11-10 自ら腰を振る（イキそう）
+  - 40_se754, doggystyle, approaching climax again, shaking legs, heavy sweat, torogao
+  # 11-11 髪掴み顔上げ（横顔・絶叫）
+  - 40_se755, side view, doggystyle, hair pulled back, boy grabbing girls hair, face forced up, looking up, painful pleasure, screaming, teary eyes, torogao
+  # 11-11 髪掴み顔上げ（横顔・涙目）
+  - 40_se756, side view, doggystyle, boy grabbing girls hair, face forced up, painful pleasure, screaming, teary eyes, torogao
+  # 11-12 結合部＋尻の揺れ
+  - 40_se757, doggystyle, focus on penetration and shaking ass, motion lines, heavy sweat
+
+  # === フェーズ12: 正常位へ移行・密着絶頂 ===
+  # 12-1 抱き起こし正常位へ
+  - 40_se758, changing position, doggystyle to missionary, hugging, lifting up, face to face
+  # 12-2 脚担がれ（驚き顔）
+  - 40_se759, missionary, legs on boys shoulders, surprised and expectant expression, wide eyes, blush
+  # 12-3〜12-7 正常位突き上げ（ゆっくり）
+  - 40_se760, missionary, shallow thrusting, slow speed, locking eyes, torogao
+  # 12-3〜12-7 正常位突き上げ（中速）
+  - 40_se761, missionary, medium speed thrusting, heavy breathing, torogao, open mouth
+  # 12-3〜12-7 正常位突き上げ（高速）
+  - 40_se762, missionary, fast thrusting, deep penetration, screaming softly, torogao
+  # 12-3〜12-7 正常位突き上げ（激しく）
+  - 40_se763, missionary, intense pounding, bouncing breasts, motion lines, screaming softly, open mouth wide, torogao
+  # 12-3〜12-7 正常位突き上げ（超高速）
+  - 40_se764, missionary, ultra high speed thrusting, sweaty, shaking body, screaming softly, open mouth wide, torogao
+  # 12-10〜12-13 絶頂接近（涙目）
+  - 40_se765, missionary, approaching climax, teary eyes, tears of pleasure, torogao
+  # 12-10〜12-13 絶頂接近（白目・融解）
+  - 40_se766, missionary, approaching climax, unfocused eyes, dazed expression, completely melted, torogao
+  # 12-10〜12-13 絶頂接近（大量の涎）
+  - 40_se767, missionary, approaching climax, heavy drooling, saliva trail, tongue out long, torogao
+  # 12-10〜12-13 絶頂接近（全身硬直 1）
+  - 40_se768, missionary, approaching climax, body stiffening, rigid muscles, intense orgasm face, torogao
+  # 12-10〜12-13 絶頂接近（全身硬直 2）
+  - 40_se769, missionary, approaching climax, full body tension, gripping sheets, intense orgasm face, torogao
+  # 12-14 オホ声最大ボリューム（超アップ）
+  - 40_se770, extreme closeup face, missionary, maximum volume scream, open mouth wide, saliva dripping, torogao
+  # 12-15 男性視点覆い被さり
+  - 40_se771, pov from boy, leaning over girl, looking down at girl, missionary, torogao
+  # 12-16 脚ガクガク（下半身ショット 1）
+  - 40_se772, lower body focus, missionary, climax, legs trembling violently, shaking legs, toes curling
+  # 12-16 脚ガクガク（下半身ショット 2）
+  - 40_se773, lower body focus, missionary, intense climax, legs convulsing, toes curling
+  # 12-17, 12-18 見つめる瞳・連続イキ
+  - 40_se774, missionary, repeated orgasm, looking at boy while climaxing, twitching face, torogao
+
+  # === フェーズ13: 中出し＋事後余韻 ===
+  # 13-1 中出し直後・腹部膨らみ
+  - 40_se775, missionary, internal ejaculation, creampie moment, belly bulge, cum filling womb, torogao
+  # 13-2 痙攣するイキ顔
+  - 40_se776, missionary, full body shaking, convulsing after climax, twitching, torogao
+  # 13-3 事後すぐの脱力顔
+  - 40_se777, immediately after sex, lying back, exhausted, dazed expression, unfocused eyes
+  # 13-4〜13-7 事後表情変化（微笑み）
+  - 40_se778, after sex, satisfied smile, gentle expression, looking at boy
+  # 13-4〜13-7 事後表情変化（上目遣い）
+  - 40_se779, after sex, looking up sweetly, begging eyes, wanting to be spoiled, gentle smile
+  # 13-4〜13-7 事後表情変化（キス要求）
+  - 40_se780, after sex, leaning in for a kiss, lips slightly parted, loving gaze
+  # 13-4〜13-7 事後表情変化（抱擁）
+  - 40_se781, after sex, holding closely, embracing warmly, cuddling
+  # 13-8 正常位密着のまま余韻
+  - 40_se782, full body close contact, missionary position cuddle, sticky with sweat, after sex
+  # 13-9 首筋へキス
+  - 40_se783, profile view, boy kissing girls neck, whispering, after sex
+  # 13-10 胸に顔をうずめる
+  - 40_se784, after sex, burying face in boys chest, whispering, asking for more, flushed cheeks
+  # 13-11〜13-15 事後クローズアップ5種（満足赤面）
+  - 40_se785, closeup face, after sex, heavy sweat, heavy blush, satisfied look
+  # 13-11〜13-15 事後クローズアップ5種（歓喜の涙）
+  - 40_se786, closeup face, after sex, tears of joy, moist eyes, soft smile
+  # 13-11〜13-15 事後クローズアップ5種（ヨダレ・荒い息）
+  - 40_se787, closeup face, after sex, saliva trail on lips, heavy breathing
+  # 13-11〜13-15 事後クローズアップ5種（深い赤面リラックス）
+  - 40_se788, closeup face, after sex, deep blush, flushed face, relaxed
+  # 13-11〜13-15 事後クローズアップ5種（完全に寝顔）
+  - 40_se789, closeup face, after sex, completely relaxed, peaceful sleeping face, safe feeling
