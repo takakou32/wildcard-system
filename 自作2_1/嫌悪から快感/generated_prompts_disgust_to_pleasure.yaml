@@ -1,129 +1,132 @@
 disgust_to_pleasure:
-  # [40_se800] 嫌悪感むき出しの睨み
-  - 40_se800, (upper body:1.2), 1girl, (crossed arms:1.2), leaning back, disgust, glaring, (frowning:1.2), furrowed brow, hostile expression
+  # [40_se_1_01] 嫌悪感むき出しの睨み
+  - 40_se_1_01, (upper body:1.2), 1girl, (crossed arms:1.2), leaning back, disgust, glaring, (frowning:1.2), furrowed brow, hostile expression
 
-  # [40_se801] 壁際への追い詰め
-  - 40_se801, (wide angle:1.2), 1girl, (against wall:1.3), hugging self, defensive posture, scared, glaring, disgust
+  # [40_se_1_02] 壁際への追い詰め
+  - 40_se_1_02, (wide angle:1.2), 1girl, (against wall:1.3), hugging self, defensive posture, scared, glaring, disgust
 
-  # [40_se802] 顎クイ・強引な接触
-  - 40_se802, (close-up:1.3), focus on face, 1girl, faceless male, (chin grab:1.2), male hand holding chin, trying to look away, turning face away, eyes firmly closed, clenched teeth, disgust
+  # [40_se_1_03] 顎クイ・強引な接触
+  - 40_se_1_03, (close-up:1.3), focus on face, 1girl, faceless male, (chin grab:1.2), male hand holding chin, trying to look away, turning face away, eyes firmly closed, clenched teeth, disgust
 
-  # [40_se803] 強引なキス(抵抗)
-  - 40_se803, (close-up:1.3), focus on face, 1girl, faceless male, (forced kiss:1.4), male pushing, pushing male chest away, resisting, hands on chest, wide eyes, surprise, rejection
+  # [40_se_2_01] 衣服越しに弄られる
+  - 40_se_2_01, (cowboy shot:1.2), 1girl, faceless male, (groping over clothes:1.3), hand on crotch, squirming, humiliated expression, blush, biting lip
 
-  # [40_se804] 強引なキス(少し力が抜ける)
-  - 40_se804, (close-up:1.3), focus on face, 1girl, faceless male, (forced kiss:1.4), weak resistance, hands resting on chest, unfocused eyes, slight blush
+  # [40_se_2_02] 直接の手マン(浅い)
+  - 40_se_2_02, (side angle:1.2), 1girl, faceless male, (fingering:1.4), hand between legs, flinching, body shudder, wincing, slight pain, mixed pain and pleasure
 
-  # [40_se805] 衣服越しに弄られる
-  - 40_se805, (cowboy shot:1.2), 1girl, faceless male, (groping over clothes:1.3), hand on crotch, squirming, humiliated expression, blush, biting lip
+  # [40_se_2_03] 直接の手マン(深い)
+  - 40_se_2_03, (side angle:1.2), 1girl, faceless male, (deep fingering:1.4), lifting hips, arching back, heavy breathing, teary eyes
 
-  # [40_se806] 直接の手マン(浅い)
-  - 40_se806, (side angle:1.2), 1girl, faceless male, (fingering:1.4), hand between legs, flinching, body shudder, wincing, slight pain, mixed pain and pleasure
+  # [40_se_2_04] 直接の手マン(激しい)
+  - 40_se_2_04, (side angle:1.2), 1girl, faceless male, (vigorous fingering:1.5), fast fingering motion, flailing legs, (wet, dripping juices:1.3), open mouth, panting, torogao
 
-  # [40_se807] 直接の手マン(深い)
-  - 40_se807, (side angle:1.2), 1girl, faceless male, (deep fingering:1.4), lifting hips, arching back, heavy breathing, teary eyes
+  # [40_se_2_05] 強引なキス(抵抗)
+  - 40_se_2_05, (close-up:1.3), focus on face, 1girl, faceless male, (forced kiss:1.4), male pushing, pushing male chest away, resisting, hands on chest, wide eyes, surprise, rejection
 
-  # [40_se808] 直接の手マン(激しい)
-  - 40_se808, (side angle:1.2), 1girl, faceless male, (vigorous fingering:1.5), fast fingering motion, flailing legs, (wet, dripping juices:1.3), open mouth, panting, torogao
+  # [40_se_2_06] 強引なキス(少し力が抜ける)
+  - 40_se_2_06, (close-up:1.3), focus on face, 1girl, faceless male, (forced kiss:1.4), weak resistance, hands resting on chest, unfocused eyes, slight blush
 
-  # [40_se809] 快感への屈服(声我慢)
-  - 40_se810, (close-up:1.3), focus on face, 1girl, hand covering own mouth, stifling moans, heavy blush, teary eyes, frustrated but pleased, mixed expressions, torogao
+  # [40_se_2_07] 快感への屈服(声我慢)
+  - 40_se_2_07, (close-up:1.3), focus on face, 1girl, hand covering own mouth, stifling moans, heavy blush, teary eyes, frustrated but pleased, mixed expressions, torogao
 
-  # [40_se810] 快感への屈服(声我慢)
-  - 40_se810, (close-up:1.3), focus on face, 1girl, hand covering own mouth, stifling moans, heavy blush, teary eyes, frustrated but pleased, mixed expressions, torogao
+  # [40_se_2_08] 快感への屈服(声我慢)
+  - 40_se_2_08, (close-up:1.3), focus on face, 1girl, hand covering own mouth, stifling moans, heavy blush, teary eyes, frustrated but pleased, mixed expressions, torogao
 
-  # [40_se811] 手マンでの絶頂(1)
-  - 40_se811, (full body:1.2), 1girl, faceless male, fingering, (arching climax:1.5), body extremely bent backwards, arched back, curled toes, tongue out, drooling, teary eyes, intense orgasm face, flushed face
+  # [40_se_2_09] 手マンでの絶頂(1)
+  - 40_se_2_09, (from below:1.3), (focus on crotch:1.3), 1girl, faceless male, lying on back, (fingering:1.5), hand between legs, (arching climax:1.5), body extremely bent backwards, arched back, curled toes, tongue out, drooling, teary eyes, intense orgasm face, flushed face
 
-  # [40_se812] 手マンでの絶頂(2)
-  - 40_se812, (full body:1.2), 1girl, faceless male, fingering, (arching climax:1.5), body extremely bent backwards, arched back, curled toes, tongue out, drooling, teary eyes, intense orgasm face, flushed face
+  # [40_se_2_10] 手マンでの絶頂(2)
+  - 40_se_2_10, (from below:1.3), (focus on crotch:1.3), 1girl, faceless male, lying on back, (fingering:1.5), hand between legs, (arching climax:1.5), body extremely bent backwards, arched back, curled toes, tongue out, drooling, teary eyes, intense orgasm face, flushed face,splash,pussy_juice
 
-  # [40_se813] 見下ろされる・命令
-  - 40_se813, (from above:1.3), male pov, looking down, 1girl, kneeling, exhausted, heavy breathing, looking up, upper body, submissive, unfocused eyes
+  # [40_se_3_01] 見下ろされる・命令
+  - 40_se_3_01, (from above:1.3), male pov, looking down, 1girl, kneeling, exhausted, heavy breathing, looking up, upper body, submissive, unfocused eyes
 
-  # [40_se814] 咥え始め(顔の前)
-  - 40_se814, (close-up:1.3), focus on face, 1girl, faceless male, penis near face, displeased, reluctant, resigned obedience
+  # [40_se_3_02] 咥え始め(顔の前)
+  - 40_se_3_02, (close-up:1.3), focus on face, 1girl, faceless male, penis near face, displeased, reluctant, resigned obedience
 
-  # [40_se815] 咥え始め(浅く咥える)
-  - 40_se815, (close-up:1.3), focus on face, 1girl, faceless male, (fellatio:1.3), shallow fellatio, hesitantly sucking, blush, looking up
+  # [40_se_3_03] 咥え始め(浅く咥える)
+  - 40_se_3_03, (close-up:1.3), focus on face, 1girl, faceless male, (fellatio:1.3), shallow fellatio, hesitantly sucking, blush, looking up
 
-  # [40_se816] 咥え始め(しゃぶる)
-  - 40_se816, (close-up:1.3), focus on face, 1girl, faceless male, (fellatio:1.4), holding penis, sucking, almost torogao
+  # [40_se_3_04] 咥え始め(しゃぶる)
+  - 40_se_3_04, (close-up:1.3), focus on face, 1girl, faceless male, (fellatio:1.4), holding penis, sucking, almost torogao
 
-  # [40_se817] 奉仕への没頭(深く)
-  - 40_se817, (close-up:1.3), focus on face, 1girl, faceless male, (deep fellatio:1.4), eyes closed, absorbed, focused, suckling
+  # [40_se_3_05] 奉仕への没頭(深く)
+  - 40_se_3_05, (close-up:1.3), focus on face, 1girl, faceless male, (deep fellatio:1.4), eyes closed, absorbed, focused, suckling
 
-  # [40_se818] 奉仕への没頭(激しく)
-  - 40_se818, (side view:1.3), 1girl, faceless male, (vigorous fellatio:1.5), head bobbing, motion blur, saliva flying, heavy breathing, drooling
+  # [40_se_3_06] 奉仕への没頭(激しく)
+  - 40_se_3_06, (side view:1.3), 1girl, faceless male, (vigorous fellatio:1.5), head bobbing, motion blur, saliva flying, heavy breathing, drooling
 
-  # [40_se819] 奉仕への没頭(喉奥)
-  - 40_se819, (side view:1.3), 1girl, faceless male, (deepthroat:1.5), penis down throat, bulging throat, teary eyes, struggling but enjoying, mixed pain and pleasure
+  # [40_se_3_07] 奉仕への没頭(喉奥)
+  - 40_se_3_07, (side view:1.3), 1girl, faceless male, (deepthroat:1.5), penis down throat, bulging throat, teary eyes, struggling but enjoying, mixed pain and pleasure
 
-  # [40_se820] 押し倒し・正常位挿入
-  - 40_se820, (wide angle:1.2), 1girl, faceless male, (missionary:1.4), lying on back, pushed down, legs spread wide, welcoming, lustful expression, blush, torogao
+  # [40_se_4_01] 押し倒し・正常位挿入
+  - 40_se_4_01, (wide angle:1.2), 1girl, faceless male, (missionary:1.4), lying on back, pushed down, legs spread wide, welcoming, lustful expression, blush, torogao
 
-  # [40_se821] 激しいピストン(浅く速く)
-  - 40_se821, (cowboy shot:1.2), 1girl, faceless male, missionary, (fast sex:1.4), arms wrapped around male back, hugging tightly, open mouth, panting, torogao
+  # [40_se_4_02] 激しいピストン(浅く速く)
+  - 40_se_4_02, (cowboy shot:1.2), 1girl, faceless male, missionary, (fast sex:1.4), arms wrapped around male back, hugging tightly, open mouth, panting, torogao
 
-  # [40_se822] 激しいピストン(深く)
-  - 40_se822, (cowboy shot:1.2), 1girl, faceless male, missionary, (deep penetration:1.4), lifting hips, open mouth, panting, torogao
+  # [40_se_4_03] 激しいピストン(深く)
+  - 40_se_4_03, (cowboy shot:1.2), 1girl, faceless male, missionary, (deep penetration:1.4), lifting hips, open mouth, panting, torogao
 
-  # [40_se823] 激しいピストン(胸の揺れ)
-  - 40_se823, (cowboy shot:1.2), 1girl, faceless male, missionary, vigorous thrusting, (bouncing breasts:1.4), intense impact, open mouth, panting, torogao
+  # [40_se_4_04] 激しいピストン(胸の揺れ)
+  - 40_se_4_04, (cowboy shot:1.2), 1girl, faceless male, missionary, vigorous thrusting, (bouncing breasts:1.4), intense impact, open mouth, panting, torogao
 
-  # [40_se824] 激しいピストン(汗だく)
-  - 40_se824, (cowboy shot:1.2), 1girl, faceless male, missionary, vigorous thrusting, (heavy sweat:1.4), gripping sheets, full body sweat, open mouth, panting, torogao
+  # [40_se_4_05] 激しいピストン(汗だく)
+  - 40_se_4_05, (cowboy shot:1.2), 1girl, faceless male, missionary, vigorous thrusting, (heavy sweat:1.4), gripping sheets, full body sweat, open mouth, panting, torogao
 
-  # [40_se825] バックへ変更・四つん這い
-  - 40_se825, (wide angle:1.2), 1girl, faceless male, (doggy style:1.4), all fours, sticking ass out, high hips, looking back over shoulder, lustful face, torogao
+  # [40_se_4_06] バックへ変更・四つん這い
+  - 40_se_4_06, (wide angle:1.2), 1girl, faceless male, (doggy style:1.4), all fours, sticking ass out, high hips, looking back over shoulder, lustful face, torogao
 
-  # [40_se826] 獣のような交尾(激しい突き)
-  - 40_se826, (wide angle:1.2), 1girl, faceless male, doggy style, (vigorous thrusting:1.5), body pushed forward, screaming, drooling, torogao, heavy sweat
+  # [40_se_4_07] バックへ変更・アヌス開帳
+  - 40_se_4_07, (wide angle:1.2), 1girl, faceless male, (doggy style:1.4), all fours, sticking ass out, high hips, male hands spreading anus, spreading ass, presenting anus, looking back over shoulder, lustful face, torogao
 
-  # [40_se827] 獣のような交尾(髪を掴まれる)
-  - 40_se827, (wide angle:1.2), 1girl, faceless male, doggy style, vigorous thrusting, male hand pulling hair, forced to look up, head tilted back, screaming, drooling, torogao
+  # [40_se_4_08] 獣のような交尾(激しい突き)
+  - 40_se_4_08, (wide angle:1.2), 1girl, faceless male, doggy style, (vigorous thrusting:1.5), body pushed forward, screaming, drooling, torogao, heavy sweat
 
-  # [40_se828] 同時絶頂への加速(1)
-  - 40_se828, (wide angle:1.2), 1girl, faceless male, sex, intense thrusting, body spasming, clinging tightly, arching back, dilated pupils, tongue out sloppily, extreme pleasure face
+  # [40_se_4_09] 獣のような交尾(髪を掴まれる)
+  - 40_se_4_09, (wide angle:1.2), 1girl, faceless male, doggy style, vigorous thrusting, male hand pulling hair, forced to look up, head tilted back, screaming, drooling, torogao
 
-  # [40_se829] 同時絶頂への加速(2)
-  - 40_se829, (wide angle:1.2), 1girl, faceless male, sex, intense thrusting, body spasming, clinging tightly, arching back, dilated pupils, tongue out sloppily, extreme pleasure face
+  # [40_se_4_10] 同時絶頂への加速(1)
+  - 40_se_4_10, (wide angle:1.2), 1girl, faceless male, sex, intense thrusting, body spasming, clinging tightly, arching back, dilated pupils, tongue out sloppily, extreme pleasure face
 
-  # [40_se830] 中出しの瞬間
-  - 40_se830, (focus on lower body:1.2), crotch focus, 1girl, faceless male, sex, (creampie:1.5), deep penetration, bulging belly, wide eyes, body stiffening in ultimate pleasure, torogao
+  # [40_se_4_11] 同時絶頂への加速(2)
+  - 40_se_4_11, (wide angle:1.2), 1girl, faceless male, sex, intense thrusting, body spasming, clinging tightly, arching back, dilated pupils, tongue out sloppily, extreme pleasure face
 
-  # [40_se831_1] 絶頂の痙攣(正常位・基本のけぞり)
-  - 40_se831_1, (wide angle:1.2), 1girl, faceless male, missionary, (arching climax:1.5), body bent backwards extremely, back arched like a bow, pointing toes, gripping sheets tightly, gripping male back, intense orgasm, open mouth, silent scream, heavy blush, teary eyes
+  # [40_se_5_01] 中出しの瞬間
+  - 40_se_5_01, (focus on lower body:1.2), crotch focus, 1girl, faceless male, sex, (creampie:1.5), deep penetration, bulging belly, wide eyes, body stiffening in ultimate pleasure, torogao
 
-  # [40_se831_2] 絶頂の痙攣(headback+舌出しのけぞり)
-  - 40_se831_2, (wide angle:1.2), 1girl, faceless male, missionary, (arching climax:1.6), (head back:1.5), head thrown back, body bent backwards extremely, intense orgasm, (tongue out:1.5), heavy drool, intense blush, teary eyes
+  # [40_se_5_02] 絶頂の痙攣(正常位・基本のけぞり)
+  - 40_se_5_02, (wide angle:1.2), 1girl, faceless male, missionary, (arching climax:1.5), body bent backwards extremely, back arched like a bow, pointing toes, gripping sheets tightly, gripping male back, intense orgasm, open mouth, silent scream, heavy blush, teary eyes
 
-  # [40_se832_1] 絶頂の痙攣(胸の浮き上がりビクンビクン)
-  - 40_se832_1, (wide angle:1.2), 1girl, faceless male, missionary, arching climax, body convulsing, whole body spasms, thrusting chest up, bouncing breasts, open mouth, silent scream, teary eyes
+  # [40_se_5_03] 絶頂の痙攣(headback+舌出しのけぞり)
+  - 40_se_5_03, (wide angle:1.2), 1girl, faceless male, missionary, (arching climax:1.6), (head back:1.5), head thrown back, body bent backwards extremely, intense orgasm, (tongue out:1.5), heavy drool, intense blush, teary eyes
 
-  # [40_se832_2] 絶頂の痙攣(痙攣継続＋headback舌出し)
-  - 40_se832_2, (wide angle:1.2), 1girl, faceless male, missionary, body convulsing, whole body spasms, (head back:1.4), (tongue out:1.5), heavy drool, intense orgasm face, intense blush, teary eyes
+  # [40_se_5_04] 絶頂の痙攣(胸の浮き上がりビクンビクン)
+  - 40_se_5_04, (wide angle:1.2), 1girl, faceless male, missionary, arching climax, body convulsing, whole body spasms, thrusting chest up, bouncing breasts, open mouth, silent scream, teary eyes
 
-  # [40_se833_1] 絶頂の痙攣(顔アップ・トロン顔)
-  - 40_se833_1, (close-up:1.3), focus on face, 1girl, intense orgasm face, mind blown, unfocused eyes, half-closed eyes, torogao, drooling, intense blush, teary eyes, flushed cheeks
+  # [40_se_5_05] 絶頂の痙攣(痙攣継続＋headback舌出し)
+  - 40_se_5_05, (wide angle:1.2), 1girl, faceless male, missionary, body convulsing, whole body spasms, (head back:1.4), (tongue out:1.5), heavy drool, intense orgasm face, intense blush, teary eyes
 
-  # [40_se833_2] 絶頂の痙攣(顔アップ・headback＋舌出し)
-  - 40_se833_2, (close-up:1.4), focus on face, 1girl, (head back:1.5), intense orgasm face, mind blown, (tongue out:1.5), saliva dripping, open mouth, intense blush, teary eyes
+  # [40_se_5_06] 絶頂の痙攣(顔アップ・トロン顔)
+  - 40_se_5_06, (close-up:1.3), focus on face, 1girl, lying on back, intense orgasm face, mind blown, unfocused eyes, half-closed eyes, torogao, drooling, intense blush, teary eyes, flushed cheeks
 
-  # [40_se834] 脱力と放心
-  - 40_se834, (from above:1.2), 1girl, lying on back, spread eagle, exhausted, heavy breathing, chest heaving, unfocused eyes, dazed face
+  # [40_se_5_07] 絶頂の痙攣(顔アップ・headback＋舌出し)
+  - 40_se_5_07, (close-up:1.4), focus on face, 1girl, lying on back, (head back:1.5), intense orgasm face, mind blown, (tongue out:1.5), saliva dripping, open mouth, intense blush, teary eyes
 
-  # [40_se835] 精液の逆流
-  - 40_se835, (close-up:1.3), focus on crotch, 1girl, legs spread apart loosely, (leaking semen:1.4), semen dripping down thighs, wet, after sex
+  # [40_se_6_01] 脱力と放心・溢れる精液
+  - 40_se_6_01, (from above:1.2), 1girl, lying on back, (spread eagle:1.3), spread legs, (head back:1.3), exhausted, (squirt:1.4), semen from vagina, heavy breathing, chest heaving,  (tongue out:1.4)
 
-  # [40_se836] 完全なメス化・甘え(すり寄る)
-  - 40_se836, (cowboy shot:1.2), 1girl, faceless male, aftercare, cuddling in male arms, nuzzling, satisfied, melted expression, torogao, looking with love, looking up
+  # [40_se_6_02] 精液の逆流
+  - 40_se_6_02, (close-up:1.3), focus on crotch, 1girl, legs spread apart loosely, (leaking semen:1.4), semen dripping down thighs, wet, after sex
 
-  # [40_se837] 完全なメス化・甘え(胸にうずめる)
-  - 40_se837, (cowboy shot:1.2), 1girl, faceless male, aftercare, burying face in male chest, satisfied, melted expression, torogao, looking with love, looking up
+  # [40_se_6_03] 完全なメス化・甘え(すり寄る)
+  - 40_se_6_03, (cowboy shot:1.2), 1girl, faceless male, aftercare, cuddling in male arms, nuzzling, satisfied, melted expression, torogao, looking with love, looking up
 
-  # [40_se838] 次をねだる(足を絡める)
-  - 40_se838, (cowboy shot:1.2), 1girl, faceless male, resting, wrapping legs around male, sexually frustrated eyes, heated gaze, urging expression, torogao
+  # [40_se_6_04] 完全なメス化・甘え(胸にうずめる)
+  - 40_se_6_04, (cowboy shot:1.2), 1girl, faceless male, aftercare, burying face in male chest, satisfied, melted expression, torogao, looking with love, looking up
 
-  # [40_se839] 次をねだる(誘う)
-  - 40_se839, (cowboy shot:1.2), 1girl, faceless male, resting, touching self, touching breasts, inviting, sexually frustrated eyes, heated gaze, urging expression, torogao
+  # [40_se_6_05] 次をねだる(足を絡める)
+  - 40_se_6_05, (cowboy shot:1.2), 1girl, faceless male, resting, wrapping legs around male, sexually frustrated eyes, heated gaze, urging expression, torogao
+
+  # [40_se_6_06] 次をねだる(誘う)
+  - 40_se_6_06, (cowboy shot:1.2), 1girl, faceless male, resting, touching self, touching breasts, inviting, sexually frustrated eyes, heated gaze, urging expression, torogao
