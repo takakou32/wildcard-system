@@ -264,6 +264,54 @@ on back, lying, (overhead shot, from above:1.5), couple, face to face, smile, 1b
 
 ---
 
+### 1-8. 肩越し手マン・半仰向けM字開脚（35_bs006）
+
+> 体勢: 女が半仰向けで男に背中を預けて寄りかかる・男が後ろから肩越しに腕を伸ばして股間をいじる / アングル: 正面・from below・股間クローズアップ・足裏見え / 愛液大量・sound effects演出
+
+**35_bs006_1** — 撫で・歯食いしばり ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 陰部撫で（指入れ前）/ 表情: 歯食いしばり・目閉じ / 備考: 開始段階。太もも両手固定・愛液少なめ
+```
+1girl, 1boy, hetero, (faceless male:1.5), (sound effects, semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind, arms reaching over her shoulders down to crotch:1.4), pubic hair, (stroking pussy, clitoris rub:1.4), (pussy juice:1.3), blush, clenched teeth, closed eyes, sweat, heart, steam, spoken, sagging breasts, (hand on thighs, gripping thighs:1.4)
+```
+
+**35_bs006_2** — 指入れ・愛液たっぷり ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 指挿入 / 表情: 口開け・とろ顔 / 備考: fingering単体1.8で指ぐっぽり感を出す
+```
+1girl, 1boy, hetero, (faceless male:1.5), (sound effects, semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind, arms reaching over her shoulders down to crotch:1.4), pubic hair, (fingering:1.8), (pussy juice, love pussy juice:1.6), blush, open mouth, torogao, closed eyes, sweat, heart, steam, spoken, sagging breasts, (hand on thighs, gripping thighs:1.4)
+```
+
+**35_bs006_3** — ディープキスしながら手マン ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 指入れ＋後ろから肩越しにディープキス同時 / 表情: 目閉じ・唾液・とろ顔 / 備考: キスと手マンの複合
+```
+1girl, 1boy, hetero, (faceless male:1.5), (sound effects, semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind, arms reaching over her shoulders down to crotch:1.4), pubic hair, (fingering:1.8), (french kiss from behind, looking back, saliva, tongue, deep kiss:1.6), (pussy juice, love pussy juice:1.6), blush, torogao, closed eyes, sweat, heart, steam, spoken, sagging breasts, (hand on thighs, gripping thighs:1.4)
+```
+
+**35_bs006_4** — かき混ぜ・動き強調 🔀 `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 激しいかき混ぜ・動きライン / 表情: 口元ランダム / 備考: motion lines・愛液飛び散り演出
+```
+1girl, 1boy, hetero, (faceless male:1.5), (sound effects, semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind, arms reaching over her shoulders down to crotch:1.4), pubic hair, (fingering:1.8), (motion lines, dynamic motion, spoken:1.8), (pussy juice, love pussy juice, pussy juice drip:1.8), blush, sweat, heart, steam, sagging breasts, (hand on thighs, gripping thighs:1.4), {open mouth | clenched teeth | screaming}
+```
+
+**35_bs006_5** — 絶頂・絶叫 ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 絶頂・のけぞり / 表情: 絶叫・head back / 備考: female orgasm・squirting。シリーズ最大強度
+```
+1girl, 1boy, hetero, (faceless male:1.5), (sound effects, semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind, arms reaching over her shoulders down to crotch:1.4), pubic hair, (fingering:1.8), (female orgasm, motion lines, dynamic motion, spoken:1.8), (pussy juice, love pussy juice, squirting:1.8), screaming, head back, blush, sweat, heart, steam, sagging breasts, (hand on thighs, gripping thighs:1.4)
+```
+
+**35_bs006_6** — 絶頂後・潮シミをwide eyesで凝視 ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 絶頂後・潮シミを見下ろす / 表情: wide eyes・恥ずかし気 / 備考: 絶頂余韻シーン。手マンなし
+```
+1girl, 1boy, hetero, (faceless male:1.5), (semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind:1.2), pubic hair, (wet spot, puddle, stain on sheet, squirt:1.6), (wide eyes, looking down at crotch:1.6), after orgasm, blush, open mouth, sweat, steam, sagging breasts, embarrassed
+```
+
+**35_bs006_7** — 潮止まらず・顔を覆って羞恥 ✅ `[B]`
+> アングル: 正面・from below・股間クローズアップ / 動作: 潮が止まらず噴き続ける / 表情: 顔を両手で覆う・羞恥 / 備考: _6の後続。潮継続＋羞恥演出
+```
+1girl, 1boy, hetero, (faceless male:1.5), (semi-reclined, leaning back against male:1.3), spread legs, M-legs, from front, (from below, soles, closeup pussy:1.6), (male sitting behind:1.2), pubic hair, (squirting, continuous squirt, pussy juice drip:1.8), (covering face, hands over face:1.6), after orgasm, blush, sweat, steam, sagging breasts, embarrassed, wet spot, stain on sheet
+```
+
+---
+
 ## 2. パイズリ系（paizuri_param.yaml より）
 
 **30_p006_2** — パイズリ・胸アップ・煽りアングル 🔀 `[P]`
