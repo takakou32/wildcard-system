@@ -3,6 +3,7 @@ trigger: always_on
 ---
 
 プロンプトの厳守事項
+
 【出力対象・順番】
 1.連番（30_fse000_0など）
 2. カメラアングル・構図: （例: from below, dynamic angle, depth of field）
