@@ -11,6 +11,57 @@
 
 ---
 
+## セクション一覧
+
+> `collect-prompts` 実行時はこのテーブルを参照してカテゴリを選択・IDを採番し、追記後に最終エントリIDを更新すること。
+
+| セクション | サブセクション | 最終エントリID |
+|-----------|--------------|-------------|
+| **1. 前戯・いちゃらぶ系** | 1-1. 視線・顔撫で | `35_bs001_0` |
+| | 1-2. ハグ・キス | `35_bs001_10` |
+| | 1-3. キス待ち顔 | `35_bs001_7_3` |
+| | 1-4. 手マン・前面から | `35_bs002` |
+| | 1-5. 後ろから責め（座位） | `35_bs002_4` |
+| | 1-6. 添い寝・上から俯瞰 | `35_bs004_9_1` |
+| | 1-7. 後ろ手マン・仰向け抱え | `35_bs005_9` |
+| | 1-8. 肩越し手マン・M字開脚 | `35_bs006_7` |
+| | 1-9. 対面座位・キス＋手コキ | `35_bs007_2` |
+| | 1-10. 手コキ・多体位 | `35_bs008_6` |
+| | 1-11. 手マン・立位 | `35_bs009_4` |
+| | 1-12. 手マン・うつ伏せ/四つん這い | `35_bs010_5` |
+| | 1-13. 手マン・仰向け各アングル | `35_bs011_5` |
+| | 1-14. 手マン・座位/膝乗り | `35_bs012_7` |
+| **2. パイズリ系** | (サブセクションなし) | `30_p009_3_` |
+| **3. セックス系（いちゃらぶ獣 Phase4）** | 3-1. 挿入前・じらし | `50_lv_4_01_1` |
+| | 3-2. 正常位・初挿入〜激しいピストン | `50_lv_4_05` |
+| | 3-3. 折り畳み体位 | `50_lv_4_05_6` |
+| | 3-4. 背面抱え上げ | `50_lv_4_07_3` |
+| | 3-5. 宙吊りガン突き・絶叫 | `50_lv_4_08_10` |
+| **4. フェラ系** | 4-1. 着衣勃起・ペニス露出 | `20_fe2_1` |
+| | 4-2. ペニス嗅ぎ・ペニスキス | `20_fe3_2` |
+| | 4-3. 亀頭舐め | `20_fe3_2_1_1` |
+| | 4-4. ひょっとこフェラ・座位（正面） | `20_fe3_6_3_8` |
+| | 4-5. ひょっとこフェラ・横顔 | `20_fe3_7_5` |
+| | 4-6. フィニッシュ・口内射精 | `20_fe3_8_4_4` |
+| | 4-7. アナル・パンツ・シックスナイン | `20_fe3_8_6_2` |
+| | 4-8. フェラ・男仰向け系 | `20_fe4_6` |
+| | 4-9. フェラ・立位/多体位 | `20_fe5_7` |
+| **5. セックス体位別** | 5-1. 正常位系（100番台） | `40_se116` |
+| | 5-2. 側背位系（200番台） | `40_se208` |
+| | 5-3. バック・後背位系（300番台） | `40_se311` |
+| | 5-4. 騎乗位系（400番台） | `40_se403` |
+| | 5-5. 特殊体位（500番台） | `40_se503` |
+| | 5-6. 事後系（900番台） | `40_se924` |
+| **6. ポーズ系** | 6-1. ソロ・SFW | `10_ps_040` |
+| | 6-2. ソロ・NSFW | `10_ps2_040` |
+| | 6-3. アウトドア・ビーチ | `10_psbc002` |
+| | 6-4. カップル | `10_psc_040` |
+| | 6-5. GL | `10_psgl_040` |
+| | 6-6. GL・NSFW | `10_psgln_041` |
+| **7. 再利用可能なサブ要素パーツ** | (エントリIDなし) | — |
+
+---
+
 ## 1. 前戯・いちゃらぶ系（bef_sex_param.yaml より）
 
 ### 1-1. 視線・顔撫で
@@ -65,6 +116,30 @@
 > アングル: 顔クローズアップ / 動作: 舌出し・唾液の糸引き / 表情: 笑顔・相手を見る / 備考: キス直後の余韻。静的・上品なエロ
 ```
 1girl, (closeup face:2), smile, looking at another, steam from mouth, (1boy, faceless male, couple:1.5), tongue out, saliva trail
+```
+
+---
+
+**35_bs001_8** — ハグ・tongue outキス・face to face ✅ `[D]`
+> アングル: 正面対面 / 動作: ハグ＋tongue outキス / 表情: 半目・重い息 / 備考: sound effects・steam演出あり。既存 `35_bs001_4`（顔アップ単体）の対面ハグ付き版
+```
+couple, face to face, steam, sound effects, half-closed eyes, faceless male, looking at another, hug, heavy breathing, tongue out, kiss
+```
+
+---
+
+**35_bs001_9** — ハグ・舌入れフレンチキス ✅ `[D]`
+> アングル: 正面対面 / 動作: ハグ＋舌を強く差し込むフレンチキス / 表情: 半目 / 備考: _8より積極的。mouth to mouth なし版
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, (tongue insert mouth:1.2), french kiss
+```
+
+---
+
+**35_bs001_10** — ハグ・バキュームキス・mouth to mouth ✅ `[D]`
+> アングル: 正面対面 / 動作: ハグ＋vacuum・舌入れキス / 表情: 半目 / 備考: mouth to mouth + vacuum の組み合わせが特徴。吸い付くキス
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, (mouth to mouth, vacuum, tongue in mouth:1.2), kiss
 ```
 
 ---
@@ -312,6 +387,250 @@ on back, lying, (overhead shot, from above:1.5), couple, face to face, smile, 1b
 
 ---
 
+### 1-9. 対面座位・キス＋手コキ
+
+**35_bs007_1** — 対面座位・手コキ・手つなぎ・バキュームキス ✅ `[D]`
+> アングル: 正面対面・座位 / 動作: 手コキ＋手つなぎ＋バキュームキス / 表情: 半目 / 備考: 対面座位の手コキシリーズ第1弾。胸つかみでなく手つなぎ
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, (mouth to mouth, vacuum, tongue in mouth:1.2), kiss, sitting, big penis, hand on penis, grabbing one hand
+```
+
+---
+
+**35_bs007_2** — 対面座位・手コキ・胸つかみ・ディープキス ✅ `[D]`
+> アングル: 正面対面・座位 / 動作: 手コキ＋胸つかみ＋ディープキス同時 / 表情: 半目・唾液・ハート / 備考: _1より激しさ増。3点同時の前戯クライマックス
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, spread legs, saliva, heart, (heart, sound effects, mouth to mouth, tongue in mouth:1.3), kiss, sitting, big penis, hand on penis, handjob, grabbing another's breast
+```
+
+---
+
+### 1-10. 手コキ・多体位
+
+**35_bs008_1** — 立位・正面POV・手コキ ✅ `[D]`
+> アングル: 立位・正面POV / 動作: 立位手コキ / 表情: 照れ・カメラ目線 / 備考: 最も基本的な立位手コキPOV構図
+```
+1girl, 1boy, faceless male, hetero, couple, standing, from front, pov, hand job, big veiny penis, precum string, upper body, blush, looking at viewer
+```
+
+---
+
+**35_bs008_2** — 四つん這い・真上俯瞰・手コキ ✅ `[D]`
+> アングル: 真上俯瞰 / 動作: 四つん這いで手コキ / 表情: 照れ・汗 / 備考: 四つん這い体勢からの手コキ
+```
+1girl, 1boy, faceless male, hetero, couple, all fours, crawling, from above, (overhead shot:1.5), hand job, big veiny penis, blush, sweat
+```
+
+---
+
+**35_bs008_3** — 横向き座位・手コキ ✅ `[D]`
+> アングル: from side / 動作: 横向き座位手コキ / 表情: 照れ・相手を見る / 備考: bs002_4に近いシンプルな横向き座位
+```
+1girl, 1boy, faceless male, hetero, couple, sitting, on side, from side, hand job, big veiny penis, blush, looking at another
+```
+
+---
+
+**35_bs008_4** — 正座・見上げPOV・手コキ ✅ `[D]`
+> アングル: from above・POV / 動作: 正座で見上げながら手コキ / 表情: 笑顔・照れ / 備考: 正座体勢。見上げPOV
+```
+1girl, 1boy, faceless male, hetero, couple, seiza, girl is kneeling, boy is standing, from above, pov, looking up, hand job, big veiny penis, blush, smile
+```
+
+---
+
+**35_bs008_5** — 男座位・女四つん這い・from above・手コキ ✅ `[D]`
+> アングル: from above俯瞰 / 動作: 男座位に女が四つん這いで近づき手コキ / 表情: 照れ・汗 / 備考: 這い寄り手コキの俯瞰構図
+```
+1girl, 1boy, faceless male, hetero, couple, all fours, male sitting, from above, hand job, big veiny penis, blush, sweat
+```
+
+---
+
+**35_bs008_6** — 男仰向け・女覆いかぶさり・from side・手コキ ✅ `[D]`
+> アングル: from side / 動作: 男仰向けに女が覆いかぶさり手コキ / 表情: 照れ・息荒い・汗 / 備考: 仰向け男への手コキ横向き構図
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female leaning over, from side, hand job, big veiny penis, blush, heavy breathing, sweat
+```
+
+---
+
+### 1-11. 手マン・立位
+
+**35_bs009_1** — 立位・正面・手マン ✅ `[D]`
+> アングル: 立位・from front / 動作: 立位で正面から手マン / 表情: 照れ・息荒い / 備考: 最もシンプルな立位手マン正面
+```
+1girl, 1boy, faceless male, hetero, couple, standing, from front, fingering, spread legs, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs009_2** — 立位・横向き・手マン ✅ `[D]`
+> アングル: 立位・from side / 動作: 立位横向き手マン / 表情: 照れ・息荒い / 備考: _1の横向きバリエーション
+```
+1girl, 1boy, faceless male, hetero, couple, standing, from side, fingering, spread legs, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs009_3** — 立位・片足壁かけ・from side・手マン ✅ `[D]`
+> アングル: from side / 動作: 立位で片足を壁に上げながら手マン / 表情: 照れ・息荒い / 備考: 壁に足をかけた開脚立位
+```
+1girl, 1boy, faceless male, hetero, couple, standing, one leg up, leg against wall, from side, fingering, spread legs, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs009_4** — 立位・後ろから壁手つき・from side・手マン ✅ `[D]`
+> アングル: from side / 動作: 壁に手をつき後ろから手マン / 表情: 歯食いしばり / 備考: 壁手つき立位・後ろからの手マン
+```
+1girl, 1boy, faceless male, hetero, couple, standing, hands on wall, from side, fingering from behind, spread legs, pussy juice, blush, clenched teeth
+```
+
+---
+
+### 1-12. 手マン・うつ伏せ/四つん這い
+
+**35_bs010_1** — 横向き寝・後ろから手マン・from front ✅ `[D]`
+> アングル: from front / 動作: 横向き寝で後ろから手マン / 表情: 口開け・照れ / 備考: 横向き寝＋後ろ抱え構図
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on side, hug from behind, from front, fingering from behind, spread legs, pussy juice, blush, open mouth
+```
+
+---
+
+**35_bs010_2** — うつ伏せ・後ろから手マン・from side ✅ `[D]`
+> アングル: from side / 動作: うつ伏せで背後から手マン / 表情: 照れ・息荒い / 備考: うつ伏せ体勢の背後手マン
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on stomach, from side, fingering from behind, spread legs, ass, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs010_3** — うつ伏せ・後ろから手マン・from above ✅ `[D]`
+> アングル: from above俯瞰 / 動作: うつ伏せで背後から手マン / 表情: 照れ / 備考: _2の俯瞰バリエーション
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on stomach, from above, (overhead shot:1.3), fingering from behind, ass, pussy juice, blush
+```
+
+---
+
+**35_bs010_4** — 四つん這い・後ろから手マン・from side ✅ `[D]`
+> アングル: from side・股間クローズアップ / 動作: 四つん這いで背後から手マン / 表情: 照れ・息荒い / 備考: 四つん這い後ろ手マン横向き
+```
+1girl, 1boy, faceless male, hetero, couple, all fours, from side, fingering from behind, ass, closeup pussy, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs010_5** — 四つん這い・後ろから手マン・from below（煽り）✅ `[D]`
+> アングル: from below・股間クローズアップ / 動作: 四つん這いで背後から手マン・煽り / 表情: 照れ / 備考: 足裏見え。_4の煽りアングル
+```
+1girl, 1boy, faceless male, hetero, couple, all fours, from below, fingering from behind, ass, closeup pussy, pussy juice, blush, soles
+```
+
+---
+
+### 1-13. 手マン・仰向け各アングル
+
+**35_bs011_1** — 仰向け・足上げ・from side・手マン ✅ `[D]`
+> アングル: from side・股間クローズアップ / 動作: 仰向け足上げで手マン / 表情: 照れ・息荒い / 備考: 足を上げた仰向け体勢
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on back, legs raised, from side, fingering, spread legs, closeup pussy, pussy juice, blush, heavy breathing
+```
+
+---
+
+**35_bs011_2** — 仰向け・両足上げ・from front・手マン ✅ `[D]`
+> アングル: from front・股間クローズアップ / 動作: 仰向け両足上げで手マン / 表情: 口開け・照れ / 備考: 足を大きく上げ広げた体勢
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on back, spread legs, legs up, from front, fingering, closeup crotch, pussy juice, blush, open mouth
+```
+
+---
+
+**35_bs011_3** — 仰向け・片足上げ・from side・手マン ✅ `[D]`
+> アングル: from side / 動作: 仰向け片足上げで手マン / 表情: 照れ / 備考: 片足のみ上げた仰向け
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on back, one leg up, from side, fingering, pussy juice, blush
+```
+
+---
+
+**35_bs011_4** — 仰向け開脚・from front・closeup crotch・手マン ✅ `[D]`
+> アングル: from front・股間クローズアップ / 動作: 仰向け開脚・正面から手マン / 表情: 口開け・照れ / 備考: 正面股間アップの仰向け手マン
+```
+1girl, 1boy, faceless male, hetero, couple, lying, on back, spread legs, from front, closeup crotch, fingering, pussy juice, blush, open mouth
+```
+
+---
+
+**35_bs011_5** — 抱き上げ宙ぶらりん・from front・closeup crotch・手マン ✅ `[D]`
+> アングル: from front・股間クローズアップ / 動作: 抱き上げ状態で手マン / 表情: 口開け・照れ・息荒い / 備考: 特殊な抱き上げ体位
+```
+1girl, 1boy, faceless male, hetero, couple, carried, legs spread wide, from front, closeup crotch, fingering, pussy juice, blush, open mouth, heavy breathing
+```
+
+---
+
+### 1-14. 手マン・座位/膝乗り
+
+**35_bs012_1** — 椅子座位・正面closeup・手マン ✅ `[D]`
+> アングル: from front・股間クローズアップ / 動作: 椅子座位で正面から手マン / 表情: 照れ / 備考: 椅子座位・正面股間アップ
+```
+1girl, 1boy, faceless male, hetero, couple, girl sitting on chair, from front, spread legs, fingering, closeup crotch, pussy juice, blush
+```
+
+---
+
+**35_bs012_2** — 台端腰かけ・from below・closeup pussy・手マン ✅ `[D]`
+> アングル: from below・股間クローズアップ / 動作: 台端腰かけで手マン・煽りアングル / 表情: 照れ / 備考: 足裏見え。台端腰かけの煽り構図
+```
+1girl, 1boy, faceless male, hetero, couple, girl sitting on table edge, spread legs, from below, fingering, closeup pussy, pussy juice, blush, soles
+```
+
+---
+
+**35_bs012_3** — 対面座位・from side・手マン ✅ `[D]`
+> アングル: from side / 動作: 対面座位で手マン / 表情: 照れ・相手を見る / 備考: 対面座位の横構図
+```
+1girl, 1boy, faceless male, hetero, couple, sitting, face to face, from side, fingering, spread legs, pussy juice, blush, looking at another
+```
+
+---
+
+**35_bs012_4** — 対面座位・from front・closeup crotch・手マン ✅ `[D]`
+> アングル: from front・股間クローズアップ / 動作: 対面座位で手マン / 表情: 照れ / 備考: 対面座位の正面股間アップ
+```
+1girl, 1boy, faceless male, hetero, couple, sitting, face to face, from front, closeup crotch, fingering, spread legs, pussy juice, blush
+```
+
+---
+
+**35_bs012_5** — 男の膝乗り・from side・手マン ✅ `[D]`
+> アングル: from side / 動作: 男の膝に座り手マン / 表情: 照れ・相手を見る / 備考: 膝乗り横向き
+```
+1girl, 1boy, faceless male, hetero, couple, girl sitting on lap, from side, fingering, spread legs, pussy juice, blush, looking at another
+```
+
+---
+
+**35_bs012_6** — 逆向き膝乗り・from side・後ろから手マン ✅ `[D]`
+> アングル: from side / 動作: 逆向き膝乗りで後ろから手マン / 表情: 照れ / 備考: 逆向き膝乗り体勢
+```
+1girl, 1boy, faceless male, hetero, couple, girl sitting on lap, facing away, from side, fingering from behind, spread legs, pussy juice, blush
+```
+
+---
+
+**35_bs012_7** — 床座りM字開脚・真上俯瞰・手マン ✅ `[D]`
+> アングル: 真上俯瞰 / 動作: 床座りM字開脚で手マン / 表情: 照れ / 備考: M字開脚の真上俯瞰構図
+```
+1girl, 1boy, faceless male, hetero, couple, girl sitting on floor, spread legs, M-legs, from above, (overhead shot:1.5), fingering, pussy juice, blush
+```
+
+---
+
 ## 2. パイズリ系（paizuri_param.yaml より）
 
 **30_p006_2** — パイズリ・胸アップ・煽りアングル 🔀 `[P]`
@@ -366,6 +685,14 @@ paizuri, pov, big veiny penis, from below, closeup breasts, (upper body:1.5), (b
 > アングル: 股間クローズアップ / 動作: 正常位体勢でペニスを当てがいこすりつけ / 表情: 口開け・照れ / 備考: 挿入前の焦らしシーン
 ```
 close up crotch, 1boy, 1girl, faceless male, missionary, penis touching pussy, rubbing, teasing, pussy juice, open mouth, blush
+```
+
+---
+
+**50_lv_4_01_1** — 挿入前・ペニス腹乗せ・対面座位・ディープキス ✅ `[D]`
+> アングル: straight-on・正面 / 動作: 対面座位・ペニスを腹に乗せた挿入直前・胸つかみ＋ディープキス / 表情: 半目・唾液・ハート / 備考: `50_lv_4_01`の対面座位バリエーション。キス演出が豊か
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, straight-on, heavy breathing, spread legs, saliva, heart, (mouth to mouth, tongue in mouth:1.3), kiss, sitting, big penis on stomach, grabbing another's breast
 ```
 
 ---
@@ -769,6 +1096,122 @@ cum on face, (cum in mouth:3), (,closeup mouth:2), from above, (oral invitation,
 
 ---
 
+**20_fe3_8_6_2** — 69体位・女上男下・from above ✅ `[D]`
+> アングル: from above俯瞰 / 動作: 69体位・女上男下・真上俯瞰 / 表情: 照れ / 備考: 既存20_fe3_8_6_1の俯瞰アングル追加版
+```
+1girl, 1boy, faceless male, hetero, couple, 69, female on top, male on bottom, from above, (overhead shot:1.3), fellatio, oral, big veiny penis, blush, ass
+```
+
+---
+
+### 4-8. フェラ・男仰向け系
+
+**20_fe4_1** — 男仰向け・女横四つん這い・from side・フェラ ✅ `[D]`
+> アングル: from side / 動作: 男が仰向けで女が横から四つん這いでフェラ / 表情: 照れ・息荒い / 備考: 新構図。横から這い寄る体勢が特徴
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female all fours beside male, from side, fellatio, oral, big veiny penis, blush, heavy breathing
+```
+
+---
+
+**20_fe4_2** — 男仰向け・女横四つん這い・from above・フェラ ✅ `[D]`
+> アングル: from above俯瞰 / 動作: 男が仰向けで女が横から四つん這いでフェラ / 表情: 照れ / 備考: _fe4_1の俯瞰バリエーション
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female all fours beside male, from above, (overhead shot:1.3), fellatio, oral, big veiny penis, blush
+```
+
+---
+
+**20_fe4_3** — 男仰向け・女横四つん這い・from front・フェラ ✅ `[D]`
+> アングル: from front / 動作: 男が仰向けで女が横から四つん這いでフェラ・正面 / 表情: 照れ・カメラ目線 / 備考: _fe4_1の正面バリエーション
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female crawling from side, from front, fellatio, oral, big veiny penis, blush, looking at viewer
+```
+
+---
+
+**20_fe4_4** — 男仰向け・女横向き寝・from above・フェラ ✅ `[D]`
+> アングル: from above俯瞰 / 動作: 男が仰向けで女が横に並び寝てフェラ / 表情: 照れ / 備考: 並列横向き寝フェラの俯瞰
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female lying beside on side, from above, (overhead shot:1.3), fellatio, oral, big veiny penis, blush
+```
+
+---
+
+**20_fe4_5** — 男仰向け・女横向き寝・from front・顔クローズアップ・フェラ ✅ `[D]`
+> アングル: from front・顔クローズアップ / 動作: 男が仰向けで女が横に並び寝てフェラ / 表情: 照れ・カメラ目線 / 備考: 横向き寝フェラの顔クローズアップ
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female lying beside on side, from front, closeup face, fellatio, oral, big veiny penis, blush, looking at viewer
+```
+
+---
+
+**20_fe4_6** — 男仰向け・女横四つん這い・口元クローズアップ・フェラ ✅ `[D]`
+> アングル: 口元クローズアップ / 動作: 男が仰向けで女が横四つん這いでフェラ・唾液あり / 表情: 舌出し・照れ / 備考: 口元主役の接写ショット
+```
+1girl, 1boy, faceless male, hetero, couple, male on back, lying, female all fours beside male, closeup mouth, fellatio, oral, big veiny penis, saliva, blush, tongue out
+```
+
+---
+
+### 4-9. フェラ・立位/多体位
+
+**20_fe5_1** — 男椅子座位・女正面跪き・from above POV・フェラ ✅ `[D]`
+> アングル: from above・POV / 動作: 男椅子座位・女正面跪きでフェラ・見上げ / 表情: 笑顔・照れ / 備考: 男椅子座位の跪きフェラ
+```
+1girl, 1boy, faceless male, hetero, couple, boy sitting on chair, girl kneeling in front, from above, pov, looking up, fellatio, oral, big veiny penis, blush, smile
+```
+
+---
+
+**20_fe5_2** — 男立位・女うつ伏せ・from above・フェラ ✅ `[D]`
+> アングル: from above俯瞰 / 動作: 男立位・女うつ伏せでフェラ / 表情: 照れ / 備考: うつ伏せ体勢からのフェラ俯瞰
+```
+1girl, 1boy, faceless male, hetero, couple, boy standing, girl lying on stomach, from above, (overhead shot:1.3), fellatio, oral, big veiny penis, blush, ass
+```
+
+---
+
+**20_fe5_3** — 男立位・女正座・from above POV・フェラ ✅ `[D]`
+> アングル: from above・POV / 動作: 男立位・女正座でフェラ・見上げ / 表情: 笑顔・照れ / 備考: 正座体勢のPOVフェラ
+```
+1girl, 1boy, faceless male, hetero, couple, boy standing, girl in seiza, girl is kneeling, boy is standing, from above, pov, looking up, fellatio, oral, big veiny penis, blush, smile
+```
+
+---
+
+**20_fe5_4** — 男壁もたれ立位・女跪き・from below POV・フェラ ✅ `[D]`
+> アングル: from below・POV / 動作: 男壁もたれ・女跪き下から見上げフェラ / 表情: 照れ・汗 / 備考: 煽りアングルPOVフェラ
+```
+1girl, 1boy, faceless male, hetero, couple, boy standing against wall, girl kneeling, from below, pov, looking up, fellatio, oral, big veiny penis, blush, sweat
+```
+
+---
+
+**20_fe5_5** — 男足伸ばし座位・女足の間跪き・from above・フェラ ✅ `[D]`
+> アングル: from above / 動作: 男足伸ばし座位・女が足の間で跪きフェラ / 表情: 照れ / 備考: 足の間に入った跪き体勢
+```
+1girl, 1boy, faceless male, hetero, couple, boy sitting, legs extended, girl kneeling between legs, from above, fellatio, oral, big veiny penis, blush
+```
+
+---
+
+**20_fe5_6** — 四つん這い・dutch angle・口元クローズアップ・フェラ ✅ `[D]`
+> アングル: dutch angle・口元クローズアップ / 動作: 四つん這いフェラ・斜めアングル / 表情: 唾液・照れ / 備考: dutch angleの口元主役フェラ
+```
+1girl, 1boy, faceless male, hetero, couple, all fours, dutch angle, closeup mouth, fellatio, oral, big veiny penis, saliva, blush
+```
+
+---
+
+**20_fe5_7** — 男立位・女しゃがみ・from below POV・フェラ ✅ `[D]`
+> アングル: from below・POV / 動作: 男立位・女しゃがみで下から見上げフェラ / 表情: 照れ・汗 / 備考: 完全しゃがみ体勢の見上げフェラ
+```
+1girl, 1boy, faceless male, hetero, couple, boy standing, girl crouching at feet, from below, pov, looking up, fellatio, oral, big veiny penis, blush, sweat
+```
+
+---
+
 ## 5. セックス体位別（sex_param.yaml より）
 
 > 内部参照ワイルドカード:
@@ -880,6 +1323,30 @@ locking eyes, hand on cheek, affectionate smile, deep connection, face to face, 
 > アングル: 尻クローズアップ / 動作: 種付けプレス・大量中出し後 / 表情: 絶頂 / 備考: excessive cum・cum pool。_112の中出し確定・静的版
 ```
 1girl, 1boy, mating press, cum, hetero, cum in pussy, anus, sex, vaginal, testicles, ass, cum overflow, heart, lying, on back, penis, nude, boy on top, cum pool, pussy, deep penetration, sweat, motion lines, on bed, cumdrip, spread legs, bed, excessive cum, explicit, nsfw, (orgasm, motion lines,:3), (leg lock:2), (closeup ass:2),
+```
+
+---
+
+**40_se114** — 正常位・from above・絶頂・フレンチキス・胸つかみ ✅ `[D]`
+> アングル: from above / 動作: 正常位・絶頂中・胸つかみ＋ディープキス同時 / 表情: 半目・唾液・ハート・絶頂 / 備考: キスしながら絶頂。legs holdなし版
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, spread legs, girl on boy, from above, female orgasm, sex, saliva, heart, (mouth to mouth, tongue in mouth:1.3), kiss, on back, grabbing another's breast
+```
+
+---
+
+**40_se115** — 正常位・from above・脚押さえ・フレンチキス絶頂 ✅ `[D]`
+> アングル: from above / 動作: 正常位・脚押さえ・絶頂・フレンチキス / 表情: 半目・唾液・ハート・絶頂 / 備考: _114に脚押さえ追加
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, spread legs, girl on boy, from above, holding legs, female orgasm, sex, saliva, heart, (mouth to mouth, tongue in mouth:1.3), kiss, on back, grabbing another's breast
+```
+
+---
+
+**40_se116** — 正常位・from above・legs lock・motion lines強調 ✅ `[D]`
+> アングル: from above / 動作: 正常位・legs lock・motion lines全体強調 / 表情: 半目・唾液・ハート・絶頂 / 備考: アクションブロック全体に1.2 weight。_115のlegs hold→legs lockエスカレート版
+```
+couple, face to face, steam, sound effects, half-closed eyes, (faceless male:1.1), looking at another, hug, heavy breathing, spread legs, girl on boy, ((motion lines:1.2), from above, legs lock, female orgasm, sex, saliva, heart, sound effects, mouth to mouth, (tongue in mouth:1.3)), kiss, on back
 ```
 
 ---

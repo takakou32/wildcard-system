@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c//**)"
+      "Read(//c//**)",
+      "Bash(mkdir -p \"c:/work/EasyReforge__/Model/wildcards/wildcard-system/.claude/commands\")",
+      "Bash(mkdir -p \"c:/work/EasyReforge__/Model/wildcards/wildcard-system/自作2_1/doc/scripts\")",
+      "Bash(python \"c:/work/EasyReforge__/Model/wildcards/wildcard-system/自作2_1/doc/scripts/extract_sd_prompts.py\" \"C:/work/EasyReforge__/stable-diffusion-webui-reForge/outputs/txt2img-images/2026-03-12\" --limit 20)",
+      "Read(//c/work/EasyReforge__/stable-diffusion-webui-reForge/outputs/txt2img-images/2026-03-12/**)",
+      "Bash(python \"c:/work/EasyReforge__/Model/wildcards/wildcard-system/自作2_1/doc/scripts/extract_sd_prompts.py\" \"C:/work/EasyReforge__/stable-diffusion-webui-reForge/outputs/txt2img-images/2026-03-12\" --limit 5)",
+      "Bash(python -c \":*)",
+      "Bash(python \"c:\\\\work\\\\EasyReforge__\\\\Model\\\\wildcards\\\\wildcard-system\\\\自作2_1\\\\doc\\\\scripts\\\\extract_sd_prompts.py\" \"C:\\\\Users\\\\runto\\\\Downloads\\\\選択画像_2026-03-21\\(1\\)\")",
+      "Bash(python -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f''''{len\\(data\\)} 件の PNG を検出しました''''\\)\")"
     ]
   }
 }
